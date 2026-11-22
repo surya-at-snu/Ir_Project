@@ -1,0 +1,10 @@
+phenomenon,n,BM25F (baseline),"Dense bi-encoder (bge-small, MaxP)",BM25 + dense (RRF),+ Hinglish spelling handling,Full LTR: coordinate ascent (ours)
+hedge,43,0.9884,0.7221,0.9105,0.9525,0.9884
+negation,147,0.9785,0.7989,0.9376,0.9722,0.9671
+false_memory,18,1.0,0.8434,0.912,0.9144,0.9722
+hinglish,113,0.9868,0.6808,0.8802,0.9809,0.9735
+decade,130,0.9846,0.7815,0.8929,0.9619,0.9769
+name,774,0.9946,0.8525,0.9539,0.9932,0.9935
+social,3,1.0,0.381,1.0,1.0,1.0
+lang,19,0.9474,0.7025,0.8596,0.9079,0.9386
+(none of hedge/negation/false memory),645,0.9948,0.8499,0.9499,0.9938,0.993

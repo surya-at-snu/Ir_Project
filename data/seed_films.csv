@@ -1,0 +1,879 @@
+lang,title,year,tags,priority,wiki_hint
+hi,Awaara,1951,cult|acclaimed,1,
+hi,Do Bigha Zamin,1953,acclaimed,1,
+hi,Shree 420,1955,blockbuster|cult,1,
+hi,Pyaasa,1957,acclaimed|cult,1,
+hi,Mother India,1957,blockbuster|acclaimed,1,
+hi,Naya Daur,1957,blockbuster,2,
+hi,Madhumati,1958,blockbuster|cult,1,
+hi,Chalti Ka Naam Gaadi,1958,cult,1,
+hi,Kaagaz Ke Phool,1959,cult|acclaimed,1,
+hi,Mughal-e-Azam,1960,blockbuster|acclaimed,1,
+hi,Jis Desh Mein Ganga Behti Hai,1960,blockbuster,2,
+hi,Gunga Jumna,1961,blockbuster,2,
+hi,Sahib Bibi Aur Ghulam,1962,acclaimed,1,
+hi,Bandini,1963,acclaimed,2,
+hi,Waqt,1965,blockbuster,1,
+hi,Guide,1965,acclaimed|cult,1,Guide (film)
+hi,Teesri Manzil,1966,cult,1,
+hi,Upkar,1967,blockbuster,2,
+hi,Padosan,1968,cult,1,
+hi,Aradhana,1969,blockbuster,1,
+hi,Ittefaq,1969,cult,1,
+hi,Do Raaste,1969,blockbuster,2,
+hi,Johnny Mera Naam,1970,blockbuster,2,
+hi,Mera Naam Joker,1970,cult,1,
+hi,Anand,1971,acclaimed|cult,1,
+hi,Haathi Mere Saathi,1971,blockbuster,2,
+hi,Guddi,1971,acclaimed,2,
+hi,Pakeezah,1972,cult|acclaimed,1,
+hi,Seeta Aur Geeta,1972,blockbuster,1,
+hi,Bawarchi,1972,acclaimed,1,
+hi,Bobby,1973,blockbuster,1,
+hi,Zanjeer,1973,blockbuster|cult,1,
+hi,Abhimaan,1973,acclaimed,2,
+hi,Namak Haraam,1973,acclaimed,2,
+hi,Yaadon Ki Baaraat,1973,blockbuster,2,
+hi,Roti Kapada Aur Makaan,1974,blockbuster,2,
+hi,Ankur,1974,acclaimed,2,
+hi,Sholay,1975,blockbuster|cult,1,
+hi,Deewaar,1975,blockbuster|cult,1,
+hi,Chupke Chupke,1975,cult,1,
+hi,Jai Santoshi Maa,1975,blockbuster,1,
+hi,Aandhi,1975,acclaimed,2,
+hi,Kabhi Kabhie,1976,blockbuster,1,
+hi,Chitchor,1976,acclaimed,2,
+hi,Chhoti Si Baat,1976,cult,1,
+hi,Amar Akbar Anthony,1977,blockbuster|cult,1,
+hi,Don,1978,blockbuster|cult,1,Don (1978 film)
+hi,Muqaddar Ka Sikandar,1978,blockbuster,1,
+hi,Trishul,1978,blockbuster,2,Trishul (film)
+hi,Gol Maal,1979,cult,1,Gol Maal (1979 film)
+hi,Kaala Patthar,1979,acclaimed,2,
+hi,Baton Baton Mein,1979,cult,2,
+hi,Qurbani,1980,blockbuster,2,
+hi,Karz,1980,cult,1,Karz (film)
+hi,Khubsoorat,1980,acclaimed,2,
+hi,Aakrosh,1980,acclaimed,2,
+hi,Silsila,1981,cult,1,Silsila (film)
+hi,Naseeb,1981,blockbuster,2,
+hi,Kranti,1981,blockbuster,2,
+hi,Ek Duuje Ke Liye,1981,blockbuster,1,
+hi,Umrao Jaan,1981,acclaimed,1,
+hi,Chashme Buddoor,1981,cult,1,
+hi,Laawaris,1981,blockbuster,2,
+hi,Disco Dancer,1982,blockbuster|cult,1,
+hi,Arth,1982,acclaimed,2,Arth (film)
+hi,Angoor,1982,cult,1,
+hi,Shakti,1982,acclaimed,2,
+hi,Namak Halaal,1982,blockbuster,2,
+hi,Masoom,1983,acclaimed,1,
+hi,Coolie,1983,blockbuster,1,
+hi,Jaane Bhi Do Yaaro,1983,cult,1,
+hi,Ardh Satya,1983,acclaimed,2,
+hi,Hero,1983,blockbuster,2,
+hi,Saaransh,1984,acclaimed,1,
+hi,Sharaabi,1984,blockbuster,2,
+hi,Ram Teri Ganga Maili,1985,blockbuster,2,
+hi,Mard,1985,blockbuster,2,
+hi,Mr. India,1987,blockbuster|cult,1,Mr. India (1987 film)
+hi,Ijaazat,1987,acclaimed,1,
+hi,Mirch Masala,1987,acclaimed,1,
+hi,Qayamat Se Qayamat Tak,1988,blockbuster|cult,1,
+hi,Tezaab,1988,blockbuster,1,
+hi,Salaam Bombay!,1988,acclaimed,1,
+hi,Maine Pyar Kiya,1989,blockbuster,1,
+hi,Chandni,1989,blockbuster,1,Chandni (film)
+hi,Parinda,1989,cult|acclaimed,1,
+hi,Ram Lakhan,1989,blockbuster,1,
+hi,Tridev,1989,blockbuster,2,
+hi,Agneepath,1990,cult,1,Agneepath (1990 film)
+hi,Dil,1990,blockbuster,1,Dil (1990 film)
+hi,Aashiqui,1990,blockbuster,1,
+hi,Ghayal,1990,blockbuster,2,
+hi,Saajan,1991,blockbuster,2,
+hi,Hum,1991,blockbuster,2,Hum (1991 film)
+hi,Lamhe,1991,cult,1,
+hi,Saudagar,1991,blockbuster,2,
+hi,Beta,1992,blockbuster,1,Beta (1992 film)
+hi,Jo Jeeta Wohi Sikandar,1992,cult,1,
+hi,Deewana,1992,blockbuster,2,
+hi,Baazigar,1993,blockbuster|cult,1,
+hi,Darr,1993,blockbuster|cult,1,
+hi,Khalnayak,1993,blockbuster,1,
+hi,Damini,1993,acclaimed,1,Damini – Lightning
+hi,Hum Aapke Hain Koun..!,1994,blockbuster,1,
+hi,Andaz Apna Apna,1994,cult,1,
+hi,1942: A Love Story,1994,cult,1,
+hi,Mohra,1994,blockbuster,1,
+hi,Krantiveer,1994,blockbuster,2,
+hi,Kabhi Haan Kabhi Naa,1994,cult,1,
+hi,Dilwale Dulhania Le Jayenge,1995,blockbuster|cult,1,
+hi,Karan Arjun,1995,blockbuster,1,
+hi,Rangeela,1995,cult,1,Rangeela (1995 film)
+hi,Raja Hindustani,1996,blockbuster,1,
+hi,Maachis,1996,acclaimed,1,
+hi,Dil To Pagal Hai,1997,blockbuster,1,
+hi,Border,1997,blockbuster,1,Border (1997 film)
+hi,Pardes,1997,blockbuster,2,Pardes (film)
+hi,Ishq,1997,blockbuster,2,Ishq (1997 film)
+hi,Virasat,1997,acclaimed,2,
+hi,Kuch Kuch Hota Hai,1998,blockbuster,1,
+hi,Satya,1998,cult|acclaimed,1,Satya (1998 film)
+hi,Dil Se..,1998,cult,1,
+hi,Ghulam,1998,cult,1,Ghulam (film)
+hi,Bade Miyan Chote Miyan,1998,blockbuster,2,
+hi,Hum Dil De Chuke Sanam,1999,blockbuster,1,
+hi,Sarfarosh,1999,cult|acclaimed,1,
+hi,Hum Saath-Saath Hain,1999,blockbuster,1,
+hi,Taal,1999,blockbuster,1,Taal (film)
+hi,Biwi No.1,1999,blockbuster,2,
+hi,Kaun,1999,cult,2,
+hi,Kaho Naa... Pyaar Hai,2000,blockbuster,1,
+hi,Mohabbatein,2000,blockbuster|added|add150,1,
+hi,Hera Pheri,2000,cult,1,Hera Pheri (2000 film)
+hi,Lagaan,2001,acclaimed|blockbuster,1,
+hi,Dil Chahta Hai,2001,cult,1,
+hi,Kabhi Khushi Kabhie Gham...,2001,blockbuster,1,
+hi,Gadar: Ek Prem Katha,2001,blockbuster,1,
+hi,Chandni Bar,2001,acclaimed|added|add150,1,
+hi,Devdas,2002,blockbuster,1,Devdas (2002 Hindi film)
+hi,Company,2002,cult,1,Company (film)
+hi,Koi... Mil Gaya,2003,blockbuster,1,
+hi,Kal Ho Naa Ho,2003,blockbuster,1,
+hi,Munna Bhai M.B.B.S.,2003,cult|blockbuster,1,
+hi,Maqbool,2003,acclaimed,1,
+hi,Haasil,2003,cult,1,Haasil (film)
+hi,Veer-Zaara,2004,blockbuster,1,
+hi,Main Hoon Na,2004,blockbuster,1,
+hi,Swades,2004,cult|acclaimed,1,
+hi,Dhoom,2004,blockbuster,1,
+hi,Black Friday,2004,cult|acclaimed,1,Black Friday (2004 film)
+hi,Black,2005,acclaimed,1,Black (2005 film)
+hi,Bunty Aur Babli,2005,blockbuster|added|add150,1,
+hi,Rang De Basanti,2006,cult|blockbuster,1,
+hi,Lage Raho Munna Bhai,2006,blockbuster,1,
+hi,Krrish,2006,blockbuster,1,
+hi,Dhoom 2,2006,blockbuster,1,
+hi,Omkara,2006,acclaimed,1,Omkara (2006 film)
+hi,Khosla Ka Ghosla,2006,cult,1,
+hi,Chak De! India,2007,blockbuster|acclaimed,1,
+hi,Taare Zameen Par,2007,acclaimed|blockbuster,1,
+hi,Om Shanti Om,2007,blockbuster,1,
+hi,Jab We Met,2007,cult,1,
+hi,Bhool Bhulaiyaa,2007,cult,1,
+hi,Bheja Fry,2007,cult,1,Bheja Fry (film)
+hi,Ghajini,2008,blockbuster,1,Ghajini (2008 film)
+hi,A Wednesday!,2008,cult,1,
+hi,Jodhaa Akbar,2008,blockbuster,1,
+hi,Rock On!!,2008,cult,1,
+hi,Oye Lucky! Lucky Oye!,2008,cult,1,
+hi,Dev.D,2009,cult,1,
+hi,3 Idiots,2009,blockbuster|cult,1,
+hi,Kaminey,2009,cult,1,
+hi,Wake Up Sid,2009,cult,1,
+hi,My Name Is Khan,2010,blockbuster,1,
+hi,Dabangg,2010,blockbuster,1,
+hi,Udaan,2010,cult|acclaimed,1,Udaan (2010 film)
+hi,Peepli Live,2010,acclaimed,1,
+hi,Band Baaja Baaraat,2010,cult,1,
+hi,Zindagi Na Milegi Dobara,2011,cult|blockbuster,1,
+hi,Delhi Belly,2011,cult,1,Delhi Belly (film)
+hi,Rockstar,2011,cult,1,Rockstar (2011 film)
+hi,The Dirty Picture,2011,blockbuster,1,
+hi,Bodyguard,2011,blockbuster|added|add150,1,Bodyguard (2011 Hindi film)
+hi,Paan Singh Tomar,2012,acclaimed,1,Paan Singh Tomar (film)
+hi,Kahaani,2012,cult|acclaimed,1,
+hi,Gangs of Wasseypur,2012,cult,1,
+hi,Barfi!,2012,acclaimed,1,
+hi,Vicky Donor,2012,cult,1,
+hi,English Vinglish,2012,acclaimed,1,
+hi,OMG – Oh My God!,2012,blockbuster,1,
+hi,Ek Tha Tiger,2012,blockbuster|added|add150,1,
+hi,Special 26,2013,cult,1,
+hi,Kai Po Che!,2013,acclaimed,1,
+hi,Bhaag Milkha Bhaag,2013,blockbuster,1,
+hi,Lootera,2013,cult,1,
+hi,The Lunchbox,2013,acclaimed,1,
+hi,Yeh Jawaani Hai Deewani,2013,blockbuster,1,
+hi,Chennai Express,2013,blockbuster,1,
+hi,Shahid,2013,acclaimed|added|add150,1,Shahid (film)
+hi,Queen,2014,acclaimed,1,Queen (2014 film)
+hi,Haider,2014,acclaimed,1,Haider (film)
+hi,PK,2014,blockbuster,1,PK (film)
+hi,Mary Kom,2014,blockbuster|added|add150,1,Mary Kom (film)
+hi,Bajrangi Bhaijaan,2015,blockbuster,1,
+hi,Piku,2015,acclaimed,1,
+hi,Masaan,2015,acclaimed,1,
+hi,Talvar,2015,acclaimed,1,Talvar (film)
+hi,Drishyam,2015,blockbuster,1,Drishyam (2015 film)
+hi,Tanu Weds Manu Returns,2015,blockbuster|added|add150,1,
+hi,Bajirao Mastani,2015,blockbuster,1,
+hi,Dum Laga Ke Haisha,2015,acclaimed,1,
+hi,Tamasha,2015,cult,1,Tamasha (2015 film)
+hi,Dangal,2016,blockbuster|acclaimed,1,Dangal (film)
+hi,Pink,2016,acclaimed,1,Pink (2016 film)
+hi,Neerja,2016,acclaimed,1,
+hi,Udta Punjab,2016,acclaimed,1,
+hi,Sultan,2016,blockbuster|added|add150,1,Sultan (2016 film)
+hi,M.S. Dhoni: The Untold Story,2016,blockbuster,1,
+hi,Kapoor & Sons,2016,acclaimed,1,
+hi,Hindi Medium,2017,blockbuster|added|add150,1,
+hi,Newton,2017,acclaimed,1,Newton (film)
+hi,Toilet: Ek Prem Katha,2017,blockbuster|added|add150,1,
+hi,Secret Superstar,2017,blockbuster|added|add150,1,
+hi,Tiger Zinda Hai,2017,blockbuster|added|add150,1,
+hi,Bareilly Ki Barfi,2017,cult,1,
+hi,Andhadhun,2018,cult|acclaimed,1,
+hi,Stree,2018,blockbuster|cult,1,Stree (2018 film)
+hi,Badhaai Ho,2018,blockbuster,1,
+hi,Raazi,2018,acclaimed,1,
+hi,Padmaavat,2018,blockbuster,1,
+hi,Sanju,2018,blockbuster,1,
+hi,Tumbbad,2018,cult,1,
+hi,Uri: The Surgical Strike,2019,blockbuster,1,
+hi,Gully Boy,2019,acclaimed,1,
+hi,Article 15,2019,acclaimed,1,Article 15 (film)
+hi,Kabir Singh,2019,blockbuster,1,
+hi,War,2019,blockbuster,1,War (2019 film)
+hi,Super 30,2019,blockbuster|added|add150,1,Super 30 (film)
+hi,Chhichhore,2019,blockbuster,1,
+hi,Dream Girl,2019,blockbuster|added|add150,1,Dream Girl (2019 film)
+hi,Kesari,2019,blockbuster|added|add150,1,Kesari (film)
+hi,Sonchiriya,2019,cult,1,
+hi,Tanhaji,2020,blockbuster,1,
+hi,Thappad,2020,acclaimed,1,Thappad (film)
+hi,Shershaah,2021,acclaimed,1,
+hi,Sooryavanshi,2021,blockbuster|added|add150,1,
+hi,Sardar Udham,2021,acclaimed,1,
+hi,83,2021,acclaimed,1,83 (film)
+hi,The Kashmir Files,2022,blockbuster,1,
+hi,Gangubai Kathiawadi,2022,blockbuster,1,
+hi,Brahmastra: Part One – Shiva,2022,blockbuster,1,Brahmāstra: Part One – Shiva
+hi,Drishyam 2,2022,blockbuster|added|add150,1,Drishyam 2 (2022 film)
+hi,Bhool Bhulaiyaa 2,2022,blockbuster,1,
+hi,Pathaan,2023,blockbuster,1,Pathaan (film)
+hi,Jawan,2023,blockbuster,1,Jawan (film)
+hi,Gadar 2,2023,blockbuster,1,
+hi,Animal,2023,blockbuster,1,Animal (2023 Indian film)
+hi,12th Fail,2023,acclaimed,1,
+hi,Rocky Aur Rani Kii Prem Kahaani,2023,blockbuster,1,
+hi,Dunki,2023,blockbuster,1,Dunki (film)
+hi,OMG 2,2023,blockbuster|added|add150,1,
+hi,Laapataa Ladies,2024,acclaimed,1,
+hi,Stree 2,2024,blockbuster,1,
+hi,Munjya,2024,blockbuster|added|add150,1,
+hi,Shaitaan,2024,blockbuster|added|add150,1,Shaitaan (2024 film)
+hi,Kill,2024,cult,1,Kill (film)
+hi,Chhaava,2025,blockbuster,1,
+hi,Saiyaara,2025,blockbuster|added|add150,1,
+te,Mayabazar,1957,cult|acclaimed,1,
+te,Shankarabharanam,1980,acclaimed,1,Sankarabharanam (1980 film)
+te,Sagara Sangamam,1983,acclaimed,1,
+te,Khaidi,1983,blockbuster,2,Khaidi (1983 film)
+te,Swathi Muthyam,1986,acclaimed,1,
+te,Swarna Kamalam,1988,acclaimed,1,
+te,Geethanjali,1989,cult,1,Geethanjali (1989 film)
+te,Siva,1989,cult,1,Siva (1989 Telugu film)
+te,Jagadeka Veerudu Athiloka Sundari,1990,blockbuster,1,
+te,Kshana Kshanam,1991,cult|added|te140,1,
+te,Aditya 369,1991,cult,1,
+te,Gang Leader,1991,blockbuster|added|te140,1,Gang Leader (1991 film)
+te,Gharana Mogudu,1992,blockbuster|added|te140,1,
+te,Ninne Pelladata,1996,blockbuster,1,Ninne Pelladata (1996 film)
+te,Pelli Sandadi,1996,blockbuster|added|te140,1,Pelli Sandadi (1996 film)
+te,Annamayya,1997,acclaimed,1,Annamayya (film)
+te,Nuvvu Naaku Nachav,2001,cult,1,
+te,Indra,2002,blockbuster,1,Indra (2002 film)
+te,Okkadu,2003,blockbuster,1,
+te,Simhadri,2003,blockbuster|added|te140,1,Simhadri (film)
+te,Arya,2004,cult,1,Arya (2004 film)
+te,Athadu,2005,cult,1,
+te,Nuvvostanante Nenoddantana,2005,blockbuster|added|te140,1,
+te,Chatrapathi,2005,blockbuster|added|te140,1,Chatrapathi (2005 film)
+te,Pokiri,2006,blockbuster,1,
+te,Bommarillu,2006,cult,1,
+te,Godavari,2006,cult,1,Godavari (film)
+te,Happy Days,2007,cult,1,Happy Days (2007 film)
+te,Yamadonga,2007,blockbuster|added|te140,1,
+te,Magadheera,2009,blockbuster,1,
+te,Arundhati,2009,blockbuster,1,Arundhati (2009 film)
+te,Maryada Ramanna,2010,cult,1,
+te,Dookudu,2011,blockbuster,1,
+te,Eega,2012,cult|blockbuster,1,
+te,Gabbar Singh,2012,blockbuster|added|te140,1,Gabbar Singh (film)
+te,Attarintiki Daredi,2013,blockbuster,1,
+te,Manam,2014,cult,1,Manam (film)
+te,Baahubali: The Beginning,2015,blockbuster,1,
+te,Srimanthudu,2015,blockbuster,1,
+te,Kshanam,2016,cult,1,Kshanam (film)
+te,Pelli Choopulu,2016,cult,1,
+te,Baahubali 2: The Conclusion,2017,blockbuster,1,
+te,Arjun Reddy,2017,cult,1,
+te,Fidaa,2017,blockbuster,1,
+te,Rangasthalam,2018,blockbuster|acclaimed,1,
+te,Mahanati,2018,acclaimed,1,
+te,C/o Kancharapalem,2018,acclaimed,1,
+te,Ee Nagaraniki Emaindi,2018,cult,1,
+te,Goodachari,2018,cult,1,Goodachari (2018 film)
+te,Jersey,2019,acclaimed,1,Jersey (2019 film)
+te,Agent Sai Srinivasa Athreya,2019,cult,1,
+te,Ala Vaikunthapurramuloo,2020,blockbuster,1,
+te,Jathi Ratnalu,2021,cult,1,
+te,Uppena,2021,blockbuster|added|te140,1,
+te,Pushpa: The Rise,2021,blockbuster,1,
+te,RRR,2022,blockbuster|acclaimed,1,RRR
+te,Sita Ramam,2022,acclaimed,1,
+te,Waltair Veerayya,2023,blockbuster|added|te140,1,
+te,Baby,2023,blockbuster|added|te140,1,Baby (2023 film)
+te,Salaar: Part 1 – Ceasefire,2023,blockbuster,1,
+te,Hanu-Man,2024,blockbuster,1,
+te,Kalki 2898 AD,2024,blockbuster,1,
+te,Devara: Part 1,2024,blockbuster|added|te140,1,
+te,Pushpa 2: The Rule,2024,blockbuster,1,
+te,Lucky Baskhar,2024,blockbuster|added|te140,1,
+en,Casablanca,1942,acclaimed,1,Casablanca (film)
+en,Psycho,1960,cult|acclaimed,1,Psycho (1960 film)
+en,2001: A Space Odyssey,1968,cult|acclaimed,1,2001: A Space Odyssey (film)
+en,The Godfather,1972,acclaimed,1,
+en,Jaws,1975,blockbuster,1,Jaws (film)
+en,Rocky,1976,blockbuster|acclaimed,1,
+en,Taxi Driver,1976,cult|acclaimed,1,
+en,Star Wars,1977,blockbuster,1,Star Wars (film)
+en,Alien,1979,cult,1,Alien (film)
+en,The Shining,1980,cult,1,The Shining (film)
+en,E.T. the Extra-Terrestrial,1982,blockbuster,1,
+en,Blade Runner,1982,cult,1,
+en,The Terminator,1984,cult,1,
+en,Back to the Future,1985,blockbuster|cult,1,
+en,The Princess Bride,1987,cult,2,The Princess Bride (film)
+en,Home Alone,1990,blockbuster,1,
+en,Goodfellas,1990,acclaimed,1,
+en,The Silence of the Lambs,1991,acclaimed,1,The Silence of the Lambs (film)
+en,Terminator 2: Judgment Day,1991,blockbuster,1,
+en,Jurassic Park,1993,blockbuster,1,Jurassic Park (film)
+en,Groundhog Day,1993,cult,1,Groundhog Day (film)
+en,Schindler's List,1993,acclaimed,1,
+en,The Shawshank Redemption,1994,acclaimed|cult,1,
+en,Pulp Fiction,1994,cult,1,
+en,Forrest Gump,1994,blockbuster,1,
+en,The Lion King,1994,blockbuster,1,
+en,Se7en,1995,cult,1,Seven (1995 film)
+en,The Usual Suspects,1995,cult|added|en140,1,
+en,Toy Story,1995,blockbuster,1,
+en,Titanic,1997,blockbuster,1,Titanic (1997 film)
+en,Good Will Hunting,1997,acclaimed,1,
+en,Saving Private Ryan,1998,acclaimed,1,
+en,The Truman Show,1998,cult,1,
+en,The Big Lebowski,1998,cult|added|en140,1,
+en,The Matrix,1999,cult|blockbuster,1,
+en,Fight Club,1999,cult,1,
+en,The Sixth Sense,1999,blockbuster,1,
+en,Gladiator,2000,blockbuster,1,Gladiator (2000 film)
+en,Memento,2000,cult,1,Memento (film)
+en,The Lord of the Rings: The Fellowship of the Ring,2001,blockbuster,1,
+en,Donnie Darko,2001,cult|added|en140,1,
+en,Finding Nemo,2003,blockbuster,1,
+en,Eternal Sunshine of the Spotless Mind,2004,cult,1,
+en,The Prestige,2006,cult,1,The Prestige (film)
+en,The Dark Knight,2008,blockbuster|acclaimed,1,
+en,Avatar,2009,blockbuster,1,Avatar (2009 film)
+en,Up,2009,acclaimed|added|en140,1,Up (2009 film)
+en,Inception,2010,blockbuster,1,
+en,The Social Network,2010,acclaimed,1,
+en,Interstellar,2014,blockbuster,1,Interstellar (film)
+en,Whiplash,2014,acclaimed|added|en140,1,Whiplash (2014 film)
+en,Mad Max: Fury Road,2015,acclaimed|added|en140,1,
+en,La La Land,2016,acclaimed,1,
+en,Get Out,2017,acclaimed,1,
+en,Avengers: Endgame,2019,blockbuster,1,
+en,Joker,2019,blockbuster,1,Joker (2019 film)
+en,Oppenheimer,2023,blockbuster,1,Oppenheimer (film)
+en,Barbie,2023,blockbuster|added|en140,1,Barbie (film)
+hi,Hum Hain Rahi Pyar Ke,1993,blockbuster|added,1,
+hi,Coolie No. 1,1995,blockbuster|cult|added,1,
+hi,Judwaa,1997,blockbuster|cult|added,1,
+hi,Soldier,1998,blockbuster|added,1,Soldier (1998 Indian film)
+hi,Mission Kashmir,2000,acclaimed|added,1,
+hi,Baghban,2003,blockbuster|added,1,
+hi,Chalte Chalte,2003,blockbuster|added,1,Chalte Chalte (2003 film)
+hi,Lakshya,2004,cult|acclaimed|added,1,
+hi,Hum Tum,2004,blockbuster|added,1,
+hi,Parineeta,2005,acclaimed|added,1,Parineeta (2005 film)
+hi,No Entry,2005,blockbuster|cult|added,1,
+hi,Sarkar,2005,acclaimed|added,1,Sarkar (2005 film)
+hi,Don,2006,blockbuster|added,1,Don (2006 Hindi film)
+hi,Phir Hera Pheri,2006,blockbuster|cult|added,1,
+hi,Fanaa,2006,blockbuster|added,1,
+hi,Guru,2007,acclaimed|added,1,Guru (2007 film)
+hi,Welcome,2007,blockbuster|cult|added,1,Welcome (2007 film)
+hi,Rab Ne Bana Di Jodi,2008,blockbuster|added,1,
+hi,Jaane Tu... Ya Jaane Na,2008,cult|added,1,
+hi,Wanted,2009,blockbuster|added,1,Wanted (2009 film)
+hi,Once Upon a Time in Mumbaai,2010,blockbuster|added,1,
+hi,Singham,2011,blockbuster|added,1,
+hi,Tanu Weds Manu,2011,cult|added,1,
+hi,Agneepath,2012,blockbuster|added,1,Agneepath (2012 film)
+hi,Aashiqui 2,2013,blockbuster|added,1,
+hi,Goliyon Ki Raasleela Ram-Leela,2013,blockbuster|added,1,
+hi,Raanjhanaa,2013,cult|added,1,
+hi,Jolly LLB,2013,acclaimed|added,1,
+hi,Airlift,2016,acclaimed|blockbuster|added,1,Airlift (film)
+hi,Bhediya,2022,cult|added,1,
+te,Sye,2004,cult|added,1,Sye (film)
+te,Vikramarkudu,2006,blockbuster|added,1,
+te,Ye Maaya Chesave,2010,cult|added,1,
+te,Race Gurram,2014,blockbuster|added,1,
+te,Janatha Garage,2016,blockbuster|added,1,
+te,Geetha Govindam,2018,blockbuster|added,1,
+te,Bharat Ane Nenu,2018,blockbuster|added,1,
+te,Sarileru Neekevvaru,2020,blockbuster|added,1,
+te,Akhanda,2021,blockbuster|added,1,Akhanda (film)
+te,Karthikeya 2,2022,blockbuster|added,1,
+en,Braveheart,1995,acclaimed|added,1,
+en,The Green Mile,1999,acclaimed|added,1,The Green Mile (film)
+en,Harry Potter and the Philosopher's Stone,2001,blockbuster|added,1,Harry Potter and the Philosopher's Stone (film)
+en,Shrek,2001,blockbuster|cult|added,1,
+en,Pirates of the Caribbean: The Curse of the Black Pearl,2003,blockbuster|added,1,
+en,The Departed,2006,acclaimed|added,1,
+en,Slumdog Millionaire,2008,acclaimed|added,1,
+en,Life of Pi,2012,acclaimed|added,1,Life of Pi (film)
+en,The Avengers,2012,blockbuster|added,1,The Avengers (2012 film)
+en,Top Gun: Maverick,2022,blockbuster|added,1,
+hi,Shaan,1980,added|hindi50,1,Shaan (1980 film)
+hi,Satte Pe Satta,1982,added|hindi50,1,Satte Pe Satta
+hi,Prem Rog,1982,added|hindi50,1,Prem Rog
+hi,Betaab,1983,added|hindi50,1,
+hi,Saagar,1985,added|hindi50,1,
+hi,Karma,1986,added|hindi50,1,Karma (1986 film)
+hi,Nagina,1986,added|hindi50,1,Nagina (1986 film)
+hi,Ek Ruka Hua Faisla,1986,added|hindi50,1,Ek Ruka Hua Faisla
+hi,Shahenshah,1988,added|hindi50,1,Shahenshah (1988 film)
+hi,ChaalBaaz,1989,added|hindi50,1,ChaalBaaz
+hi,Sadak,1991,added|hindi50,1,Sadak (1991 film)
+hi,Phool Aur Kaante,1991,added|hindi50,1,Phool Aur Kaante
+hi,Lekin...,1991,added|hindi50,1,Lekin...
+hi,Khiladi,1992,added|hindi50,1,Khiladi (1992 film)
+hi,Aankhen,1993,added|hindi50,1,Aankhen (1993 film)
+hi,Bandit Queen,1994,added|hindi50,1,Bandit Queen (film)
+hi,Main Khiladi Tu Anari,1994,added|hindi50,1,Main Khiladi Tu Anari
+hi,Khamoshi: The Musical,1996,added|hindi50,1,Khamoshi: The Musical
+hi,Ghatak,1996,added|hindi50,1,Ghatak: Lethal
+hi,Pyaar To Hona Hi Tha,1998,added|hindi50,1,Pyaar To Hona Hi Tha
+hi,Rehnaa Hai Terre Dil Mein,2001,added|hindi50,1,Rehnaa Hai Terre Dil Mein
+hi,The Legend of Bhagat Singh,2002,added|hindi50,1,The Legend of Bhagat Singh
+hi,Saathiya,2002,added|hindi50,1,Saathiya (film)
+hi,Raaz,2002,added|hindi50,1,Raaz (2002 film)
+hi,Tere Naam,2003,added|hindi50,1,Tere Naam
+hi,Iqbal,2005,added|hindi50,1,Iqbal (film)
+hi,Golmaal: Fun Unlimited,2006,added|hindi50,1,Golmaal: Fun Unlimited
+hi,Kabhi Alvida Naa Kehna,2006,added|hindi50,1,Kabhi Alvida Naa Kehna
+hi,Race,2008,added|hindi50,1,Race (2008 film)
+hi,Love Aaj Kal,2009,added|hindi50,1,Love Aaj Kal
+hi,Ishqiya,2010,added|hindi50,1,Ishqiya
+hi,Don 2,2011,added|hindi50,1,Don 2
+hi,Jab Tak Hai Jaan,2012,added|hindi50,1,Jab Tak Hai Jaan
+hi,Talaash,2012,added|hindi50,1,Talaash: The Answer Lies Within
+hi,Dhoom 3,2013,added|hindi50,1,Dhoom 3
+hi,2 States,2014,added|hindi50,1,2 States (2014 film)
+hi,Baby,2015,added|hindi50,1,Baby (2015 Hindi film)
+hi,Ae Dil Hai Mushkil,2016,added|hindi50,1,Ae Dil Hai Mushkil
+hi,Pad Man,2018,added|hindi50,1,Pad Man (film)
+hi,Bala,2019,added|hindi50,1,Bala (2019 film)
+hi,Ludo,2020,added|hindi50,1,Ludo (2020 film)
+hi,Mimi,2021,added|hindi50,1,Mimi (2021 Hindi film)
+hi,Sam Bahadur,2023,added|hindi50,1,Sam Bahadur
+hi,Tiger 3,2023,added|hindi50,1,Tiger 3
+hi,Fighter,2024,added|hindi50,1,Fighter (2024 film)
+hi,Chandu Champion,2024,added|hindi50,1,Chandu Champion
+hi,Bhool Bhulaiyaa 3,2024,added|hindi50,1,Bhool Bhulaiyaa 3
+hi,Sitaare Zameen Par,2025,added|hindi50,1,Sitaare Zameen Par
+hi,Dhurandhar,2025,added|hindi50,1,
+hi,Border 2,2026,added|hindi50,1,
+te,Kondaveeti Donga,1990,added|te140,1,
+te,Karthavyam,1990,added|te140,1,Karthavyam (1990 film)
+te,Rowdy Alludu,1991,added|te140,1,
+te,Chanti,1992,added|te140,1,Chanti (1992 film)
+te,Aapadbandhavudu,1992,added|te140,1,
+te,Money,1993,added|te140,1,Money (1993 film)
+te,Allari Priyudu,1993,added|te140,1,
+te,Hello Brother,1994,added|te140,1,Hello Brother (1994 film)
+te,Yamaleela,1994,added|te140,1,
+te,Subhalagnam,1994,added|te140,1,
+te,Pedarayudu,1995,added|te140,1,
+te,Gulabi,1995,added|te140,1,Gulabi (1995 film)
+te,Pavitra Bandham,1996,added|te140,1,Pavitra Bandham (1996 film)
+te,Preminchukundam Raa,1997,added|te140,1,
+te,Pellichesukundam,1997,added|te140,1,
+te,Hitler,1997,added|te140,1,Hitler (1997 film)
+te,Master,1997,added|te140,1,Master (1997 film)
+te,Sindhooram,1997,added|te140,1,Sindhooram (1997 film)
+te,Tholi Prema,1998,added|te140,1,Tholi Prema (1998 film)
+te,Choodalani Vundi,1998,added|te140,1,
+te,Antahpuram,1998,added|te140,1,Antahpuram (1998 film)
+te,Suryavamsam,1998,added|te140,1,Suryavamsam (1998 film)
+te,Raja,1999,added|te140,1,Raja (1999 film)
+te,Thammudu,1999,added|te140,1,Thammudu (1999 film)
+te,Kalisundam Raa,2000,added|te140,1,
+te,Badri,2000,added|te140,1,Badri (2000 film)
+te,Nuvve Kavali,2000,added|te140,1,
+te,Narasimha Naidu,2001,added|te140,1,
+te,Kushi,2001,added|te140,1,Kushi (2001 film)
+te,Nuvvu Nenu,2001,added|te140,1,
+te,Murari,2001,added|te140,1,Murari (film)
+te,Student No.1,2001,added|te140,1,
+te,Aadi,2002,added|te140,1,Aadi (film)
+te,Idiot,2002,added|te140,1,Idiot (2002 film)
+te,Santosham,2002,added|te140,1,Santosham (2002 film)
+te,Manmadhudu,2002,added|te140,1,
+te,Tagore,2003,added|te140,1,Tagore (film)
+te,Amma Nanna O Tamila Ammayi,2003,added|te140,1,
+te,Gangotri,2003,added|te140,1,Gangotri (film)
+te,Varsham,2004,added|te140,1,Varsham (2004 film)
+te,Shankar Dada M.B.B.S.,2004,added|te140,1,
+te,Mass,2004,added|te140,1,Mass (2004 film)
+te,Anand,2004,added|te140,1,Anand (2004 film)
+te,Bhadra,2005,added|te140,1,Bhadra (2005 film)
+te,Bunny,2005,added|te140,1,Bunny (2005 film)
+te,Athanokkade,2005,added|te140,1,
+te,Stalin,2006,added|te140,1,Stalin (2006 film)
+te,Ready,2008,added|te140,1,Ready (2008 film)
+te,Desamuduru,2007,added|te140,1,
+te,Chirutha,2007,added|te140,1,
+te,Dhee,2007,added|te140,1,Dhee (film)
+te,Jalsa,2008,added|te140,1,Jalsa (film)
+te,Kotha Bangaru Lokam,2008,added|te140,1,
+te,Gamyam,2008,added|te140,1,
+te,Kick,2009,added|te140,1,Kick (2009 film)
+te,Arya 2,2009,added|te140,1,
+te,Simha,2010,added|te140,1,Simha (2010 film)
+te,Brindavanam,2010,added|te140,1,Brindavanam (2010 film)
+te,Vedam,2010,added|te140,1,Vedam (film)
+te,Darling,2010,added|te140,1,Darling (2010 Telugu film)
+te,Khaleja,2010,added|te140,1,
+te,Mr. Perfect,2011,added|te140,1,Mr. Perfect (2011 film)
+te,100% Love,2011,added|te140,1,100% Love (2011 film)
+te,Ala Modalaindi,2011,added|te140,1,
+te,Julayi,2012,added|te140,1,
+te,Businessman,2012,added|te140,1,Businessman (2012 film)
+te,Racha,2012,added|te140,1,Racha (film)
+te,Seethamma Vakitlo Sirimalle Chettu,2013,added|te140,1,
+te,Mirchi,2013,added|te140,1,Mirchi (film)
+te,Swamy Ra Ra,2013,added|te140,1,
+te,Naayak,2013,added|te140,1,
+te,Legend,2014,added|te140,1,Legend (2014 Telugu film)
+te,Drushyam,2014,added|te140,1,
+te,Temper,2015,added|te140,1,Temper (film)
+te,Bhale Bhale Magadivoy,2015,added|te140,1,
+te,Kanche,2015,added|te140,1,Kanche (film)
+te,Yevade Subramanyam,2015,added|te140,1,
+te,S/O Satyamurthy,2015,added|te140,1,
+te,Sarrainodu,2016,added|te140,1,
+te,Nannaku Prematho,2016,added|te140,1,
+te,A Aa,2016,added|te140,1,
+te,Oopiri,2016,added|te140,1,
+te,Khaidi No. 150,2017,added|te140,1,
+te,Ghazi,2017,added|te140,1,Ghazi (2017 film)
+te,Ninnu Kori,2017,added|te140,1,
+te,Saaho,2019,added|te140,1,
+te,Bhaagamathie,2018,added|te140,1,
+te,Aravinda Sametha Veera Raghava,2018,added|te140,1,
+te,Taxiwaala,2018,added|te140,1,
+te,F2: Fun and Frustration,2019,added|te140,1,
+te,Maharshi,2019,added|te140,1,Maharshi (2019 film)
+te,Brochevarevarura,2019,added|te140,1,
+te,Mallesham,2019,added|te140,1,
+te,Sye Raa Narasimha Reddy,2019,added|te140,1,
+te,Dear Comrade,2019,added|te140,1,
+te,Majili,2019,added|te140,1,
+te,Oh! Baby,2019,added|te140,1,Oh! Baby (2019 film)
+te,iSmart Shankar,2019,added|te140,1,
+te,Evaru,2019,added|te140,1,Evaru (film)
+te,Bheeshma,2020,added|te140,1,Bheeshma (2020 film)
+te,HIT: The First Case,2020,added|te140,1,
+te,Colour Photo,2020,added|te140,1,Colour Photo (film)
+te,Krack,2021,added|te140,1,Krack (film)
+te,Love Story,2021,added|te140,1,Love Story (2021 film)
+te,Shyam Singha Roy,2021,added|te140,1,
+te,Vakeel Saab,2021,added|te140,1,
+te,Bheemla Nayak,2022,added|te140,1,
+te,DJ Tillu,2022,added|te140,1,
+te,Major,2022,added|te140,1,Major (2022 film)
+te,Bimbisara,2022,added|te140,1,
+te,Sarkaru Vaari Paata,2022,added|te140,1,
+te,Balagam,2023,added|te140,1,Balagam (film)
+te,Dasara,2023,added|te140,1,Dasara (film)
+te,Virupaksha,2023,added|te140,1,Virupaksha (film)
+te,Bhagavanth Kesari,2023,added|te140,1,
+te,Hi Nanna,2023,added|te140,1,
+te,Guntur Kaaram,2024,added|te140,1,
+te,Tillu Square,2024,added|te140,1,
+te,Sankranthiki Vasthunam,2025,added|te140,1,
+te,Daaku Maharaaj,2025,added|te140,1,
+te,Court,2025,added|te140,1,Court: State vs. A Nobody
+te,HIT: The Third Case,2025,added|te140,1,
+te,Mirai,2025,added|te140,1,Mirai (2025 film)
+te,They Call Him OG,2025,added|te140,1,
+te,Akhanda 2: Thaandavam,2025,added|te140,1,
+te,The Raja Saab,2026,added|te140,1,
+en,Edward Scissorhands,1990,added|en140,1,
+en,Ghost,1990,added|en140,1,Ghost (1990 film)
+en,Dances with Wolves,1990,added|en140,1,
+en,Total Recall,1990,added|en140,1,Total Recall (1990 film)
+en,Pretty Woman,1990,added|en140,1,
+en,Beauty and the Beast,1991,added|en140,1,Beauty and the Beast (1991 film)
+en,Thelma & Louise,1991,added|en140,1,
+en,Reservoir Dogs,1992,added|en140,1,
+en,Aladdin,1992,added|en140,1,Aladdin (1992 Disney film)
+en,Unforgiven,1992,added|en140,1,
+en,Mrs. Doubtfire,1993,added|en140,1,
+en,The Fugitive,1993,added|en140,1,The Fugitive (1993 film)
+en,Speed,1994,added|en140,1,Speed (1994 film)
+en,Léon: The Professional,1994,added|en140,1,
+en,The Mask,1994,added|en140,1,The Mask (1994 film)
+en,Heat,1995,added|en140,1,Heat (1995 film)
+en,Apollo 13,1995,added|en140,1,Apollo 13 (film)
+en,Casino,1995,added|en140,1,Casino (1995 film)
+en,Jumanji,1995,added|en140,1,
+en,12 Monkeys,1995,added|en140,1,
+en,Independence Day,1996,added|en140,1,Independence Day (1996 film)
+en,Fargo,1996,added|en140,1,Fargo (1996 film)
+en,Jerry Maguire,1996,added|en140,1,
+en,Men in Black,1997,added|en140,1,Men in Black (1997 film)
+en,L.A. Confidential,1997,added|en140,1,L.A. Confidential (film)
+en,Armageddon,1998,added|en140,1,Armageddon (1998 film)
+en,American History X,1998,added|en140,1,
+en,The Mummy,1999,added|en140,1,The Mummy (1999 film)
+en,American Beauty,1999,added|en140,1,American Beauty (1999 film)
+en,Notting Hill,1999,added|en140,1,Notting Hill (film)
+en,Cast Away,2000,added|en140,1,
+en,Erin Brockovich,2000,added|en140,1,Erin Brockovich (film)
+en,Training Day,2001,added|en140,1,
+en,"Monsters, Inc.",2001,added|en140,1,
+en,A Beautiful Mind,2001,added|en140,1,A Beautiful Mind (film)
+en,Ocean's Eleven,2001,added|en140,1,
+en,Spider-Man,2002,added|en140,1,Spider-Man (2002 film)
+en,Catch Me If You Can,2002,added|en140,1,
+en,The Bourne Identity,2002,added|en140,1,The Bourne Identity (2002 film)
+en,The Pianist,2002,added|en140,1,The Pianist (2002 film)
+en,The Lord of the Rings: The Return of the King,2003,added|en140,1,
+en,Kill Bill: Volume 1,2003,added|en140,1,
+en,Love Actually,2003,added|en140,1,
+en,Mystic River,2003,added|en140,1,Mystic River (film)
+en,The Notebook,2004,added|en140,1,
+en,The Incredibles,2004,added|en140,1,
+en,Million Dollar Baby,2004,added|en140,1,
+en,Mean Girls,2004,added|en140,1,
+en,Batman Begins,2005,added|en140,1,
+en,V for Vendetta,2005,added|en140,1,V for Vendetta (film)
+en,Casino Royale,2006,added|en140,1,Casino Royale (2006 film)
+en,The Pursuit of Happyness,2006,added|en140,1,
+en,Little Miss Sunshine,2006,added|en140,1,
+en,Children of Men,2006,added|en140,1,
+en,300,2006,added|en140,1,300 (film)
+en,No Country for Old Men,2007,added|en140,1,
+en,Ratatouille,2007,added|en140,1,Ratatouille (film)
+en,There Will Be Blood,2007,added|en140,1,
+en,Superbad,2007,added|en140,1,Superbad (film)
+en,Iron Man,2008,added|en140,1,Iron Man (2008 film)
+en,WALL-E,2008,added|en140,1,
+en,Taken,2008,added|en140,1,Taken (film)
+en,Inglourious Basterds,2009,added|en140,1,
+en,The Hangover,2009,added|en140,1,
+en,District 9,2009,added|en140,1,
+en,Shutter Island,2010,added|en140,1,Shutter Island (film)
+en,Toy Story 3,2010,added|en140,1,
+en,The King's Speech,2010,added|en140,1,
+en,Black Swan,2010,added|en140,1,Black Swan (film)
+en,How to Train Your Dragon,2010,added|en140,1,How to Train Your Dragon (2010 film)
+en,The Help,2011,added|en140,1,The Help (film)
+en,Harry Potter and the Deathly Hallows – Part 2,2011,added|en140,1,
+en,Drive,2011,added|en140,1,Drive (2011 film)
+en,The Dark Knight Rises,2012,added|en140,1,
+en,Django Unchained,2012,added|en140,1,
+en,The Hunger Games,2012,added|en140,1,The Hunger Games (film)
+en,Argo,2012,added|en140,1,Argo (2012 film)
+en,Skyfall,2012,added|en140,1,
+en,Gravity,2013,added|en140,1,Gravity (2013 film)
+en,The Wolf of Wall Street,2013,added|en140,1,The Wolf of Wall Street (2013 film)
+en,Frozen,2013,added|en140,1,Frozen (2013 film)
+en,12 Years a Slave,2013,added|en140,1,12 Years a Slave (film)
+en,Her,2013,added|en140,1,Her (film)
+en,Gone Girl,2014,added|en140,1,Gone Girl (film)
+en,The Grand Budapest Hotel,2014,added|en140,1,
+en,Guardians of the Galaxy,2014,added|en140,1,Guardians of the Galaxy (film)
+en,The Imitation Game,2014,added|en140,1,
+en,The Martian,2015,added|en140,1,The Martian (film)
+en,Inside Out,2015,added|en140,1,Inside Out (2015 film)
+en,The Revenant,2015,added|en140,1,The Revenant (2015 film)
+en,Spotlight,2015,added|en140,1,Spotlight (film)
+en,Arrival,2016,added|en140,1,Arrival (film)
+en,Zootopia,2016,added|en140,1,
+en,Hacksaw Ridge,2016,added|en140,1,
+en,Moonlight,2016,added|en140,1,Moonlight (2016 film)
+en,Dunkirk,2017,added|en140,1,Dunkirk (2017 film)
+en,Coco,2017,added|en140,1,Coco (2017 film)
+en,"Three Billboards Outside Ebbing, Missouri",2017,added|en140,1,
+en,A Quiet Place,2018,added|en140,1,A Quiet Place (film)
+en,Avengers: Infinity War,2018,added|en140,1,
+en,Bohemian Rhapsody,2018,added|en140,1,Bohemian Rhapsody (film)
+en,Black Panther,2018,added|en140,1,Black Panther (film)
+en,Spider-Man: Into the Spider-Verse,2018,added|en140,1,
+en,Green Book,2018,added|en140,1,Green Book (film)
+en,Knives Out,2019,added|en140,1,
+en,1917,2019,added|en140,1,1917 (2019 film)
+en,Once Upon a Time in Hollywood,2019,added|en140,1,
+en,Tenet,2020,added|en140,1,Tenet (film)
+en,Soul,2020,added|en140,1,Soul (2020 film)
+en,Nomadland,2020,added|en140,1,Nomadland (film)
+en,Dune,2021,added|en140,1,Dune (2021 film)
+en,Spider-Man: No Way Home,2021,added|en140,1,
+en,CODA,2021,added|en140,1,CODA (2021 film)
+en,Everything Everywhere All at Once,2022,added|en140,1,
+en,Avatar: The Way of Water,2022,added|en140,1,
+en,The Batman,2022,added|en140,1,The Batman (film)
+en,The Banshees of Inisherin,2022,added|en140,1,
+en,Killers of the Flower Moon,2023,added|en140,1,Killers of the Flower Moon (film)
+en,Spider-Man: Across the Spider-Verse,2023,added|en140,1,
+en,Poor Things,2023,added|en140,1,Poor Things (film)
+en,The Holdovers,2023,added|en140,1,
+en,Dune: Part Two,2024,added|en140,1,
+en,Inside Out 2,2024,added|en140,1,
+en,Deadpool & Wolverine,2024,added|en140,1,
+en,Wicked,2024,added|en140,1,Wicked (2024 film)
+en,Anora,2024,added|en140,1,
+en,The Substance,2024,added|en140,1,
+en,Conclave,2024,added|en140,1,Conclave (film)
+en,Sinners,2025,added|en140,1,Sinners (2025 film)
+en,Superman,2025,added|en140,1,Superman (2025 film)
+en,F1,2025,added|en140,1,F1 (film)
+en,One Battle After Another,2025,added|en140,1,
+en,Project Hail Mary,2026,added|en140,1,Project Hail Mary (film)
+hi,Aankhen,2002,added|add150,1,Aankhen (2002 film)
+hi,Bhoot,2003,added|add150,1,Bhoot (2003 film)
+hi,Ab Tak Chhappan,2004,added|add150,1,
+hi,Yuva,2004,added|add150,1,Yuva (2004 film)
+hi,Mujhse Shaadi Karogi,2004,added|add150,1,
+hi,Page 3,2005,added|add150,1,Page 3 (film)
+hi,Gangster,2006,added|add150,1,Gangster (2006 film)
+hi,Vivah,2006,added|add150,1,Vivah (film)
+hi,Life in a... Metro,2007,added|add150,1,
+hi,Singh Is Kinng,2008,added|add150,1,
+hi,Fashion,2008,added|add150,1,Fashion (2008 film)
+hi,Ajab Prem Ki Ghazab Kahani,2009,added|add150,1,
+hi,Paa,2009,added|add150,1,Paa (film)
+hi,Raajneeti,2010,added|add150,1,
+hi,Golmaal 3,2010,added|add150,1,
+hi,Ra.One,2011,added|add150,1,
+hi,Cocktail,2012,added|add150,1,Cocktail (2012 film)
+hi,Krrish 3,2013,added|add150,1,
+hi,Fukrey,2013,added|add150,1,
+hi,Highway,2014,added|add150,1,Highway (2014 Hindi film)
+hi,Kick,2014,added|add150,1,Kick (2014 film)
+hi,Badlapur,2015,added|add150,1,Badlapur (film)
+hi,Dil Dhadakne Do,2015,added|add150,1,
+hi,Raees,2017,added|add150,1,Raees (film)
+hi,Simmba,2018,added|add150,1,
+hi,Vikram Vedha,2022,added|add150,1,Vikram Vedha (2022 film)
+hi,Sky Force,2025,added|add150,1,Sky Force (2025 film)
+hi,Jolly LLB 3,2025,added|add150,1,
+te,Itlu Sravani Subramanyam,2001,added|add150,1,
+te,Arjun,2004,added|add150,1,Arjun (2004 film)
+te,Oosaravelli,2011,added|add150,1,
+te,Yevadu,2014,added|add150,1,
+te,Nenu Local,2017,added|add150,1,
+te,Ami Thumi,2017,added|add150,1,
+te,Drushyam 2,2021,added|add150,1,
+te,Gangs of Godavari,2024,added|add150,1,
+te,Manasantha Nuvve,2001,added|add150,1,
+te,Khadgam,2002,added|add150,1,Khadgam (film)
+te,Avunu Valliddaru Ista Paddaru!,2002,added|add150,1,Avunu Valliddaru Ista Paddaru!
+te,Nijam,2003,added|add150,1,Nijam (2003 film)
+te,Pournami,2006,added|add150,1,Pournami (film)
+te,Devadasu,2006,added|add150,1,Devadasu (2006 film)
+te,Happy,2006,added|add150,1,Happy (2006 film)
+te,Shankar Dada Zindabad,2007,added|add150,1,
+te,Parugu,2008,added|add150,1,Parugu (film)
+te,Krishna,2008,added|add150,1,Krishna (2008 film)
+te,Ashta Chamma,2008,added|add150,1,
+te,King,2008,added|add150,1,King (2008 film)
+te,Konchem Ishtam Konchem Kashtam,2009,added|add150,1,
+te,Leader,2010,added|add150,1,Leader (2010 film)
+te,Adhurs,2010,added|add150,1,
+te,Orange,2010,added|add150,1,Orange (2010 film)
+te,Mirapakay,2011,added|add150,1,
+te,Ishq,2012,added|add150,1,Ishq (2012 film)
+te,Baadshah,2013,added|add150,1,Baadshah (2013 film)
+te,Gunde Jaari Gallanthayyinde,2013,added|add150,1,
+te,Prema Katha Chitram,2013,added|add150,1,
+te,Run Raja Run,2014,added|add150,1,
+te,Karthikeya,2014,added|add150,1,Karthikeya (2014 film)
+te,Gopala Gopala,2015,added|add150,1,Gopala Gopala (2015 film)
+te,Kumari 21F,2015,added|add150,1,
+te,Dhruva,2016,added|add150,1,Dhruva (2016 film)
+te,Shatamanam Bhavati,2017,added|add150,1,
+te,Jai Lava Kusa,2017,added|add150,1,
+te,RX 100,2018,added|add150,1,
+te,Mathu Vadalara,2019,added|add150,1,
+te,HIT: The Second Case,2022,added|add150,1,
+te,Ante Sundaraniki,2022,added|add150,1,
+te,Godfather,2022,added|add150,1,Godfather (2022 film)
+te,Veera Simha Reddy,2023,added|add150,1,
+te,Samajavaragamana,2023,added|add150,1,
+te,Mad,2023,added|add150,1,Mad (2023 film)
+te,Saripodhaa Sanivaaram,2024,added|add150,1,
+te,Ka,2024,added|add150,1,Ka (2024 film)
+te,Game Changer,2025,added|add150,1,
+te,Thandel,2025,added|add150,1,
+te,Kingdom,2025,added|add150,1,Kingdom (2025 film)
+te,Mana Shankara Vara Prasad Garu,2026,added|add150,1,
+en,Snatch,2000,added|add150,1,Snatch (film)
+en,Requiem for a Dream,2000,added|add150,1,
+en,Minority Report,2002,added|add150,1,Minority Report (film)
+en,The Lord of the Rings: The Two Towers,2002,added|add150,1,
+en,Lost in Translation,2003,added|add150,1,Lost in Translation (film)
+en,School of Rock,2003,added|add150,1,
+en,Collateral,2004,added|add150,1,Collateral (film)
+en,Spider-Man 2,2004,added|add150,1,
+en,The Aviator,2004,added|add150,1,The Aviator (2004 film)
+en,Pride & Prejudice,2005,added|add150,1,Pride & Prejudice (2005 film)
+en,The Devil Wears Prada,2006,added|add150,1,The Devil Wears Prada (film)
+en,Blood Diamond,2006,added|add150,1,
+en,The Bourne Ultimatum,2007,added|add150,1,
+en,Juno,2007,added|add150,1,Juno (film)
+en,Gran Torino,2008,added|add150,1,
+en,Kung Fu Panda,2008,added|add150,1,Kung Fu Panda (film)
+en,The Curious Case of Benjamin Button,2008,added|add150,1,The Curious Case of Benjamin Button (film)
+en,Star Trek,2009,added|add150,1,Star Trek (2009 film)
+en,Despicable Me,2010,added|add150,1,
+en,Tangled,2010,added|add150,1,
+en,Moneyball,2011,added|add150,1,Moneyball (film)
+en,Silver Linings Playbook,2012,added|add150,1,
+en,Captain Phillips,2013,added|add150,1,Captain Phillips (film)
+en,Prisoners,2013,added|add150,1,Prisoners (2013 film)
+en,Edge of Tomorrow,2014,added|add150,1,
+en,Nightcrawler,2014,added|add150,1,Nightcrawler (film)
+en,Birdman,2014,added|add150,1,Birdman (film)
+en,John Wick,2014,added|add150,1,John Wick (film)
+en,Ex Machina,2015,added|add150,1,Ex Machina (film)
+en,The Big Short,2015,added|add150,1,The Big Short (film)
+en,Deadpool,2016,added|add150,1,Deadpool (film)
+en,Hidden Figures,2016,added|add150,1,
+en,Logan,2017,added|add150,1,Logan (film)
+en,Blade Runner 2049,2017,added|add150,1,
+en,A Star Is Born,2018,added|add150,1,A Star Is Born (2018 film)
+en,Jojo Rabbit,2019,added|add150,1,
+en,The Father,2020,added|add150,1,The Father (2020 film)
+en,Encanto,2021,added|add150,1,
+en,The Power of the Dog,2021,added|add150,1,The Power of the Dog (film)
+en,Glass Onion,2022,added|add150,1,Glass Onion: A Knives Out Mystery
+en,Elvis,2022,added|add150,1,Elvis (2022 film)
+en,Puss in Boots: The Last Wish,2022,added|add150,1,
+en,John Wick: Chapter 4,2023,added|add150,1,
+en,The Wild Robot,2024,added|add150,1,
+en,Gladiator II,2024,added|add150,1,
+en,A Complete Unknown,2024,added|add150,1,
+en,Weapons,2025,added|add150,1,Weapons (2025 film)
+en,KPop Demon Hunters,2025,added|add150,1,
+en,Zootopia 2,2025,added|add150,1,
+en,Michael,2026,added|add150,1,Michael (2026 film)

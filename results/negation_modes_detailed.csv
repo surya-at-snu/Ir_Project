@@ -1,0 +1,5 @@
+mode,mrr_all,mrr_negation_queries,s@1_negation_queries,n_negation_queries,learned_mu
+none,0.9897,0.9751,0.9524,147,0.5
+drop,0.9863,0.966,0.9388,147,0.5
+penalize_all,0.986,0.9654,0.9388,147,0.0
+scope,0.9878,0.9722,0.9524,147,0.0

@@ -1,0 +1,4175 @@
+{
+ "nodes": 3281,
+ "film_nodes": 1249,
+ "person_nodes": 2032,
+ "edges": 23293,
+ "person_to_film_edges": 11743,
+ "top_pagerank": [
+  "Star Wars",
+  "Titanic",
+  "Blade Runner",
+  "Avatar",
+  "The Godfather",
+  "Sholay",
+  "Alien",
+  "Avengers: Endgame",
+  "The Lion King",
+  "Dilwale Dulhania Le Jayenge",
+  "The Lord of the Rings: The Return of the King",
+  "Avengers: Infinity War",
+  "Jaws",
+  "Taxi Driver",
+  "The Dark Knight"
+ ],
+ "top_authority": [
+  "Dilwale Dulhania Le Jayenge",
+  "Sholay",
+  "Om Shanti Om",
+  "Kuch Kuch Hota Hai",
+  "Veer-Zaara",
+  "Kabhi Khushi Kabhie Gham...",
+  "Mohabbatein",
+  "Kabhi Alvida Naa Kehna",
+  "3 Idiots",
+  "Kal Ho Naa Ho",
+  "Lagaan",
+  "Deewaar",
+  "My Name Is Khan",
+  "Dil To Pagal Hai",
+  "Rab Ne Bana Di Jodi"
+ ],
+ "top_hub_people": [
+  "Shah Rukh Khan",
+  "Amitabh Bachchan",
+  "Javed Akhtar",
+  "Farah Khan",
+  "Sukhwinder Singh",
+  "Aditya Chopra",
+  "Karan Johar",
+  "Anupam Kher",
+  "Salim–Javed",
+  "Salman Khan"
+ ],
+ "raw": {
+  "Casablanca": {
+   "pagerank": 0.0007124028113947294,
+   "authority": 0.0036038433863877064,
+   "pageviews_60d": 153333
+  },
+  "Psycho": {
+   "pagerank": 0.0009691906030037199,
+   "authority": 0.002934644269300567,
+   "pageviews_60d": 221520
+  },
+  "2001: A Space Odyssey": {
+   "pagerank": 0.0010710889521210122,
+   "authority": 0.005628791986554214,
+   "pageviews_60d": 258518
+  },
+  "The Godfather": {
+   "pagerank": 0.0022270609342848295,
+   "authority": 0.04199990156323641,
+   "pageviews_60d": 351839
+  },
+  "Jaws": {
+   "pagerank": 0.0017507032754725165,
+   "authority": 0.013741101783315217,
+   "pageviews_60d": 163135
+  },
+  "Rocky": {
+   "pagerank": 0.0006004866871436343,
+   "authority": 0.000718921272555798,
+   "pageviews_60d": 268472
+  },
+  "Taxi Driver": {
+   "pagerank": 0.0017425447638956787,
+   "authority": 0.0073926447392067265,
+   "pageviews_60d": 161240
+  },
+  "Star Wars": {
+   "pagerank": 0.003344994282312529,
+   "authority": 0.025239116515892467,
+   "pageviews_60d": 208290
+  },
+  "Alien": {
+   "pagerank": 0.0018583902757986443,
+   "authority": 0.0072720340131188325,
+   "pageviews_60d": 265568
+  },
+  "The Shining": {
+   "pagerank": 0.0008991796292022072,
+   "authority": 0.002165398642080976,
+   "pageviews_60d": 463786
+  },
+  "Blade Runner": {
+   "pagerank": 0.002410485339939625,
+   "authority": 0.007969497937507338,
+   "pageviews_60d": 266388
+  },
+  "E.T. the Extra-Terrestrial": {
+   "pagerank": 0.0016206866462572884,
+   "authority": 0.0195270883836969,
+   "pageviews_60d": 135155
+  },
+  "The Terminator": {
+   "pagerank": 0.001090052682210078,
+   "authority": 0.004807724457773233,
+   "pageviews_60d": 248364
+  },
+  "Back to the Future": {
+   "pagerank": 0.0009093306104403062,
+   "authority": 0.0036886934101232104,
+   "pageviews_60d": 183645
+  },
+  "Dances with Wolves": {
+   "pagerank": 0.0005317371441193012,
+   "authority": 0.0003596536603790916,
+   "pageviews_60d": 79181
+  },
+  "Edward Scissorhands": {
+   "pagerank": 0.0004773065986970765,
+   "authority": 0.0008782848526134784,
+   "pageviews_60d": 157329
+  },
+  "Ghost": {
+   "pagerank": 0.0006796506729800903,
+   "authority": 0.0025307976806112306,
+   "pageviews_60d": 92858
+  },
+  "Goodfellas": {
+   "pagerank": 0.001390638832253214,
+   "authority": 0.002956198677844203,
+   "pageviews_60d": 203210
+  },
+  "Home Alone": {
+   "pagerank": 0.0006247571137029454,
+   "authority": 0.0019299240154532805,
+   "pageviews_60d": 122060
+  },
+  "Pretty Woman": {
+   "pagerank": 0.000499295028022996,
+   "authority": 0.0010165878976194666,
+   "pageviews_60d": 113001
+  },
+  "Total Recall": {
+   "pagerank": 0.0009291666505309816,
+   "authority": 0.003635858185648139,
+   "pageviews_60d": 96794
+  },
+  "Beauty and the Beast": {
+   "pagerank": 0.0011781051250851046,
+   "authority": 0.005017320425091021,
+   "pageviews_60d": 103820
+  },
+  "Terminator 2: Judgment Day": {
+   "pagerank": 0.001531918898090846,
+   "authority": 0.010202897427789482,
+   "pageviews_60d": 192301
+  },
+  "The Silence of the Lambs": {
+   "pagerank": 0.0013231807007113383,
+   "authority": 0.002409392177098383,
+   "pageviews_60d": 368575
+  },
+  "Thelma & Louise": {
+   "pagerank": 0.00041240240094147243,
+   "authority": 0.0014497991930765538,
+   "pageviews_60d": 108918
+  },
+  "Aladdin": {
+   "pagerank": 0.0014588786396432778,
+   "authority": 0.008314266165776843,
+   "pageviews_60d": 105869
+  },
+  "Reservoir Dogs": {
+   "pagerank": 0.0008433513884922444,
+   "authority": 0.003093735886514389,
+   "pageviews_60d": 114808
+  },
+  "Unforgiven": {
+   "pagerank": 0.000928856248197398,
+   "authority": 0.0014161335543198832,
+   "pageviews_60d": 86791
+  },
+  "Groundhog Day": {
+   "pagerank": 0.00022118793889481774,
+   "authority": 0.00024354112269349908,
+   "pageviews_60d": 82037
+  },
+  "Jurassic Park": {
+   "pagerank": 0.0008493739611932746,
+   "authority": 0.0033919020825967103,
+   "pageviews_60d": 189416
+  },
+  "Mrs. Doubtfire": {
+   "pagerank": 0.0006383369595792276,
+   "authority": 0.004297400299386511,
+   "pageviews_60d": 90333
+  },
+  "Schindler's List": {
+   "pagerank": 0.001356649748557772,
+   "authority": 0.0031896438242217063,
+   "pageviews_60d": 168228
+  },
+  "The Fugitive": {
+   "pagerank": 0.0007371584743432594,
+   "authority": 0.0014740002588606385,
+   "pageviews_60d": 106834
+  },
+  "Forrest Gump": {
+   "pagerank": 0.001416334650138684,
+   "authority": 0.021524470849367712,
+   "pageviews_60d": 211224
+  },
+  "Léon: The Professional": {
+   "pagerank": 0.0002287573138642776,
+   "authority": 0.000348232799774466,
+   "pageviews_60d": 159694
+  },
+  "Pulp Fiction": {
+   "pagerank": 0.0015848889277686757,
+   "authority": 0.004824903909243331,
+   "pageviews_60d": 235704
+  },
+  "Speed": {
+   "pagerank": 0.000837433722423374,
+   "authority": 0.0020727042012735307,
+   "pageviews_60d": 108131
+  },
+  "The Lion King": {
+   "pagerank": 0.0017727774928321504,
+   "authority": 0.013224396997071886,
+   "pageviews_60d": 164239
+  },
+  "The Mask": {
+   "pagerank": 0.00019337998788284216,
+   "authority": 0.00024980593910479916,
+   "pageviews_60d": 99677
+  },
+  "The Shawshank Redemption": {
+   "pagerank": 0.0004794565116018992,
+   "authority": 0.0013438391275670217,
+   "pageviews_60d": 334247
+  },
+  "12 Monkeys": {
+   "pagerank": 0.0005659122653819067,
+   "authority": 0.000910944341501977,
+   "pageviews_60d": 89152
+  },
+  "Apollo 13": {
+   "pagerank": 0.001002186343391953,
+   "authority": 0.002453993505945704,
+   "pageviews_60d": 73083
+  },
+  "Braveheart": {
+   "pagerank": 0.0006287360414255695,
+   "authority": 0.005406313660415767,
+   "pageviews_60d": 114539
+  },
+  "Casino": {
+   "pagerank": 0.0007201711006892883,
+   "authority": 0.0014444614046661636,
+   "pageviews_60d": 145265
+  },
+  "Heat": {
+   "pagerank": 0.0012720894484524077,
+   "authority": 0.0031961340629956263,
+   "pageviews_60d": 230605
+  },
+  "Jumanji": {
+   "pagerank": 0.000543507559544629,
+   "authority": 0.0012567751927353731,
+   "pageviews_60d": 139450
+  },
+  "Se7en": {
+   "pagerank": 0.0006212113472219261,
+   "authority": 0.0017808271342777124,
+   "pageviews_60d": 208432
+  },
+  "The Usual Suspects": {
+   "pagerank": 0.0014469200159099344,
+   "authority": 0.002418555170585348,
+   "pageviews_60d": 149136
+  },
+  "Toy Story": {
+   "pagerank": 0.0011791845001169806,
+   "authority": 0.008931726554751537,
+   "pageviews_60d": 166477
+  },
+  "Fargo": {
+   "pagerank": 0.0008308145703030856,
+   "authority": 0.00462660362268292,
+   "pageviews_60d": 174957
+  },
+  "Independence Day": {
+   "pagerank": 0.000822270834245089,
+   "authority": 0.00788366652508182,
+   "pageviews_60d": 102113
+  },
+  "Jerry Maguire": {
+   "pagerank": 0.0003341820089407137,
+   "authority": 0.00078411223542264,
+   "pageviews_60d": 116941
+  },
+  "Good Will Hunting": {
+   "pagerank": 0.0005731065344116346,
+   "authority": 0.001737583482168887,
+   "pageviews_60d": 250833
+  },
+  "L.A. Confidential": {
+   "pagerank": 0.0008034859627696107,
+   "authority": 0.0018791881116750472,
+   "pageviews_60d": 107286
+  },
+  "Men in Black": {
+   "pagerank": 0.0005021236054714212,
+   "authority": 0.003193512159779984,
+   "pageviews_60d": 91752
+  },
+  "Titanic": {
+   "pagerank": 0.0025847669294782375,
+   "authority": 0.02337065036662591,
+   "pageviews_60d": 256476
+  },
+  "American History X": {
+   "pagerank": 0.0004589099684431853,
+   "authority": 0.000462703443390747,
+   "pageviews_60d": 97314
+  },
+  "Armageddon": {
+   "pagerank": 0.0010001162873909289,
+   "authority": 0.00492053318030177,
+   "pageviews_60d": 102248
+  },
+  "Saving Private Ryan": {
+   "pagerank": 0.0013132589626644049,
+   "authority": 0.010801778173109941,
+   "pageviews_60d": 159466
+  },
+  "The Big Lebowski": {
+   "pagerank": 0.000640009647370122,
+   "authority": 0.0009592046292077281,
+   "pageviews_60d": 130143
+  },
+  "The Truman Show": {
+   "pagerank": 0.0005169522346564457,
+   "authority": 0.004134605815769332,
+   "pageviews_60d": 236871
+  },
+  "American Beauty": {
+   "pagerank": 0.0005411975101648483,
+   "authority": 0.0019946388766003114,
+   "pageviews_60d": 162609
+  },
+  "Fight Club": {
+   "pagerank": 0.0007201093861287189,
+   "authority": 0.0030990820725752817,
+   "pageviews_60d": 183176
+  },
+  "Notting Hill": {
+   "pagerank": 0.000661699990061385,
+   "authority": 0.005401078977810981,
+   "pageviews_60d": 82713
+  },
+  "The Green Mile": {
+   "pagerank": 0.0005592136186873773,
+   "authority": 0.0015182192761595704,
+   "pageviews_60d": 202121
+  },
+  "The Matrix": {
+   "pagerank": 0.0014460778003401668,
+   "authority": 0.0065998742376432475,
+   "pageviews_60d": 253648
+  },
+  "The Mummy": {
+   "pagerank": 0.00030715628314314326,
+   "authority": 0.003005235344440908,
+   "pageviews_60d": 255477
+  },
+  "The Sixth Sense": {
+   "pagerank": 0.000755492329194357,
+   "authority": 0.0030199332433767287,
+   "pageviews_60d": 413818
+  },
+  "Cast Away": {
+   "pagerank": 0.00043082921302108686,
+   "authority": 0.001379908048047501,
+   "pageviews_60d": 94121
+  },
+  "Erin Brockovich": {
+   "pagerank": 0.000335329782561385,
+   "authority": 0.001077612474668786,
+   "pageviews_60d": 88644
+  },
+  "Gladiator": {
+   "pagerank": 0.001389597314638702,
+   "authority": 0.011674131754129869,
+   "pageviews_60d": 201788
+  },
+  "Memento": {
+   "pagerank": 0.0008196458850594287,
+   "authority": 0.005418945522811939,
+   "pageviews_60d": 175008
+  },
+  "Requiem for a Dream": {
+   "pagerank": 0.000520613239180245,
+   "authority": 0.0005100310704058682,
+   "pageviews_60d": 186678
+  },
+  "Snatch": {
+   "pagerank": 0.00040766500788981893,
+   "authority": 0.004299066844070052,
+   "pageviews_60d": 116409
+  },
+  "A Beautiful Mind": {
+   "pagerank": 0.0006171143426519103,
+   "authority": 0.001371325331737783,
+   "pageviews_60d": 175637
+  },
+  "Donnie Darko": {
+   "pagerank": 0.00046876591630855134,
+   "authority": 0.0004241748635083401,
+   "pageviews_60d": 250745
+  },
+  "Harry Potter and the Philosopher's Stone": {
+   "pagerank": 0.0012449217681644322,
+   "authority": 0.003997511063910499,
+   "pageviews_60d": 190834
+  },
+  "Monsters, Inc.": {
+   "pagerank": 0.001100629285130697,
+   "authority": 0.009150899369512718,
+   "pageviews_60d": 144405
+  },
+  "Ocean's Eleven": {
+   "pagerank": 0.0006721160345069045,
+   "authority": 0.007457591159818996,
+   "pageviews_60d": 170723
+  },
+  "Shrek": {
+   "pagerank": 0.000836799816765005,
+   "authority": 0.005520065949713506,
+   "pageviews_60d": 152482
+  },
+  "The Lord of the Rings: The Fellowship of the Ring": {
+   "pagerank": 0.001192310318995331,
+   "authority": 0.005163164296384654,
+   "pageviews_60d": 147492
+  },
+  "Training Day": {
+   "pagerank": 0.00041135615745001227,
+   "authority": 0.0009403136148593115,
+   "pageviews_60d": 125485
+  },
+  "Catch Me If You Can": {
+   "pagerank": 0.0005702444944171985,
+   "authority": 0.0016499785473728153,
+   "pageviews_60d": 166682
+  },
+  "Minority Report": {
+   "pagerank": 0.0007093289843139988,
+   "authority": 0.0020616672655090163,
+   "pageviews_60d": 100942
+  },
+  "Spider-Man": {
+   "pagerank": 0.001338072079562558,
+   "authority": 0.008825503470107467,
+   "pageviews_60d": 148787
+  },
+  "The Bourne Identity": {
+   "pagerank": 0.0007594915804840451,
+   "authority": 0.00445138441623972,
+   "pageviews_60d": 161612
+  },
+  "The Lord of the Rings: The Two Towers": {
+   "pagerank": 0.0013204385024354415,
+   "authority": 0.004041579609112275,
+   "pageviews_60d": 81726
+  },
+  "The Pianist": {
+   "pagerank": 0.00041402893922307647,
+   "authority": 0.00027752519572384017,
+   "pageviews_60d": 101605
+  },
+  "Finding Nemo": {
+   "pagerank": 0.001400279099160288,
+   "authority": 0.010851530986419831,
+   "pageviews_60d": 106778
+  },
+  "Kill Bill: Volume 1": {
+   "pagerank": 0.0007234842752750087,
+   "authority": 0.0006952468603473555,
+   "pageviews_60d": 125756
+  },
+  "Lost in Translation": {
+   "pagerank": 4.781463359009193e-05,
+   "authority": 0.0,
+   "pageviews_60d": 29409
+  },
+  "Love Actually": {
+   "pagerank": 0.0008574261100512109,
+   "authority": 0.003109527052930728,
+   "pageviews_60d": 117357
+  },
+  "Mystic River": {
+   "pagerank": 0.0006808427137195125,
+   "authority": 0.0002036329478194527,
+   "pageviews_60d": 189704
+  },
+  "Pirates of the Caribbean: The Curse of the Black Pearl": {
+   "pagerank": 0.0006293240632523259,
+   "authority": 0.001972284708765971,
+   "pageviews_60d": 118789
+  },
+  "School of Rock": {
+   "pagerank": 0.00023426893859788498,
+   "authority": 0.00019231364785818314,
+   "pageviews_60d": 86092
+  },
+  "The Lord of the Rings: The Return of the King": {
+   "pagerank": 0.0017602104105780391,
+   "authority": 0.00860091441364638,
+   "pageviews_60d": 115549
+  },
+  "Collateral": {
+   "pagerank": 0.0005659729315062142,
+   "authority": 0.0014227114429559028,
+   "pageviews_60d": 99109
+  },
+  "Eternal Sunshine of the Spotless Mind": {
+   "pagerank": 0.00044733196488656754,
+   "authority": 0.001134071729081374,
+   "pageviews_60d": 177711
+  },
+  "Mean Girls": {
+   "pagerank": 0.0004200508867558437,
+   "authority": 0.0004347058618675521,
+   "pageviews_60d": 170700
+  },
+  "Million Dollar Baby": {
+   "pagerank": 0.0007034180289153609,
+   "authority": 0.002287128735733397,
+   "pageviews_60d": 95961
+  },
+  "Spider-Man 2": {
+   "pagerank": 0.0009389366569353141,
+   "authority": 0.005240617393721943,
+   "pageviews_60d": 92166
+  },
+  "The Aviator": {
+   "pagerank": 0.000728286648673631,
+   "authority": 0.002122406869105413,
+   "pageviews_60d": 89193
+  },
+  "The Incredibles": {
+   "pagerank": 0.0005867895013437881,
+   "authority": 0.006936273147067272,
+   "pageviews_60d": 113643
+  },
+  "The Notebook": {
+   "pagerank": 0.00035776125113016967,
+   "authority": 0.0005850198356699735,
+   "pageviews_60d": 187044
+  },
+  "Batman Begins": {
+   "pagerank": 0.0012986675515816294,
+   "authority": 0.007399101924452247,
+   "pageviews_60d": 153558
+  },
+  "Pride & Prejudice": {
+   "pagerank": 0.0005569013672434948,
+   "authority": 0.00021072599110599587,
+   "pageviews_60d": 112799
+  },
+  "V for Vendetta": {
+   "pagerank": 0.00036818939486519295,
+   "authority": 0.0008164604066681697,
+   "pageviews_60d": 165436
+  },
+  "300": {
+   "pagerank": 0.00045499894436564295,
+   "authority": 0.0038159573123022045,
+   "pageviews_60d": 122598
+  },
+  "Blood Diamond": {
+   "pagerank": 0.0003725626246268042,
+   "authority": 0.0005824081821539526,
+   "pageviews_60d": 85194
+  },
+  "Casino Royale": {
+   "pagerank": 0.0009586229874612549,
+   "authority": 0.006743983526739998,
+   "pageviews_60d": 171728
+  },
+  "Children of Men": {
+   "pagerank": 0.0003732175158277454,
+   "authority": 0.0006506633296182528,
+   "pageviews_60d": 166395
+  },
+  "Little Miss Sunshine": {
+   "pagerank": 0.0004743452645883819,
+   "authority": 0.0007301997667861279,
+   "pageviews_60d": 85719
+  },
+  "The Departed": {
+   "pagerank": 0.0008972072183945155,
+   "authority": 0.0021558766003744816,
+   "pageviews_60d": 299838
+  },
+  "The Devil Wears Prada": {
+   "pagerank": 0.0002863852464521763,
+   "authority": 0.00037750869698207506,
+   "pageviews_60d": 160321
+  },
+  "The Prestige": {
+   "pagerank": 0.0007240900804568136,
+   "authority": 0.006761381795771199,
+   "pageviews_60d": 322955
+  },
+  "The Pursuit of Happyness": {
+   "pagerank": 0.00022530291425762832,
+   "authority": 0.00030196548145036337,
+   "pageviews_60d": 128488
+  },
+  "Juno": {
+   "pagerank": 0.0003875399041489356,
+   "authority": 0.0023862730999647305,
+   "pageviews_60d": 107759
+  },
+  "No Country for Old Men": {
+   "pagerank": 0.0006314100174858324,
+   "authority": 0.0014950584065713788,
+   "pageviews_60d": 298938
+  },
+  "Ratatouille": {
+   "pagerank": 0.00045632374449112106,
+   "authority": 0.005573813930152165,
+   "pageviews_60d": 135706
+  },
+  "Superbad": {
+   "pagerank": 0.00030667531120708063,
+   "authority": 0.00023822461288968823,
+   "pageviews_60d": 98931
+  },
+  "The Bourne Ultimatum": {
+   "pagerank": 0.0008649011829511037,
+   "authority": 0.00291646409095217,
+   "pageviews_60d": 91992
+  },
+  "There Will Be Blood": {
+   "pagerank": 0.0006698464257490928,
+   "authority": 0.0010902212413019846,
+   "pageviews_60d": 194536
+  },
+  "Gran Torino": {
+   "pagerank": 0.00017514697695401489,
+   "authority": 5.253691190956873e-05,
+   "pageviews_60d": 58207
+  },
+  "Iron Man": {
+   "pagerank": 0.0009139069617184345,
+   "authority": 0.01197812727862103,
+   "pageviews_60d": 181047
+  },
+  "Kung Fu Panda": {
+   "pagerank": 0.0004836194966341297,
+   "authority": 0.003615390811291344,
+   "pageviews_60d": 59939
+  },
+  "Slumdog Millionaire": {
+   "pagerank": 0.0009321228857591305,
+   "authority": 0.08231930284618111,
+   "pageviews_60d": 118339
+  },
+  "Taken": {
+   "pagerank": 0.00024231593260501164,
+   "authority": 0.0003614322849775136,
+   "pageviews_60d": 84574
+  },
+  "The Curious Case of Benjamin Button": {
+   "pagerank": 0.0005719309232023623,
+   "authority": 0.0014342390072072146,
+   "pageviews_60d": 115304
+  },
+  "The Dark Knight": {
+   "pagerank": 0.0017298715693581793,
+   "authority": 0.013604589288566992,
+   "pageviews_60d": 256499
+  },
+  "WALL-E": {
+   "pagerank": 0.0007695870316003799,
+   "authority": 0.006601428400603911,
+   "pageviews_60d": 100036
+  },
+  "Avatar": {
+   "pagerank": 0.002299284121984514,
+   "authority": 0.04734313017963524,
+   "pageviews_60d": 254600
+  },
+  "District 9": {
+   "pagerank": 0.00027391579481120303,
+   "authority": 0.0013227661926356689,
+   "pageviews_60d": 115292
+  },
+  "Inglourious Basterds": {
+   "pagerank": 0.0009226526793562899,
+   "authority": 0.004397610640739457,
+   "pageviews_60d": 260842
+  },
+  "Star Trek": {
+   "pagerank": 0.00037629287595157914,
+   "authority": 0.002184938574689585,
+   "pageviews_60d": 105499
+  },
+  "The Hangover": {
+   "pagerank": 0.0003802477588085943,
+   "authority": 0.0008223617296622274,
+   "pageviews_60d": 106151
+  },
+  "Up": {
+   "pagerank": 0.0008636885495368786,
+   "authority": 0.007291794149546415,
+   "pageviews_60d": 106329
+  },
+  "Black Swan": {
+   "pagerank": 0.0006307102860067585,
+   "authority": 0.0017909323435040855,
+   "pageviews_60d": 130191
+  },
+  "Despicable Me": {
+   "pagerank": 0.000364533870580262,
+   "authority": 0.0005276363990755807,
+   "pageviews_60d": 55734
+  },
+  "How to Train Your Dragon": {
+   "pagerank": 0.000553442449084185,
+   "authority": 0.001365227942999255,
+   "pageviews_60d": 55894
+  },
+  "Inception": {
+   "pagerank": 0.0009169621251921194,
+   "authority": 0.006572614301321279,
+   "pageviews_60d": 201987
+  },
+  "Shutter Island": {
+   "pagerank": 0.000636702482740428,
+   "authority": 0.0015588517054320157,
+   "pageviews_60d": 268631
+  },
+  "Tangled": {
+   "pagerank": 0.00044644374440528674,
+   "authority": 0.0017273001295150872,
+   "pageviews_60d": 91172
+  },
+  "The King's Speech": {
+   "pagerank": 0.0009128050511027003,
+   "authority": 0.0016662647390413403,
+   "pageviews_60d": 78209
+  },
+  "The Social Network": {
+   "pagerank": 0.000746736378249612,
+   "authority": 0.002482670126828492,
+   "pageviews_60d": 332424
+  },
+  "Toy Story 3": {
+   "pagerank": 0.001224096117582868,
+   "authority": 0.008653205313615618,
+   "pageviews_60d": 163731
+  },
+  "Drive": {
+   "pagerank": 0.0004687750718478634,
+   "authority": 0.0011760969631572095,
+   "pageviews_60d": 112447
+  },
+  "Harry Potter and the Deathly Hallows – Part 2": {
+   "pagerank": 0.0011907105313408604,
+   "authority": 0.007847104616884384,
+   "pageviews_60d": 109480
+  },
+  "Moneyball": {
+   "pagerank": 0.0006330848136224857,
+   "authority": 0.0022923262271104168,
+   "pageviews_60d": 120473
+  },
+  "The Help": {
+   "pagerank": 0.00030794054113629114,
+   "authority": 0.0006844539620912171,
+   "pageviews_60d": 156088
+  },
+  "Argo": {
+   "pagerank": 0.000625658810357231,
+   "authority": 0.0016239929333358067,
+   "pageviews_60d": 161966
+  },
+  "Django Unchained": {
+   "pagerank": 0.0007633786076332777,
+   "authority": 0.0036034393471072964,
+   "pageviews_60d": 150071
+  },
+  "Life of Pi": {
+   "pagerank": 0.000282372906733258,
+   "authority": 0.005046555753467233,
+   "pageviews_60d": 170902
+  },
+  "Silver Linings Playbook": {
+   "pagerank": 0.00046004826150769604,
+   "authority": 0.00877998539236874,
+   "pageviews_60d": 148241
+  },
+  "Skyfall": {
+   "pagerank": 0.00095673499477081,
+   "authority": 0.0033028854307794444,
+   "pageviews_60d": 147200
+  },
+  "The Avengers": {
+   "pagerank": 0.0013957670077917568,
+   "authority": 0.013881601079024423,
+   "pageviews_60d": 194081
+  },
+  "The Dark Knight Rises": {
+   "pagerank": 0.001278664613539943,
+   "authority": 0.010255496786712708,
+   "pageviews_60d": 209745
+  },
+  "The Hunger Games": {
+   "pagerank": 0.0006395481279950751,
+   "authority": 0.0022487336625864685,
+   "pageviews_60d": 219518
+  },
+  "12 Years a Slave": {
+   "pagerank": 0.0008562999753000741,
+   "authority": 0.0014979903764364539,
+   "pageviews_60d": 121342
+  },
+  "Captain Phillips": {
+   "pagerank": 0.000414713171544655,
+   "authority": 0.0008178818252132629,
+   "pageviews_60d": 85624
+  },
+  "Frozen": {
+   "pagerank": 0.000600094241505445,
+   "authority": 0.004719211796962112,
+   "pageviews_60d": 117949
+  },
+  "Gravity": {
+   "pagerank": 0.0010525591056813203,
+   "authority": 0.0023495870867648446,
+   "pageviews_60d": 91618
+  },
+  "Her": {
+   "pagerank": 0.0004106296404259893,
+   "authority": 0.0010557735716590908,
+   "pageviews_60d": 120992
+  },
+  "Prisoners": {
+   "pagerank": 0.0005430841273455726,
+   "authority": 0.0011875884006354279,
+   "pageviews_60d": 216100
+  },
+  "The Wolf of Wall Street": {
+   "pagerank": 0.0005908553048342995,
+   "authority": 0.0013047902847989792,
+   "pageviews_60d": 169950
+  },
+  "Birdman": {
+   "pagerank": 0.0006388692620236488,
+   "authority": 0.0007366733481788841,
+   "pageviews_60d": 189423
+  },
+  "Edge of Tomorrow": {
+   "pagerank": 0.00045144172756434413,
+   "authority": 0.0011620324389869866,
+   "pageviews_60d": 139851
+  },
+  "Ex Machina": {
+   "pagerank": 0.00013937385149609456,
+   "authority": 0.0002340002457788342,
+   "pageviews_60d": 117964
+  },
+  "Gone Girl": {
+   "pagerank": 0.00045186980869146707,
+   "authority": 0.000491573870078189,
+   "pageviews_60d": 214219
+  },
+  "Guardians of the Galaxy": {
+   "pagerank": 0.0008804588285801997,
+   "authority": 0.005928426791383535,
+   "pageviews_60d": 155352
+  },
+  "Interstellar": {
+   "pagerank": 0.0009516119921904428,
+   "authority": 0.004651216347124344,
+   "pageviews_60d": 408848
+  },
+  "John Wick": {
+   "pagerank": 0.0004468307739774698,
+   "authority": 0.0006391990667673711,
+   "pageviews_60d": 126999
+  },
+  "Nightcrawler": {
+   "pagerank": 0.00031630149689334587,
+   "authority": 0.0009621209372720973,
+   "pageviews_60d": 121497
+  },
+  "The Grand Budapest Hotel": {
+   "pagerank": 0.0007885506324945366,
+   "authority": 0.0010590023926489716,
+   "pageviews_60d": 129139
+  },
+  "The Imitation Game": {
+   "pagerank": 0.000286398717085474,
+   "authority": 0.00047612671354698626,
+   "pageviews_60d": 126413
+  },
+  "Whiplash": {
+   "pagerank": 0.0005245207742752681,
+   "authority": 0.0004181612189747121,
+   "pageviews_60d": 177845
+  },
+  "Inside Out": {
+   "pagerank": 0.0007102196502848498,
+   "authority": 0.0045788014012551346,
+   "pageviews_60d": 74880
+  },
+  "Mad Max: Fury Road": {
+   "pagerank": 0.0006212861418295294,
+   "authority": 0.0016139814959987096,
+   "pageviews_60d": 106512
+  },
+  "Spotlight": {
+   "pagerank": 0.0006216663606739273,
+   "authority": 0.0006041024824830196,
+   "pageviews_60d": 92181
+  },
+  "The Big Short": {
+   "pagerank": 0.0005052233057176595,
+   "authority": 0.0007629110848883923,
+   "pageviews_60d": 157123
+  },
+  "The Martian": {
+   "pagerank": 0.0006408766738911683,
+   "authority": 0.00188980086787502,
+   "pageviews_60d": 155170
+  },
+  "The Revenant": {
+   "pagerank": 0.0005174119816404876,
+   "authority": 0.0005049814819908584,
+   "pageviews_60d": 298319
+  },
+  "Arrival": {
+   "pagerank": 0.0007163298729399809,
+   "authority": 0.0010699812554975366,
+   "pageviews_60d": 175486
+  },
+  "Deadpool": {
+   "pagerank": 0.0007311630460940618,
+   "authority": 0.0052127514474483334,
+   "pageviews_60d": 103592
+  },
+  "Hacksaw Ridge": {
+   "pagerank": 0.0006777006004993731,
+   "authority": 0.0012736257602222472,
+   "pageviews_60d": 156009
+  },
+  "Hidden Figures": {
+   "pagerank": 0.0004846967041530401,
+   "authority": 0.0004890182420121821,
+   "pageviews_60d": 139282
+  },
+  "La La Land": {
+   "pagerank": 0.0005536934633269186,
+   "authority": 0.0015627627994124263,
+   "pageviews_60d": 158712
+  },
+  "Moonlight": {
+   "pagerank": 0.00044055241596020376,
+   "authority": 0.000642817348359212,
+   "pageviews_60d": 150888
+  },
+  "Zootopia": {
+   "pagerank": 0.0012014958447027291,
+   "authority": 0.0023849479955540234,
+   "pageviews_60d": 83374
+  },
+  "Blade Runner 2049": {
+   "pagerank": 0.0011974349517648055,
+   "authority": 0.0038667646996626342,
+   "pageviews_60d": 275400
+  },
+  "Coco": {
+   "pagerank": 0.0004323485547768553,
+   "authority": 0.004062794448387737,
+   "pageviews_60d": 196980
+  },
+  "Dunkirk": {
+   "pagerank": 0.0006357531898119343,
+   "authority": 0.0024668157671494588,
+   "pageviews_60d": 158098
+  },
+  "Get Out": {
+   "pagerank": 0.00025126913286175007,
+   "authority": 0.0004990803589692493,
+   "pageviews_60d": 240026
+  },
+  "Logan": {
+   "pagerank": 0.0006629116020834832,
+   "authority": 0.0009558941887070657,
+   "pageviews_60d": 146107
+  },
+  "Three Billboards Outside Ebbing, Missouri": {
+   "pagerank": 0.00048584841830851943,
+   "authority": 0.0004047094691824442,
+   "pageviews_60d": 181955
+  },
+  "A Quiet Place": {
+   "pagerank": 0.0001303024979170281,
+   "authority": 0.0002588465657125875,
+   "pageviews_60d": 140807
+  },
+  "A Star Is Born": {
+   "pagerank": 0.0003551269497223738,
+   "authority": 0.0006652501333267731,
+   "pageviews_60d": 104748
+  },
+  "Avengers: Infinity War": {
+   "pagerank": 0.0017522308446664095,
+   "authority": 0.020237279845967866,
+   "pageviews_60d": 200949
+  },
+  "Black Panther": {
+   "pagerank": 0.0008852654218981982,
+   "authority": 0.011250482059245472,
+   "pageviews_60d": 145312
+  },
+  "Bohemian Rhapsody": {
+   "pagerank": 0.0007253432055264298,
+   "authority": 0.0010283722542481458,
+   "pageviews_60d": 81278
+  },
+  "Green Book": {
+   "pagerank": 0.0003367786929241299,
+   "authority": 0.0005135584023244983,
+   "pageviews_60d": 188650
+  },
+  "Spider-Man: Into the Spider-Verse": {
+   "pagerank": 0.0007120233681921426,
+   "authority": 0.0024179757549072562,
+   "pageviews_60d": 158652
+  },
+  "1917": {
+   "pagerank": 0.0004171762427491581,
+   "authority": 0.001505254843467997,
+   "pageviews_60d": 102822
+  },
+  "Avengers: Endgame": {
+   "pagerank": 0.0018277545265351402,
+   "authority": 0.016199336087170814,
+   "pageviews_60d": 1214450
+  },
+  "Jojo Rabbit": {
+   "pagerank": 0.00027270155791562665,
+   "authority": 0.00045769356992356305,
+   "pageviews_60d": 146952
+  },
+  "Joker": {
+   "pagerank": 0.0011036114273818814,
+   "authority": 0.004551906737732229,
+   "pageviews_60d": 151125
+  },
+  "Knives Out": {
+   "pagerank": 0.0007237189125027379,
+   "authority": 0.0005155430435413712,
+   "pageviews_60d": 172896
+  },
+  "Once Upon a Time in Hollywood": {
+   "pagerank": 0.0006691543735950628,
+   "authority": 0.0010573868705755743,
+   "pageviews_60d": 469527
+  },
+  "Nomadland": {
+   "pagerank": 0.0002147395908093877,
+   "authority": 5.178663193830619e-05,
+   "pageviews_60d": 56330
+  },
+  "Soul": {
+   "pagerank": 0.0005512948893160502,
+   "authority": 0.0025665172736925633,
+   "pageviews_60d": 75615
+  },
+  "Tenet": {
+   "pagerank": 0.0005240967782456341,
+   "authority": 0.00583314231775929,
+   "pageviews_60d": 199709
+  },
+  "The Father": {
+   "pagerank": 0.0002741503311937775,
+   "authority": 5.544135727758251e-05,
+   "pageviews_60d": 84874
+  },
+  "CODA": {
+   "pagerank": 7.148011892284648e-05,
+   "authority": 0.0003954717035473338,
+   "pageviews_60d": 83584
+  },
+  "Dune": {
+   "pagerank": 0.0009911961699070508,
+   "authority": 0.0028516642540229783,
+   "pageviews_60d": 313349
+  },
+  "Encanto": {
+   "pagerank": 0.0003033057836215049,
+   "authority": 0.00071832633314431,
+   "pageviews_60d": 102664
+  },
+  "Spider-Man: No Way Home": {
+   "pagerank": 0.0011681873366473537,
+   "authority": 0.008444450276415844,
+   "pageviews_60d": 301588
+  },
+  "The Power of the Dog": {
+   "pagerank": 0.00034308085962292064,
+   "authority": 0.00029055372749099397,
+   "pageviews_60d": 71224
+  },
+  "Avatar: The Way of Water": {
+   "pagerank": 0.0009973501988863453,
+   "authority": 0.007953467231518017,
+   "pageviews_60d": 131031
+  },
+  "Elvis": {
+   "pagerank": 0.00044026856865674534,
+   "authority": 0.0004651805151119959,
+   "pageviews_60d": 61013
+  },
+  "Everything Everywhere All at Once": {
+   "pagerank": 0.0004176262117877246,
+   "authority": 0.001310577249491296,
+   "pageviews_60d": 216400
+  },
+  "Glass Onion": {
+   "pagerank": 0.0005504095655377869,
+   "authority": 0.0006356570348726429,
+   "pageviews_60d": 90185
+  },
+  "Puss in Boots: The Last Wish": {
+   "pagerank": 0.0004114018834216953,
+   "authority": 0.000955084624928436,
+   "pageviews_60d": 111492
+  },
+  "The Banshees of Inisherin": {
+   "pagerank": 0.0003980952712167712,
+   "authority": 0.00039280683161691237,
+   "pageviews_60d": 133751
+  },
+  "The Batman": {
+   "pagerank": 0.000848675319473088,
+   "authority": 0.0019956771648181634,
+   "pageviews_60d": 295890
+  },
+  "Top Gun: Maverick": {
+   "pagerank": 0.0010231057583600124,
+   "authority": 0.004850536946756795,
+   "pageviews_60d": 253939
+  },
+  "Barbie": {
+   "pagerank": 0.001193169534135819,
+   "authority": 0.0022579818707012425,
+   "pageviews_60d": 160358
+  },
+  "John Wick: Chapter 4": {
+   "pagerank": 0.0004352380414965727,
+   "authority": 0.0009312161131181953,
+   "pageviews_60d": 121685
+  },
+  "Killers of the Flower Moon": {
+   "pagerank": 0.00042046061784384623,
+   "authority": 0.0015932503498672622,
+   "pageviews_60d": 180746
+  },
+  "Oppenheimer": {
+   "pagerank": 0.0010279633723793077,
+   "authority": 0.005018677484180044,
+   "pageviews_60d": 384874
+  },
+  "Poor Things": {
+   "pagerank": 0.00023634777100833905,
+   "authority": 0.0004402932362760012,
+   "pageviews_60d": 172121
+  },
+  "Spider-Man: Across the Spider-Verse": {
+   "pagerank": 0.000784890243439799,
+   "authority": 0.0014253584743866609,
+   "pageviews_60d": 168689
+  },
+  "The Holdovers": {
+   "pagerank": 0.00016116097414588717,
+   "authority": 7.84213188247248e-05,
+   "pageviews_60d": 86133
+  },
+  "A Complete Unknown": {
+   "pagerank": 0.0003580432951247211,
+   "authority": 0.0002181887593432784,
+   "pageviews_60d": 85262
+  },
+  "Anora": {
+   "pagerank": 0.0001060162000054644,
+   "authority": 0.00022155003279852677,
+   "pageviews_60d": 292957
+  },
+  "Conclave": {
+   "pagerank": 0.00018571517725716127,
+   "authority": 0.0003198303035962254,
+   "pageviews_60d": 83570
+  },
+  "Deadpool & Wolverine": {
+   "pagerank": 0.0010897474208765906,
+   "authority": 0.003499924879933785,
+   "pageviews_60d": 260784
+  },
+  "Dune: Part Two": {
+   "pagerank": 0.0009953492090001466,
+   "authority": 0.00263766814601915,
+   "pageviews_60d": 255813
+  },
+  "Gladiator II": {
+   "pagerank": 0.0006722704685685956,
+   "authority": 0.0011778753304973197,
+   "pageviews_60d": 205254
+  },
+  "Inside Out 2": {
+   "pagerank": 0.0005827604012276246,
+   "authority": 0.003842305101118591,
+   "pageviews_60d": 99656
+  },
+  "The Substance": {
+   "pagerank": 0.0003775857891420156,
+   "authority": 0.000262547108763013,
+   "pageviews_60d": 339153
+  },
+  "The Wild Robot": {
+   "pagerank": 0.0003936171855367425,
+   "authority": 0.0004407609152790595,
+   "pageviews_60d": 91031
+  },
+  "Wicked": {
+   "pagerank": 0.00045081372671724074,
+   "authority": 0.0006972007153526208,
+   "pageviews_60d": 148958
+  },
+  "F1": {
+   "pagerank": 0.0004598164383766821,
+   "authority": 0.001075689051513535,
+   "pageviews_60d": 187527
+  },
+  "KPop Demon Hunters": {
+   "pagerank": 0.00011288250815037794,
+   "authority": 5.4428784693376176e-05,
+   "pageviews_60d": 316044
+  },
+  "One Battle After Another": {
+   "pagerank": 0.0004829547070291257,
+   "authority": 0.00077324881461499,
+   "pageviews_60d": 367000
+  },
+  "Sinners": {
+   "pagerank": 0.0004939469133905366,
+   "authority": 0.001826516615374215,
+   "pageviews_60d": 518885
+  },
+  "Superman": {
+   "pagerank": 0.00045450573276820306,
+   "authority": 0.000990159554568436,
+   "pageviews_60d": 370751
+  },
+  "Weapons": {
+   "pagerank": 0.0003344050348613322,
+   "authority": 0.000985740143087369,
+   "pageviews_60d": 893828
+  },
+  "Zootopia 2": {
+   "pagerank": 0.0007942312090259239,
+   "authority": 0.001687453847772551,
+   "pageviews_60d": 171000
+  },
+  "Michael": {
+   "pagerank": 0.0004074601089310041,
+   "authority": 0.0008138321006571727,
+   "pageviews_60d": 410672
+  },
+  "Project Hail Mary": {
+   "pagerank": 0.00024682312890177995,
+   "authority": 0.0005176169687668089,
+   "pageviews_60d": 690135
+  },
+  "Awaara": {
+   "pagerank": 0.0009864088454842618,
+   "authority": 0.03278374240902385,
+   "pageviews_60d": 15482
+  },
+  "Do Bigha Zamin": {
+   "pagerank": 0.0004742844752700248,
+   "authority": 0.006882958766186501,
+   "pageviews_60d": 5364
+  },
+  "Shree 420": {
+   "pagerank": 0.0006431992890669843,
+   "authority": 0.025200645742904475,
+   "pageviews_60d": 9268
+  },
+  "Mother India": {
+   "pagerank": 0.0015972464850975722,
+   "authority": 0.07582365181350548,
+   "pageviews_60d": 26433
+  },
+  "Pyaasa": {
+   "pagerank": 0.0005820484635182514,
+   "authority": 0.014794666056432279,
+   "pageviews_60d": 13218
+  },
+  "Chalti Ka Naam Gaadi": {
+   "pagerank": 0.00035906140086314144,
+   "authority": 0.017013603424966373,
+   "pageviews_60d": 5118
+  },
+  "Madhumati": {
+   "pagerank": 0.0005582619602118197,
+   "authority": 0.020746267859144105,
+   "pageviews_60d": 9950
+  },
+  "Kaagaz Ke Phool": {
+   "pagerank": 0.0006082580868095333,
+   "authority": 0.01848147947818071,
+   "pageviews_60d": 9033
+  },
+  "Mughal-e-Azam": {
+   "pagerank": 0.0014842797290779768,
+   "authority": 0.07793799930833248,
+   "pageviews_60d": 34815
+  },
+  "Sahib Bibi Aur Ghulam": {
+   "pagerank": 0.0005020203614546745,
+   "authority": 0.0066830416335524785,
+   "pageviews_60d": 6949
+  },
+  "Guide": {
+   "pagerank": 0.000790854807956349,
+   "authority": 0.03510510654959532,
+   "pageviews_60d": 19074
+  },
+  "Waqt": {
+   "pagerank": 0.0006414508395707539,
+   "authority": 0.021439816655729586,
+   "pageviews_60d": 13353
+  },
+  "Teesri Manzil": {
+   "pagerank": 0.0005149340376317319,
+   "authority": 0.030781857487202878,
+   "pageviews_60d": 7116
+  },
+  "Padosan": {
+   "pagerank": 0.00039944284716565063,
+   "authority": 0.014589706981653804,
+   "pageviews_60d": 9289
+  },
+  "Aradhana": {
+   "pagerank": 0.0006794680281561268,
+   "authority": 0.04680450916584112,
+   "pageviews_60d": 15181
+  },
+  "Ittefaq": {
+   "pagerank": 0.0003910444283947945,
+   "authority": 0.01892361315385886,
+   "pageviews_60d": 5992
+  },
+  "Mera Naam Joker": {
+   "pagerank": 0.0006374610443367058,
+   "authority": 0.02058940395568363,
+   "pageviews_60d": 22464
+  },
+  "Anand": {
+   "pagerank": 0.00030731224808709017,
+   "authority": 0.0010534949801082854,
+   "pageviews_60d": 9206
+  },
+  "Bawarchi": {
+   "pagerank": 0.00035076231509754887,
+   "authority": 0.035803440313923955,
+   "pageviews_60d": 25121
+  },
+  "Pakeezah": {
+   "pagerank": 0.000754508553026308,
+   "authority": 0.018984828083367697,
+   "pageviews_60d": 18001
+  },
+  "Seeta Aur Geeta": {
+   "pagerank": 0.0007288191040647975,
+   "authority": 0.05744190603481777,
+   "pageviews_60d": 9249
+  },
+  "Bobby": {
+   "pagerank": 0.0007847393977252065,
+   "authority": 0.04089563847148898,
+   "pageviews_60d": 19434
+  },
+  "Zanjeer": {
+   "pagerank": 0.0007165610725248181,
+   "authority": 0.07622465022893829,
+   "pageviews_60d": 20680
+  },
+  "Chupke Chupke": {
+   "pagerank": 0.0004922158633202269,
+   "authority": 0.03896442939943882,
+   "pageviews_60d": 15462
+  },
+  "Deewaar": {
+   "pagerank": 0.0011206211578415647,
+   "authority": 0.10868925402088966,
+   "pageviews_60d": 32262
+  },
+  "Jai Santoshi Maa": {
+   "pagerank": 9.185795226033048e-05,
+   "authority": 0.004855008607131599,
+   "pageviews_60d": 26624
+  },
+  "Sholay": {
+   "pagerank": 0.0020342458554094343,
+   "authority": 0.17397983056127952,
+   "pageviews_60d": 59903
+  },
+  "Chhoti Si Baat": {
+   "pagerank": 0.0004488225378917197,
+   "authority": 0.007323384562072953,
+   "pageviews_60d": 7054
+  },
+  "Kabhi Kabhie": {
+   "pagerank": 0.0003559815195068243,
+   "authority": 0.03530273322686002,
+   "pageviews_60d": 13532
+  },
+  "Amar Akbar Anthony": {
+   "pagerank": 0.0009156930221583086,
+   "authority": 0.06869711469290117,
+   "pageviews_60d": 19731
+  },
+  "Don": {
+   "pagerank": 0.00035711602917973197,
+   "authority": 0.048459143106012244,
+   "pageviews_60d": 48268
+  },
+  "Muqaddar Ka Sikandar": {
+   "pagerank": 0.0004576462071249097,
+   "authority": 0.03697988036108078,
+   "pageviews_60d": 15767
+  },
+  "Gol Maal": {
+   "pagerank": 0.00044784699130658766,
+   "authority": 0.024554017162389093,
+   "pageviews_60d": 20780
+  },
+  "Karz": {
+   "pagerank": 0.000706221846519297,
+   "authority": 0.03672185913783546,
+   "pageviews_60d": 15759
+  },
+  "Shaan": {
+   "pagerank": 0.0005719891723712672,
+   "authority": 0.07836443749322636,
+   "pageviews_60d": 15439
+  },
+  "Chashme Buddoor": {
+   "pagerank": 0.0003129201910930757,
+   "authority": 0.0072402755897932386,
+   "pageviews_60d": 7616
+  },
+  "Ek Duuje Ke Liye": {
+   "pagerank": 0.0004996975222083617,
+   "authority": 0.021492441823987067,
+   "pageviews_60d": 11438
+  },
+  "Silsila": {
+   "pagerank": 0.0005326374131374857,
+   "authority": 0.06432345363124628,
+   "pageviews_60d": 25019
+  },
+  "Umrao Jaan": {
+   "pagerank": 0.0004706180886978042,
+   "authority": 0.023906466800500036,
+   "pageviews_60d": 9859
+  },
+  "Angoor": {
+   "pagerank": 0.0004287139089453205,
+   "authority": 0.023673426462537995,
+   "pageviews_60d": 9299
+  },
+  "Disco Dancer": {
+   "pagerank": 0.0004868072011308112,
+   "authority": 0.020133797013588018,
+   "pageviews_60d": 38664
+  },
+  "Prem Rog": {
+   "pagerank": 0.0007347647955956123,
+   "authority": 0.037310669565298334,
+   "pageviews_60d": 11210
+  },
+  "Satte Pe Satta": {
+   "pagerank": 0.0003244141651481935,
+   "authority": 0.02484444715752471,
+   "pageviews_60d": 10049
+  },
+  "Betaab": {
+   "pagerank": 0.0003601214218759603,
+   "authority": 0.03257575739344603,
+   "pageviews_60d": 11350
+  },
+  "Coolie": {
+   "pagerank": 0.0005765334491819496,
+   "authority": 0.04291310348820261,
+   "pageviews_60d": 18071
+  },
+  "Jaane Bhi Do Yaaro": {
+   "pagerank": 0.00047463980616241727,
+   "authority": 0.01688314476977032,
+   "pageviews_60d": 8857
+  },
+  "Masoom": {
+   "pagerank": 0.0004517703356609468,
+   "authority": 0.014032272597260382,
+   "pageviews_60d": 14557
+  },
+  "Saaransh": {
+   "pagerank": 0.0004429973443451085,
+   "authority": 0.017191015104214197,
+   "pageviews_60d": 8282
+  },
+  "Saagar": {
+   "pagerank": 0.00033391386510012703,
+   "authority": 0.038161356135301173,
+   "pageviews_60d": 7836
+  },
+  "Ek Ruka Hua Faisla": {
+   "pagerank": 0.00013314281640468427,
+   "authority": 0.0018621859680743016,
+   "pageviews_60d": 4344
+  },
+  "Karma": {
+   "pagerank": 0.0006027303426086389,
+   "authority": 0.049176260300669614,
+   "pageviews_60d": 12656
+  },
+  "Nagina": {
+   "pagerank": 0.00035194084294242205,
+   "authority": 0.017905538068626808,
+   "pageviews_60d": 13424
+  },
+  "Ijaazat": {
+   "pagerank": 0.0003678170030305587,
+   "authority": 0.0157968009869525,
+   "pageviews_60d": 5985
+  },
+  "Mirch Masala": {
+   "pagerank": 0.00041082149199647743,
+   "authority": 0.019751701118676607,
+   "pageviews_60d": 5112
+  },
+  "Mr. India": {
+   "pagerank": 0.001066651323458289,
+   "authority": 0.07294141141425345,
+   "pageviews_60d": 27658
+  },
+  "Qayamat Se Qayamat Tak": {
+   "pagerank": 0.0007060677932148548,
+   "authority": 0.026008722630416994,
+   "pageviews_60d": 25946
+  },
+  "Salaam Bombay!": {
+   "pagerank": 0.0005318310578576081,
+   "authority": 0.015550851138531574,
+   "pageviews_60d": 32177
+  },
+  "Shahenshah": {
+   "pagerank": 0.0004325043370185979,
+   "authority": 0.039653901124177306,
+   "pageviews_60d": 16676
+  },
+  "Tezaab": {
+   "pagerank": 0.0006107579128023443,
+   "authority": 0.047139492047973686,
+   "pageviews_60d": 19589
+  },
+  "ChaalBaaz": {
+   "pagerank": 0.0004849951466212572,
+   "authority": 0.029318648966554405,
+   "pageviews_60d": 10718
+  },
+  "Chandni": {
+   "pagerank": 0.0008456759226843441,
+   "authority": 0.05689013501917513,
+   "pageviews_60d": 18482
+  },
+  "Maine Pyar Kiya": {
+   "pagerank": 0.0005513649388783294,
+   "authority": 0.020874578377845208,
+   "pageviews_60d": 44843
+  },
+  "Parinda": {
+   "pagerank": 0.00047936261597694105,
+   "authority": 0.042748386495734494,
+   "pageviews_60d": 67238
+  },
+  "Ram Lakhan": {
+   "pagerank": 0.0005757165687822303,
+   "authority": 0.048568438775316164,
+   "pageviews_60d": 14080
+  },
+  "Aashiqui": {
+   "pagerank": 0.00042959344569590854,
+   "authority": 0.016244512754805263,
+   "pageviews_60d": 33995
+  },
+  "Agneepath": {
+   "pagerank": 0.0005052248114182662,
+   "authority": 0.0686821620838436,
+   "pageviews_60d": 34635
+  },
+  "Dil": {
+   "pagerank": 0.00042302995458421815,
+   "authority": 0.031265067081706795,
+   "pageviews_60d": 17959
+  },
+  "Lamhe": {
+   "pagerank": 0.0008319389084156902,
+   "authority": 0.06847622757021692,
+   "pageviews_60d": 17769
+  },
+  "Lekin...": {
+   "pagerank": 0.00016747410244981404,
+   "authority": 0.00974774609558894,
+   "pageviews_60d": 4872
+  },
+  "Phool Aur Kaante": {
+   "pagerank": 0.00037931836668089096,
+   "authority": 0.02538165915365346,
+   "pageviews_60d": 24315
+  },
+  "Sadak": {
+   "pagerank": 0.00043653095043778037,
+   "authority": 0.018113161866759785,
+   "pageviews_60d": 16586
+  },
+  "Beta": {
+   "pagerank": 0.00043855140137226525,
+   "authority": 0.02899668226063195,
+   "pageviews_60d": 15989
+  },
+  "Jo Jeeta Wohi Sikandar": {
+   "pagerank": 0.0005163295494177883,
+   "authority": 0.034072403716596346,
+   "pageviews_60d": 18038
+  },
+  "Khiladi": {
+   "pagerank": 0.00030658776622068514,
+   "authority": 0.025799263101879168,
+   "pageviews_60d": 16199
+  },
+  "Aankhen": {
+   "pagerank": 0.0004741713128452203,
+   "authority": 0.03748885215716785,
+   "pageviews_60d": 15382
+  },
+  "Baazigar": {
+   "pagerank": 0.0006519850689303006,
+   "authority": 0.06283555173033897,
+   "pageviews_60d": 38418
+  },
+  "Damini": {
+   "pagerank": 0.00044825829192847834,
+   "authority": 0.01811211004492067,
+   "pageviews_60d": 16818
+  },
+  "Darr": {
+   "pagerank": 0.0009785074261147856,
+   "authority": 0.08101375460058945,
+   "pageviews_60d": 36173
+  },
+  "Hum Hain Rahi Pyar Ke": {
+   "pagerank": 0.0003365239990475196,
+   "authority": 0.01445307590488116,
+   "pageviews_60d": 19112
+  },
+  "Kabhi Haan Kabhi Naa": {
+   "pagerank": 0.00034225292278007395,
+   "authority": 0.039791130495274926,
+   "pageviews_60d": 24648
+  },
+  "Khalnayak": {
+   "pagerank": 0.00017940683076099915,
+   "authority": 0.011161956246910871,
+   "pageviews_60d": 19630
+  },
+  "1942: A Love Story": {
+   "pagerank": 0.0007359959958379272,
+   "authority": 0.07196287982533835,
+   "pageviews_60d": 20357
+  },
+  "Andaz Apna Apna": {
+   "pagerank": 0.0006551145172488872,
+   "authority": 0.03443109909718937,
+   "pageviews_60d": 22459
+  },
+  "Bandit Queen": {
+   "pagerank": 0.0003709457940429913,
+   "authority": 0.011534778799976317,
+   "pageviews_60d": 25149
+  },
+  "Hum Aapke Hain Koun..!": {
+   "pagerank": 0.0011043366871792601,
+   "authority": 0.07516520972849977,
+   "pageviews_60d": 44952
+  },
+  "Main Khiladi Tu Anari": {
+   "pagerank": 0.00039571490920374287,
+   "authority": 0.022114573401355808,
+   "pageviews_60d": 14394
+  },
+  "Mohra": {
+   "pagerank": 0.0005762401545895352,
+   "authority": 0.030273318540498917,
+   "pageviews_60d": 28470
+  },
+  "Coolie No. 1": {
+   "pagerank": 0.0003342366819817228,
+   "authority": 0.016159991080470882,
+   "pageviews_60d": 16214
+  },
+  "Dilwale Dulhania Le Jayenge": {
+   "pagerank": 0.001765034436688834,
+   "authority": 0.1841915672194331,
+   "pageviews_60d": 71682
+  },
+  "Karan Arjun": {
+   "pagerank": 0.0005950115946433076,
+   "authority": 0.0823602924077715,
+   "pageviews_60d": 34286
+  },
+  "Rangeela": {
+   "pagerank": 0.0006474442192437832,
+   "authority": 0.023946597888739422,
+   "pageviews_60d": 25556
+  },
+  "Ghatak": {
+   "pagerank": 0.00019485387205741962,
+   "authority": 0.006533275886215774,
+   "pageviews_60d": 14348
+  },
+  "Khamoshi: The Musical": {
+   "pagerank": 0.0005156789249454717,
+   "authority": 0.04411134112149114,
+   "pageviews_60d": 45365
+  },
+  "Maachis": {
+   "pagerank": 0.0003050625561672074,
+   "authority": 0.014571604388835153,
+   "pageviews_60d": 13804
+  },
+  "Raja Hindustani": {
+   "pagerank": 0.0004029276636887896,
+   "authority": 0.03625539009139592,
+   "pageviews_60d": 26194
+  },
+  "Border": {
+   "pagerank": 0.0007443024883507449,
+   "authority": 0.057521136181372244,
+   "pageviews_60d": 28518
+  },
+  "Dil To Pagal Hai": {
+   "pagerank": 0.0008824450489146478,
+   "authority": 0.09842556451327926,
+   "pageviews_60d": 34034
+  },
+  "Judwaa": {
+   "pagerank": 0.000581580144377138,
+   "authority": 0.04660811577278266,
+   "pageviews_60d": 15830
+  },
+  "Dil Se..": {
+   "pagerank": 0.0009767191985393933,
+   "authority": 0.08522152905417585,
+   "pageviews_60d": 48454
+  },
+  "Ghulam": {
+   "pagerank": 0.0004478635750574345,
+   "authority": 0.03430364051994425,
+   "pageviews_60d": 16424
+  },
+  "Kuch Kuch Hota Hai": {
+   "pagerank": 0.0010850398015344461,
+   "authority": 0.16196851063645934,
+   "pageviews_60d": 59141
+  },
+  "Pyaar To Hona Hi Tha": {
+   "pagerank": 0.0002903704153855292,
+   "authority": 0.02601484016294669,
+   "pageviews_60d": 14517
+  },
+  "Satya": {
+   "pagerank": 0.0006707356801750338,
+   "authority": 0.02513958471057536,
+   "pageviews_60d": 34041
+  },
+  "Soldier": {
+   "pagerank": 0.0004616330266959065,
+   "authority": 0.03551821729874182,
+   "pageviews_60d": 17436
+  },
+  "Hum Dil De Chuke Sanam": {
+   "pagerank": 0.0004866818864330756,
+   "authority": 0.04213612138888575,
+   "pageviews_60d": 65431
+  },
+  "Hum Saath-Saath Hain": {
+   "pagerank": 0.0002759025087222399,
+   "authority": 0.022419768152094385,
+   "pageviews_60d": 44121
+  },
+  "Sarfarosh": {
+   "pagerank": 0.000486706284006865,
+   "authority": 0.04531609365234643,
+   "pageviews_60d": 16879
+  },
+  "Taal": {
+   "pagerank": 0.0006118112479302468,
+   "authority": 0.04492403414868175,
+   "pageviews_60d": 25174
+  },
+  "Hera Pheri": {
+   "pagerank": 0.0005580785354207762,
+   "authority": 0.029249255576704228,
+   "pageviews_60d": 26662
+  },
+  "Kaho Naa... Pyaar Hai": {
+   "pagerank": 0.0005888092812039421,
+   "authority": 0.06366201748623114,
+   "pageviews_60d": 40658
+  },
+  "Mission Kashmir": {
+   "pagerank": 0.0006109695706090055,
+   "authority": 0.04908439130303349,
+   "pageviews_60d": 20180
+  },
+  "Mohabbatein": {
+   "pagerank": 0.0008297463670189519,
+   "authority": 0.14058499563198873,
+   "pageviews_60d": 51147
+  },
+  "Chandni Bar": {
+   "pagerank": 0.00026575523285493917,
+   "authority": 0.008548721029787237,
+   "pageviews_60d": 7626
+  },
+  "Dil Chahta Hai": {
+   "pagerank": 0.0007891385889060602,
+   "authority": 0.08681806231247381,
+   "pageviews_60d": 54305
+  },
+  "Gadar: Ek Prem Katha": {
+   "pagerank": 0.0006634919575500447,
+   "authority": 0.03477275749973583,
+   "pageviews_60d": 38032
+  },
+  "Kabhi Khushi Kabhie Gham...": {
+   "pagerank": 0.0009126181267118261,
+   "authority": 0.1475400065554729,
+   "pageviews_60d": 69301
+  },
+  "Lagaan": {
+   "pagerank": 0.0012377989907309357,
+   "authority": 0.11059859737496788,
+   "pageviews_60d": 40837
+  },
+  "Rehnaa Hai Terre Dil Mein": {
+   "pagerank": 0.0004227958451707555,
+   "authority": 0.018405853474136476,
+   "pageviews_60d": 24985
+  },
+  "Company": {
+   "pagerank": 0.000742538076149359,
+   "authority": 0.03519224500818654,
+   "pageviews_60d": 30260
+  },
+  "Devdas": {
+   "pagerank": 0.0009254130501290753,
+   "authority": 0.08501720965768843,
+   "pageviews_60d": 73662
+  },
+  "Raaz": {
+   "pagerank": 0.00040112977983432647,
+   "authority": 0.015386057474588457,
+   "pageviews_60d": 48879
+  },
+  "Saathiya": {
+   "pagerank": 0.00045017160973630775,
+   "authority": 0.04796996423274237,
+   "pageviews_60d": 25671
+  },
+  "The Legend of Bhagat Singh": {
+   "pagerank": 0.0004941842729014964,
+   "authority": 0.03849946924508821,
+   "pageviews_60d": 18021
+  },
+  "Baghban": {
+   "pagerank": 0.0004436091328155301,
+   "authority": 0.059343735774199914,
+   "pageviews_60d": 29660
+  },
+  "Bhoot": {
+   "pagerank": 0.00044782422952141797,
+   "authority": 0.02333459401177568,
+   "pageviews_60d": 22990
+  },
+  "Chalte Chalte": {
+   "pagerank": 0.0004320764077394324,
+   "authority": 0.07653796536544062,
+   "pageviews_60d": 19341
+  },
+  "Haasil": {
+   "pagerank": 0.0003418647327339243,
+   "authority": 0.02151215100916274,
+   "pageviews_60d": 11356
+  },
+  "Kal Ho Naa Ho": {
+   "pagerank": 0.0006759390348310902,
+   "authority": 0.11314608453469344,
+   "pageviews_60d": 48360
+  },
+  "Koi... Mil Gaya": {
+   "pagerank": 0.0006477377489122633,
+   "authority": 0.060203020164311144,
+   "pageviews_60d": 31663
+  },
+  "Maqbool": {
+   "pagerank": 0.000531052436919645,
+   "authority": 0.01962144375050396,
+   "pageviews_60d": 26001
+  },
+  "Munna Bhai M.B.B.S.": {
+   "pagerank": 0.000700909492364517,
+   "authority": 0.04678870033251944,
+   "pageviews_60d": 30098
+  },
+  "Tere Naam": {
+   "pagerank": 0.000941054948758579,
+   "authority": 0.024474462338495286,
+   "pageviews_60d": 41474
+  },
+  "Ab Tak Chhappan": {
+   "pagerank": 0.0002965287163371127,
+   "authority": 0.008463378847709162,
+   "pageviews_60d": 34104
+  },
+  "Black Friday": {
+   "pagerank": 0.0003141817408013428,
+   "authority": 0.0114189017018333,
+   "pageviews_60d": 21661
+  },
+  "Dhoom": {
+   "pagerank": 0.0005224209383931036,
+   "authority": 0.04436099669790627,
+   "pageviews_60d": 29635
+  },
+  "Hum Tum": {
+   "pagerank": 0.0005784301399965126,
+   "authority": 0.06510798578492533,
+   "pageviews_60d": 23764
+  },
+  "Lakshya": {
+   "pagerank": 0.0005389008929314521,
+   "authority": 0.06107342331711847,
+   "pageviews_60d": 27356
+  },
+  "Main Hoon Na": {
+   "pagerank": 0.0007350233698800348,
+   "authority": 0.08793745215956297,
+   "pageviews_60d": 37416
+  },
+  "Mujhse Shaadi Karogi": {
+   "pagerank": 0.00046453229557713783,
+   "authority": 0.05870443863109752,
+   "pageviews_60d": 22921
+  },
+  "Swades": {
+   "pagerank": 0.0005187893629125983,
+   "authority": 0.0556584669288841,
+   "pageviews_60d": 37327
+  },
+  "Veer-Zaara": {
+   "pagerank": 0.0009356584759155339,
+   "authority": 0.15799564691719484,
+   "pageviews_60d": 48980
+  },
+  "Yuva": {
+   "pagerank": 0.0006181532400619454,
+   "authority": 0.0442253853968787,
+   "pageviews_60d": 27779
+  },
+  "Black": {
+   "pagerank": 0.0005555539995334924,
+   "authority": 0.05527688642242158,
+   "pageviews_60d": 26886
+  },
+  "Bunty Aur Babli": {
+   "pagerank": 0.0004658451035271612,
+   "authority": 0.06535166242652027,
+   "pageviews_60d": 14434
+  },
+  "Iqbal": {
+   "pagerank": 0.00027883616325370913,
+   "authority": 0.021155453437733025,
+   "pageviews_60d": 8134
+  },
+  "No Entry": {
+   "pagerank": 0.0006382904963520811,
+   "authority": 0.039345913897511096,
+   "pageviews_60d": 20470
+  },
+  "Page 3": {
+   "pagerank": 0.00034206863644104424,
+   "authority": 0.009806032424735085,
+   "pageviews_60d": 6681
+  },
+  "Parineeta": {
+   "pagerank": 0.0004725559616897632,
+   "authority": 0.045038602743016076,
+   "pageviews_60d": 18042
+  },
+  "Sarkar": {
+   "pagerank": 0.0003782830758035595,
+   "authority": 0.028638937207753956,
+   "pageviews_60d": 35258
+  },
+  "Dhoom 2": {
+   "pagerank": 0.0006207355049936666,
+   "authority": 0.06430922100983208,
+   "pageviews_60d": 38211
+  },
+  "Fanaa": {
+   "pagerank": 0.0005548590195382441,
+   "authority": 0.0678378727198262,
+   "pageviews_60d": 33721
+  },
+  "Gangster": {
+   "pagerank": 0.0002306106040441247,
+   "authority": 0.012582778122318092,
+   "pageviews_60d": 17369
+  },
+  "Golmaal: Fun Unlimited": {
+   "pagerank": 0.0003845461237942897,
+   "authority": 0.02493121822878931,
+   "pageviews_60d": 25042
+  },
+  "Kabhi Alvida Naa Kehna": {
+   "pagerank": 0.0007160918618566771,
+   "authority": 0.1294367171792365,
+   "pageviews_60d": 44456
+  },
+  "Khosla Ka Ghosla": {
+   "pagerank": 0.0003716158201917286,
+   "authority": 0.023349406612976915,
+   "pageviews_60d": 13766
+  },
+  "Krrish": {
+   "pagerank": 0.0006968372021110066,
+   "authority": 0.06618290878351547,
+   "pageviews_60d": 33889
+  },
+  "Lage Raho Munna Bhai": {
+   "pagerank": 0.0007918149066075253,
+   "authority": 0.06577128285279853,
+   "pageviews_60d": 19942
+  },
+  "Omkara": {
+   "pagerank": 0.0006019214069877466,
+   "authority": 0.04596196440082917,
+   "pageviews_60d": 48624
+  },
+  "Phir Hera Pheri": {
+   "pagerank": 0.00042612364368538916,
+   "authority": 0.029245107352621008,
+   "pageviews_60d": 23681
+  },
+  "Rang De Basanti": {
+   "pagerank": 0.0008540825696741279,
+   "authority": 0.056885351838428425,
+   "pageviews_60d": 38691
+  },
+  "Vivah": {
+   "pagerank": 0.0003861690018558689,
+   "authority": 0.01858593974622493,
+   "pageviews_60d": 31451
+  },
+  "Bheja Fry": {
+   "pagerank": 0.0002528421092377472,
+   "authority": 0.005944644452615904,
+   "pageviews_60d": 5280
+  },
+  "Bhool Bhulaiyaa": {
+   "pagerank": 0.0007006318625960014,
+   "authority": 0.037646532639178804,
+   "pageviews_60d": 40609
+  },
+  "Chak De! India": {
+   "pagerank": 0.0003688037606611863,
+   "authority": 0.04614369808929134,
+   "pageviews_60d": 27062
+  },
+  "Guru": {
+   "pagerank": 0.0005379948277594921,
+   "authority": 0.02785444928188631,
+   "pageviews_60d": 49841
+  },
+  "Jab We Met": {
+   "pagerank": 0.0007074644981925674,
+   "authority": 0.03907009929238778,
+   "pageviews_60d": 48308
+  },
+  "Life in a... Metro": {
+   "pagerank": 0.0005224109083158325,
+   "authority": 0.022450499906927435,
+   "pageviews_60d": 14449
+  },
+  "Om Shanti Om": {
+   "pagerank": 0.0015635578135355392,
+   "authority": 0.17255069051194397,
+   "pageviews_60d": 63755
+  },
+  "Taare Zameen Par": {
+   "pagerank": 0.000389325477559203,
+   "authority": 0.026318991067807336,
+   "pageviews_60d": 41026
+  },
+  "Welcome": {
+   "pagerank": 0.0004573555840238558,
+   "authority": 0.04268184484825049,
+   "pageviews_60d": 81475
+  },
+  "A Wednesday!": {
+   "pagerank": 0.00037487815635122525,
+   "authority": 0.021420331884213103,
+   "pageviews_60d": 15255
+  },
+  "Fashion": {
+   "pagerank": 0.0003808817324785207,
+   "authority": 0.03889309206540851,
+   "pageviews_60d": 15206
+  },
+  "Ghajini": {
+   "pagerank": 0.0006217541688338491,
+   "authority": 0.05237756142498122,
+   "pageviews_60d": 46984
+  },
+  "Jaane Tu... Ya Jaane Na": {
+   "pagerank": 0.0006231592919778162,
+   "authority": 0.04810111209728289,
+   "pageviews_60d": 26980
+  },
+  "Jodhaa Akbar": {
+   "pagerank": 0.0004582213597435007,
+   "authority": 0.06675211254993532,
+   "pageviews_60d": 30955
+  },
+  "Oye Lucky! Lucky Oye!": {
+   "pagerank": 0.00031425388299017904,
+   "authority": 0.012756752246070735,
+   "pageviews_60d": 28986
+  },
+  "Rab Ne Bana Di Jodi": {
+   "pagerank": 0.0007011623364755068,
+   "authority": 0.09054266533343788,
+   "pageviews_60d": 32257
+  },
+  "Race": {
+   "pagerank": 0.0004763569316690519,
+   "authority": 0.05154728256112438,
+   "pageviews_60d": 20582
+  },
+  "Rock On!!": {
+   "pagerank": 0.00038067237894792206,
+   "authority": 0.035526659475291704,
+   "pageviews_60d": 15423
+  },
+  "Singh Is Kinng": {
+   "pagerank": 0.00039618298704800905,
+   "authority": 0.034465993918227335,
+   "pageviews_60d": 16563
+  },
+  "3 Idiots": {
+   "pagerank": 0.0015480081552088256,
+   "authority": 0.1233234530967953,
+   "pageviews_60d": 74616
+  },
+  "Ajab Prem Ki Ghazab Kahani": {
+   "pagerank": 0.0003150415884629282,
+   "authority": 0.01791655086815348,
+   "pageviews_60d": 21409
+  },
+  "Dev.D": {
+   "pagerank": 0.0004321482312919313,
+   "authority": 0.018691131604068,
+   "pageviews_60d": 26875
+  },
+  "Kaminey": {
+   "pagerank": 0.0004286325187636331,
+   "authority": 0.03470955790751895,
+   "pageviews_60d": 12938
+  },
+  "Love Aaj Kal": {
+   "pagerank": 0.0004796892935481869,
+   "authority": 0.03524359411656977,
+   "pageviews_60d": 25796
+  },
+  "Paa": {
+   "pagerank": 0.00044260686348131847,
+   "authority": 0.040462370628095275,
+   "pageviews_60d": 16652
+  },
+  "Wake Up Sid": {
+   "pagerank": 0.0003990014247400084,
+   "authority": 0.05281758972600358,
+   "pageviews_60d": 21317
+  },
+  "Wanted": {
+   "pagerank": 0.0006104704998182722,
+   "authority": 0.04160284074334434,
+   "pageviews_60d": 41471
+  },
+  "Band Baaja Baaraat": {
+   "pagerank": 0.000346439307270917,
+   "authority": 0.04102868235072041,
+   "pageviews_60d": 17733
+  },
+  "Dabangg": {
+   "pagerank": 0.001065975210454968,
+   "authority": 0.08300038245172864,
+   "pageviews_60d": 32866
+  },
+  "Golmaal 3": {
+   "pagerank": 0.0006623746734209776,
+   "authority": 0.054623808315855754,
+   "pageviews_60d": 28063
+  },
+  "Ishqiya": {
+   "pagerank": 0.00038329937706597076,
+   "authority": 0.024211674557342962,
+   "pageviews_60d": 9263
+  },
+  "My Name Is Khan": {
+   "pagerank": 0.000716257872605306,
+   "authority": 0.1025768288426008,
+   "pageviews_60d": 53384
+  },
+  "Once Upon a Time in Mumbaai": {
+   "pagerank": 0.0005936968444403773,
+   "authority": 0.02953561573694724,
+   "pageviews_60d": 28630
+  },
+  "Paan Singh Tomar": {
+   "pagerank": 0.000412272764380126,
+   "authority": 0.013247653264881101,
+   "pageviews_60d": 12736
+  },
+  "Peepli Live": {
+   "pagerank": 0.00040368437327286663,
+   "authority": 0.023481487396429752,
+   "pageviews_60d": 6808
+  },
+  "Raajneeti": {
+   "pagerank": 0.000378523935663344,
+   "authority": 0.03500461051998643,
+   "pageviews_60d": 46377
+  },
+  "Udaan": {
+   "pagerank": 0.00024218577081219395,
+   "authority": 0.011051070196108372,
+   "pageviews_60d": 17049
+  },
+  "Bodyguard": {
+   "pagerank": 0.0007159842124884401,
+   "authority": 0.05425692436882685,
+   "pageviews_60d": 37689
+  },
+  "Delhi Belly": {
+   "pagerank": 0.0003790318505630435,
+   "authority": 0.03184758597866338,
+   "pageviews_60d": 32395
+  },
+  "Don 2": {
+   "pagerank": 0.00043165528375814315,
+   "authority": 0.06478371394020199,
+   "pageviews_60d": 33991
+  },
+  "Ra.One": {
+   "pagerank": 0.0006336467898790441,
+   "authority": 0.07547081374376086,
+   "pageviews_60d": 48417
+  },
+  "Rockstar": {
+   "pagerank": 0.0005713208337102354,
+   "authority": 0.028298701541455255,
+   "pageviews_60d": 49713
+  },
+  "Singham": {
+   "pagerank": 0.0005970265555630637,
+   "authority": 0.033747072886529,
+   "pageviews_60d": 32708
+  },
+  "Tanu Weds Manu": {
+   "pagerank": 0.0005180814794917144,
+   "authority": 0.0077200629205599605,
+   "pageviews_60d": 20983
+  },
+  "The Dirty Picture": {
+   "pagerank": 0.0006169880430048023,
+   "authority": 0.0212401785569377,
+   "pageviews_60d": 43374
+  },
+  "Zindagi Na Milegi Dobara": {
+   "pagerank": 0.0003229397035195051,
+   "authority": 0.04012161991962224,
+   "pageviews_60d": 43539
+  },
+  "Barfi!": {
+   "pagerank": 0.0003877552664308314,
+   "authority": 0.035687653375362484,
+   "pageviews_60d": 29785
+  },
+  "Cocktail": {
+   "pagerank": 0.00039456944795495064,
+   "authority": 0.034821422577363405,
+   "pageviews_60d": 36166
+  },
+  "Ek Tha Tiger": {
+   "pagerank": 0.0007263072081030856,
+   "authority": 0.0603957265835199,
+   "pageviews_60d": 32300
+  },
+  "English Vinglish": {
+   "pagerank": 0.00025632515722227834,
+   "authority": 0.012016680937521763,
+   "pageviews_60d": 49510
+  },
+  "Gangs of Wasseypur": {
+   "pagerank": 0.0006732259239070252,
+   "authority": 0.017397389468934498,
+   "pageviews_60d": 43943
+  },
+  "Jab Tak Hai Jaan": {
+   "pagerank": 0.0003594038052047486,
+   "authority": 0.04354532548701352,
+   "pageviews_60d": 32245
+  },
+  "Kahaani": {
+   "pagerank": 0.0003034897802435097,
+   "authority": 0.02719153755508148,
+   "pageviews_60d": 32182
+  },
+  "OMG – Oh My God!": {
+   "pagerank": 0.0004769282782834691,
+   "authority": 0.028402108755146562,
+   "pageviews_60d": 17576
+  },
+  "Shahid": {
+   "pagerank": 0.0003793339132959526,
+   "authority": 0.011346650167335581,
+   "pageviews_60d": 34326
+  },
+  "Talaash": {
+   "pagerank": 0.00034742782155467117,
+   "authority": 0.03515447342604376,
+   "pageviews_60d": 41046
+  },
+  "Vicky Donor": {
+   "pagerank": 0.00033006774061964127,
+   "authority": 0.007107449798816178,
+   "pageviews_60d": 17967
+  },
+  "Aashiqui 2": {
+   "pagerank": 0.000538887508849984,
+   "authority": 0.006911921281333422,
+   "pageviews_60d": 43934
+  },
+  "Bhaag Milkha Bhaag": {
+   "pagerank": 0.0002733026396164007,
+   "authority": 0.031186088204906613,
+   "pageviews_60d": 23798
+  },
+  "Chennai Express": {
+   "pagerank": 0.0009360129859267985,
+   "authority": 0.08382786320427765,
+   "pageviews_60d": 46918
+  },
+  "Dhoom 3": {
+   "pagerank": 0.0007147911704372232,
+   "authority": 0.05977181949268538,
+   "pageviews_60d": 41452
+  },
+  "Fukrey": {
+   "pagerank": 0.0003496197887364487,
+   "authority": 0.011901200098976954,
+   "pageviews_60d": 20699
+  },
+  "Goliyon Ki Raasleela Ram-Leela": {
+   "pagerank": 0.000368400166324373,
+   "authority": 0.036518245977419234,
+   "pageviews_60d": 62775
+  },
+  "Jolly LLB": {
+   "pagerank": 0.0003927315991765005,
+   "authority": 0.01946171885785412,
+   "pageviews_60d": 12402
+  },
+  "Kai Po Che!": {
+   "pagerank": 0.00038134245967286873,
+   "authority": 0.020360077381184647,
+   "pageviews_60d": 22394
+  },
+  "Krrish 3": {
+   "pagerank": 0.0005995781963576629,
+   "authority": 0.04774252743675231,
+   "pageviews_60d": 36640
+  },
+  "Lootera": {
+   "pagerank": 0.0004442285985190208,
+   "authority": 0.02219577626546778,
+   "pageviews_60d": 18386
+  },
+  "Queen": {
+   "pagerank": 0.00011983264097614227,
+   "authority": 0.002258222888586011,
+   "pageviews_60d": 13911
+  },
+  "Raanjhanaa": {
+   "pagerank": 0.000354858255316082,
+   "authority": 0.01527447909584723,
+   "pageviews_60d": 31912
+  },
+  "Special 26": {
+   "pagerank": 0.0004663671260097321,
+   "authority": 0.026057539750441974,
+   "pageviews_60d": 16268
+  },
+  "The Lunchbox": {
+   "pagerank": 0.00024614250421741313,
+   "authority": 0.01198443548326076,
+   "pageviews_60d": 43270
+  },
+  "Yeh Jawaani Hai Deewani": {
+   "pagerank": 0.0006776778114396621,
+   "authority": 0.07460393364528273,
+   "pageviews_60d": 38956
+  },
+  "2 States": {
+   "pagerank": 0.0004123114822916421,
+   "authority": 0.029318467323880965,
+   "pageviews_60d": 17667
+  },
+  "Haider": {
+   "pagerank": 0.0004622436888571957,
+   "authority": 0.0269382809538587,
+   "pageviews_60d": 31012
+  },
+  "Highway": {
+   "pagerank": 0.0002848259890625965,
+   "authority": 0.02531569032494482,
+   "pageviews_60d": 20724
+  },
+  "Kick": {
+   "pagerank": 0.0005379935749167589,
+   "authority": 0.01608196372849461,
+   "pageviews_60d": 19583
+  },
+  "Mary Kom": {
+   "pagerank": 0.00026158060945906554,
+   "authority": 0.01963381292499056,
+   "pageviews_60d": 14986
+  },
+  "PK": {
+   "pagerank": 0.0009180541715902962,
+   "authority": 0.07882057788344961,
+   "pageviews_60d": 51746
+  },
+  "Baby": {
+   "pagerank": 0.00018440100572716475,
+   "authority": 0.0007009093107926879,
+   "pageviews_60d": 45867
+  },
+  "Badlapur": {
+   "pagerank": 0.0003886927110439214,
+   "authority": 0.016543655106922527,
+   "pageviews_60d": 29209
+  },
+  "Bajirao Mastani": {
+   "pagerank": 0.0004264225312684997,
+   "authority": 0.04979637199107832,
+   "pageviews_60d": 71041
+  },
+  "Bajrangi Bhaijaan": {
+   "pagerank": 0.0007529022392723994,
+   "authority": 0.07254047038655755,
+   "pageviews_60d": 60224
+  },
+  "Dil Dhadakne Do": {
+   "pagerank": 0.00036040296303797343,
+   "authority": 0.05921667691950822,
+   "pageviews_60d": 36295
+  },
+  "Drishyam": {
+   "pagerank": 0.0003944344044714187,
+   "authority": 0.01025681798822496,
+   "pageviews_60d": 347528
+  },
+  "Dum Laga Ke Haisha": {
+   "pagerank": 0.000342793391233787,
+   "authority": 0.018535843008373847,
+   "pageviews_60d": 14982
+  },
+  "Masaan": {
+   "pagerank": 0.0004602475696800187,
+   "authority": 0.014568553438253253,
+   "pageviews_60d": 24831
+  },
+  "Piku": {
+   "pagerank": 0.0005688709551457257,
+   "authority": 0.027959879971234843,
+   "pageviews_60d": 21268
+  },
+  "Talvar": {
+   "pagerank": 0.0004225498577819375,
+   "authority": 0.0176233158177372,
+   "pageviews_60d": 28583
+  },
+  "Tamasha": {
+   "pagerank": 0.00030350013705382565,
+   "authority": 0.029991669552647968,
+   "pageviews_60d": 31310
+  },
+  "Tanu Weds Manu Returns": {
+   "pagerank": 0.00046940406029722325,
+   "authority": 0.013755939390786825,
+   "pageviews_60d": 13607
+  },
+  "Ae Dil Hai Mushkil": {
+   "pagerank": 0.0003346447830825638,
+   "authority": 0.0300068694501185,
+   "pageviews_60d": 44301
+  },
+  "Airlift": {
+   "pagerank": 0.00027532689018702067,
+   "authority": 0.012471097758504475,
+   "pageviews_60d": 12222
+  },
+  "Dangal": {
+   "pagerank": 0.0008390399566520828,
+   "authority": 0.05149339174147941,
+   "pageviews_60d": 116475
+  },
+  "Kapoor & Sons": {
+   "pagerank": 0.0003995372403937574,
+   "authority": 0.02697656994912688,
+   "pageviews_60d": 20281
+  },
+  "M.S. Dhoni: The Untold Story": {
+   "pagerank": 0.0004167566992066436,
+   "authority": 0.01904362523701969,
+   "pageviews_60d": 37205
+  },
+  "Neerja": {
+   "pagerank": 0.0002527069266082448,
+   "authority": 0.01021666143945523,
+   "pageviews_60d": 20779
+  },
+  "Pink": {
+   "pagerank": 0.0008756688672373388,
+   "authority": 0.026243439819459417,
+   "pageviews_60d": 22235
+  },
+  "Sultan": {
+   "pagerank": 0.0004908674172501166,
+   "authority": 0.057047974253053836,
+   "pageviews_60d": 47078
+  },
+  "Udta Punjab": {
+   "pagerank": 0.0005108318768760835,
+   "authority": 0.020089636267747294,
+   "pageviews_60d": 23197
+  },
+  "Bareilly Ki Barfi": {
+   "pagerank": 0.0003077055223789482,
+   "authority": 0.014660956608933046,
+   "pageviews_60d": 27393
+  },
+  "Hindi Medium": {
+   "pagerank": 0.0005596443731868303,
+   "authority": 0.02240456286716365,
+   "pageviews_60d": 14237
+  },
+  "Newton": {
+   "pagerank": 0.00022918826136415226,
+   "authority": 0.007166575685722871,
+   "pageviews_60d": 8362
+  },
+  "Raees": {
+   "pagerank": 0.00043361000810180245,
+   "authority": 0.052795663485167794,
+   "pageviews_60d": 34284
+  },
+  "Secret Superstar": {
+   "pagerank": 0.0003698945969248861,
+   "authority": 0.023901142975018417,
+   "pageviews_60d": 42371
+  },
+  "Tiger Zinda Hai": {
+   "pagerank": 0.0005723538238096451,
+   "authority": 0.04096089398818607,
+   "pageviews_60d": 33538
+  },
+  "Toilet: Ek Prem Katha": {
+   "pagerank": 0.00029887940052811745,
+   "authority": 0.03383571772856702,
+   "pageviews_60d": 17273
+  },
+  "Andhadhun": {
+   "pagerank": 0.0005430054015636091,
+   "authority": 0.016807481716008443,
+   "pageviews_60d": 48187
+  },
+  "Badhaai Ho": {
+   "pagerank": 0.00046501149785814266,
+   "authority": 0.006771687929333235,
+   "pageviews_60d": 18946
+  },
+  "Pad Man": {
+   "pagerank": 0.00028791138090809436,
+   "authority": 0.00826131904553164,
+   "pageviews_60d": 15000
+  },
+  "Padmaavat": {
+   "pagerank": 0.000417677382009046,
+   "authority": 0.02914917333134002,
+   "pageviews_60d": 73535
+  },
+  "Raazi": {
+   "pagerank": 0.00037705072117647507,
+   "authority": 0.030165479967400412,
+   "pageviews_60d": 34448
+  },
+  "Sanju": {
+   "pagerank": 0.0006599210241692584,
+   "authority": 0.0652582213246725,
+   "pageviews_60d": 39306
+  },
+  "Simmba": {
+   "pagerank": 0.000710062032571572,
+   "authority": 0.04148212253949162,
+   "pageviews_60d": 38135
+  },
+  "Stree": {
+   "pagerank": 0.00046410938649251663,
+   "authority": 0.011548833724685398,
+   "pageviews_60d": 36094
+  },
+  "Tumbbad": {
+   "pagerank": 0.00020162951744679338,
+   "authority": 0.004898247978522109,
+   "pageviews_60d": 63277
+  },
+  "Article 15": {
+   "pagerank": 0.00030874047440718937,
+   "authority": 0.005351020777625756,
+   "pageviews_60d": 17258
+  },
+  "Bala": {
+   "pagerank": 0.00035191553710554543,
+   "authority": 0.010409038856225596,
+   "pageviews_60d": 23929
+  },
+  "Chhichhore": {
+   "pagerank": 0.0004893801616751087,
+   "authority": 0.01659316411700857,
+   "pageviews_60d": 61218
+  },
+  "Dream Girl": {
+   "pagerank": 0.00033282137998529824,
+   "authority": 0.006987637055950613,
+   "pageviews_60d": 17035
+  },
+  "Gully Boy": {
+   "pagerank": 0.00039357988048894957,
+   "authority": 0.041041053308280305,
+   "pageviews_60d": 43260
+  },
+  "Kabir Singh": {
+   "pagerank": 0.0004595848825443144,
+   "authority": 0.016682772145057635,
+   "pageviews_60d": 47105
+  },
+  "Kesari": {
+   "pagerank": 0.0004431173761865686,
+   "authority": 0.034835067870733566,
+   "pageviews_60d": 23843
+  },
+  "Sonchiriya": {
+   "pagerank": 0.0003155506025094192,
+   "authority": 0.019582862995868224,
+   "pageviews_60d": 15518
+  },
+  "Super 30": {
+   "pagerank": 0.0004103439759534131,
+   "authority": 0.014492053677752139,
+   "pageviews_60d": 31520
+  },
+  "Uri: The Surgical Strike": {
+   "pagerank": 0.00040309163502815615,
+   "authority": 0.011226755803674243,
+   "pageviews_60d": 43036
+  },
+  "War": {
+   "pagerank": 0.0005852007496080976,
+   "authority": 0.03188693802317131,
+   "pageviews_60d": 68017
+  },
+  "Ludo": {
+   "pagerank": 0.00040456640011156435,
+   "authority": 0.019479064526665382,
+   "pageviews_60d": 18905
+  },
+  "Tanhaji": {
+   "pagerank": 0.00033276334576637194,
+   "authority": 0.03200589148589531,
+   "pageviews_60d": 34793
+  },
+  "Thappad": {
+   "pagerank": 0.00033829316337913144,
+   "authority": 0.009095252313948995,
+   "pageviews_60d": 18516
+  },
+  "83": {
+   "pagerank": 0.0004702322755873621,
+   "authority": 0.02521671329790869,
+   "pageviews_60d": 40504
+  },
+  "Mimi": {
+   "pagerank": 0.00020079906334786852,
+   "authority": 0.0062088921737256065,
+   "pageviews_60d": 39219
+  },
+  "Sardar Udham": {
+   "pagerank": 0.0002910494584363383,
+   "authority": 0.0038231378333864136,
+   "pageviews_60d": 17054
+  },
+  "Shershaah": {
+   "pagerank": 0.00027925114084244697,
+   "authority": 0.013373122269659398,
+   "pageviews_60d": 35656
+  },
+  "Sooryavanshi": {
+   "pagerank": 0.0007152959006754742,
+   "authority": 0.056943526306956774,
+   "pageviews_60d": 42555
+  },
+  "Bhediya": {
+   "pagerank": 0.0001928764095214848,
+   "authority": 0.004226418255965441,
+   "pageviews_60d": 23865
+  },
+  "Bhool Bhulaiyaa 2": {
+   "pagerank": 0.0006122663159008887,
+   "authority": 0.028658628919894256,
+   "pageviews_60d": 29275
+  },
+  "Brahmastra: Part One – Shiva": {
+   "pagerank": 0.000543013741972621,
+   "authority": 0.0594320690190813,
+   "pageviews_60d": 95490
+  },
+  "Drishyam 2": {
+   "pagerank": 0.00039246268143595676,
+   "authority": 0.016469978435663665,
+   "pageviews_60d": 423917
+  },
+  "Gangubai Kathiawadi": {
+   "pagerank": 0.00032174684930877075,
+   "authority": 0.015391210874696705,
+   "pageviews_60d": 57391
+  },
+  "The Kashmir Files": {
+   "pagerank": 0.00023005528900515182,
+   "authority": 0.012377349854436108,
+   "pageviews_60d": 24030
+  },
+  "Vikram Vedha": {
+   "pagerank": 0.0003749004748878046,
+   "authority": 0.014369406743197638,
+   "pageviews_60d": 33381
+  },
+  "12th Fail": {
+   "pagerank": 0.0002512722326880454,
+   "authority": 0.007855383338470703,
+   "pageviews_60d": 46254
+  },
+  "Animal": {
+   "pagerank": 0.0007275177120778011,
+   "authority": 0.03458216085784302,
+   "pageviews_60d": 155936
+  },
+  "Dunki": {
+   "pagerank": 0.0005568764229026533,
+   "authority": 0.057713302202149104,
+   "pageviews_60d": 65149
+  },
+  "Gadar 2": {
+   "pagerank": 0.0004451542783696264,
+   "authority": 0.026719123415360396,
+   "pageviews_60d": 51335
+  },
+  "Jawan": {
+   "pagerank": 0.0007427786691009924,
+   "authority": 0.041645285907661776,
+   "pageviews_60d": 136625
+  },
+  "Kill": {
+   "pagerank": 0.00017417403842265048,
+   "authority": 0.009980875614619012,
+   "pageviews_60d": 72218
+  },
+  "Laapataa Ladies": {
+   "pagerank": 0.0002229930859291622,
+   "authority": 0.022537867317598104,
+   "pageviews_60d": 46685
+  },
+  "OMG 2": {
+   "pagerank": 0.00041452534499358254,
+   "authority": 0.014010808107453282,
+   "pageviews_60d": 24355
+  },
+  "Pathaan": {
+   "pagerank": 0.0006301954736143561,
+   "authority": 0.054826007984206906,
+   "pageviews_60d": 102164
+  },
+  "Rocky Aur Rani Kii Prem Kahaani": {
+   "pagerank": 0.0005587753516594868,
+   "authority": 0.05032412559208645,
+   "pageviews_60d": 51958
+  },
+  "Sam Bahadur": {
+   "pagerank": 0.00033657439815052776,
+   "authority": 0.016294763269559115,
+   "pageviews_60d": 31059
+  },
+  "Tiger 3": {
+   "pagerank": 0.0005059790481655749,
+   "authority": 0.037677358647160056,
+   "pageviews_60d": 77011
+  },
+  "Bhool Bhulaiyaa 3": {
+   "pagerank": 0.0005556954055827684,
+   "authority": 0.03249474414592787,
+   "pageviews_60d": 49191
+  },
+  "Chandu Champion": {
+   "pagerank": 0.00032743139702940365,
+   "authority": 0.017823029188471992,
+   "pageviews_60d": 40997
+  },
+  "Fighter": {
+   "pagerank": 0.0004346204918013561,
+   "authority": 0.022138724139400073,
+   "pageviews_60d": 84573
+  },
+  "Munjya": {
+   "pagerank": 0.0003544226118339237,
+   "authority": 0.006964767530311453,
+   "pageviews_60d": 41273
+  },
+  "Shaitaan": {
+   "pagerank": 0.00030655947544364065,
+   "authority": 0.014330738686420342,
+   "pageviews_60d": 61501
+  },
+  "Stree 2": {
+   "pagerank": 0.0005405105476860917,
+   "authority": 0.017927815072033105,
+   "pageviews_60d": 73355
+  },
+  "Chhaava": {
+   "pagerank": 0.00031405719415979926,
+   "authority": 0.009429784310884384,
+   "pageviews_60d": 83982
+  },
+  "Dhurandhar": {
+   "pagerank": 0.00047513457361895425,
+   "authority": 0.022760875223711126,
+   "pageviews_60d": 278508
+  },
+  "Jolly LLB 3": {
+   "pagerank": 0.00034761488969878,
+   "authority": 0.011172215397342224,
+   "pageviews_60d": 37268
+  },
+  "Saiyaara": {
+   "pagerank": 0.00019104581743040137,
+   "authority": 0.011407557352944743,
+   "pageviews_60d": 119344
+  },
+  "Sitaare Zameen Par": {
+   "pagerank": 0.00020313032629763124,
+   "authority": 0.009293981382177775,
+   "pageviews_60d": 34451
+  },
+  "Sky Force": {
+   "pagerank": 0.0003821229748388296,
+   "authority": 0.010884494627136119,
+   "pageviews_60d": 35991
+  },
+  "Border 2": {
+   "pagerank": 0.00044027865641531186,
+   "authority": 0.03649771779741385,
+   "pageviews_60d": 132702
+  },
+  "Mayabazar": {
+   "pagerank": 0.0010025685986327524,
+   "authority": 0.00847979500541602,
+   "pageviews_60d": 17716
+  },
+  "Shankarabharanam": {
+   "pagerank": 0.00041159805350466695,
+   "authority": 0.006005236450505549,
+   "pageviews_60d": 12449
+  },
+  "Sagara Sangamam": {
+   "pagerank": 0.0003159031629504588,
+   "authority": 0.0037289822154183564,
+   "pageviews_60d": 10359
+  },
+  "Swathi Muthyam": {
+   "pagerank": 0.00031916544627123465,
+   "authority": 0.003184046784173697,
+   "pageviews_60d": 9414
+  },
+  "Swarna Kamalam": {
+   "pagerank": 0.0002840282246733107,
+   "authority": 0.0010961117501504763,
+   "pageviews_60d": 4078
+  },
+  "Geethanjali": {
+   "pagerank": 0.0001945959136292626,
+   "authority": 0.0044474012637307925,
+   "pageviews_60d": 16611
+  },
+  "Siva": {
+   "pagerank": 0.00014527530084481734,
+   "authority": 0.004853288845390239,
+   "pageviews_60d": 6959
+  },
+  "Jagadeka Veerudu Athiloka Sundari": {
+   "pagerank": 0.0006305988303148578,
+   "authority": 0.011974448590908312,
+   "pageviews_60d": 9587
+  },
+  "Karthavyam": {
+   "pagerank": 0.00027359575630300553,
+   "authority": 0.0028932756625075786,
+   "pageviews_60d": 6743
+  },
+  "Kondaveeti Donga": {
+   "pagerank": 0.00035034798960070795,
+   "authority": 0.009956996892625912,
+   "pageviews_60d": 3654
+  },
+  "Aditya 369": {
+   "pagerank": 0.00042601295695923047,
+   "authority": 0.009881768078473812,
+   "pageviews_60d": 16924
+  },
+  "Gang Leader": {
+   "pagerank": 0.00037909499717383977,
+   "authority": 0.00800253087654055,
+   "pageviews_60d": 7939
+  },
+  "Kshana Kshanam": {
+   "pagerank": 0.0005890139279838407,
+   "authority": 0.008649003513707716,
+   "pageviews_60d": 10303
+  },
+  "Rowdy Alludu": {
+   "pagerank": 0.00033000230169154016,
+   "authority": 0.009824308511091959,
+   "pageviews_60d": 6076
+  },
+  "Aapadbandhavudu": {
+   "pagerank": 0.00022921229736594696,
+   "authority": 0.0033156921094173127,
+   "pageviews_60d": 5237
+  },
+  "Chanti": {
+   "pagerank": 0.00030474639476870454,
+   "authority": 0.002195462389330197,
+   "pageviews_60d": 8083
+  },
+  "Gharana Mogudu": {
+   "pagerank": 0.0004369852654080982,
+   "authority": 0.011804560655741857,
+   "pageviews_60d": 12107
+  },
+  "Allari Priyudu": {
+   "pagerank": 0.0004685596980222171,
+   "authority": 0.0028384532697058053,
+   "pageviews_60d": 4834
+  },
+  "Money": {
+   "pagerank": 0.0003604642348732336,
+   "authority": 0.012923762669762168,
+   "pageviews_60d": 5342
+  },
+  "Hello Brother": {
+   "pagerank": 0.0005221478222230981,
+   "authority": 0.00972467380191666,
+   "pageviews_60d": 11550
+  },
+  "Subhalagnam": {
+   "pagerank": 0.00021480095247583306,
+   "authority": 0.0053337773543912365,
+   "pageviews_60d": 4453
+  },
+  "Yamaleela": {
+   "pagerank": 0.00014201965475320666,
+   "authority": 0.00420294993997235,
+   "pageviews_60d": 4299
+  },
+  "Gulabi": {
+   "pagerank": 0.00031137091487647687,
+   "authority": 0.007742581253370091,
+   "pageviews_60d": 7829
+  },
+  "Pedarayudu": {
+   "pagerank": 0.00032076339300023994,
+   "authority": 0.00348238849788656,
+   "pageviews_60d": 19892
+  },
+  "Ninne Pelladata": {
+   "pagerank": 0.00037752977906834725,
+   "authority": 0.010181242670217385,
+   "pageviews_60d": 12998
+  },
+  "Pavitra Bandham": {
+   "pagerank": 0.000335168965604344,
+   "authority": 0.0033468238352244357,
+   "pageviews_60d": 7161
+  },
+  "Pelli Sandadi": {
+   "pagerank": 0.0003825056247912565,
+   "authority": 0.004598913386449745,
+   "pageviews_60d": 5610
+  },
+  "Annamayya": {
+   "pagerank": 0.0006312217918271368,
+   "authority": 0.005804200926824478,
+   "pageviews_60d": 9243
+  },
+  "Hitler": {
+   "pagerank": 0.0002755367788929994,
+   "authority": 0.003207909266696555,
+   "pageviews_60d": 7212
+  },
+  "Master": {
+   "pagerank": 0.00022378977335279379,
+   "authority": 0.008047751491765036,
+   "pageviews_60d": 12309
+  },
+  "Pellichesukundam": {
+   "pagerank": 0.00020831094904491003,
+   "authority": 0.0032083698658479168,
+   "pageviews_60d": 3687
+  },
+  "Preminchukundam Raa": {
+   "pagerank": 0.0003576929946149859,
+   "authority": 0.007619081650151283,
+   "pageviews_60d": 5094
+  },
+  "Sindhooram": {
+   "pagerank": 0.00025759714245168834,
+   "authority": 0.004209021987109519,
+   "pageviews_60d": 7855
+  },
+  "Antahpuram": {
+   "pagerank": 0.00025967266886004284,
+   "authority": 0.001482825356340211,
+   "pageviews_60d": 16879
+  },
+  "Choodalani Vundi": {
+   "pagerank": 0.0005954731067003021,
+   "authority": 0.012149810222005886,
+   "pageviews_60d": 7487
+  },
+  "Suryavamsam": {
+   "pagerank": 0.0002839795973825613,
+   "authority": 0.004369795434056079,
+   "pageviews_60d": 12712
+  },
+  "Tholi Prema": {
+   "pagerank": 0.0007026948662269632,
+   "authority": 0.005601683524838688,
+   "pageviews_60d": 16549
+  },
+  "Raja": {
+   "pagerank": 8.605133255901047e-05,
+   "authority": 0.0022948984857776755,
+   "pageviews_60d": 7139
+  },
+  "Thammudu": {
+   "pagerank": 0.00030143401844703595,
+   "authority": 0.007135818971311158,
+   "pageviews_60d": 9793
+  },
+  "Badri": {
+   "pagerank": 0.0002626475296428077,
+   "authority": 0.008588670803130216,
+   "pageviews_60d": 12176
+  },
+  "Kalisundam Raa": {
+   "pagerank": 0.0003468730476817841,
+   "authority": 0.005020596355958963,
+   "pageviews_60d": 5921
+  },
+  "Nuvve Kavali": {
+   "pagerank": 0.0005598771568242225,
+   "authority": 0.0034873660379188998,
+   "pageviews_60d": 15509
+  },
+  "Itlu Sravani Subramanyam": {
+   "pagerank": 0.000240200112075381,
+   "authority": 0.012398539855941164,
+   "pageviews_60d": 8935
+  },
+  "Kushi": {
+   "pagerank": 0.0004023181255253138,
+   "authority": 0.009599461116768689,
+   "pageviews_60d": 24657
+  },
+  "Manasantha Nuvve": {
+   "pagerank": 0.0003133193737033273,
+   "authority": 0.0019237745808118258,
+   "pageviews_60d": 8094
+  },
+  "Murari": {
+   "pagerank": 0.0003411897260321353,
+   "authority": 0.007911247402968044,
+   "pageviews_60d": 12071
+  },
+  "Narasimha Naidu": {
+   "pagerank": 0.00033230802482948994,
+   "authority": 0.01744498906742156,
+   "pageviews_60d": 9909
+  },
+  "Nuvvu Naaku Nachav": {
+   "pagerank": 0.00043154834839169524,
+   "authority": 0.006094214734055671,
+   "pageviews_60d": 21283
+  },
+  "Nuvvu Nenu": {
+   "pagerank": 0.0005361016752734587,
+   "authority": 0.0029178569015273484,
+   "pageviews_60d": 9688
+  },
+  "Student No.1": {
+   "pagerank": 0.00029637296419349776,
+   "authority": 0.004331689996031191,
+   "pageviews_60d": 23947
+  },
+  "Aadi": {
+   "pagerank": 8.765777417462171e-05,
+   "authority": 0.00020758134878496513,
+   "pageviews_60d": 5253
+  },
+  "Avunu Valliddaru Ista Paddaru!": {
+   "pagerank": 8.784089737556216e-05,
+   "authority": 0.003407980479600159,
+   "pageviews_60d": 3435
+  },
+  "Idiot": {
+   "pagerank": 0.00029403819338467247,
+   "authority": 0.00505086952576367,
+   "pageviews_60d": 13040
+  },
+  "Indra": {
+   "pagerank": 0.00048337776295525193,
+   "authority": 0.018441667711207903,
+   "pageviews_60d": 34968
+  },
+  "Khadgam": {
+   "pagerank": 0.000388669458860726,
+   "authority": 0.008381326953343635,
+   "pageviews_60d": 11394
+  },
+  "Manmadhudu": {
+   "pagerank": 0.00033357648554776907,
+   "authority": 0.011040805999139253,
+   "pageviews_60d": 13266
+  },
+  "Santosham": {
+   "pagerank": 0.000490858827909479,
+   "authority": 0.02105957471534817,
+   "pageviews_60d": 10204
+  },
+  "Amma Nanna O Tamila Ammayi": {
+   "pagerank": 0.00046964055129518746,
+   "authority": 0.005639444129028611,
+   "pageviews_60d": 13790
+  },
+  "Gangotri": {
+   "pagerank": 0.00025534815456155374,
+   "authority": 0.005213384710249899,
+   "pageviews_60d": 9087
+  },
+  "Nijam": {
+   "pagerank": 0.000292687545040104,
+   "authority": 0.00476225267715477,
+   "pageviews_60d": 8185
+  },
+  "Okkadu": {
+   "pagerank": 0.0009031464968074041,
+   "authority": 0.01883629840733591,
+   "pageviews_60d": 17990
+  },
+  "Simhadri": {
+   "pagerank": 0.00046874283038356634,
+   "authority": 0.01930266866988836,
+   "pageviews_60d": 25129
+  },
+  "Tagore": {
+   "pagerank": 0.00036722462442217015,
+   "authority": 0.013670261443176894,
+   "pageviews_60d": 12622
+  },
+  "Arjun": {
+   "pagerank": 0.0004238298851031403,
+   "authority": 0.005759660683808437,
+   "pageviews_60d": 11873
+  },
+  "Arya": {
+   "pagerank": 0.000611666224025077,
+   "authority": 0.011056203963999377,
+   "pageviews_60d": 21828
+  },
+  "Mass": {
+   "pagerank": 0.00029422333900989034,
+   "authority": 0.004285708577695693,
+   "pageviews_60d": 18585
+  },
+  "Shankar Dada M.B.B.S.": {
+   "pagerank": 0.00023717109679007538,
+   "authority": 0.00599032484030478,
+   "pageviews_60d": 11554
+  },
+  "Sye": {
+   "pagerank": 0.00021941362138486482,
+   "authority": 0.00953032564710685,
+   "pageviews_60d": 20601
+  },
+  "Varsham": {
+   "pagerank": 0.0006018657961882364,
+   "authority": 0.012280259437359258,
+   "pageviews_60d": 24974
+  },
+  "Athadu": {
+   "pagerank": 0.0005151056677301408,
+   "authority": 0.025233887344513078,
+   "pageviews_60d": 24608
+  },
+  "Athanokkade": {
+   "pagerank": 0.00032135563517941916,
+   "authority": 0.007407559825762744,
+   "pageviews_60d": 6347
+  },
+  "Bhadra": {
+   "pagerank": 0.00045602088163868986,
+   "authority": 0.010130619145914932,
+   "pageviews_60d": 13894
+  },
+  "Bunny": {
+   "pagerank": 0.00031095602184516124,
+   "authority": 0.012882507135750891,
+   "pageviews_60d": 10473
+  },
+  "Chatrapathi": {
+   "pagerank": 0.00033351007399322927,
+   "authority": 0.012232833014864379,
+   "pageviews_60d": 35669
+  },
+  "Nuvvostanante Nenoddantana": {
+   "pagerank": 0.0005913661239345656,
+   "authority": 0.014019724823157281,
+   "pageviews_60d": 23743
+  },
+  "Bommarillu": {
+   "pagerank": 0.0006591528807547102,
+   "authority": 0.012468465018818377,
+   "pageviews_60d": 14571
+  },
+  "Devadasu": {
+   "pagerank": 0.0003042339309275723,
+   "authority": 0.011765673828512176,
+   "pageviews_60d": 9688
+  },
+  "Godavari": {
+   "pagerank": 0.0004242831824006845,
+   "authority": 0.0013357197341815122,
+   "pageviews_60d": 7759
+  },
+  "Happy": {
+   "pagerank": 0.00042174653357523795,
+   "authority": 0.0062838452077366965,
+   "pageviews_60d": 11822
+  },
+  "Pokiri": {
+   "pagerank": 0.000533913469952384,
+   "authority": 0.023285786556058417,
+   "pageviews_60d": 28345
+  },
+  "Pournami": {
+   "pagerank": 0.00011397475439764334,
+   "authority": 0.0023680044684636467,
+   "pageviews_60d": 8279
+  },
+  "Stalin": {
+   "pagerank": 0.0004750987955622765,
+   "authority": 0.014839774552971783,
+   "pageviews_60d": 15438
+  },
+  "Vikramarkudu": {
+   "pagerank": 0.0003499992766134955,
+   "authority": 0.012282762476775564,
+   "pageviews_60d": 39213
+  },
+  "Chirutha": {
+   "pagerank": 0.00029888462215863767,
+   "authority": 0.010989477965041237,
+   "pageviews_60d": 12295
+  },
+  "Desamuduru": {
+   "pagerank": 0.0003896182273346821,
+   "authority": 0.010452588347134324,
+   "pageviews_60d": 12097
+  },
+  "Dhee": {
+   "pagerank": 0.0005868000288424306,
+   "authority": 0.01237718194094464,
+   "pageviews_60d": 9280
+  },
+  "Happy Days": {
+   "pagerank": 0.00042733919891050633,
+   "authority": 0.002525174770298696,
+   "pageviews_60d": 22802
+  },
+  "Shankar Dada Zindabad": {
+   "pagerank": 0.0005117001575911923,
+   "authority": 0.014343106677663862,
+   "pageviews_60d": 12282
+  },
+  "Yamadonga": {
+   "pagerank": 0.0005457741249231924,
+   "authority": 0.01246414298200321,
+   "pageviews_60d": 23241
+  },
+  "Ashta Chamma": {
+   "pagerank": 0.0003153066839828583,
+   "authority": 0.0027825667830441905,
+   "pageviews_60d": 15281
+  },
+  "Gamyam": {
+   "pagerank": 0.00043971957054426416,
+   "authority": 0.005018177889596203,
+   "pageviews_60d": 6761
+  },
+  "Jalsa": {
+   "pagerank": 0.0006705435883758896,
+   "authority": 0.019426236610972147,
+   "pageviews_60d": 16782
+  },
+  "King": {
+   "pagerank": 0.0005347536550003685,
+   "authority": 0.013973406728899249,
+   "pageviews_60d": 11797
+  },
+  "Kotha Bangaru Lokam": {
+   "pagerank": 0.0003368301040500069,
+   "authority": 0.007035111705855612,
+   "pageviews_60d": 16276
+  },
+  "Krishna": {
+   "pagerank": 0.00033623604213767005,
+   "authority": 0.009807869372110327,
+   "pageviews_60d": 8767
+  },
+  "Parugu": {
+   "pagerank": 0.0004908466427521485,
+   "authority": 0.007878211818463854,
+   "pageviews_60d": 13493
+  },
+  "Ready": {
+   "pagerank": 0.0005581378896323734,
+   "authority": 0.0179159394844633,
+   "pageviews_60d": 17360
+  },
+  "Arundhati": {
+   "pagerank": 0.00044160500021601413,
+   "authority": 0.010958527973455139,
+   "pageviews_60d": 20190
+  },
+  "Arya 2": {
+   "pagerank": 0.00043725992481806984,
+   "authority": 0.015540333067982635,
+   "pageviews_60d": 18366
+  },
+  "Konchem Ishtam Konchem Kashtam": {
+   "pagerank": 0.0004591425478062145,
+   "authority": 0.01030095966926289,
+   "pageviews_60d": 6286
+  },
+  "Magadheera": {
+   "pagerank": 0.001026641558698346,
+   "authority": 0.03654184265213643,
+   "pageviews_60d": 42927
+  },
+  "Adhurs": {
+   "pagerank": 0.0004408584293461178,
+   "authority": 0.011833765673186772,
+   "pageviews_60d": 9318
+  },
+  "Brindavanam": {
+   "pagerank": 0.0005466483827810306,
+   "authority": 0.03022936072377921,
+   "pageviews_60d": 17423
+  },
+  "Darling": {
+   "pagerank": 0.00028192860724582304,
+   "authority": 0.008887445190960318,
+   "pageviews_60d": 16771
+  },
+  "Khaleja": {
+   "pagerank": 0.0003378241504867581,
+   "authority": 0.012416963962861271,
+   "pageviews_60d": 22202
+  },
+  "Leader": {
+   "pagerank": 0.0005284875892058045,
+   "authority": 0.0073362399605463825,
+   "pageviews_60d": 9514
+  },
+  "Maryada Ramanna": {
+   "pagerank": 0.000290925352018591,
+   "authority": 0.012178917146704432,
+   "pageviews_60d": 31705
+  },
+  "Orange": {
+   "pagerank": 0.00024205818570265642,
+   "authority": 0.004503179433270835,
+   "pageviews_60d": 9210
+  },
+  "Simha": {
+   "pagerank": 0.0005981192162989141,
+   "authority": 0.006520135613212324,
+   "pageviews_60d": 8798
+  },
+  "Vedam": {
+   "pagerank": 0.00042767850087735995,
+   "authority": 0.008996077086919267,
+   "pageviews_60d": 16475
+  },
+  "Ye Maaya Chesave": {
+   "pagerank": 0.0005466141038436885,
+   "authority": 0.0058328397575813365,
+   "pageviews_60d": 15680
+  },
+  "100% Love": {
+   "pagerank": 0.0003184298733426976,
+   "authority": 0.006375523213576088,
+   "pageviews_60d": 12835
+  },
+  "Ala Modalaindi": {
+   "pagerank": 0.00032424622645893443,
+   "authority": 0.0028476160249482014,
+   "pageviews_60d": 13723
+  },
+  "Dookudu": {
+   "pagerank": 0.000810487119878612,
+   "authority": 0.03174909468281425,
+   "pageviews_60d": 19037
+  },
+  "Mirapakay": {
+   "pagerank": 0.00032974576504519,
+   "authority": 0.005958428903082842,
+   "pageviews_60d": 9789
+  },
+  "Mr. Perfect": {
+   "pagerank": 0.0003478671140935874,
+   "authority": 0.009802024066012438,
+   "pageviews_60d": 12571
+  },
+  "Oosaravelli": {
+   "pagerank": 0.000492990267408503,
+   "authority": 0.0173055102724408,
+   "pageviews_60d": 11068
+  },
+  "Businessman": {
+   "pagerank": 0.00038484653233455295,
+   "authority": 0.01872916273645955,
+   "pageviews_60d": 14942
+  },
+  "Eega": {
+   "pagerank": 0.00039260779928896,
+   "authority": 0.014799684150031975,
+   "pageviews_60d": 49487
+  },
+  "Gabbar Singh": {
+   "pagerank": 0.000601351913085168,
+   "authority": 0.025279559383768996,
+   "pageviews_60d": 13464
+  },
+  "Ishq": {
+   "pagerank": 0.00021764702769071857,
+   "authority": 0.0034169317382058977,
+   "pageviews_60d": 5116
+  },
+  "Julayi": {
+   "pagerank": 0.0004554893099445049,
+   "authority": 0.016742187178507388,
+   "pageviews_60d": 20274
+  },
+  "Racha": {
+   "pagerank": 0.00023372746299919547,
+   "authority": 0.0106794003547781,
+   "pageviews_60d": 8281
+  },
+  "Attarintiki Daredi": {
+   "pagerank": 0.0005044932894567104,
+   "authority": 0.029074793581029094,
+   "pageviews_60d": 22976
+  },
+  "Baadshah": {
+   "pagerank": 0.0006040272070631987,
+   "authority": 0.02745530966898796,
+   "pageviews_60d": 12464
+  },
+  "Gunde Jaari Gallanthayyinde": {
+   "pagerank": 0.0002381783217036857,
+   "authority": 0.003456341480609142,
+   "pageviews_60d": 6204
+  },
+  "Mirchi": {
+   "pagerank": 0.00046018535196260164,
+   "authority": 0.01579406629309323,
+   "pageviews_60d": 19014
+  },
+  "Naayak": {
+   "pagerank": 0.0005526637394329779,
+   "authority": 0.018611259589356048,
+   "pageviews_60d": 13518
+  },
+  "Prema Katha Chitram": {
+   "pagerank": 0.00011124854534515474,
+   "authority": 0.00019128503225046618,
+   "pageviews_60d": 4123
+  },
+  "Seethamma Vakitlo Sirimalle Chettu": {
+   "pagerank": 0.0006703113408744196,
+   "authority": 0.018285218279036328,
+   "pageviews_60d": 16381
+  },
+  "Swamy Ra Ra": {
+   "pagerank": 0.00015794463106639313,
+   "authority": 0.00024979282746413913,
+   "pageviews_60d": 3167
+  },
+  "Drushyam": {
+   "pagerank": 0.0005748397093753924,
+   "authority": 0.005654400632073207,
+   "pageviews_60d": 17499
+  },
+  "Karthikeya": {
+   "pagerank": 0.00036194093001559117,
+   "authority": 0.002396094698716401,
+   "pageviews_60d": 9404
+  },
+  "Legend": {
+   "pagerank": 0.00044375525765887833,
+   "authority": 0.01225765269452312,
+   "pageviews_60d": 19071
+  },
+  "Manam": {
+   "pagerank": 0.0005371433756742841,
+   "authority": 0.008172551852801312,
+   "pageviews_60d": 18518
+  },
+  "Race Gurram": {
+   "pagerank": 0.0006987450094941766,
+   "authority": 0.024602968937555165,
+   "pageviews_60d": 18895
+  },
+  "Run Raja Run": {
+   "pagerank": 0.00022168053615011335,
+   "authority": 0.0037526417608379804,
+   "pageviews_60d": 7956
+  },
+  "Yevadu": {
+   "pagerank": 0.0005230407447944847,
+   "authority": 0.02420624986706602,
+   "pageviews_60d": 22530
+  },
+  "Baahubali: The Beginning": {
+   "pagerank": 0.0012254523481224156,
+   "authority": 0.041729787687454625,
+   "pageviews_60d": 90097
+  },
+  "Bhale Bhale Magadivoy": {
+   "pagerank": 0.00031417841107018134,
+   "authority": 0.010164676144273556,
+   "pageviews_60d": 11933
+  },
+  "Gopala Gopala": {
+   "pagerank": 0.0005240463450207304,
+   "authority": 0.014408088029691544,
+   "pageviews_60d": 9349
+  },
+  "Kanche": {
+   "pagerank": 0.0003079287479647073,
+   "authority": 0.0025351553404505105,
+   "pageviews_60d": 4932
+  },
+  "Kumari 21F": {
+   "pagerank": 0.0003558997486122042,
+   "authority": 0.003618812554202863,
+   "pageviews_60d": 4990
+  },
+  "S/O Satyamurthy": {
+   "pagerank": 0.0005268989388554966,
+   "authority": 0.014377227671009282,
+   "pageviews_60d": 25222
+  },
+  "Srimanthudu": {
+   "pagerank": 0.0004492403901152695,
+   "authority": 0.011574513947525204,
+   "pageviews_60d": 22229
+  },
+  "Temper": {
+   "pagerank": 0.00046573006784339076,
+   "authority": 0.019267013923387886,
+   "pageviews_60d": 21357
+  },
+  "Yevade Subramanyam": {
+   "pagerank": 0.0005321036307523037,
+   "authority": 0.0045641652563302906,
+   "pageviews_60d": 28005
+  },
+  "A Aa": {
+   "pagerank": 0.00032018932769378033,
+   "authority": 0.010210684014307414,
+   "pageviews_60d": 22966
+  },
+  "Dhruva": {
+   "pagerank": 0.00034894847359604543,
+   "authority": 0.006711045600002079,
+   "pageviews_60d": 17993
+  },
+  "Janatha Garage": {
+   "pagerank": 0.0004143455688961941,
+   "authority": 0.023462140996518357,
+   "pageviews_60d": 19743
+  },
+  "Kshanam": {
+   "pagerank": 0.00024371029141182927,
+   "authority": 0.0034947750932379593,
+   "pageviews_60d": 8749
+  },
+  "Nannaku Prematho": {
+   "pagerank": 0.0005960648649182345,
+   "authority": 0.008605723994713741,
+   "pageviews_60d": 18533
+  },
+  "Oopiri": {
+   "pagerank": 0.00035908815330716343,
+   "authority": 0.009000970744148719,
+   "pageviews_60d": 29764
+  },
+  "Pelli Choopulu": {
+   "pagerank": 0.0004413191434292985,
+   "authority": 0.0027668090866880433,
+   "pageviews_60d": 25207
+  },
+  "Sarrainodu": {
+   "pagerank": 0.00042107577763261263,
+   "authority": 0.008761466760040519,
+   "pageviews_60d": 22211
+  },
+  "Ami Thumi": {
+   "pagerank": 0.00022066069525634744,
+   "authority": 0.002341877503069226,
+   "pageviews_60d": 2949
+  },
+  "Arjun Reddy": {
+   "pagerank": 0.0004919518090061321,
+   "authority": 0.007953773307453284,
+   "pageviews_60d": 53226
+  },
+  "Baahubali 2: The Conclusion": {
+   "pagerank": 0.0009513561198982703,
+   "authority": 0.03642283864102343,
+   "pageviews_60d": 73055
+  },
+  "Fidaa": {
+   "pagerank": 0.0003721876889136594,
+   "authority": 0.0031322299899979584,
+   "pageviews_60d": 21501
+  },
+  "Ghazi": {
+   "pagerank": 0.00016319429402953748,
+   "authority": 0.0022602594551304578,
+   "pageviews_60d": 11626
+  },
+  "Jai Lava Kusa": {
+   "pagerank": 0.0003779157923098374,
+   "authority": 0.0139133843511832,
+   "pageviews_60d": 13673
+  },
+  "Khaidi No. 150": {
+   "pagerank": 0.0005711108943986661,
+   "authority": 0.013228455600109466,
+   "pageviews_60d": 15635
+  },
+  "Nenu Local": {
+   "pagerank": 0.00024189918282091404,
+   "authority": 0.006035319725021293,
+   "pageviews_60d": 22472
+  },
+  "Ninnu Kori": {
+   "pagerank": 0.00037281791136497123,
+   "authority": 0.007035893508548206,
+   "pageviews_60d": 36958
+  },
+  "Shatamanam Bhavati": {
+   "pagerank": 0.00018625877730156225,
+   "authority": 0.0030297756571544335,
+   "pageviews_60d": 5746
+  },
+  "Aravinda Sametha Veera Raghava": {
+   "pagerank": 0.00038733796647056755,
+   "authority": 0.013713162680275849,
+   "pageviews_60d": 32164
+  },
+  "Bhaagamathie": {
+   "pagerank": 0.0003132490547543106,
+   "authority": 0.004673287642895283,
+   "pageviews_60d": 9921
+  },
+  "Bharat Ane Nenu": {
+   "pagerank": 0.00041343755387662876,
+   "authority": 0.02225199484439225,
+   "pageviews_60d": 22437
+  },
+  "C/o Kancharapalem": {
+   "pagerank": 0.00015651261014690217,
+   "authority": 7.268919486848074e-192,
+   "pageviews_60d": 12600
+  },
+  "Ee Nagaraniki Emaindi": {
+   "pagerank": 0.000323736077676129,
+   "authority": 0.0012352849543151385,
+   "pageviews_60d": 22497
+  },
+  "Geetha Govindam": {
+   "pagerank": 0.0003334455031213417,
+   "authority": 0.004260306792783226,
+   "pageviews_60d": 47910
+  },
+  "Goodachari": {
+   "pagerank": 0.0002464724573419754,
+   "authority": 0.002631387030685361,
+   "pageviews_60d": 10713
+  },
+  "Mahanati": {
+   "pagerank": 0.0008664405630182453,
+   "authority": 0.008166102552528979,
+   "pageviews_60d": 46376
+  },
+  "RX 100": {
+   "pagerank": 0.00015891614941444427,
+   "authority": 0.0027985492746739862,
+   "pageviews_60d": 12461
+  },
+  "Rangasthalam": {
+   "pagerank": 0.0004297566350878461,
+   "authority": 0.008903144063182935,
+   "pageviews_60d": 32060
+  },
+  "Taxiwaala": {
+   "pagerank": 0.00020746120256216833,
+   "authority": 0.0008960569694610172,
+   "pageviews_60d": 29162
+  },
+  "Agent Sai Srinivasa Athreya": {
+   "pagerank": 0.0002927369253788291,
+   "authority": 0.0002488644823697214,
+   "pageviews_60d": 14180
+  },
+  "Brochevarevarura": {
+   "pagerank": 0.0004585300588694092,
+   "authority": 0.005704519506061415,
+   "pageviews_60d": 20299
+  },
+  "Dear Comrade": {
+   "pagerank": 0.0002944535258440281,
+   "authority": 0.0020019918656460044,
+   "pageviews_60d": 44925
+  },
+  "Evaru": {
+   "pagerank": 0.0001524712200762056,
+   "authority": 0.003940723102649999,
+   "pageviews_60d": 10961
+  },
+  "F2: Fun and Frustration": {
+   "pagerank": 0.00043180448860513274,
+   "authority": 0.008740773289770291,
+   "pageviews_60d": 14731
+  },
+  "Jersey": {
+   "pagerank": 0.0005460502588479642,
+   "authority": 0.010111225485731129,
+   "pageviews_60d": 37982
+  },
+  "Maharshi": {
+   "pagerank": 0.0004446116103174127,
+   "authority": 0.0237217934774253,
+   "pageviews_60d": 34438
+  },
+  "Majili": {
+   "pagerank": 0.00030795152522901435,
+   "authority": 0.006787381858216849,
+   "pageviews_60d": 36810
+  },
+  "Mallesham": {
+   "pagerank": 0.00012030459745752737,
+   "authority": 0.0011538268988311071,
+   "pageviews_60d": 2808
+  },
+  "Mathu Vadalara": {
+   "pagerank": 0.00018546396447848975,
+   "authority": 0.005843136402650231,
+   "pageviews_60d": 7769
+  },
+  "Oh! Baby": {
+   "pagerank": 0.000275830994051389,
+   "authority": 0.0049012142275789,
+   "pageviews_60d": 12818
+  },
+  "Saaho": {
+   "pagerank": 0.0005508375077191731,
+   "authority": 0.02934908393361673,
+   "pageviews_60d": 50632
+  },
+  "Sye Raa Narasimha Reddy": {
+   "pagerank": 0.0007137174010341714,
+   "authority": 0.024311504265118588,
+   "pageviews_60d": 29146
+  },
+  "iSmart Shankar": {
+   "pagerank": 0.000290897435869919,
+   "authority": 0.007599507241592746,
+   "pageviews_60d": 16419
+  },
+  "Ala Vaikunthapurramuloo": {
+   "pagerank": 0.0005141312836870507,
+   "authority": 0.02235965188516317,
+   "pageviews_60d": 57289
+  },
+  "Bheeshma": {
+   "pagerank": 0.0001858739643004136,
+   "authority": 0.006614768085872393,
+   "pageviews_60d": 14584
+  },
+  "Colour Photo": {
+   "pagerank": 0.00020182394985633989,
+   "authority": 0.0012698462696941325,
+   "pageviews_60d": 20912
+  },
+  "HIT: The First Case": {
+   "pagerank": 0.0004268653076492254,
+   "authority": 0.008058771088260091,
+   "pageviews_60d": 35340
+  },
+  "Sarileru Neekevvaru": {
+   "pagerank": 0.0005036594840272412,
+   "authority": 0.021597431929581273,
+   "pageviews_60d": 32157
+  },
+  "Akhanda": {
+   "pagerank": 0.0003173642755556774,
+   "authority": 0.00446923462679387,
+   "pageviews_60d": 18522
+  },
+  "Drushyam 2": {
+   "pagerank": 0.000538721834117927,
+   "authority": 0.0017347866851793227,
+   "pageviews_60d": 26506
+  },
+  "Jathi Ratnalu": {
+   "pagerank": 0.00037438292090365057,
+   "authority": 0.008665424108946626,
+   "pageviews_60d": 27773
+  },
+  "Krack": {
+   "pagerank": 0.0002961466737311081,
+   "authority": 0.003964221399356133,
+   "pageviews_60d": 21643
+  },
+  "Love Story": {
+   "pagerank": 0.000224259248980091,
+   "authority": 0.0011767060062980767,
+   "pageviews_60d": 21747
+  },
+  "Pushpa: The Rise": {
+   "pagerank": 0.0004245280126285557,
+   "authority": 0.022309044959554068,
+   "pageviews_60d": 55812
+  },
+  "Shyam Singha Roy": {
+   "pagerank": 0.00038129538170147753,
+   "authority": 0.004251090705852124,
+   "pageviews_60d": 57878
+  },
+  "Uppena": {
+   "pagerank": 0.0003658026135773546,
+   "authority": 0.004361807824126519,
+   "pageviews_60d": 23396
+  },
+  "Vakeel Saab": {
+   "pagerank": 0.00043407159305151427,
+   "authority": 0.013191535719304447,
+   "pageviews_60d": 12508
+  },
+  "Ante Sundaraniki": {
+   "pagerank": 0.00034514890946997967,
+   "authority": 0.002879204515809893,
+   "pageviews_60d": 51425
+  },
+  "Bheemla Nayak": {
+   "pagerank": 0.00029425206857915614,
+   "authority": 0.013265614497731622,
+   "pageviews_60d": 15429
+  },
+  "Bimbisara": {
+   "pagerank": 0.00024066877731514227,
+   "authority": 0.0038053559034965045,
+   "pageviews_60d": 9838
+  },
+  "DJ Tillu": {
+   "pagerank": 0.0002761844004702225,
+   "authority": 0.004885503067308671,
+   "pageviews_60d": 9794
+  },
+  "Godfather": {
+   "pagerank": 0.0002473018729173836,
+   "authority": 0.013145410942477963,
+   "pageviews_60d": 26279
+  },
+  "HIT: The Second Case": {
+   "pagerank": 0.0003423776428503024,
+   "authority": 0.00539782779849849,
+   "pageviews_60d": 50743
+  },
+  "Karthikeya 2": {
+   "pagerank": 0.00028667704528099027,
+   "authority": 0.008711904616172318,
+   "pageviews_60d": 15461
+  },
+  "Major": {
+   "pagerank": 0.00039083046946540904,
+   "authority": 0.006253623234627806,
+   "pageviews_60d": 21524
+  },
+  "RRR": {
+   "pagerank": 0.0005321287705556455,
+   "authority": 0.0148399770665345,
+   "pageviews_60d": 133977
+  },
+  "Sarkaru Vaari Paata": {
+   "pagerank": 0.0002727986166472157,
+   "authority": 0.013727612019682103,
+   "pageviews_60d": 27155
+  },
+  "Sita Ramam": {
+   "pagerank": 0.00046429591908093737,
+   "authority": 0.011901931122806346,
+   "pageviews_60d": 70850
+  },
+  "Balagam": {
+   "pagerank": 0.0001627840216390624,
+   "authority": 0.0019935535895357183,
+   "pageviews_60d": 8698
+  },
+  "Bhagavanth Kesari": {
+   "pagerank": 0.00028904089028921107,
+   "authority": 0.007169709815105606,
+   "pageviews_60d": 48031
+  },
+  "Dasara": {
+   "pagerank": 0.00017532903235401473,
+   "authority": 0.003019475165519959,
+   "pageviews_60d": 144081
+  },
+  "Hi Nanna": {
+   "pagerank": 0.00023511638837720543,
+   "authority": 0.0023712259876369356,
+   "pageviews_60d": 61316
+  },
+  "Mad": {
+   "pagerank": 0.0001590829167605647,
+   "authority": 0.0008762075874175864,
+   "pageviews_60d": 23306
+  },
+  "Salaar: Part 1 – Ceasefire": {
+   "pagerank": 0.0004688886268499553,
+   "authority": 0.013059522666310393,
+   "pageviews_60d": 107872
+  },
+  "Samajavaragamana": {
+   "pagerank": 0.00010796358977316422,
+   "authority": 0.00034099751037361983,
+   "pageviews_60d": 7866
+  },
+  "Veera Simha Reddy": {
+   "pagerank": 0.0003418793459404263,
+   "authority": 0.006182168480108014,
+   "pageviews_60d": 21202
+  },
+  "Virupaksha": {
+   "pagerank": 0.00021433449321015043,
+   "authority": 0.006325921826787487,
+   "pageviews_60d": 23763
+  },
+  "Waltair Veerayya": {
+   "pagerank": 0.0005852406321754252,
+   "authority": 0.00979456317969697,
+   "pageviews_60d": 39512
+  },
+  "Devara: Part 1": {
+   "pagerank": 0.00031284109946137925,
+   "authority": 0.01298876396881777,
+   "pageviews_60d": 69246
+  },
+  "Gangs of Godavari": {
+   "pagerank": 0.00016814865472709084,
+   "authority": 0.0017811772324802706,
+   "pageviews_60d": 9513
+  },
+  "Guntur Kaaram": {
+   "pagerank": 0.0002979154047606141,
+   "authority": 0.014846056660081076,
+   "pageviews_60d": 54655
+  },
+  "Hanu-Man": {
+   "pagerank": 0.000167834736972161,
+   "authority": 0.0007910678804122361,
+   "pageviews_60d": 49286
+  },
+  "Ka": {
+   "pagerank": 9.438853441851503e-05,
+   "authority": 0.00252578808370532,
+   "pageviews_60d": 14939
+  },
+  "Kalki 2898 AD": {
+   "pagerank": 0.0007585002543227715,
+   "authority": 0.026982779658583977,
+   "pageviews_60d": 161128
+  },
+  "Lucky Baskhar": {
+   "pagerank": 0.00019954927478407056,
+   "authority": 0.004315434184595244,
+   "pageviews_60d": 86697
+  },
+  "Pushpa 2: The Rule": {
+   "pagerank": 0.0005218603111783531,
+   "authority": 0.017391314663088416,
+   "pageviews_60d": 115777
+  },
+  "Saripodhaa Sanivaaram": {
+   "pagerank": 0.00034526903005233225,
+   "authority": 0.008240847700160635,
+   "pageviews_60d": 69106
+  },
+  "Tillu Square": {
+   "pagerank": 0.0002795704216389461,
+   "authority": 0.007304956328896649,
+   "pageviews_60d": 13229
+  },
+  "Akhanda 2: Thaandavam": {
+   "pagerank": 0.0002938690428864833,
+   "authority": 0.0017830418678436621,
+   "pageviews_60d": 37292
+  },
+  "Court": {
+   "pagerank": 4.781463359009193e-05,
+   "authority": 0.0,
+   "pageviews_60d": 23735
+  },
+  "Daaku Maharaaj": {
+   "pagerank": 0.0003321253052943785,
+   "authority": 0.00525652383655335,
+   "pageviews_60d": 38838
+  },
+  "Game Changer": {
+   "pagerank": 0.0005383517778504359,
+   "authority": 0.0061251988282862956,
+   "pageviews_60d": 74672
+  },
+  "HIT: The Third Case": {
+   "pagerank": 0.0003771029043158705,
+   "authority": 0.004006379922414435,
+   "pageviews_60d": 97358
+  },
+  "Kingdom": {
+   "pagerank": 0.0002227826723982649,
+   "authority": 0.0028358247505587144,
+   "pageviews_60d": 72302
+  },
+  "Mirai": {
+   "pagerank": 0.00013147069620947645,
+   "authority": 0.000385899164001857,
+   "pageviews_60d": 51634
+  },
+  "Sankranthiki Vasthunam": {
+   "pagerank": 0.00036894295443917063,
+   "authority": 0.004594787660821884,
+   "pageviews_60d": 39895
+  },
+  "Thandel": {
+   "pagerank": 0.0002733795512433655,
+   "authority": 0.004338339899085213,
+   "pageviews_60d": 25197
+  },
+  "They Call Him OG": {
+   "pagerank": 0.0005045836861147132,
+   "authority": 0.008584016351230463,
+   "pageviews_60d": 87230
+  },
+  "Mana Shankara Vara Prasad Garu": {
+   "pagerank": 0.00036811888931601413,
+   "authority": 0.008335476335392094,
+   "pageviews_60d": 91626
+  },
+  "The Raja Saab": {
+   "pagerank": 0.00021882251033681312,
+   "authority": 0.00877729403064484,
+   "pageviews_60d": 82786
+  }
+ }
+}

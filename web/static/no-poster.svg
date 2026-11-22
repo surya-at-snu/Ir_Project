@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="200" height="300">
+  <rect width="200" height="300" fill="#1e2330"/>
+  <rect x="20" y="20" width="160" height="260" rx="10" fill="none" stroke="#3a4256" stroke-width="3" stroke-dasharray="10 8"/>
+  <g fill="#3a4256">
+    <rect x="62" y="105" width="76" height="56" rx="8"/>
+    <polygon points="138,120 166,104 166,162 138,146"/>
+  </g>
+  <text x="100" y="200" fill="#8b93a7" font-family="Segoe UI, Arial, sans-serif" font-size="16" text-anchor="middle">No poster</text>
+</svg>

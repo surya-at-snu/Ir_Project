@@ -1,0 +1,9 @@
+variant,mrr,s@1,s@10,ndcg10,delta_mrr,p_vs_full
+Full model,0.9166,0.8795,0.9807,0.9317,0.0,nan
+– clause weighting,0.9174,0.8795,0.9807,0.9324,0.0008,0.6146
+– negation handling,0.9155,0.8735,0.9759,0.9296,-0.0011,0.7765
+– Hinglish handling,0.9152,0.8735,0.9819,0.9311,-0.0014,0.6571
+– dense retrieval,0.9014,0.8639,0.9627,0.9153,-0.0152,0.0019
+– Naive Bayes soft filters,0.9163,0.8771,0.9807,0.9314,-0.0003,0.9296
+– explicit cues (title/person/year/language/genre),0.9007,0.8578,0.9687,0.9164,-0.0159,0.0022
+– PageRank / HITS / page views,0.9171,0.8771,0.9807,0.932,0.0005,0.8855

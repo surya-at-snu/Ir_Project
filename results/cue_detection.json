@@ -1,0 +1,64 @@
+{
+ "hedge": {
+  "precision": 0.9102564102564102,
+  "recall": 0.9466666666666667,
+  "f1": 0.9281045751633987,
+  "accuracy": 0.9933734939759036,
+  "tp": 71,
+  "fp": 7,
+  "fn": 4,
+  "tn": 1578
+ },
+ "exclusion": {
+  "precision": 0.8917748917748918,
+  "recall": 1.0,
+  "f1": 0.9427917620137299,
+  "accuracy": 0.9849397590361446,
+  "tp": 206,
+  "fp": 25,
+  "fn": 0,
+  "tn": 1429
+ },
+ "n_queries": 1660,
+ "errors": {
+  "hedge": {
+   "false_positives": [
+    "Docu-drama about the 1993 Bombay bomb blasts and the police investigation, based on a book. A long chase through the slums. Kay Kay Menon as the police officer. Banned for a couple of years before release.",
+    "Kriti Sanon as a dancer in Rajasthan who becomes a surrogate mother for an American couple to fund her Bollywood dreams, and they back out when tests say the baby may have Down syndrome; Pankaj Tripathi as the taxi driver Bhanu. 2021.",
+    "a brother goes to madurai to protect his twin sister's marriage from her scheming in-laws, with a huge temple set. telugu, around 2004",
+    "a young drummer at a top music school is pushed to the edge by an abusive bandleader who throws chairs at students. 2014ish",
+    "gritty film about the 1993 bomb blasts and the police investigation, it was banned for a while",
+    "satire about a poor farmer who might kill himself for compensation money and the media circus around him",
+    "two small time crooks, an old uncle and his nephew, hide at a dead gangster's house in a UP village, both fall for his widow and she drags them into a kidnapping plan. dark comedy around 2010"
+   ],
+   "false_negatives": [
+    "Sandra Bullock and maybe Matt Damon as astronauts left drifting in orbit after debris destroys their shuttle; she has to reach the Chinese space station alone. Alfonso Cuar\u00f3n.",
+    "late 80s or early 90s music love story, a struggling singer and an orphan girl who escaped from a hostel. the soundtrack was HUGE, nadeem shravan, 'dheere dheere se meri zindagi'. the girl becomes a model in paris. not the 2013 sequel.",
+    "Kamal Haasan, Rishi Kapoor and maybe Sridevi in a love triangle in Goa: she runs a small restaurant, Raja silently loves her, but she falls for rich Ravi who is back from America and whose grandmother opposes it, and Raja sacrifices himself. 'Chehra hai ya chand khila hai' song. Ramesh Sippy, mid 80s.",
+    "a courtesan who dreams of a normal life, a stranger sees her feet on a train and leaves her a note. took many years to make and i think the actress died around the release"
+   ]
+  },
+  "exclusion": {
+   "false_positives": [
+    "Vamsy comedy: Ravi Teja as Anil, a night watchman who secretly rents Swathi's (Kalyani) room by day from the miser Satyanandam; they write letters to each other and fall in love without meeting.",
+    "Disney: Mirabel, the only Madrigal without a magic gift in their enchanted Colombian house, discovers the magic is fading; 'We Don't Talk About Bruno'.",
+    "An environmental science student from Mumbai joins his uncle's garage in Hyderabad that fixes not just vehicles but people's problems. Jr NTR and Mohanlal, 2016.",
+    "Frances McDormand as a mother who rents three billboards to call out the police chief (Woody Harrelson) for not solving her daughter's murder; Sam Rockwell as the racist cop.",
+    "A grumpy classics teacher (Paul Giamatti) at a New England boarding school has to look after the students who can't go home over Christmas in 1970, with a grieving cook. Alexander Payne.",
+    "Old black and white film where a judge throws his pregnant wife out because he thinks the child isn't his. The son grows up poor and becomes a petty thief. I think the girl he loves becomes his lawyer in court, maybe Dilip Kumar was the hero? There's a famous dream sequence with stairs.",
+    "Murder mystery set in a hill station hotel, a girl thinks the band drummer is responsible for her sister falling from the third floor. Hero dancing like crazy, RD Burman songs. Maybe Dev Anand? no, I think Shammi Kapoor.",
+    "Three brothers separated as kids get raised in three different religions. The mother is blind and gets her eyesight back in a temple miracle. Famous scene where one drunk brother talks to himself in a mirror. All three give blood to their mother at the same time without knowing."
+   ],
+   "false_negatives": []
+  }
+ },
+ "clause_kinds": {
+  "plain": 5262,
+  "exclusion": 232,
+  "context": 72,
+  "meta": 8,
+  "hedged": 82,
+  "confident": 4
+ },
+ "clauses_per_query": 3.4096385542168677
+}

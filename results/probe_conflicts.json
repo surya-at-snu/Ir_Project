@@ -1,0 +1,797 @@
+{
+ "replica_identical": 830,
+ "n": 830,
+ "fold_weights": {
+  "0": {
+   "hedged": 0.0,
+   "confident": 1.25,
+   "context": 1.0,
+   "mu": 0.25,
+   "meta": 0.0
+  },
+  "1": {
+   "hedged": 0.0,
+   "confident": 1.25,
+   "context": 1.0,
+   "mu": 0.25,
+   "meta": 0.0
+  },
+  "2": {
+   "hedged": 0.0,
+   "confident": 1.25,
+   "context": 1.0,
+   "mu": 0.25,
+   "meta": 0.0
+  },
+  "3": {
+   "hedged": 0.0,
+   "confident": 1.25,
+   "context": 1.0,
+   "mu": 0.25,
+   "meta": 0.0
+  },
+  "4": {
+   "hedged": 0.0,
+   "confident": 1.25,
+   "context": 1.0,
+   "mu": 0.25,
+   "meta": 0.0
+  }
+ },
+ "paper_ca_mrr_vague_noise": 0.8188392825023636,
+ "replica_ca_rank_agreement": 738,
+ "cv_entity_match_weight_mean": -0.28375958434225323,
+ "deployed_clause_weights": {
+  "plain": 1.0,
+  "hedged": 0.3,
+  "confident": 1.25,
+  "meta": 0.0,
+  "mu": 0.0,
+  "context": 1.0
+ },
+ "variants": {
+  "clean": {
+   "bm25": {
+    "mrr": 0.8649323078647176,
+    "s@1": 0.8180722891566266,
+    "s@5": 0.9204819277108434,
+    "s@10": 0.9397590361445783
+   },
+   "lex_cv": {
+    "mrr": 0.8616170677650372,
+    "s@1": 0.8132530120481928,
+    "s@5": 0.9180722891566265,
+    "s@10": 0.9373493975903614
+   },
+   "ca_cv": {
+    "mrr": 0.8962204621770042,
+    "s@1": 0.8578313253012049,
+    "s@5": 0.936144578313253,
+    "s@10": 0.9566265060240964
+   },
+   "deployed": {
+    "mrr": 0.9210296062230982,
+    "s@1": 0.8843373493975903,
+    "s@5": 0.963855421686747,
+    "s@10": 0.9819277108433735
+   }
+  },
+  "hedged_false": {
+   "bm25": {
+    "mrr": 0.45964755110926825,
+    "s@1": 0.1602409638554217,
+    "s@5": 0.8072289156626506,
+    "s@10": 0.8746987951807229,
+    "source_above_target": 0.8313253012048193,
+    "source_top1": 0.8192771084337349,
+    "mrr_actor_subset": 0.4152905012561772
+   },
+   "lex_cv": {
+    "mrr": 0.6447739282594104,
+    "s@1": 0.4759036144578313,
+    "s@5": 0.8397590361445784,
+    "s@10": 0.8903614457831325,
+    "source_above_target": 0.44819277108433736,
+    "source_top1": 0.42168674698795183,
+    "mrr_actor_subset": 0.6628329011009267
+   },
+   "ca_cv": {
+    "mrr": 0.8186638892165896,
+    "s@1": 0.7493975903614458,
+    "s@5": 0.9120481927710843,
+    "s@10": 0.9337349397590361,
+    "source_above_target": 0.10240963855421686,
+    "source_top1": 0.07228915662650602,
+    "mrr_actor_subset": 0.8331662732380126
+   },
+   "deployed": {
+    "mrr": 0.7737456831479216,
+    "s@1": 0.6493975903614457,
+    "s@5": 0.9216867469879518,
+    "s@10": 0.9590361445783132,
+    "source_above_target": 0.29036144578313255,
+    "source_top1": 0.26024096385542167,
+    "mrr_actor_subset": 0.7773392246906001
+   }
+  },
+  "plain_false": {
+   "bm25": {
+    "mrr": 0.45943878022880724,
+    "s@1": 0.1602409638554217,
+    "s@5": 0.8072289156626506,
+    "s@10": 0.8746987951807229,
+    "source_above_target": 0.8325301204819278,
+    "source_top1": 0.8192771084337349,
+    "mrr_actor_subset": 0.4152842491547765
+   },
+   "lex_cv": {
+    "mrr": 0.42625609287519184,
+    "s@1": 0.14337349397590363,
+    "s@5": 0.7518072289156627,
+    "s@10": 0.8421686746987952,
+    "source_above_target": 0.8481927710843373,
+    "source_top1": 0.8289156626506025,
+    "mrr_actor_subset": 0.3859298977656787
+   },
+   "ca_cv": {
+    "mrr": 0.7654787819176813,
+    "s@1": 0.6710843373493975,
+    "s@5": 0.8831325301204819,
+    "s@10": 0.9228915662650602,
+    "source_above_target": 0.15903614457831325,
+    "source_top1": 0.12891566265060242,
+    "mrr_actor_subset": 0.8029077340150138
+   },
+   "deployed": {
+    "mrr": 0.6853283080697788,
+    "s@1": 0.516867469879518,
+    "s@5": 0.8831325301204819,
+    "s@10": 0.9421686746987952,
+    "source_above_target": 0.43855421686746987,
+    "source_top1": 0.39518072289156625,
+    "mrr_actor_subset": 0.6850682185608019
+   }
+  },
+  "certain_false": {
+   "bm25": {
+    "mrr": 0.45964755110926825,
+    "s@1": 0.1602409638554217,
+    "s@5": 0.8072289156626506,
+    "s@10": 0.8746987951807229,
+    "source_above_target": 0.8313253012048193,
+    "source_top1": 0.8192771084337349,
+    "mrr_actor_subset": 0.4152905012561772
+   },
+   "lex_cv": {
+    "mrr": 0.38694156295887394,
+    "s@1": 0.10602409638554217,
+    "s@5": 0.7168674698795181,
+    "s@10": 0.8072289156626506,
+    "source_above_target": 0.8855421686746988,
+    "source_top1": 0.8710843373493976,
+    "mrr_actor_subset": 0.3487242023385252
+   },
+   "ca_cv": {
+    "mrr": 0.7460916021846824,
+    "s@1": 0.6481927710843374,
+    "s@5": 0.8710843373493976,
+    "s@10": 0.9108433734939759,
+    "source_above_target": 0.17590361445783131,
+    "source_top1": 0.14096385542168674,
+    "mrr_actor_subset": 0.7834246769636735
+   },
+   "deployed": {
+    "mrr": 0.6563724098884871,
+    "s@1": 0.4807228915662651,
+    "s@5": 0.8686746987951808,
+    "s@10": 0.9228915662650602,
+    "source_above_target": 0.4843373493975904,
+    "source_top1": 0.43373493975903615,
+    "mrr_actor_subset": 0.6526902761415706
+   }
+  },
+  "hedged_true_actor": {
+   "bm25": {
+    "mrr": 0.9664248463167668,
+    "s@1": 0.9433734939759036,
+    "s@5": 0.9939759036144579,
+    "s@10": 0.9975903614457832,
+    "mrr_subset_with_actor": 0.9664248463167668
+   },
+   "lex_cv": {
+    "mrr": 0.86161846481893,
+    "s@1": 0.8132530120481928,
+    "s@5": 0.9180722891566265,
+    "s@10": 0.9373493975903614,
+    "mrr_subset_with_actor": 0.86161846481893
+   },
+   "ca_cv": {
+    "mrr": 0.2852548528257802,
+    "s@1": 0.18072289156626506,
+    "s@5": 0.3795180722891566,
+    "s@10": 0.516867469879518,
+    "mrr_subset_with_actor": 0.2852548528257802
+   },
+   "deployed": {
+    "mrr": 0.9412152109839921,
+    "s@1": 0.9048192771084337,
+    "s@5": 0.9855421686746988,
+    "s@10": 0.9951807228915662,
+    "mrr_subset_with_actor": 0.9412152109839921
+   }
+  },
+  "certain_true_actor": {
+   "bm25": {
+    "mrr": 0.9664248463167668,
+    "s@1": 0.9433734939759036,
+    "s@5": 0.9939759036144579,
+    "s@10": 0.9975903614457832,
+    "mrr_subset_with_actor": 0.9664248463167668
+   },
+   "lex_cv": {
+    "mrr": 0.9695142474660549,
+    "s@1": 0.946987951807229,
+    "s@5": 0.9939759036144579,
+    "s@10": 1.0,
+    "mrr_subset_with_actor": 0.9695142474660549
+   },
+   "ca_cv": {
+    "mrr": 0.030448504400157686,
+    "s@1": 0.01927710843373494,
+    "s@5": 0.01927710843373494,
+    "s@10": 0.01927710843373494,
+    "mrr_subset_with_actor": 0.030448504400157686
+   },
+   "deployed": {
+    "mrr": 0.9657745266781411,
+    "s@1": 0.9409638554216867,
+    "s@5": 0.9975903614457832,
+    "s@10": 0.9987951807228915,
+    "mrr_subset_with_actor": 0.9657745266781411
+   }
+  }
+ },
+ "n_actor_subset": 403,
+ "n_has_actor": 830,
+ "examples": {
+  "clean": "a couple move into a cheap luxury flat in mumbai where the previous woman died with her child, and the wife becomes possessed. 2003 horror",
+  "hedged_false": "a couple move into a cheap luxury flat in mumbai where the previous woman died with her child, and the wife becomes possessed. 2003 horror. I think dK, worried by the effect Rahul is having on his family, decides to put him in a boarding school in St.",
+  "plain_false": "a couple move into a cheap luxury flat in mumbai where the previous woman died with her child, and the wife becomes possessed. 2003 horror. dK, worried by the effect Rahul is having on his family, decides to put him in a boarding school in St.",
+  "certain_false": "a couple move into a cheap luxury flat in mumbai where the previous woman died with her child, and the wife becomes possessed. 2003 horror. I'm certain dK, worried by the effect Rahul is having on his family, decides to put him in a boarding school in St.",
+  "hedged_true_actor": "a couple move into a cheap luxury flat in mumbai where the previous woman died with her child, and the wife becomes possessed. 2003 horror. maybe Ajay Devgn was in it.",
+  "certain_true_actor": "a couple move into a cheap luxury flat in mumbai where the previous woman died with her child, and the wife becomes possessed. 2003 horror. I'm certain Ajay Devgn was in it."
+ },
+ "order": {
+  "n": 736,
+  "target_rank_unchanged": 0.9497282608695652,
+  "top1_changed": 0.019021739130434784,
+  "mrr_original": 0.9216655475630996,
+  "mrr_reversed": 0.9171956326608649,
+  "bm25_scores_identical": 1.0
+ },
+ "remakes": {
+  "plain": {
+   "n": 23,
+   "story_top1": 0.8260869565217391,
+   "story_top5_both": 0.5217391304347826,
+   "exact_top1": 0.8260869565217391,
+   "other_version_above_target": 0.08695652173913043
+  },
+  "watched_in_lang": {
+   "n": 23,
+   "story_top1": 0.8695652173913043,
+   "story_top5_both": 0.5652173913043478,
+   "exact_top1": 0.782608695652174,
+   "other_version_above_target": 0.13043478260869565
+  },
+  "rows": [
+   {
+    "target": "Arjun Reddy (2017, te)",
+    "other": "Kabir Singh (2019, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 648
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 648
+    }
+   },
+   {
+    "target": "Kabir Singh (2019, hi)",
+    "other": "Arjun Reddy (2017, te)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 2
+    }
+   },
+   {
+    "target": "Drushyam (2014, te)",
+    "other": "Drishyam (2015, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 651
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 650
+    }
+   },
+   {
+    "target": "Drishyam (2015, hi)",
+    "other": "Drushyam (2014, te)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 5
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 5
+    }
+   },
+   {
+    "target": "Drushyam 2 (2021, te)",
+    "other": "Drishyam 2 (2022, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 2
+    }
+   },
+   {
+    "target": "Drishyam 2 (2022, hi)",
+    "other": "Drushyam 2 (2021, te)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 2
+    }
+   },
+   {
+    "target": "Pokiri (2006, te)",
+    "other": "Wanted (2009, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 3
+    }
+   },
+   {
+    "target": "Wanted (2009, hi)",
+    "other": "Pokiri (2006, te)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 3
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 3
+    }
+   },
+   {
+    "target": "Dabangg (2010, hi)",
+    "other": "Gabbar Singh (2012, te)",
+    "plain": {
+     "target_rank": 5,
+     "other_rank": 20
+    },
+    "watched_in_lang": {
+     "target_rank": 6,
+     "other_rank": 15
+    }
+   },
+   {
+    "target": "Gabbar Singh (2012, te)",
+    "other": "Dabangg (2010, hi)",
+    "plain": {
+     "target_rank": 6,
+     "other_rank": 91
+    },
+    "watched_in_lang": {
+     "target_rank": 11,
+     "other_rank": 155
+    }
+   },
+   {
+    "target": "Munna Bhai M.B.B.S. (2003, hi)",
+    "other": "Shankar Dada M.B.B.S. (2004, te)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 2
+    }
+   },
+   {
+    "target": "Shankar Dada M.B.B.S. (2004, te)",
+    "other": "Munna Bhai M.B.B.S. (2003, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 648
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 648
+    }
+   },
+   {
+    "target": "Lage Raho Munna Bhai (2006, hi)",
+    "other": "Shankar Dada Zindabad (2007, te)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 3
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 2
+    }
+   },
+   {
+    "target": "Shankar Dada Zindabad (2007, te)",
+    "other": "Lage Raho Munna Bhai (2006, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 648
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 648
+    }
+   },
+   {
+    "target": "Pink (2016, hi)",
+    "other": "Vakeel Saab (2021, te)",
+    "plain": {
+     "target_rank": 9,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 654,
+     "other_rank": 1
+    }
+   },
+   {
+    "target": "Vakeel Saab (2021, te)",
+    "other": "Pink (2016, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 648
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 648
+    }
+   },
+   {
+    "target": "Temper (2015, te)",
+    "other": "Simmba (2018, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 12
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 7
+    }
+   },
+   {
+    "target": "Simmba (2018, hi)",
+    "other": "Temper (2015, te)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 2
+    }
+   },
+   {
+    "target": "OMG \u2013 Oh My God! (2012, hi)",
+    "other": "Gopala Gopala (2015, te)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 2,
+     "other_rank": 1
+    }
+   },
+   {
+    "target": "Gopala Gopala (2015, te)",
+    "other": "OMG \u2013 Oh My God! (2012, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 648
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 648
+    }
+   },
+   {
+    "target": "Hello Brother (1994, te)",
+    "other": "Judwaa (1997, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 2
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 2
+    }
+   },
+   {
+    "target": "Judwaa (1997, hi)",
+    "other": "Hello Brother (1994, te)",
+    "plain": {
+     "target_rank": 6,
+     "other_rank": 3
+    },
+    "watched_in_lang": {
+     "target_rank": 5,
+     "other_rank": 3
+    }
+   },
+   {
+    "target": "Kalisundam Raa (2000, te)",
+    "other": "Kuch Tum Kaho Kuch Hum Kahein (2002, hi)",
+    "plain": {
+     "target_rank": 1,
+     "other_rank": 3
+    },
+    "watched_in_lang": {
+     "target_rank": 1,
+     "other_rank": 3
+    }
+   }
+  ],
+  "lead_evidence": {
+   "Arjun Reddy": [
+    "The film was remade in Hindi as Kabir Singh (2019) and twice in Tamil: as Adithya Varma (2019) and Varmaa (2020)."
+   ],
+   "Kabir Singh": [
+    "A remake of Vanga's own Telugu film Arjun Reddy (2017), it stars Shahid Kapoor as the titular protagonist, a surgeon, who spirals into self-destruction when his girlfriend, played by Kiara Advani, is forced to marry someone else."
+   ],
+   "Drushyam": [
+    "A remake of the 2013 Malayalam film Drishyam, the film stars Venkatesh, Meena, Esther Anil, and Kruthika Jayakumar.",
+    "A sequel titled Drushyam 2, a remake of Drishyam 2, was released in November 2021 on Amazon Prime Video."
+   ],
+   "Drishyam": [
+    "A remake of the eponymous 2013 Malayalam film of the same name, the film stars Ajay Devgn, Tabu, Shriya Saran."
+   ],
+   "Drushyam 2": [
+    "It is a remake of his 2021 Malayalam film Drishyam 2 and sequel to Drushyam (2014)."
+   ],
+   "Drishyam 2": [
+    "Produced by Panorama Studios, Viacom18 Studios, and T-Series, it is a remake of the 2021 Malayalam film of the same name and sequel to the 2015 film Drishyam.",
+    "Following the release of the original film in February 2021, the remake came into development and was announced the same year."
+   ],
+   "Pokiri": [
+    "It was remade in Tamil as Pokkiri (2007), in Hindi as Wanted (2009), in Kannada as Porki (2010)"
+   ],
+   "Wanted": [
+    "Wanted is a 2009 Indian Hindi-language action thriller film directed by Prabhu Deva, who was the director of the remake of Tamil film Pokkiri (2007).",
+    "The film is a remake of Telugu film Pokiri (2006), stars Salman Khan, alongside Prakash Raj, Ayesha Takia, Vinod Khanna, Mahesh Manjrekar with Arvind Swamy, Govinda and Anil Kapoor making special appearances."
+   ],
+   "Dabangg": [
+    "The film was remade in Tamil as Osthe, with Sood reprising his role, and in Telugu as Gabbar Singh."
+   ],
+   "Gabbar Singh": [
+    "It is a remake of the 2010 Hindi film Dabangg."
+   ],
+   "Munna Bhai M.B.B.S.": [],
+   "Shankar Dada M.B.B.S.": [
+    "It is a remake of the Hindi film Munna Bhai M.B.B.S."
+   ],
+   "Lage Raho Munna Bhai": [
+    "It was later remade in Telugu by Prabhu Deva as Shankar Dada Zindabad (2007), with Prabhavalkar reprising his role as Gandhi."
+   ],
+   "Shankar Dada Zindabad": [
+    "The film is a remake of the 2006 Hindi film Lage Raho Munnabhai and a sequel to Shankar Dada MBBS (2004)."
+   ],
+   "Pink": [
+    "The film is remade in Tamil as Nerkonda Paarvai (2019) and in Telugu as Vakeel Saab (2021)."
+   ],
+   "Vakeel Saab": [
+    "It is a remake of the 2016 Hindi-language film Pink and stars Pawan Kalyan, Nivetha Thomas, Anjali, Ananya Nagalla, Prakash Raj, and Shruti Haasan."
+   ],
+   "Temper": [
+    "The film was later remade in Hindi as Simmba (2018) and in Tamil as Ayogya (2019)."
+   ],
+   "Simmba": [
+    "A remake of the 2015 Telugu film Temper, the film follows Sangram \"Simmba\" Bhalerao, a corrupt police officer hailing from the same town as Singham, who is forced to lead a more righteous path after tragedy strikes those near him.",
+    "The soundtrack features remakes of two 1996 songs: \"Aankh Marey\" originally from the film Tere Mere Sapne, and the qawwali song \"Tere Bin\" by Nusrat Fateh Ali Khan."
+   ],
+   "OMG \u2013 Oh My God!": [
+    "It was remade in Telugu as Gopala Gopala (2015) with Venkatesh, Pawan Kalyan, and Shriya Saran.",
+    "It was also remade in Kannada as Mukunda Murari (2016) with Upendra and Sudeep."
+   ],
+   "Gopala Gopala": [
+    "The film is a remake of the 2012 Hindi film OMG&nbsp;\u2013 Oh My God!"
+   ],
+   "Hello Brother": [
+    "In turn, Hello Brother spawned several of its own remakes, twice in Hindi as Judwaa (1997) and its reboot Judwaa 2 (2017) and in Kannada as Cheluva (1997)."
+   ],
+   "Judwaa": [
+    "It is a remake of the Telugu film Hello Brother (1994), which in turn is inspired from the Hong Kong action comedy film Twin Dragons (1992) starring Jackie Chan, which itself is a remake of Ranjit Mallick's Bengali film Shathe Shathyang (1982)."
+   ],
+   "Kalisundam Raa": [
+    "The film was remade in Hindi as Kuch Tum Kaho Kuch Hum Kahein (2002) and in Kannada as Ondagona Baa (2003)."
+   ],
+   "Kuch Tum Kaho Kuch Hum Kahein": [
+    "It is a remake of the Telugu film Kalisundam Raa which has similarities with William Shakespeare's, Romeo and Juliet."
+   ]
+  }
+ },
+ "dubs": {
+  "n": 85,
+  "mrr_before": 0.9273597025016904,
+  "mrr_after": 0.9413758723828514,
+  "s1_before": 0.9058823529411765,
+  "s1_after": 0.9294117647058824,
+  "worse": 0.03529411764705882,
+  "better": 0.047058823529411764,
+  "hindi_film_took_first_place": 1
+ },
+ "demos": {
+  "drishyam": {
+   "base": "A cable TV operator who is crazy about films protects his family after his daughter accidentally kills a boy who was blackmailing her. He uses tricks he learned from movies to build an alibi.",
+   "rows": [
+    {
+     "added": "(nothing)",
+     "top3": [
+      "Drishyam (2015, hi)",
+      "Drushyam (2014, te)",
+      "Knives Out (2019, en)"
+     ],
+     "ranks": {
+      "Drishyam": 1,
+      "Drushyam": 2
+     }
+    },
+    {
+     "added": "Maybe Venkatesh was in it.",
+     "top3": [
+      "Drishyam (2015, hi)",
+      "Drushyam (2014, te)",
+      "Drishyam 2 (2022, hi)"
+     ],
+     "ranks": {
+      "Drishyam": 1,
+      "Drushyam": 2
+     }
+    },
+    {
+     "added": "I'm certain Venkatesh was in it.",
+     "top3": [
+      "Drishyam (2015, hi)",
+      "Drushyam (2014, te)",
+      "Drishyam 2 (2022, hi)"
+     ],
+     "ranks": {
+      "Drishyam": 1,
+      "Drushyam": 2
+     }
+    },
+    {
+     "added": "I'm certain Ajay Devgn was in it.",
+     "top3": [
+      "Drishyam (2015, hi)",
+      "Dookudu (2011, te)",
+      "Drishyam 2 (2022, hi)"
+     ],
+     "ranks": {
+      "Drishyam": 1,
+      "Drushyam": 4
+     }
+    },
+    {
+     "added": "Maybe Akshay Kumar was in it.",
+     "top3": [
+      "Drishyam (2015, hi)",
+      "Drushyam (2014, te)",
+      "Drishyam 2 (2022, hi)"
+     ],
+     "ranks": {
+      "Drishyam": 1,
+      "Drushyam": 2
+     }
+    },
+    {
+     "added": "I'm certain Akshay Kumar was in it.",
+     "top3": [
+      "Drishyam (2015, hi)",
+      "Drishyam 2 (2022, hi)",
+      "Ghuspaithiya (2023, hi)"
+     ],
+     "ranks": {
+      "Drishyam": 1,
+      "Drushyam": 4
+     }
+    }
+   ]
+  },
+  "arjun_reddy": {
+   "base": "A brilliant young surgeon with anger issues destroys himself with alcohol and drugs after the girl he loves is forced to marry someone else.",
+   "rows": [
+    {
+     "added": "(nothing)",
+     "top3": [
+      "Arjun Reddy (2017, te)",
+      "Kabir Singh (2019, hi)",
+      "Dev.D (2009, hi)"
+     ],
+     "ranks": {
+      "Kabir Singh": 2,
+      "Arjun Reddy": 1
+     }
+    },
+    {
+     "added": "I'm certain Shahid Kapoor was in it.",
+     "top3": [
+      "Arjun Reddy (2017, te)",
+      "Kabir Singh (2019, hi)",
+      "Dev.D (2009, hi)"
+     ],
+     "ranks": {
+      "Kabir Singh": 2,
+      "Arjun Reddy": 1
+     }
+    },
+    {
+     "added": "I'm certain Vijay Deverakonda was in it.",
+     "top3": [
+      "Arjun Reddy (2017, te)",
+      "Kabir Singh (2019, hi)",
+      "Dev.D (2009, hi)"
+     ],
+     "ranks": {
+      "Kabir Singh": 2,
+      "Arjun Reddy": 1
+     }
+    },
+    {
+     "added": "Maybe Ranbir Kapoor was in it.",
+     "top3": [
+      "Arjun Reddy (2017, te)",
+      "Kabir Singh (2019, hi)",
+      "Dev.D (2009, hi)"
+     ],
+     "ranks": {
+      "Kabir Singh": 2,
+      "Arjun Reddy": 1
+     }
+    },
+    {
+     "added": "I'm certain Ranbir Kapoor was in it.",
+     "top3": [
+      "Kabir Singh (2019, hi)",
+      "Arjun Reddy (2017, te)",
+      "Barfi! (2012, hi)"
+     ],
+     "ranks": {
+      "Kabir Singh": 1,
+      "Arjun Reddy": 2
+     }
+    }
+   ]
+  }
+ }
+}

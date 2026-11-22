@@ -1,0 +1,831 @@
+qid,target,tags,query,BM25F (baseline),TF-IDF cosine (VSM),"Dense bi-encoder (bge-small, MaxP)",BM25 + dense (RRF),"Clause-weighted BM25 (learned c_h, c_conf, c_ctx)",+ scope-aware negation (learned mu),+ Hinglish spelling handling,Full LTR: coordinate ascent (ours),Full LTR: pairwise logistic / RankNet-linear (ours),Full LTR: LambdaMART (ours)
+vag-a150-001,Mohabbatein,decade,"a new music teacher at a strict boys' college where love is banned helps three students win their girls, defying the principal whose daughter he once loved. 2000",2,2,1,1,2,2,2,1,1,1
+vag-a150-002,Chandni Bar,decade,"a village girl orphaned in riots becomes a dancer in a mumbai dance bar, marries a gangster and tries to keep her children out of that life. gritty early 2000s",1,1,1,1,1,1,1,1,1,1
+vag-a150-003,Aankhen,decade|negation,"a fired, bitter bank manager trains three blind men to rob the bank that sacked him. early 2000s heist thriller, not the old comedy with the same name",1,1,1,1,1,1,1,1,1,1
+vag-a150-004,Bhoot,decade,"a couple move into a cheap luxury flat in mumbai where the previous woman died with her child, and the wife becomes possessed. 2003 horror",1,2,80,9,1,1,1,2,2,1
+vag-a150-005,Ab Tak Chhappan,decade,a calm mumbai police encounter specialist who has killed fifty-six gangsters is betrayed by his own department and hunted. 2004 cop film,10,12,2,2,10,10,10,3,2,3
+vag-a150-006,Mujhse Shaadi Karogi,decade,"a hot-tempered guy in goa falls for his neighbour, and a cunning new roommate keeps sabotaging him to win her. 2004 comedy",1,1,67,4,1,1,1,1,1,1
+vag-a150-007,Yuva,decade,"three young men in kolkata from very different worlds, a student leader, a hired thug and a carefree guy, collide in one shooting on a bridge. 2004",1,1,1,1,1,1,1,1,1,1
+vag-a150-008,Bunty Aur Babli,decade,"two small town youngsters who run away to the big city become a famous con couple, even selling the taj mahal, while an old cop chases them. 2005, famous item song",2,4,55,4,2,2,2,1,1,1
+vag-a150-009,Page 3,decade,"a young journalist who covers celebrity parties discovers the ugly truths of mumbai's high society. 2005, realistic",1,1,1,1,1,1,1,1,1,1
+vag-a150-010,Gangster,decade,a woman hiding in south korea with her gangster lover falls for a kind singer who turns out to be an undercover cop. 2006 romantic thriller,1,1,1,1,1,1,1,1,1,1
+vag-a150-011,Vivah,decade,a sweet arranged marriage story from engagement to wedding; the bride is burnt in a fire just before the wedding and the groom still marries her. 2006 family film,2,7,1,1,2,2,2,1,1,1
+vag-a150-012,Life in a... Metro,decade,"several connected stories of loneliness and affairs in mumbai, with a rock band singing on the streets between scenes. 2007",1,3,7,2,1,1,1,2,2,2
+vag-a150-013,Fashion,decade,"a small-town girl becomes a top model in mumbai, falls into drugs and loneliness, and has to rebuild herself. 2008",1,2,1,1,1,1,1,1,1,1
+vag-a150-014,Singh Is Kinng,decade,a clumsy village man goes to australia to bring back a gangster from his village and by accident becomes the new don. 2008 comedy,1,4,6,1,1,1,1,1,1,1
+vag-a150-015,Ajab Prem Ki Ghazab Kahani,decade,a good-for-nothing guy in a hill town falls for a girl and ends up helping her run away with the man she loves. 2009 comedy,50,34,431,107,50,50,50,5,5,1
+vag-a150-016,Paa,decade,a twelve-year-old boy with a rare disease that makes him look old secretly brings his single mother and his politician father back together. 2009,1,4,1,1,1,1,1,1,1,1
+vag-a150-017,Golmaal 3,decade,"two gangs of brothers who hate each other become step-brothers when their parents, old lovers, get married. 2010 comedy, third part of a series",59,164,2,6,59,59,59,4,10,7
+vag-a150-018,Raajneeti,decade,"a modern political family feud loosely based on the mahabharata, where a quiet son back from america becomes ruthless in the election war. 2010",1,1,19,2,1,1,1,1,1,1
+vag-a150-019,Bodyguard,decade,"a dutiful bodyguard protecting a rich girl at college falls for a mysterious caller who is actually her. 2011, remake of a malayalam film",1,2,1,1,1,1,1,1,1,1
+vag-a150-020,Ra.One,decade,"a video game villain escapes into the real world to hunt the boy who beat him, and the game's hero also comes out to protect the boy. 2011 superhero film",1,1,15,2,1,1,1,1,1,1
+vag-a150-021,Cocktail,decade,"a flirt, a wild party girl and a simple traditional girl share a flat in london, and a love triangle breaks their friendship. 2012",1,5,90,14,1,1,1,1,1,1
+vag-a150-022,Ek Tha Tiger,,"an indian spy on a mission in dublin falls in love with a woman who turns out to be a pakistani agent, and they run away from both agencies. the first one",1,1,28,8,1,1,1,1,1,1
+vag-a150-023,Shahid,decade,"true story of a young man wrongly jailed as a terrorist who becomes a lawyer to defend other innocent accused, and is shot dead. 2013",1,1,4,1,1,1,1,1,1,1
+vag-a150-024,Fukrey,decade,"delhi slackers try to get rich using one friend's dreams to guess lottery numbers, and borrow money from a scary female gangster. 2013 comedy, the first one",1,2,1,1,1,1,1,1,1,1
+vag-a150-025,Krrish 3,,an indian superhero and his scientist father fight a paralysed villain who spreads a deadly virus and builds an army of animal-human mutants. the third film,1,1,1,1,1,1,1,1,1,1
+vag-a150-026,Highway,decade,"a rich girl about to get married is kidnapped by a rough gang, and on the long road trip she feels free for the first time and bonds with her kidnapper. 2014",8,11,1,1,8,8,8,1,1,1
+vag-a150-027,Kick,negation,"a guy who does everything for the thrill becomes a masked thief to pay for poor children's operations, chased by a cop. the hindi remake, not the telugu original",3,16,44,6,3,3,3,1,2,2
+vag-a150-028,Mary Kom,decade,"biopic of a woman boxer from manipur who fights her father's disapproval, becomes world champion and makes a comeback after having twins. 2014",1,1,1,1,1,1,1,1,1,1
+vag-a150-029,Badlapur,decade,a man whose wife and son were killed during a bank robbery waits fifteen years for the robber to get out of prison to take revenge. dark 2015 thriller,1,6,116,13,1,1,1,1,1,1
+vag-a150-030,Dil Dhadakne Do,decade,"a dysfunctional rich punjabi family goes on a cruise for the parents' anniversary and all their secrets come out, with the story told by their dog. 2015",1,1,1,1,1,1,1,1,1,1
+vag-a150-031,Tanu Weds Manu Returns,decade,"a couple's marriage falls apart in london, and back in india the husband falls for a haryanvi athlete who looks exactly like his wife. 2015 sequel",1,1,5,1,1,1,1,1,1,1
+vag-a150-032,Sultan,decade,"a wrestler from haryana loses his wife and his pride, and comes back years later to fight in a mixed martial arts league. 2016",1,1,1,1,1,1,1,1,1,1
+vag-a150-033,Hindi Medium,decade,a rich shop owner and his wife from old delhi pretend to be poor to get their daughter into a top english school through the quota. 2017 comedy,1,2,1,1,1,1,1,1,1,1
+vag-a150-034,Raees,decade,"a smart boy from a poor family becomes a powerful liquor smuggler in a state where alcohol is banned, while a tough cop chases him. 2017",3,2,1,1,3,3,3,1,1,1
+vag-a150-035,Secret Superstar,decade,a teenage girl with an abusive father secretly becomes a singing sensation online by hiding her face under a burqa. 2017,1,1,5,1,1,1,1,1,1,1
+vag-a150-036,Tiger Zinda Hai,,an indian spy and his pakistani agent wife team up to rescue a group of nurses held hostage by terrorists in iraq. the second one,1,1,1,1,1,1,1,1,1,1
+vag-a150-037,Toilet: Ek Prem Katha,decade,"a newly married woman leaves her husband because his house in the village has no toilet, and he takes on the whole village to build one. 2017",1,1,1,1,1,1,1,1,1,1
+vag-a150-038,Simmba,decade,"a fun-loving corrupt cop changes after a young woman he sees as a sister is raped and killed, and kills the culprits in an encounter. 2018, cop universe",1,3,45,6,1,1,1,1,1,1
+vag-a150-039,Dream Girl,decade,"a young man who can do a perfect female voice works at a call centre as a woman, and many men fall in love with her voice. 2019 comedy",1,2,1,1,1,1,1,1,1,1
+vag-a150-040,Kesari,decade,"true story of twenty-one sikh soldiers who fight thousands of afghan tribesmen at a fort in 1897, to the last man. 2019",1,1,1,1,1,1,1,1,1,1
+vag-a150-041,Super 30,decade,"a maths teacher from bihar gives up a well-paid coaching job to train thirty poor students for free for the iit exam. true story, 2019",1,1,1,1,1,1,1,1,1,1
+vag-a150-042,Sooryavanshi,decade,"an anti-terror squad chief hunts sleeper cells hiding a huge stash of explosives in mumbai, and two other famous cops join him for the finale. cop universe, 2021",1,1,5,1,1,1,1,1,1,1
+vag-a150-043,Drishyam 2,,"seven years after a man hid a body to protect his family, the police reopen the case with a new officer and a witness, and he has prepared again. the sequel",2,14,1,1,2,2,2,1,1,1
+vag-a150-044,Vikram Vedha,decade,"an honest encounter cop hunts a gangster who surrenders and tells him stories that make him question what is right. remake of a tamil hit, 2022",1,3,1,1,1,1,1,1,1,1
+vag-a150-045,OMG 2,decade,a devout father takes his son's school to court to argue for proper sex education after the boy is humiliated over a video. 2023 sequel,1,1,1,1,1,1,1,1,1,1
+vag-a150-046,Munjya,decade,"a timid young man is haunted by the ghost of a brahmin boy who died before he could marry, and the ghost wants a bride. 2024 horror comedy",7,15,3,2,7,7,7,2,2,1
+vag-a150-047,Shaitaan,decade,a stranger visiting a family's farmhouse puts their teenage daughter under a black magic spell and makes her obey his every command. 2024 horror thriller,1,1,2,1,1,1,1,1,1,1
+vag-a150-048,Jolly LLB 3,decade,"two small-time lawyers with the same nickname fight each other in court over land taken from farmers, with the same funny judge. third film of the series, 2025",1,1,1,1,1,1,1,1,1,1
+vag-a150-049,Saiyaara,decade,"a short-tempered rising singer falls for a shy songwriter who starts losing her memory to early alzheimer's. 2025 musical romance, huge hit with newcomers",1,2,22,2,1,1,1,1,1,1
+vag-a150-050,Sky Force,decade,an indian air force officer leads a daring 1965 air raid on a pakistani airbase and spends years searching for a young pilot who went missing. 2025,1,1,1,1,1,1,1,1,1,1
+vag-a150-051,Itlu Sravani Subramanyam,decade|lang,"two strangers who both want to end their lives meet on the beach in vizag, decide to fulfil each other's last wishes first and fall in love. early 2000s telugu",1,1,1,1,1,1,1,1,1,1
+vag-a150-052,Manasantha Nuvve,decade|lang,"two childhood friends from a village are separated when the girl's family moves away, she gives him a musical clock, and years later they look for each other. 2001 telugu romance",4,5,1,1,4,4,4,1,1,1
+vag-a150-053,Avunu Valliddaru Ista Paddaru!,decade|lang,"a jobless guy who works nights secretly shares a working woman's room during the day, they leave each other letters and fall in love without knowing each other. 2002 telugu comedy",1,6,12,1,1,1,1,1,1,1
+vag-a150-054,Khadgam,decade,"a cop who lost his fiancee to terrorists, a struggling film extra and a patriotic muslim auto driver in hyderabad come together against a terror plot. 2002",1,1,1,1,1,1,1,1,1,1
+vag-a150-055,Nijam,decade|lang,"a naive young man runs from one bribe-hungry office to the next to save his framed father, and after his father is killed, his mother pushes him to take revenge. 2003 telugu",3,17,24,1,3,3,3,1,1,1
+vag-a150-056,Arjun,lang,"a brother goes to madurai to protect his twin sister's marriage from her scheming in-laws, with a huge temple set. telugu, around 2004",1,1,9,1,1,1,1,1,1,1
+vag-a150-057,Devadasu,decade|lang,"a poor college boy falls for a rich girl from america who came to india to learn carnatic music, and her father, an american senator, takes her away. mid 2000s telugu, debut of the hero and heroine",1,1,1,1,1,1,1,1,1,1
+vag-a150-058,Happy,decade|lang,"to stop a medical student's forced marriage to a tough police officer, a carefree guy tells the officer that he loves her, and then really falls for her. 2006 telugu",18,38,57,14,18,18,18,1,1,1
+vag-a150-059,Pournami,lang,"telugu film where a girl from a family of dancers must dance in the temple for days to bring rain, as is done every twelve years, after her elder sister vanishes",1,1,1,1,1,1,1,1,1,1
+vag-a150-060,Shankar Dada Zindabad,lang|negation,"a local goon starts seeing gandhi's ghost after cramming his books to impress a radio jockey. the telugu version, not the hindi munna bhai one",2,2,2,2,2,1,1,1,1,2
+vag-a150-061,Ashta Chamma,decade|lang,"a girl obsessed with a film star will only marry a man with the same name as him, so a guy pretends to have that name. 2008 telugu comedy",3,3,4,1,3,3,3,1,1,1
+vag-a150-062,King,decade|lang,"a rich royal heir cheated by his greedy uncles is shot by the girl he trusted, and a gangster who looks like him is sent to pose as him. 2008 telugu action comedy",1,1,2,1,1,1,1,1,1,1
+vag-a150-063,Krishna,decade|lang,an unemployed guy in vijayawada moves in upstairs to woo a college girl visiting her brother and ends up fighting a dreaded gangster. 2008 telugu,1,1,1,1,1,1,1,1,1,1
+vag-a150-064,Parugu,decade|lang,"a city boy is wrongly kidnapped by a village elder's men who think he helped the elder's daughter elope, and he falls for the younger daughter. 2008 telugu",3,1,1,1,3,3,3,1,1,1
+vag-a150-065,Konchem Ishtam Konchem Kashtam,decade|lang,a carefree guy has to bring his divorced parents back together before his girlfriend's doting father will let them marry. 2009 telugu romcom,1,1,2,1,1,1,1,1,1,1
+vag-a150-066,Adhurs,decade|lang,"twin brothers separated at birth grow up as a tough undercover guy and a comic brahmin priest, and their worlds get mixed up. 2010 telugu comedy, the hero plays both",1,1,1,1,1,1,1,1,1,1
+vag-a150-067,Leader,decade|lang,"after the chief minister is killed in a bomb attack, his idealistic son takes over and fights the corruption in his own party. 2010 telugu political drama",1,1,1,1,1,1,1,1,1,1
+vag-a150-068,Orange,decade|lang,a guy in sydney who believes love never lasts tells a policeman about all his past girlfriends after a breakup. 2010 telugu romance,3,2,1,1,3,3,3,1,1,1
+vag-a150-069,Mirapakay,decade|lang,an intelligence officer goes undercover as a college lecturer to get close to a crime boss's daughter and falls for another student. 2011 telugu action comedy,1,5,13,2,1,1,1,1,1,1
+vag-a150-070,Oosaravelli,decade|lang,"a hitman who does anything for money falls for a girl, the only survivor of her family's murder, who is slowly losing her memory because of a bullet in her head. 2011 telugu",1,1,2,1,1,1,1,1,1,1
+vag-a150-071,Ishq,decade|lang,"a guy and a girl meet when their flight lands in goa instead, he pretends she is his wife at a friend's wedding, and her violent brother opposes them. 2012 telugu",4,2,10,5,4,4,4,1,1,4
+vag-a150-072,Baadshah,decade|lang,a man rises inside an international crime syndicate in macau and hong kong while secretly working to destroy it. 2013 telugu action comedy,1,1,1,1,1,1,1,1,1,1
+vag-a150-073,Gunde Jaari Gallanthayyinde,decade|lang,"a software engineer gets the wrong phone number and falls for a girl over the phone, thinking she is the girl he saw at a wedding. 2013 telugu romcom",1,1,3,1,1,1,1,1,1,1
+vag-a150-074,Prema Katha Chitram,decade|lang,"three people who want to kill themselves hide in a farmhouse, and a ghost possesses the girl every time the guy tries to get close to her. 2013 telugu horror comedy",1,1,1,1,1,1,1,1,1,1
+vag-a150-075,Karthikeya,decade|lang,"a medical student who only believes in science investigates snakebite deaths around a closed temple in a village. 2014 telugu mystery, the first one",1,1,1,1,1,1,1,1,1,1
+vag-a150-076,Run Raja Run,decade|lang,an overly honest guy falls for the police commissioner's daughter while someone keeps kidnapping big shots in the city for ransom. 2014 telugu comedy thriller,1,1,1,1,1,1,1,1,1,1
+vag-a150-077,Yevadu,decade|lang,a man left to die in a burning bus after his girlfriend is murdered gets a face transplant and takes revenge with another man's face. 2014 telugu,1,1,1,1,1,1,1,1,1,1
+vag-a150-078,Gopala Gopala,lang|negation,"an atheist shopkeeper sues god after an earthquake destroys his shop, and krishna appears to help him. the telugu version with two big stars, not the hindi one",1,1,2,1,1,1,1,1,1,2
+vag-a150-079,Kumari 21F,decade|lang,"a young cook falls for a bold, outspoken model who moves into his colony, but his friends make him suspicious about her past. 2015 telugu romance",1,1,1,1,1,1,1,1,1,1
+vag-a150-080,Dhruva,decade|lang,"an honest young ips officer goes after a genius scientist running a corrupt empire, who secretly hears his every move through a bug put inside his body. 2016 telugu",1,1,2,1,1,1,1,1,1,1
+vag-a150-081,Ami Thumi,decade|lang,"situation comedy about two couples whose fathers are business rivals, and a silly groom who ends up helping the lovers. 2017 telugu",1,17,4,1,1,1,1,1,1,1
+vag-a150-082,Jai Lava Kusa,decade|lang,"identical triplet brothers are separated after one of them, who stammers and was always left out, sets their drama stage on fire. twenty years later they meet. 2017 telugu, the hero plays all three",1,1,1,1,1,1,1,1,1,1
+vag-a150-083,Nenu Local,decade|lang,a carefree guy who barely passed his exams pursues a classmate who is already engaged to a police sub-inspector. 2017 telugu,1,1,1,1,1,1,1,1,1,1
+vag-a150-084,Shatamanam Bhavati,decade|lang,"an old village couple's children, all settled abroad, rush home for sankranti after their father emails that he wants a divorce. 2017 telugu family film",1,1,1,1,1,1,1,1,1,1
+vag-a150-085,RX 100,decade|lang,"a gentle village guy turns violent after his girlfriend is married off to someone in america, only to find out she never loved him. 2018 telugu",279,349,13,36,279,279,279,17,20,15
+vag-a150-086,Mathu Vadalara,decade|lang,"a broke delivery boy steals from a customer, gets high by accident and finds himself stuck in an apartment with a dead body. 2019 telugu comedy thriller",1,1,2,1,1,1,1,1,1,1
+vag-a150-087,Drushyam 2,lang,"the telugu sequel where a family man who hid a body years ago is investigated again, now that he owns a theatre and is making a film. came out on amazon prime in 2021",1,1,2,1,1,1,1,1,1,1
+vag-a150-088,Ante Sundaraniki,decade|lang,"an orthodox brahmin guy and a christian girl lie to their families, he says he can't have children and she says she is pregnant, so the families will agree to the marriage. 2022 telugu comedy",1,2,1,1,1,1,1,1,1,1
+vag-a150-089,Godfather,lang|negation,telugu remake of a malayalam political thriller where a mysterious man fights the dead chief minister's son-in-law for control of the party. not the hollywood mafia film,1,3,2,1,1,1,1,1,1,1
+vag-a150-090,HIT: The Second Case,decade|lang,"a cool police officer in vizag hunts a serial killer who leaves a body made from the parts of several women. 2022 telugu crime thriller, the second in the series",1,5,3,1,1,1,1,1,1,1
+vag-a150-091,Mad,decade|lang,a senior tells a student who wants to quit engineering college the story of a crazy group of friends from his college days. 2023 telugu comedy,1,2,1,1,1,1,1,1,1,1
+vag-a150-092,Samajavaragamana,decade|lang,"a young man who hates love tutors his father, who keeps failing his degree because a will says the family inherits only when he graduates. 2023 telugu comedy",1,1,1,1,1,1,1,1,1,1
+vag-a150-093,Veera Simha Reddy,decade|lang,"a powerful rayalaseema leader who would die for his sister is stabbed by her and her husband, and his son living in istanbul learns the truth. 2023 telugu action",1,1,1,1,1,1,1,1,1,1
+vag-a150-094,Gangs of Godavari,decade|lang,an underdog from a village in the godavari region rises to power through violence and gang wars. 2024 telugu,1,1,1,1,1,1,1,1,1,1
+vag-a150-095,Ka,decade|lang,"a postman who secretly reads people's letters is kidnapped and questioned by a masked man with a strange clock, and his past in the seventies comes out. 2024 telugu thriller",1,1,1,1,1,1,1,1,1,1
+vag-a150-096,Saripodhaa Sanivaaram,decade|lang,a man who promised his dying mother to let out his anger only on saturdays takes on a sadistic police officer. 2024 telugu action,1,1,19,2,1,1,1,1,1,1
+vag-a150-097,Game Changer,decade|lang,"an honest ias officer takes on a corrupt minister who wants to become chief minister, and learns his real father founded the party. big budget 2025 telugu, the hero also plays the father",2,2,2,1,2,2,2,1,1,1
+vag-a150-098,Kingdom,decade|lang,a police constable is sent undercover to an island near sri lanka in the early nineties and finds his long lost elder brother leads the people there. 2025 telugu spy action,1,1,2,1,1,1,1,1,1,1
+vag-a150-099,Thandel,decade|lang,"a fishing boat captain from srikakulam is arrested after drifting into pakistani waters, and his girlfriend fights to bring him and the others back. true story, 2025 telugu",1,1,1,1,1,1,1,1,1,1
+vag-a150-100,Mana Shankara Vara Prasad Garu,decade|lang,"a divorced security officer takes a job as a pt teacher at his kids' boarding school to get close to them, then guards his rich father-in-law. 2026 sankranti telugu comedy",1,1,1,1,1,1,1,1,1,1
+vag-a150-101,Requiem for a Dream,decade,"four people in brooklyn spiral into drug addiction, including a lonely widow on diet pills who dreams of being on a tv show, with a brutal ending montage. 2000",1,1,1,1,1,1,1,1,1,1
+vag-a150-102,Snatch,decade,"a stolen giant diamond passes between london crooks while a small time boxing promoter gets stuck with an irish traveller boxer nobody can understand. very fast british crime comedy, 2000",1,1,1,1,1,1,1,1,1,1
+vag-a150-103,Minority Report,decade,"in the future police arrest people before they commit murders using psychics floating in a pool, and the cop in charge is predicted to kill a man he has never met. early 2000s sci fi",1,1,1,1,1,1,1,1,1,1
+vag-a150-104,The Lord of the Rings: The Two Towers,,"the middle part of the fantasy trilogy, with a huge night battle at a fortress in the rain and walking tree giants attacking a wizard's tower",1,1,2,1,1,1,1,1,1,1
+vag-a150-105,Lost in Translation,decade,a jet-lagged middle-aged actor shooting a whisky commercial in tokyo forms a quiet bond with a lonely young woman staying at the same hotel. early 2000s,1,1,1,1,1,1,1,1,1,1
+vag-a150-106,School of Rock,,a broke wannabe rock star pretends to be a substitute teacher at a strict private school and secretly turns his class of kids into a rock band,1,1,1,1,1,1,1,1,1,1
+vag-a150-107,Collateral,decade,a quiet taxi driver in los angeles is forced to drive a contract killer around to five hits in one night. mid 2000s thriller,1,1,1,1,1,1,1,1,1,1
+vag-a150-108,Spider-Man 2,,"the spider hero loses his powers from stress and fights a scientist with four robotic arms fused to his spine, and stops a runaway train. the sequel",1,1,1,1,1,1,1,1,1,1
+vag-a150-109,The Aviator,,biopic of an eccentric billionaire who made films and built planes in old hollywood and slowly locked himself away because of his ocd,1,1,2,1,1,1,1,1,1,1
+vag-a150-110,Pride & Prejudice,decade,"a witty daughter from a family of five sisters in regency england clashes with a proud rich gentleman, based on a classic novel. the 2005 movie",1,3,1,1,1,1,1,1,1,1
+vag-a150-111,Blood Diamond,,"during a civil war in sierra leone a fisherman forced to work in the diamond fields hides a rare pink diamond, and a smuggler helps him find his family to get it",1,1,1,1,1,1,1,1,1,1
+vag-a150-112,The Devil Wears Prada,decade,"a young graduate who doesn't care about fashion becomes the assistant to an icy, demanding magazine editor in new york and changes herself to survive. mid 2000s",1,1,1,1,1,1,1,1,1,1
+vag-a150-113,Juno,decade,"a sarcastic sixteen-year-old girl gets pregnant and decides to give the baby to a couple she finds in the newspaper ads. indie comedy, 2007",1,5,2,1,1,1,1,1,1,1
+vag-a150-114,The Bourne Ultimatum,,"a former assassin with lost memory finally tracks down the people who created him, with a tense sequence in a crowded london train station. the third of the series",3,2,10,1,3,3,3,1,1,2
+vag-a150-115,Gran Torino,decade,a cranky old war veteran in detroit slowly befriends the asian immigrant family next door after their teenage son tries to steal his classic car. 2008,1,1,1,1,1,1,1,1,1,1
+vag-a150-116,Kung Fu Panda,,animated film where a clumsy fat panda who works in his father's noodle shop is chosen as the prophesied kung fu warrior. the first one,1,1,1,1,1,1,1,1,1,1
+vag-a150-117,The Curious Case of Benjamin Button,decade,"a man is born old and grows younger as the years pass, and his love story with a dancer only works for a few years in the middle. late 2000s",7,26,1,1,7,7,7,1,1,4
+vag-a150-118,Star Trek,decade,"reboot of a famous space series showing the young captain and his logical half-alien officer meeting for the first time, with time travel and an alternate timeline. 2009",1,1,1,1,1,1,1,1,1,1
+vag-a150-119,Despicable Me,,"animated film where a grumpy supervillain adopts three little orphan girls as part of a plan to steal the moon, with lots of small yellow henchmen. the first one",1,1,1,1,1,1,1,1,1,1
+vag-a150-120,Tangled,,"animated musical about a girl with magical long hair kept in a tower by a fake mother, who escapes with a charming thief to see the floating lanterns",1,1,1,1,1,1,1,1,1,1
+vag-a150-121,Moneyball,,a baseball team manager with no money uses statistics and a young economics graduate to build a winning team from overlooked players. true story,1,1,1,1,1,1,1,1,1,1
+vag-a150-122,Silver Linings Playbook,,a man with bipolar disorder just out of a mental hospital wants his ex-wife back and makes a deal with a troubled young widow to enter a dance contest,1,1,3,1,1,1,1,1,1,1
+vag-a150-123,Captain Phillips,,true story of a cargo ship captain taken hostage in a lifeboat by somali pirates until navy seals rescue him,1,1,2,1,1,1,1,1,1,1
+vag-a150-124,Prisoners,decade,"two little girls disappear on thanksgiving and one desperate father kidnaps the main suspect himself while a detective searches. very dark, 2013",1,1,1,1,1,1,1,1,1,1
+vag-a150-125,Birdman,,"a washed-up actor once famous for a superhero role tries to revive his career with a broadway play, and the whole film looks like one shot. won best picture",1,1,1,1,1,1,1,1,1,1
+vag-a150-126,Edge of Tomorrow,,"a cowardly officer dies in a battle against aliens and wakes up to live the same day again and again, getting better each time with a female war hero's help",1,1,7,1,1,1,1,1,1,1
+vag-a150-127,Ex Machina,decade,"a young programmer is invited to a reclusive tech genius's remote home to test whether a female robot really thinks, and she manipulates him. 2015",1,1,1,1,1,1,1,1,1,1
+vag-a150-128,John Wick,,a retired hitman comes back for revenge after a mobster's son kills the puppy his dying wife gave him. the first one,1,1,1,1,1,1,1,1,1,1
+vag-a150-129,Nightcrawler,decade,"a creepy ambitious loner in los angeles starts filming accidents and crimes at night to sell to tv news, and goes further and further. 2014 thriller",1,2,1,1,1,1,1,1,1,1
+vag-a150-130,The Big Short,,"a few oddball investors realise the housing market is a bubble and bet against the banks before the 2008 financial crisis, and celebrities break the fourth wall to explain the finance",1,1,1,1,1,1,1,1,1,1
+vag-a150-131,Deadpool,,"a foul-mouthed mercenary with cancer undergoes an experiment that leaves him scarred and unkillable, and hunts the man who did it while joking to the audience. the first one",1,1,1,1,1,1,1,1,1,1
+vag-a150-132,Hidden Figures,decade,"true story of three african american women working as mathematicians at nasa during the 60s space race, facing segregation",1,1,1,1,1,1,1,1,1,1
+vag-a150-133,Blade Runner 2049,decade,"sequel where an android cop finds evidence that an android once had a child, and searches for the missing old hunter from the original film. 2017",1,6,4,1,1,1,1,1,1,1
+vag-a150-134,Logan,decade,"an old weary mutant with claws, now a limo driver, looks after his senile mentor and has to protect a little girl with the same powers. dark western style, 2017",1,1,9,1,1,1,1,1,1,1
+vag-a150-135,A Star Is Born,decade,a famous alcoholic rock singer discovers a young woman singing in a bar and helps her become a star while he falls apart. 2018 remake with an oscar winning song,1,2,2,1,1,1,1,1,1,1
+vag-a150-136,Jojo Rabbit,,a ten-year-old boy in nazi germany whose imaginary friend is a silly version of hitler discovers his mother is hiding a jewish girl in the walls of their house,1,1,1,1,1,1,1,1,1,1
+vag-a150-137,The Father,decade,"an old man with dementia keeps getting confused about his daughter, his flat and the people around him, and the film makes you feel his confusion. 2020",1,1,1,1,1,1,1,1,1,1
+vag-a150-138,Encanto,,"animated musical about a colombian family where everyone has a magic gift except one girl, who discovers the magic of their house is dying",1,1,1,1,1,1,1,1,1,1
+vag-a150-139,The Power of the Dog,decade,"a cruel cowboy rancher in 1920s montana torments his brother's new wife and her gentle son, then grows strangely close to the boy. slow western drama",1,2,1,1,1,1,1,1,1,1
+vag-a150-140,Elvis,,"flashy biopic of the king of rock and roll told through his shady manager, from his hip-shaking start to the las vegas years",1,4,2,1,1,1,1,1,1,1
+vag-a150-141,Glass Onion,,a southern detective joins a tech billionaire's murder mystery game on a private greek island and a real murder happens. the second one in the series,1,1,1,1,1,1,1,1,1,1
+vag-a150-142,Puss in Boots: The Last Wish,,"animated film where a swashbuckling cat realises he has only one life left and goes after a magical wishing star, hunted by a wolf who is death itself",1,1,1,1,1,1,1,1,1,1
+vag-a150-143,John Wick: Chapter 4,,"the legendary hitman fights his way across osaka, berlin and paris to win his freedom, with a fight up hundreds of stairs to a duel at sunrise. the fourth one",1,1,1,1,1,1,1,1,1,1
+vag-a150-144,A Complete Unknown,decade,"biopic of a young folk singer who arrives in 1960s new york, becomes famous and shocks everyone by playing an electric guitar at a festival",1,1,1,1,1,1,1,1,1,1
+vag-a150-145,Gladiator II,decade,"the grandson of a roman emperor is captured as a slave and fights as a gladiator in the colosseum, years after the original hero died. the sequel, 2024",1,1,2,1,1,1,1,1,1,1
+vag-a150-146,The Wild Robot,,animated film where a robot stranded on an island full of animals adopts an orphaned baby goose and teaches it to fly before winter,1,1,1,1,1,1,1,1,1,1
+vag-a150-147,KPop Demon Hunters,decade,"animated film about a famous korean girl band who secretly fight demons with their singing, against a rival boy band who are demons in disguise. 2025 netflix hit",1,1,1,1,1,1,1,1,1,1
+vag-a150-148,Weapons,decade,"every child but one from the same school class runs out of their homes at night at the same minute and disappears, and the teacher is blamed. 2025 horror",1,1,1,1,1,1,1,1,1,1
+vag-a150-149,Zootopia 2,decade,"animated sequel where the bunny cop and the fox, now partners, investigate a mysterious snake who arrives in the animal city. 2025",1,6,1,1,1,1,1,1,1,1
+vag-a150-150,Michael,decade,"biopic of the king of pop, from singing as a child in his family band under a strict father to becoming the biggest star in the world, played by his real nephew. 2026",1,1,1,1,1,1,1,1,1,1
+vag-add-001,Hum Hain Rahi Pyar Ke,decade,"a young man suddenly has to raise his late sister's three naughty children and save the family business, and a girl running away from an arranged marriage hides with them. 90s comedy",183,45,5,17,183,183,183,7,15,13
+vag-add-002,Coolie No. 1,negation|decade,"a railway porter pretends to be a rich prince to marry a rich man's daughter, a revenge plan by a matchmaker the father insulted. 90s comedy, not the remake",1,2,79,5,1,1,1,1,1,1
+vag-add-003,Judwaa,negation,"twin brothers separated at birth unknowingly copy each other's movements when they are near each other, one is a street guy and one a polite NRI. the original, not the sequel",26,10,5,9,26,15,15,7,4,2
+vag-add-004,Soldier,decade,"a young man goes undercover to take revenge on the men who framed his army father as a traitor, and falls for a girl in australia. late 90s thriller with a hit title song",1,1,40,4,1,1,1,1,1,1
+vag-add-005,Mission Kashmir,,"a cop in kashmir adopts a boy whose family died in a police raid, and the boy grows up to become a militant who wants to kill him",1,1,1,1,1,1,1,1,1,1
+vag-add-006,Baghban,hedge,"elderly parents are separated by their selfish grown up sons who refuse to look after them together, the father writes a book about it. very emotional, early 2000s i think",1,6,3,1,1,1,1,1,1,1
+vag-add-007,Chalte Chalte,,a fun loving truck business owner marries a classy designer and their marriage falls apart because of money problems and constant fights,11,7,44,8,11,11,11,4,2,2
+vag-add-008,Lakshya,,"a lazy directionless young man joins the army, runs away, then comes back and finds his purpose climbing a cliff during the kargil war",1,1,1,1,1,1,1,1,1,1
+vag-add-009,Hum Tum,,"a man and a woman who argue about love keep bumping into each other over the years in different cities, and he draws a cartoon strip about it. like when harry met sally",1,1,1,1,1,1,1,1,1,1
+vag-add-010,Parineeta,,"set in old calcutta, childhood sweethearts from rich and poor families are torn apart by his greedy father who wants her family's house",20,42,14,5,20,20,21,5,6,4
+vag-add-011,No Entry,,a womanizer drags his married friends into a web of lies involving a fake girlfriend and their suspicious wives. comedy of confusion,1,2,4,1,1,1,1,1,1,1
+vag-add-012,Sarkar,,"an indian godfather type leader who settles people's problems in mumbai is framed, and his quiet younger son takes over to protect him. real father and son actors",1,2,3,1,1,1,1,1,1,1
+vag-add-013,Don,negation,"the remake where a simple lookalike replaces a dead drug lord to catch his gang, set in malaysia, with a big twist at the end. not the old one",1,1,10,2,1,1,1,1,1,1
+vag-add-014,Phir Hera Pheri,,"the second film of the three friends comedy, they lose all their money to a fake money doubling scheme and owe gangsters",1,1,3,1,1,1,1,1,1,1
+vag-add-015,Fanaa,,"a blind girl from kashmir falls for a tour guide in delhi who turns out to be a terrorist, years later she has to choose between him and her country. snowy climax",1,1,1,1,1,1,1,1,1,1
+vag-add-016,Guru,,"rags to riches story of an ambitious man from a gujarat village who builds a giant business empire by bending the rules, based on a real tycoon",1,1,3,1,1,1,1,1,1,1
+vag-add-017,Welcome,,"two funny gangster brothers want their sister to marry into a decent family, and the decent guy's uncle hates gangsters. one of them paints badly",6,39,2,1,6,6,6,3,3,4
+vag-add-018,Rab Ne Bana Di Jodi,,a boring shy husband secretly disguises himself as a cool guy without a moustache to win his own wife's love at her dance class,1,1,10,2,1,2,2,1,1,1
+vag-add-019,Jaane Tu... Ya Jaane Na,,"two best friends who are obviously in love date other people before realising it, told as a story by friends at an airport",1,3,6,2,1,1,1,1,1,1
+vag-add-020,Wanted,,"a tough hitman working for gangsters turns out to be an undercover cop, a remake of a telugu hit",2,6,65,10,2,2,2,3,2,2
+vag-add-021,Once Upon a Time in Mumbaai,,"a gentlemanly smuggler in 1970s bombay takes a hot headed young man under his wing, who later overtakes him. based on real underworld dons",1,2,1,1,1,1,1,2,1,1
+vag-add-022,Singham,,an honest village cop gets transferred to goa and fights a corrupt gangster politician who humiliated him. the first one,1,1,1,1,1,1,1,1,1,1
+vag-add-023,Tanu Weds Manu,negation,"a quiet doctor from london falls for a wild small town girl at an arranged marriage meeting, but she wants to marry her goon boyfriend. not the sequel",1,3,46,7,1,1,1,1,1,1
+vag-add-024,Agneepath,negation,remake of an old revenge film where a terrifying bald villain hangs a village teacher and his son comes back years later for revenge. not the original,1,2,13,2,1,1,1,1,1,1
+vag-add-025,Aashiqui 2,negation,"a fading alcoholic singer turns a young bar singer into a star while his own career sinks, tragic ending, huge hit songs. not the 1990 one",1,1,3,2,1,1,1,1,1,1
+vag-add-026,Goliyon Ki Raasleela Ram-Leela,,"romeo and juliet in a gujarati village where two feuding families sell guns, very colourful with garba songs",1,1,1,1,1,1,1,1,1,1
+vag-add-027,Raanjhanaa,,"a boy in varanasi loves a girl from another religion obsessively since childhood, ruins her love life, and later gets involved in delhi student politics",1,1,5,1,1,1,1,1,1,1
+vag-add-028,Jolly LLB,,"a small time lawyer fights a hit and run case against a powerful senior lawyer, courtroom comedy with a funny judge. the first one",1,2,6,2,1,1,1,1,1,1
+vag-add-029,Airlift,,a wealthy businessman helps evacuate thousands of indians stuck in kuwait during the 1990 invasion. true story,1,1,1,1,1,1,1,1,1,1
+vag-add-030,Bhediya,,"a man building a road through a north east forest gets bitten and turns into a werewolf. horror comedy, same universe as the ghost film",1,1,1,1,1,1,1,1,1,1
+vag-add-031,Sye,,college students play rugby against a gangster's team to save their college land,1,1,1,1,1,1,1,1,1,1
+vag-add-032,Vikramarkudu,,"a small time thief discovers he looks exactly like an honest police officer who was killed by a village tyrant, and takes his place. remade in hindi",2,5,26,4,2,2,2,1,2,1
+vag-add-033,Ye Maaya Chesave,,"an aspiring film director falls for a christian girl a year older than him who lives in the same building, her family is against it",8,13,6,1,8,8,8,1,3,4
+vag-add-034,Race Gurram,,a carefree younger brother who always fights with his serious cop brother teams up with him against a goon politician,1,1,15,1,1,1,1,1,1,1
+vag-add-035,Janatha Garage,,"a garage in hyderabad repairs people's problems along with vehicles, and a nature loving young man takes over from the old leader",1,1,1,1,1,1,1,1,1,1
+vag-add-036,Geetha Govindam,,a young lecturer kisses a sleeping girl on a bus and then has to travel with her and win back her trust. light romantic comedy,1,1,1,1,1,1,1,1,1,1
+vag-add-037,Bharat Ane Nenu,,a foreign educated young man suddenly becomes chief minister after his father dies and cleans up the system,2,2,2,1,2,2,2,1,1,1
+vag-add-038,Sarileru Neekevvaru,,"an army officer visits a fallen soldier's mother in kurnool and protects her family from a corrupt minister, comedy on a train",1,1,1,1,1,1,1,1,1,1
+vag-add-039,Akhanda,,"one twin brother grows up as a fierce sadhu and comes back to fight an illegal mining gang, the other is a farmer. very loud mass film",1,4,1,1,1,1,1,1,1,1
+vag-add-040,Karthikeya 2,,"a doctor follows clues to find a sacred anklet of lord krishna, adventure mystery with mythology. a sequel",1,1,1,1,1,1,1,1,1,1
+vag-add-041,Braveheart,,"a scottish warrior leads a rebellion against english rule after his secret wife is murdered, epic battles, shouts freedom at his execution",1,1,1,1,1,1,1,1,1,1
+vag-add-042,The Green Mile,,a prison guard on death row realises a giant gentle prisoner has magical healing powers and is innocent. there's a pet mouse,1,1,2,1,1,1,1,1,1,1
+vag-add-043,Harry Potter and the Philosopher's Stone,,an orphan boy discovers he's a wizard and goes to a magic boarding school. the first film of the series,1,1,1,1,1,1,1,1,1,1
+vag-add-044,Shrek,,"a grumpy green ogre and a talking donkey rescue a princess who has a secret. animated, the first one",1,1,1,1,1,1,1,1,1,1
+vag-add-045,Pirates of the Caribbean: The Curse of the Black Pearl,,a quirky pirate captain and a blacksmith chase cursed pirates who become skeletons in the moonlight. the first one,1,1,1,1,1,1,1,1,1,1
+vag-add-046,The Departed,,"a cop goes undercover in the mob while a gangster's spy rises in the police, both hunt for the rat. boston, lots of shooting at the end",1,1,1,1,1,1,1,1,1,1
+vag-add-047,Slumdog Millionaire,,"a slum kid from mumbai wins a tv quiz show and the police think he cheated, flashbacks show how he knew every answer. won lots of oscars",1,1,10,1,1,1,1,1,1,1
+vag-add-048,Life of Pi,,an indian boy is stuck on a lifeboat in the ocean with a tiger after a shipwreck. beautiful visuals,1,1,6,1,1,1,1,1,1,1
+vag-add-049,The Avengers,decade,the first time all the marvel heroes team up to stop an alien invasion of new york led by a trickster god. 2012,1,1,1,1,1,1,1,1,1,1
+vag-add-050,Top Gun: Maverick,negation,"an old navy fighter pilot trains young pilots for a dangerous mission, one of them is his dead friend's son. the sequel, not the original",1,1,1,1,1,1,1,1,1,1
+vag-en2-001,Edward Scissorhands,decade,"a gentle artificial man with blades instead of hands lives alone in a castle on a hill until a saleswoman brings him to her colourful suburb, he trims hedges and hair and falls for her daughter. early 90s fairy tale",1,1,2,1,1,1,1,1,1,1
+vag-en2-002,Ghost,decade,"a man is killed in a mugging and stays as a ghost to protect his girlfriend from the friend who set him up, talking to her through a fake psychic who suddenly can really hear him. 1990",1,1,1,1,1,1,1,1,1,1
+vag-en2-003,Dances with Wolves,,"a civil war soldier asks to be posted to a deserted fort on the frontier, befriends a wolf and slowly becomes part of a native american tribe. very long epic",1,1,1,1,1,1,1,1,1,1
+vag-en2-004,Total Recall,negation|decade,"a construction worker who keeps dreaming about mars goes to a company that implants fake holiday memories and finds out his real memories were erased and he is a secret agent. the original 90s one, not the remake",1,1,1,1,1,1,1,1,1,1
+vag-en2-005,Pretty Woman,decade,a rich businessman hires a call girl to be his companion for a week in beverly hills and she ends up changing him. 90s romantic comedy,1,1,6,1,1,1,2,1,1,1
+vag-en2-006,Beauty and the Beast,negation,"animated musical where a book loving village girl takes her father's place as the prisoner of a cursed beast in a castle full of enchanted furniture, a rose losing its petals. the cartoon, not the live action one",1,1,1,1,1,1,1,1,1,1
+vag-en2-007,Thelma & Louise,decade,"two women friends on a weekend road trip become fugitives after one shoots a man in a parking lot, and it ends with their car flying off a canyon. early 90s",1,1,1,1,1,1,1,1,1,1
+vag-en2-008,Reservoir Dogs,,"after a jewellery robbery goes wrong the surviving thieves, who only know each other by colour names, regroup in a warehouse and try to work out who the police informer is. lots of talking and one infamous torture scene",1,1,1,1,1,1,1,1,1,1
+vag-en2-009,Aladdin,hedge|decade,"animated film about a street thief who finds a magic lamp with a wisecracking blue genie and pretends to be a prince to win a princess, against the sultan's evil adviser. the 90s cartoon i think",1,1,1,1,1,1,1,1,1,1
+vag-en2-010,Unforgiven,decade,"an ageing former outlaw turned pig farmer takes one last bounty job to kill two cowboys who disfigured a woman, against a brutal small town sheriff. dark western, early 90s",1,1,1,1,1,1,1,1,1,1
+vag-en2-011,Mrs. Doubtfire,decade,"a divorced dad disguises himself as an elderly british nanny to see his kids every day, and his ex-wife hires him without knowing. 90s family comedy",1,1,1,1,1,1,1,1,1,1
+vag-en2-012,The Fugitive,,a surgeon wrongly convicted of murdering his wife escapes when the prison bus crashes and searches for a man with one arm while a us marshal hunts him,1,1,1,1,1,1,1,1,1,1
+vag-en2-013,Speed,hedge|false_memory|decade,a bomber rigs a city bus to blow up if its speed drops below fifty miles per hour and a young cop has to keep it moving with a passenger driving. late 90s i think,1,1,1,1,1,1,1,1,1,1
+vag-en2-014,Léon: The Professional,,"a quiet hitman in new york reluctantly takes in a 12 year old girl after a corrupt drug cop murders her family, and she wants him to teach her his job",1,1,1,1,1,1,1,1,1,1
+vag-en2-015,The Mask,decade,"a shy bank clerk finds an ancient wooden mask that turns him into a green-faced cartoon-like maniac with crazy powers, there is a cute little dog. mid 90s comedy",1,1,1,1,1,1,1,1,1,1
+vag-en2-016,Heat,decade,"a detective obsessed with his work hunts a crew of professional bank robbers whose leader keeps no attachments, they meet for coffee halfway through, huge street shootout. 1995",1,2,1,1,1,1,1,1,1,1
+vag-en2-017,The Usual Suspects,,"five criminals who meet in a police lineup pull off a job together, and the survivor tells a customs agent about a mythical crime lord nobody has seen; huge twist ending",1,1,1,1,1,1,1,1,1,1
+vag-en2-018,Apollo 13,decade,"true story of astronauts whose spacecraft is crippled by an explosion on the way to the moon, and mission control has to improvise to get them home alive. mid 90s",1,1,1,1,1,1,1,1,1,1
+vag-en2-019,Casino,negation,"a gambling expert runs a las vegas casino for the mob in the 70s, his violent childhood friend causes trouble and his hustler wife betrays him. not goodfellas, the other long one",1,1,1,1,1,1,1,1,1,1
+vag-en2-020,Jumanji,decade,"two kids find an old board game and every roll unleashes jungle dangers, and a man who was trapped inside the game for decades comes out. the first one from the 90s",1,1,1,1,1,1,1,1,1,1
+vag-en2-021,12 Monkeys,decade,"a prisoner from a future where a virus killed most people is sent back in time to find where it started, but nobody believes him and he is locked in an asylum. mid 90s",1,3,1,1,1,1,1,1,1,1
+vag-en2-022,Independence Day,,"giant alien spaceships appear over cities and destroy them, and a fighter pilot and a cable repairman upload a computer virus into the mothership on july 4th",1,1,1,1,1,1,1,1,1,1
+vag-en2-023,Fargo,,"a desperate car salesman arranges the kidnapping of his own wife to get ransom money from his rich father-in-law, and a pregnant small town police chief solves the bloody mess. very snowy",1,1,2,1,1,1,1,1,1,1
+vag-en2-024,Jerry Maguire,decade,a sports agent is fired after writing a memo about caring more for clients and starts his own agency with one football player and a single mom accountant. mid 90s,1,1,1,1,1,1,1,1,1,1
+vag-en2-025,Men in Black,,"a secret agency in black suits monitors aliens living undercover on earth and erases witnesses' memories, a street smart new recruit is paired with a veteran agent. the first one",1,1,1,1,1,1,1,1,1,1
+vag-en2-026,L.A. Confidential,decade,"three very different cops in 1950s los angeles investigate a coffee shop massacre and uncover corruption in their own department, a call girl who looks like a film star",1,2,1,1,1,1,1,1,1,1
+vag-en2-027,The Big Lebowski,decade,"a lazy bowling guy is mistaken for a millionaire with the same name and dragged into a fake kidnapping, all because someone ruined his rug. late 90s",1,1,1,1,1,1,1,1,1,1
+vag-en2-028,Armageddon,negation,"an asteroid the size of texas is going to hit earth and nasa sends a crew of rough oil drillers to drill into it and plant a nuke. not deep impact, the one with the sad goodbye to the daughter",1,1,1,1,1,1,1,1,1,1
+vag-en2-029,American History X,decade,"a reformed neo-nazi gets out of prison and tries to stop his younger brother from going down the same path, the flashbacks are in black and white. late 90s",1,1,1,1,1,1,1,1,1,1
+vag-en2-030,The Mummy,negation|decade,"an adventurer and a librarian accidentally bring an ancient egyptian priest back to life at a lost city in the desert and he brings the plagues. the 1999 one, not the reboot",1,1,1,1,1,1,1,1,1,1
+vag-en2-031,American Beauty,,"a suburban dad in a midlife crisis quits his job, starts working out and obsesses over his daughter's teenage friend, while the boy next door films a plastic bag dancing in the wind",1,1,29,2,1,1,1,1,1,1
+vag-en2-032,Notting Hill,hedge|false_memory|decade,a london bookshop owner has a chance romance with the most famous film star in the world after spilling orange juice on her. early 2000s maybe,1,1,1,1,1,1,1,1,1,1
+vag-en2-033,Cast Away,,a courier company employee survives a plane crash and spends years alone on a deserted island talking to a volleyball,1,1,1,1,1,1,1,1,1,1
+vag-en2-034,Erin Brockovich,,a single mom with no legal training working as a file clerk uncovers a power company poisoning a town's groundwater. true story,1,1,1,1,1,1,1,1,1,1
+vag-en2-035,Training Day,decade,a rookie narcotics cop spends one day with a corrupt veteran detective in los angeles who is secretly planning to get him killed. early 2000s,1,1,2,1,1,1,1,1,1,1
+vag-en2-036,"Monsters, Inc.",,"animated film where monsters scare children through closet doors to power their city, and a little girl gets loose in the monster world",1,1,1,1,1,1,1,1,1,1
+vag-en2-037,A Beautiful Mind,,a brilliant mathematician starts seeing people who are not real and believes he is decoding secret soviet messages for the government. true story about schizophrenia,2,1,3,2,2,2,2,2,1,2
+vag-en2-038,Ocean's Eleven,decade,"a charming thief just out of prison gathers a team of specialists to rob three las vegas casinos at once on a big fight night, and the owner is dating his ex-wife. the 2001 remake",1,1,1,1,1,1,1,1,1,1
+vag-en2-039,Donnie Darko,decade,"a troubled teen survives a jet engine falling on his bedroom and a creepy man in a rabbit suit tells him when the world will end, time travel stuff. early 2000s cult film",1,1,1,1,1,1,1,1,1,1
+vag-en2-040,Spider-Man,decade,"a nerdy high school student is bitten by a genetically modified spider and fights his best friend's father, who becomes a green villain on a glider. the early 2000s one",1,1,1,1,1,1,1,1,1,1
+vag-en2-041,Catch Me If You Can,,"a teenage con artist poses as an airline pilot, a doctor and a lawyer and forges millions in cheques while an fbi agent chases him for years. true story",1,1,3,1,1,1,1,1,1,1
+vag-en2-042,The Bourne Identity,,"a man is found floating in the sea with bullet wounds and no memory and a bank account number in his hip, and discovers he is a trained assassin hunted by his own agency",1,1,1,1,1,1,1,1,1,1
+vag-en2-043,The Pianist,,"a jewish pianist in warsaw survives the nazi occupation by hiding in abandoned buildings, and at the end a german officer finds him and helps him. true story",1,1,1,1,1,1,1,1,1,1
+vag-en2-044,The Lord of the Rings: The Return of the King,,"the final part of the fantasy trilogy where two small heroes reach a volcano to destroy a ring while the rightful king leads the last battle, won every oscar it was up for",2,2,2,2,2,2,2,2,2,2
+vag-en2-045,Kill Bill: Volume 1,,"a woman wakes from a coma years after being shot at her wedding and goes after the assassins who did it, with a huge sword fight in a japanese restaurant. the first volume",1,1,1,1,1,1,1,1,1,1
+vag-en2-046,Love Actually,decade,"several interconnected love stories in london in the weeks before christmas, the prime minister falls for a staff member and a man confesses his love with cue cards. early 2000s",1,1,1,1,1,1,1,1,1,1
+vag-en2-047,Mystic River,,"three childhood friends in boston are reunited when one man's daughter is murdered, and the friend who was abducted as a kid becomes the main suspect",1,1,8,2,1,1,1,1,1,1
+vag-en2-048,The Notebook,decade,"an old man in a nursing home reads a love story to a woman with dementia, about a poor boy and a rich girl in the 1940s kept apart by her parents",1,2,1,1,1,1,1,1,1,1
+vag-en2-049,The Incredibles,,"animated family of superheroes living in hiding in the suburbs, and the dad is tricked into a secret job by a villain who used to be his biggest fan",1,1,1,1,1,1,1,1,1,1
+vag-en2-050,Million Dollar Baby,,"an old boxing trainer reluctantly coaches a waitress in her thirties who becomes a champion, and then a fight leaves her paralysed. very sad",1,1,1,1,1,1,1,1,1,1
+vag-en2-051,Mean Girls,decade,a homeschooled teen who grew up in africa joins an american high school and gets pulled into the popular girls' clique to sabotage their queen bee. 2000s,1,1,1,1,1,1,1,1,1,1
+vag-en2-052,Batman Begins,negation,a billionaire's origin story: he trains with a secret league of ninjas in the mountains and returns to his corrupt city to fight a villain spreading fear gas. not the one with the joker,1,4,1,1,1,1,1,1,1,1
+vag-en2-053,V for Vendetta,,in a fascist future britain a masked vigilante with theatrical speeches plans to blow up parliament on bonfire night and recruits a young woman,1,1,1,1,1,1,1,1,1,1
+vag-en2-054,Casino Royale,decade,a newly promoted secret agent plays a high stakes poker game against a terrorist banker who weeps blood and falls in love with the treasury accountant. mid 2000s reboot,1,1,1,1,1,1,1,1,1,1
+vag-en2-055,The Pursuit of Happyness,,"a struggling salesman becomes homeless with his young son while doing an unpaid internship at a stockbroking firm, they sleep in a train station bathroom. true story",1,1,1,1,1,1,1,1,1,1
+vag-en2-056,Little Miss Sunshine,,"a dysfunctional family drives across the country in a broken yellow van to get their little girl to a beauty pageant, and the grandpa taught her a shocking dance routine",1,1,1,1,1,1,1,1,1,1
+vag-en2-057,Children of Men,,"in a future where humans have become infertile, a tired bureaucrat in england has to protect the first pregnant woman in eighteen years. bleak, long single takes",1,1,1,1,1,1,1,1,1,1
+vag-en2-058,300,,"a few hundred spartan soldiers hold a narrow pass against a huge persian army, very stylised slow motion battles, the king kicks a messenger into a pit",1,1,1,1,1,1,1,1,1,1
+vag-en2-059,No Country for Old Men,,"a hunter finds a bag of drug money in the texas desert and a terrifying hitman with a strange haircut and an air tank weapon hunts him, deciding people's fate with coin flips",1,1,1,1,1,1,1,1,1,1
+vag-en2-060,Ratatouille,,"animated film about a rat in paris who can cook and secretly controls a young kitchen worker by pulling his hair, and a harsh food critic is won over by a simple dish",1,1,1,1,1,1,1,1,1,1
+vag-en2-061,There Will Be Blood,decade,"a ruthless oil man in early 1900s california builds his fortune and clashes with a young preacher, ending in a private bowling alley. late 2000s",1,1,1,1,1,1,1,1,1,1
+vag-en2-062,Superbad,,"two awkward high school best friends spend one chaotic night trying to get alcohol for a party, and their nerdy friend has a fake id with a ridiculous single name",1,1,1,1,1,1,1,1,1,1
+vag-en2-063,Iron Man,,"a billionaire weapons maker is kidnapped by terrorists and builds a metal suit in a cave to escape, then becomes a superhero, the first film of that big superhero series",1,1,1,1,1,1,1,1,1,1
+vag-en2-064,WALL-E,,animated film with almost no dialogue about a little trash compacting robot alone on an abandoned dirty earth who falls in love with a sleek white robot,1,1,2,1,1,1,1,1,1,1
+vag-en2-065,Taken,negation,"a retired spy flies to paris to rescue his teenage daughter kidnapped by traffickers, with a famous threatening phone call. not the sequels",1,1,2,1,1,1,1,1,1,1
+vag-en2-066,Up,,animated film where a grumpy widower ties thousands of balloons to his house to fly to south america and a boy scout is accidentally on board. the opening makes everyone cry,1,1,1,1,1,1,1,1,1,1
+vag-en2-067,Inglourious Basterds,,a band of jewish american soldiers hunts nazis in occupied france while a young cinema owner plans to burn down her theatre during a nazi film premiere,1,1,1,1,1,1,1,1,1,1
+vag-en2-068,The Hangover,,"three friends wake up in a wrecked vegas hotel suite with no memory of the night, a tiger in the bathroom, a baby in the closet and the groom missing. the first one",1,1,1,1,1,1,1,1,1,1
+vag-en2-069,District 9,decade,"aliens stranded on earth are kept in a slum in south africa, and an official evicting them is exposed to alien fluid and starts transforming. late 2000s",1,1,1,1,1,1,1,1,1,1
+vag-en2-070,Shutter Island,decade,"two us marshals investigate a missing patient at an asylum for the criminally insane on an island in the 1950s, and nothing is what it seems",1,1,1,1,1,1,1,1,1,1
+vag-en2-071,Toy Story 3,,"the toys end up donated to a daycare center run by a bitter teddy bear after their owner leaves for college, there is a scary incinerator scene. the third one",1,1,1,1,1,1,1,1,1,1
+vag-en2-072,The King's Speech,,a british king with a severe stammer works with an unconventional speech therapist to deliver a wartime radio address,1,1,1,1,1,1,1,1,1,1
+vag-en2-073,Black Swan,decade,"a ballerina chosen to dance both swans in swan lake slowly loses her grip on reality while competing with a rival dancer. psychological thriller, 2010",1,1,1,1,1,1,1,1,1,1
+vag-en2-074,How to Train Your Dragon,,animated film about a weak viking boy who befriends an injured dragon instead of killing it and builds it a new tail fin. the first one,1,1,1,1,1,1,1,1,1,1
+vag-en2-075,The Help,decade,"a young white writer in 1960s mississippi secretly collects the stories of black maids about the families they work for, and there is a revenge pie",1,1,1,1,1,1,1,1,1,1
+vag-en2-076,Harry Potter and the Deathly Hallows – Part 2,,"the final battle at the school of magic, the young wizard learns the truth about his potions teacher and faces the dark lord. the last film of the series",2,3,1,2,2,2,2,2,2,2
+vag-en2-077,Drive,,"a quiet stunt driver who works as a getaway driver at night falls for his neighbour and gets caught up in a robbery gone wrong, very violent, 80s style synth music",1,1,1,1,1,1,1,1,1,1
+vag-en2-078,The Dark Knight Rises,,"a retired masked vigilante returns after eight years to fight a masked mercenary who breaks his back, takes over the city and holds it hostage with a bomb. the third one",3,12,36,10,3,3,3,5,5,3
+vag-en2-079,Django Unchained,,a freed slave and a german bounty hunter go to a mississippi plantation to rescue his wife from a cruel slave owner. very violent western,1,1,1,1,1,1,1,1,1,1
+vag-en2-080,The Hunger Games,,in a dystopian future a girl volunteers in place of her little sister for a televised fight to the death between teenagers. the first one,1,1,1,1,1,1,1,1,1,1
+vag-en2-081,Argo,,a cia agent rescues six american diplomats from tehran during the hostage crisis by pretending they are a canadian film crew scouting a fake sci fi movie,1,1,1,1,1,1,1,1,1,1
+vag-en2-082,Skyfall,,"a former agent with a grudge attacks british intelligence to get revenge on its chief, ending in a siege at an old house in scotland",1,1,4,1,1,1,1,1,1,1
+vag-en2-083,Gravity,hedge|false_memory|decade,"two astronauts are stranded after debris destroys their shuttle and one of them has to reach another space station alone, almost the whole film is in space. around 2016 i think",1,1,1,1,1,1,1,1,1,1
+vag-en2-084,The Wolf of Wall Street,,"a young stockbroker gets rich by scamming investors with penny stocks and lives a life of drugs and parties until the fbi catches up. true story, very long",1,1,1,1,1,1,1,1,1,1
+vag-en2-085,Frozen,,"animated musical about a princess whose sister accidentally freezes their kingdom with her ice powers and runs away to the mountains, a funny snowman. the first one",1,1,1,1,1,1,1,1,1,1
+vag-en2-086,12 Years a Slave,decade,a free black musician from new york is kidnapped in the 1840s and sold into slavery in the south. true story,1,1,1,1,1,1,1,1,1,1
+vag-en2-087,Her,,a lonely man who writes letters for other people falls in love with the artificial intelligence voice of his computer operating system,1,1,1,1,1,1,1,1,1,1
+vag-en2-088,Gone Girl,,"a woman disappears on her fifth wedding anniversary and her husband becomes the main suspect, but she faked it to frame him",1,1,1,1,1,1,1,1,1,1
+vag-en2-089,Whiplash,decade,a young drummer at a top music school is pushed to the edge by an abusive bandleader who throws chairs at students. 2014ish,1,1,1,1,1,1,1,1,1,1
+vag-en2-090,The Grand Budapest Hotel,,"a fancy hotel concierge in a made-up european country is framed for murder over a valuable painting and escapes from prison with his lobby boy, everything very pink and symmetrical",1,1,1,1,1,1,1,1,1,1
+vag-en2-091,Guardians of the Galaxy,,"a bunch of space misfits including a talking raccoon and a tree creature team up to keep a powerful orb from a villain, lots of old songs from a cassette tape",1,1,1,1,1,1,1,1,1,1
+vag-en2-092,The Imitation Game,,a socially awkward mathematician builds a machine to crack the german enigma code during ww2 and is later persecuted for being gay. true story,1,1,1,1,1,1,1,1,1,1
+vag-en2-093,Mad Max: Fury Road,,"in a desert wasteland a road warrior and a female truck driver escape from a tyrant with his wives, almost the whole film is one long car chase",1,2,4,2,1,1,1,2,2,2
+vag-en2-094,The Martian,,an astronaut is left behind on mars after a storm and has to survive alone by growing potatoes until a rescue mission can reach him,1,1,1,1,1,1,1,1,1,1
+vag-en2-095,Inside Out,,"animated film set inside a girl's mind, where emotions like joy and sadness steer her after her family moves to a new city. the first one",1,1,1,1,1,1,1,1,1,1
+vag-en2-096,The Revenant,decade,"a frontiersman in the 1820s is mauled by a bear and left for dead, and crawls back through the frozen wilderness to get revenge on the man who killed his son",1,1,1,1,1,1,1,1,1,1
+vag-en2-097,Spotlight,,a newspaper investigative team uncovers widespread child abuse by catholic priests in boston and the cover up. true story,1,1,1,1,1,1,1,1,1,1
+vag-en2-098,Arrival,,"a linguist is brought in to communicate with aliens who write in circular symbols after spaceships appear around the world, and the film plays with time",1,1,1,1,1,1,1,1,1,1
+vag-en2-099,Zootopia,,animated city of animals where a rabbit becomes the first bunny cop and teams up with a sly fox to solve a missing animals case,1,1,1,1,1,1,1,1,1,1
+vag-en2-100,Hacksaw Ridge,,a world war two medic who refuses to touch a gun saves dozens of wounded soldiers on a cliff in okinawa. true story,1,1,1,1,1,1,1,1,1,1
+vag-en2-101,Moonlight,,"three chapters in the life of a quiet gay black boy growing up in a rough neighbourhood in miami, from childhood to adulthood",1,1,1,1,1,1,1,1,1,1
+vag-en2-102,Dunkirk,,"ww2 film about the evacuation of trapped soldiers from a french beach, told from land, sea and air with very little dialogue",1,1,1,1,1,1,1,1,1,1
+vag-en2-103,Coco,,"animated film about a mexican boy who loves music and accidentally ends up in the land of the dead on the day of the dead, looking for his musician ancestor",1,1,1,1,1,1,1,1,1,1
+vag-en2-104,"Three Billboards Outside Ebbing, Missouri",,a grieving mother rents three billboards on a quiet road to shame the local police chief for not catching her daughter's killer,1,1,1,1,1,1,1,1,1,1
+vag-en2-105,A Quiet Place,,"a family lives in total silence on a farm because blind creatures hunt anything that makes a sound, and the mother has to give birth quietly. the first one",1,1,1,1,1,1,1,1,1,1
+vag-en2-106,Avengers: Infinity War,negation,"a purple giant collects all the magic stones and wipes out half of all life in the universe with a snap, and the heroes lose. not endgame, the one before",1,2,2,1,1,1,1,1,1,1
+vag-en2-107,Bohemian Rhapsody,,"biopic of a famous british rock band's flamboyant lead singer, ending with their legendary performance at a huge charity concert",1,2,1,1,1,1,1,1,1,1
+vag-en2-108,Black Panther,,"the young king of a hidden, technologically advanced african nation is challenged for the throne by an american cousin he never knew about",1,1,3,1,1,1,1,1,1,1
+vag-en2-109,Spider-Man: Into the Spider-Verse,,"animated film where a brooklyn teenager gets spider powers and meets other spider heroes from parallel dimensions, comic book style animation. the first one",1,1,2,1,1,1,1,1,1,1
+vag-en2-110,Green Book,decade,a tough italian american bouncer drives a refined black pianist on a concert tour through the deep south in the 60s. true story,1,1,1,1,1,1,1,1,1,1
+vag-en2-111,Knives Out,,"a wealthy mystery novelist dies after his birthday party and a southern detective investigates his greedy family, and his nurse can't lie without vomiting",1,1,1,1,1,1,1,1,1,1
+vag-en2-112,1917,,"two young soldiers in ww1 have to cross enemy territory to deliver a message that will stop a doomed attack, filmed like one continuous shot",1,2,1,1,1,1,1,1,1,1
+vag-en2-113,Once Upon a Time in Hollywood,decade,"a fading tv cowboy actor and his stunt double in 1969 los angeles, living next door to a famous actress, with an alternate history ending",1,2,1,1,1,1,1,1,1,1
+vag-en2-114,Tenet,,a secret agent learns that objects and people can move backwards in time and has to stop a russian arms dealer from ending the world. very confusing,1,1,1,1,1,1,1,1,1,1
+vag-en2-115,Soul,,"animated film about a jazz-loving music teacher who falls into a manhole right before his big break, and his soul has to find its way back to his body",1,1,1,1,1,1,1,1,1,1
+vag-en2-116,Nomadland,decade,"a widow who lost her job and her town after the recession lives in her van and travels the american west taking seasonal jobs. quiet and sad, 2020",1,1,1,1,1,1,1,1,1,1
+vag-en2-117,Dune,,"a young noble heir moves with his family to a desert planet with giant sandworms and a precious spice, they are betrayed and he flees into the desert. the new one, part one",1,1,1,1,1,1,1,1,1,1
+vag-en2-118,Spider-Man: No Way Home,,"a teen superhero whose identity was revealed asks a sorcerer to make everyone forget, the spell goes wrong and villains from other universes show up, and older versions of him come too",1,1,4,1,1,1,1,1,1,1
+vag-en2-119,CODA,,"a teenage girl is the only hearing person in her deaf family who run a fishing boat, and she secretly wants to study singing",1,1,1,1,1,1,1,1,1,1
+vag-en2-120,Everything Everywhere All at Once,,"a laundromat owner being audited by the tax office discovers she can jump into her lives in other universes to fight a villain who is a version of her daughter, hot dog fingers",1,1,2,1,1,1,1,1,1,1
+vag-en2-121,Avatar: The Way of Water,,"a former soldier living as a tall blue alien moves his family to an ocean tribe to hide from soldiers, and they bond with whale-like creatures. the sequel",1,3,8,2,1,1,1,2,1,1
+vag-en2-122,The Batman,negation,"a younger, darker masked detective hunts a serial killer who leaves riddles at crime scenes and exposes the city's corruption. not the nolan ones",1,1,1,1,1,1,1,1,1,1
+vag-en2-123,The Banshees of Inisherin,decade,"on a small irish island in the 1920s a man's best friend suddenly refuses to talk to him and threatens to cut off his own fingers if he keeps trying, there is a little donkey",1,1,1,1,1,1,1,1,1,1
+vag-en2-124,Barbie,decade,"a fashion doll living in a perfect pink world starts thinking about death and travels to the real world with her boyfriend doll, who discovers patriarchy. 2023",1,1,1,1,1,1,1,1,1,1
+vag-en2-125,Killers of the Flower Moon,decade,"true story of oil-rich native americans in 1920s oklahoma being murdered for their money, a man marries one of them while his uncle plans the killings",1,1,1,1,1,1,1,1,1,1
+vag-en2-126,Spider-Man: Across the Spider-Verse,,"animated sequel where a teen spider hero joins a society of spider people from across the multiverse and learns his fate, and it ends on a cliffhanger",1,1,1,1,1,1,1,1,1,1
+vag-en2-127,Poor Things,,"a woman brought back to life by an eccentric surgeon with a baby's brain explores the world and her freedom, strange steampunk visuals",1,1,1,1,1,1,1,1,1,1
+vag-en2-128,The Holdovers,decade,"a grumpy teacher at a boarding school has to stay over the christmas break with a troubled student and the grieving school cook, set in the 70s",1,1,1,1,1,1,1,1,1,1
+vag-en2-129,Dune: Part Two,,"the exiled duke's son joins the desert people, rides a giant worm and leads a holy war against the family that killed his father. the second part",1,1,11,2,1,1,1,1,1,1
+vag-en2-130,Inside Out 2,,animated sequel where a teenage girl's mind gets new emotions like anxiety that take over during a hockey camp,1,1,1,1,1,1,1,1,1,1
+vag-en2-131,Deadpool & Wolverine,decade,"a foul-mouthed mercenary recruits a washed-up version of a clawed mutant from another universe to save his own world, lots of jokes and cameos. 2024",2,1,8,2,2,2,2,1,1,1
+vag-en2-132,Wicked,,"musical about the unlikely friendship between a green-skinned outcast and a popular blonde at a magic university, before one of them becomes the wicked witch. part one",1,1,1,1,1,1,1,74,1,1
+vag-en2-133,Anora,,a young exotic dancer from brooklyn impulsively marries the son of a russian oligarch and his parents send their henchmen to get it annulled. won best picture,1,1,1,1,1,1,1,1,1,1
+vag-en2-134,The Substance,,"an ageing tv fitness star takes a black market drug that creates a younger perfect version of her, and they must swap every week, gross body horror",1,1,1,1,1,1,1,1,1,1
+vag-en2-135,Conclave,,"a cardinal running the secret election of a new pope uncovers scandals about the frontrunners, with a surprise at the end",1,1,1,1,1,1,1,1,1,1
+vag-en2-136,Sinners,decade,twin brothers come home to 1930s mississippi to open a juke joint and their cousin's blues music attracts vampires on opening night,1,1,1,1,1,1,1,1,1,1
+vag-en2-137,Superman,negation|decade,"reboot of the most famous superhero with his super dog, while a billionaire genius turns the public against him. 2025, not man of steel",1,1,1,1,1,1,1,1,1,1
+vag-en2-138,F1,decade,an older racing driver who crashed out decades ago returns to formula one to help a failing team and clashes with a young rookie teammate. 2025,1,1,1,1,1,1,1,1,1,1
+vag-en2-139,One Battle After Another,social,a burned-out former revolutionary living in hiding has to rescue his teenage daughter when an obsessed military officer from his past comes after them. saw it in theatres last year,1,1,59,7,1,1,1,1,1,1
+vag-en2-140,Project Hail Mary,decade,"a science teacher wakes up alone on a spaceship with no memory, sent to save the sun from dying, and makes friends with a rock-like alien that talks in musical notes. 2026",1,3,1,1,1,1,1,1,1,1
+vag-hi-001,Awaara,hedge|decade,"black and white movie where a rich judge throws out his wife because he doubts the baby is his. the boy grows up on the streets stealing and later falls for a girl who is a lawyer, ends up in court against his own father i think",1,1,1,1,1,1,1,1,1,1
+vag-hi-002,Do Bigha Zamin,,"really old sad film, a poor farmer goes to the big city to earn money to save his small piece of land, he pulls people around in a cart and his kid works too, but he still loses everything",1,1,1,1,1,1,1,1,1,1
+vag-hi-003,Shree 420,hedge|false_memory|decade,"an honest young guy comes to the big city with nothing and slowly turns into a cheat working for rich crooks, there's a sweet teacher he loves. old black and white musical, maybe 60s",5,31,5,1,5,5,5,1,1,2
+vag-hi-004,Pyaasa,decade,"black and white movie about a poet nobody respects, everyone thinks he died and suddenly his poems become famous and others make money from them. a kind woman of the night helps him. very depressing",3,1,10,1,3,3,3,2,1,1
+vag-hi-005,Mother India,negation,"old epic about a village woman who raises her sons alone after her husband leaves, a cruel moneylender keeps taking their crops, there's a flood, and at the end she kills her own son. not a love story",1,1,2,1,1,1,1,1,1,1
+vag-hi-006,Madhumati,hedge|false_memory,"spooky old movie, a man stuck in a storm stays in an old mansion and starts remembering a past life where he loved a village girl in the hills who died. reincarnation and a ghost. i think it was in colour? not sure",1,1,5,1,1,1,1,1,1,1
+vag-hi-007,Chalti Ka Naam Gaadi,decade,"comedy about brothers who run a car repair shop, one of them falls for a rich girl who comes in at night with her car broken down in the rain. lots of fun songs, black and white",1,2,2,1,1,1,1,1,1,1
+vag-hi-008,Kaagaz Ke Phool,hedge,"a movie about a movie director whose life falls apart, he makes a poor girl a star but they can't be together and he dies alone in a studio. it failed at the box office i think",33,50,1,1,33,33,33,1,1,2
+vag-hi-009,Mughal-e-Azam,,"historical movie where a prince loves a dancer from the palace and the king locks her up, father and son even fight a war over it. a song in a room full of mirrors. partly black and white and partly colour",1,1,4,1,1,1,1,1,1,1
+vag-hi-010,Sahib Bibi Aur Ghulam,,"sad old film about a lonely rich wife who starts drinking so her husband will stay home with her instead of going out at night, told by a poor man who worked in the big old house",1,2,19,1,1,1,1,1,1,1
+vag-hi-011,Waqt,hedge,"a family gets separated in an earthquake and the brothers grow up apart, one becomes a thief, and they meet again years later in a court case. one of the first big multi star movies i believe",1,2,18,2,1,1,1,1,1,1
+vag-hi-012,Guide,,"a man who shows tourists around falls for a dancer who is married to an older researcher, he goes to jail, then villagers think he's a holy man and he stops eating until it rains",1,1,1,1,1,1,1,1,1,1
+vag-hi-013,Teesri Manzil,hedge|false_memory|decade,"murder mystery in a hill hotel, a woman thinks the drummer in the band is the reason her sister died falling from a building, but she falls for him. lots of crazy dancing, maybe late 50s",1,1,19,4,1,1,1,1,1,1
+vag-hi-014,Padosan,,"comedy where a shy simple guy loves the girl next door who loves music, so his friend sings for him from behind while he pretends. a funny south indian music teacher is the rival",2,5,6,2,2,2,2,1,1,1
+vag-hi-015,Aradhana,,"a pilot dies before he can marry his girl, she has his baby secretly and has to give him away, then goes to prison for a crime to protect him. the son grows up and becomes a pilot too, same actor plays father and son",3,5,2,1,3,3,3,2,2,2
+vag-hi-016,Ittefaq,hedge|negation|decade,"a thriller with no songs at all, one rainy night a man running from the police hides in a woman's house and there is a dead body in there. 60s i think. not the new remake",3,4,79,12,3,3,3,2,2,2
+vag-hi-017,Mera Naam Joker,,"really long film about a clown in a circus and the different women he loved through his life, it flopped badly but people love it now",1,1,1,1,1,1,1,1,1,1
+vag-hi-018,Anand,decade,"a man with a terminal illness who is always laughing and making friends, and his doctor is a very serious guy. the ending where you hear his voice on a tape after he dies. 70s",1,1,4,1,1,1,1,1,1,1
+vag-hi-019,Pakeezah,hedge,"a courtesan who dreams of a normal life, a stranger sees her feet on a train and leaves her a note. took many years to make and i think the actress died around the release",1,2,1,1,1,1,1,1,1,1
+vag-hi-020,Seeta Aur Geeta,negation,"twin sisters separated as babies, one is timid and treated badly by her relatives, the other is bold and lives on the street doing tricks. they switch places. not the 80s one",1,1,3,1,1,1,1,1,1,1
+vag-hi-021,Bawarchi,decade,"a cook joins a big family that is always fighting and somehow fixes all their problems, turns out he is very educated. simple light comedy from the 70s",13,5,1,2,13,13,13,1,1,2
+vag-hi-022,Bobby,hedge|false_memory|decade,"teen romance between a rich boy and a fisherman's daughter, their families hate each other and they run away together. i think it was the 80s",1,1,32,2,1,1,1,2,1,1
+vag-hi-023,Zanjeer,,an angry police officer keeps dreaming of a horse because the man who killed his parents had a horse on his bracelet. a gambler becomes his friend. the film that made the lead actor famous,1,3,1,1,1,1,1,1,1,1
+vag-hi-024,Sholay,hedge|false_memory|decade,two small time thieves are hired by an old cop with no arms to catch a bandit who terrorizes a village. a girl who drives a horse cart talks nonstop. maybe 80s?,2,3,3,1,2,2,2,1,1,1
+vag-hi-025,Deewaar,,"two brothers, one becomes a smuggler and the other a police officer, their mother loves both. the older one has something written on his arm from childhood. very dramatic dialogues",2,4,1,1,2,2,2,1,1,1
+vag-hi-026,Chupke Chupke,hinglish,"funny old movie, a professor pretends to be a driver to fool his wife's jija who is obsessed with pure language. lots of pranks and disguises",1,1,1,1,1,1,1,1,1,1
+vag-hi-027,Jai Santoshi Maa,,"religious movie about a woman who prays to a goddess and fasts every week while her in-laws are cruel to her, and other goddesses get jealous. it was a huge surprise hit",1,1,5,1,1,1,1,1,1,1
+vag-hi-028,Kabhi Kabhie,hedge,"a poet's love marries someone else, and years later their children fall in love with each other. lots of poetry, set in kashmir maybe",1,1,6,1,1,1,1,1,1,1
+vag-hi-029,Chhoti Si Baat,,"a shy office guy can't talk to the girl he likes at the bus stop, so he takes lessons from an old retired man to become confident. simple middle class comedy",19,9,81,20,19,19,19,12,2,2
+vag-hi-030,Amar Akbar Anthony,,"three brothers lost as kids are raised by people of different religions, their mother is blind and gets her sight back. one brother gets drunk and talks to a mirror",3,3,2,1,3,3,3,2,3,1
+vag-hi-031,Don,hedge|negation,"police replace a dead gangster boss with his lookalike, a simple guy, and then the only officer who knew dies so nobody believes him. i don't think it's the shah rukh one",2,5,46,6,2,3,3,5,2,2
+vag-hi-032,Muqaddar Ka Sikandar,,"a poor orphan boy grows up rich but the girl he loved since childhood loves his friend, a dancer loves him, and he dies at the end. tragic",9,8,80,12,9,9,9,5,3,3
+vag-hi-033,Gol Maal,negation|decade,"a young man lies to his strict boss that he has a twin, because the boss only likes men with moustaches. 70s comedy, not the new ones with the same name",5,8,22,3,5,4,4,1,1,1
+vag-hi-034,Karz,,"a singer remembers his past life where his wife killed him for money, and he goes back for revenge. a song with a giant record in the background",39,77,2,2,39,39,39,6,5,5
+vag-hi-035,Silsila,decade,love triangle where a man marries his dead brother's fiancee out of duty and later meets his old love who is now married. 80s,1,2,30,4,1,1,1,1,1,1
+vag-hi-036,Ek Duuje Ke Liye,,"a boy and girl who speak different languages fall in love in goa, their families separate them for a year. very sad ending, they both die",2,2,3,2,2,2,2,2,2,2
+vag-hi-037,Umrao Jaan,,a girl kidnapped as a child grows up to be a famous courtesan and poet in old times. beautiful ghazals,2,3,1,2,3,3,3,2,2,2
+vag-hi-038,Chashme Buddoor,negation,"three unemployed friends in delhi all chase the same girl who moved in nearby, two of them lie about dating her but she likes the quiet one. not the remake",1,11,52,5,1,1,1,1,1,3
+vag-hi-039,Disco Dancer,,"a poor street singer becomes a famous disco star, the villains hurt his mother with an electric guitar. it was massively popular in russia",1,1,1,1,1,1,1,1,1,1
+vag-hi-040,Angoor,,"comedy of errors with two sets of twins getting confused in the same town, based on shakespeare",2,1,1,1,2,2,2,1,1,1
+vag-hi-041,Masoom,decade,"a married man finds out he has a son from an old affair and brings the boy home after the mother dies, his wife is hurt. touching 80s film",4,21,244,23,4,4,4,4,2,2
+vag-hi-042,Coolie,hedge|false_memory|decade,"a railway porter who has a pet bird, the film where the lead actor got seriously injured during a fight scene. maybe 1990",1,1,53,6,1,1,1,1,1,1
+vag-hi-043,Jaane Bhi Do Yaaro,,"two photographers stumble on a murder and corrupt builders, the dead body keeps getting moved around, and it ends in a crazy stage play. black comedy",1,1,3,1,1,1,1,1,1,1
+vag-hi-044,Saaransh,,"an old retired teacher whose son was killed abroad fights the system to get the ashes back, and the actor was actually young. heavy drama",2,1,64,3,2,2,2,2,1,4
+vag-hi-045,Mr. India,hedge|false_memory|decade,"a man who takes care of orphans gets a watch that makes him invisible, the villain wants to take over the country. i think it was 1993",1,1,1,1,1,1,1,1,1,1
+vag-hi-046,Ijaazat,,a divorced couple meet by chance in a train station waiting room on a rainy night and remember their past. poems and a free spirited other woman,2,4,1,1,2,2,2,1,1,1
+vag-hi-047,Mirch Masala,,"village women fight back against a tax collector, the climax is in a spice factory where they throw chilli powder at him. colonial times",1,1,2,1,1,1,1,1,1,1
+vag-hi-048,Qayamat Se Qayamat Tak,hedge|false_memory|decade,"romeo and juliet type love story, two feuding families, the young couple run away and live in a forest and both die in the end. late 80s, i think it was salman",3,7,262,21,3,3,3,1,2,2
+vag-hi-049,Tezaab,,a young man becomes a gangster after an injustice and the heroine is forced to dance by her drunk father. the famous counting song,1,18,12,2,1,1,1,1,1,1
+vag-hi-050,Salaam Bombay!,negation,"a little boy gets stuck in the big city and works in the red light area serving tea, trying to earn enough to go home. real street children acted. not a commercial masala film",1,1,9,1,1,1,1,1,1,1
+vag-hi-051,Maine Pyar Kiya,,"rich boy and poor girl become friends and then fall in love, his father says no, so he works as a labourer to prove himself. a pigeon carries their letters",1,6,95,12,1,1,1,1,1,1
+vag-hi-052,Chandni,,"a man falls out of a helicopter while throwing flowers at his girlfriend and gets paralysed, she moves on and another man falls for her. songs in switzerland",15,11,1,2,15,15,15,1,1,2
+vag-hi-053,Parinda,,"dark gangster film, an older brother works for a crime boss, the younger one comes back from abroad and wants revenge for his friend. pigeons. the couple dies at the end",1,1,8,1,1,1,1,1,1,1
+vag-hi-054,Ram Lakhan,decade,"two brothers, one an honest cop and one who wants easy money, their mother wants revenge on the uncles who killed their father. 80s masala",3,8,214,21,3,3,3,1,1,1
+vag-hi-055,Agneepath,negation,"a boy sees his father, a school teacher, killed by a drug lord in their village. grows up to be a gangster with a deep voice to take revenge. not the remake",2,4,2,2,2,2,2,2,2,2
+vag-hi-056,Dil,negation|decade,"college rivals become lovers, their fathers hate each other, they run away and the boy gets hurt. early 90s. not the shah rukh one",140,91,31,44,140,66,66,5,10,4
+vag-hi-057,Aashiqui,negation,"a struggling singer and an orphan girl fall in love, the songs were massive hits. not the newer one",6,2,142,15,6,6,6,8,4,5
+vag-hi-058,Lamhe,,"a man loved an older woman who died, then her daughter, who looks exactly like her, falls in love with him years later. controversial. rajasthan and london",1,1,95,9,1,1,1,1,1,1
+vag-hi-059,Beta,,"a devoted son doesn't realise his stepmother is plotting to take the family property, his clever wife sees through it. a very famous dance song",1,2,294,17,1,1,1,4,2,3
+vag-hi-060,Jo Jeeta Wohi Sikandar,,"a careless flirt in a hill town college, his older brother gets hurt by rich school boys so he trains for the big cycle race and wins",1,1,2,1,1,1,1,1,1,1
+vag-hi-061,Baazigar,decade,"the hero is secretly the villain, he pushes his girlfriend off a building and then goes after her sister, revenge on their father. 90s thriller",1,3,622,19,1,1,1,2,2,1
+vag-hi-062,Darr,,"a stalker obsessed with a girl who stutters her name on the phone, her fiance is a navy officer, chase in the mountains",1,1,5,2,1,1,1,1,1,1
+vag-hi-063,Khalnayak,,"a dangerous criminal escapes jail and a policewoman goes undercover as a dancer to catch him, and she starts to understand him. controversial song",4,3,13,1,4,4,4,4,3,5
+vag-hi-064,Damini,,"a woman sees a maid assaulted by her husband's brother and stands up against her own rich family in court, a drunk lawyer helps her",1,4,54,6,1,1,1,1,2,1
+vag-hi-065,Hum Aapke Hain Koun..!,negation,"family wedding movie with lots of songs, the elder sister dies falling down the stairs and the families want the younger sister to marry the widower, the dog helps. no villain",1,1,15,2,1,1,1,1,1,1
+vag-hi-066,Andaz Apna Apna,,"two lazy guys compete to marry a rich girl, there's a silly villain gang, comedy that flopped but is now a cult favourite",24,37,149,32,24,24,24,17,13,6
+vag-hi-067,1942: A Love Story,,"love story during the freedom struggle against the british, the son of a loyal officer falls for a revolutionary's daughter in the hills",1,1,2,1,1,1,1,1,1,1
+vag-hi-068,Mohra,,"a man in jail is freed by a rich newspaper owner who uses him to kill drug dealers, but the rich man is the real villain. rain song",13,35,240,34,13,13,10,14,15,25
+vag-hi-069,Kabhi Haan Kabhi Naa,,"a lovable loser in goa who plays in a band loves a girl who loves his friend, and he doesn't get the girl in the end",1,2,9,1,1,1,1,1,1,1
+vag-hi-070,Dilwale Dulhania Le Jayenge,false_memory|decade,"two indians from london meet on a europe trip, she's going to marry someone in punjab, he follows her and wins over her strict father, train at the end. i'm sure it's from the 2000s",1,1,1,1,1,1,1,1,1,1
+vag-hi-071,Karan Arjun,decade,"two brothers killed by their uncle are reborn and remember their past life, their mother waited for them all those years. 90s",1,2,1,1,1,1,1,1,1,1
+vag-hi-072,Rangeela,,"a girl who wants to be a film star, her street smart friend who sells tickets in black, and a superstar who falls for her. great music",2,7,5,2,2,2,2,1,2,2
+vag-hi-073,Raja Hindustani,,"a rich girl falls for a poor taxi driver in a hill station, her stepmother plots to separate them. very long kiss",1,1,3,1,1,1,1,1,1,1
+vag-hi-074,Maachis,decade,"young people join militants after police brutality in punjab in the 80s, sad ending with poison pills",1,1,17,3,1,1,1,1,1,1
+vag-hi-075,Dil To Pagal Hai,,"a dance troupe director believes in destiny, his friend secretly loves him, and a new dancer comes in. love triangle with lots of dance",1,1,1,1,1,1,1,1,1,1
+vag-hi-076,Border,,war film about a small army post in the desert facing tanks all night. very emotional song about soldiers' letters from home,1,1,1,1,1,1,1,1,1,1
+vag-hi-077,Kuch Kuch Hota Hai,,"college friends, a tomboy and a guy, he marries another girl who dies and leaves letters for their daughter, who brings him and the tomboy together at a summer camp",1,1,237,16,1,1,1,1,1,1
+vag-hi-078,Satya,decade,"a nobody comes to mumbai, goes to jail and joins a gang, very realistic underworld film from the late 90s",2,2,43,6,2,2,2,1,1,1
+vag-hi-079,Dil Se..,,a radio reporter falls for a mysterious woman who is part of a terrorist plan. people dancing on top of a moving train,1,1,9,2,1,1,1,1,1,1
+vag-hi-080,Ghulam,,"a boxer working for a local goon, the dangerous game where boys run towards a speeding train at night",175,369,60,88,175,175,175,136,136,136
+vag-hi-081,Hum Dil De Chuke Sanam,,"a girl in love with a foreign music student is married to another man, who then takes her abroad to find her lover, but she chooses her husband",78,211,23,17,78,78,78,23,19,41
+vag-hi-082,Sarfarosh,,"honest police officer fights gun smuggling from across the border, and the mastermind is a famous singer he admires",1,5,251,21,1,1,1,2,4,2
+vag-hi-083,Hum Saath-Saath Hain,,"a big perfect joint family, jealous relatives turn the mother against the eldest stepson, like the ramayana. lots of songs",2,11,56,3,2,2,2,1,2,2
+vag-hi-084,Taal,,"a rich boy falls for a folk singer's daughter in the mountains, his father insults her family and she becomes a big pop star",4,7,214,19,4,4,4,5,3,1
+vag-hi-085,Kaho Naa... Pyaar Hai,hedge|false_memory|decade,a singer is killed after seeing a murder and his girlfriend meets his lookalike in new zealand. a debut film that was a huge hit. maybe 2005,1,1,33,2,1,1,1,2,1,2
+vag-hi-086,Hera Pheri,,"three broke men get a wrong number call from kidnappers and try to grab the ransom money, the old landlord with thick glasses. comedy, the first one",1,1,7,2,1,1,1,1,1,1
+vag-hi-087,Lagaan,,villagers under british rule play cricket against the officers to avoid paying tax during a drought,1,1,1,1,1,1,1,1,1,1
+vag-hi-088,Dil Chahta Hai,,"three friends after college, a trip to goa, one falls for an older woman who is an alcoholic. they fight and reunite",1,2,5,2,1,1,1,1,1,1
+vag-hi-089,Kabhi Khushi Kabhie Gham...,,"a rich man disowns his adopted son for marrying a girl from a poor area, years later the younger son brings the family back together in london",1,1,55,6,1,1,1,1,1,1
+vag-hi-090,Gadar: Ek Prem Katha,negation,"during partition a man saves a woman from riots and marries her, her father takes her back to pakistan and he goes there to get her. not the sequel",1,2,3,2,1,1,1,1,1,1
+vag-hi-091,Devdas,negation,"a rich man's son can't marry his childhood love because of family status, becomes a drunk, and a courtesan loves him. grand sets and dances. not the old one",1,1,4,1,1,1,1,1,1,1
+vag-hi-092,Company,,"two gangster partners in mumbai become enemies, based on real dons, the lead barely speaks",8,14,1,3,8,8,8,2,1,2
+vag-hi-093,Koi... Mil Gaya,,a mentally disabled young man contacts aliens using his father's computer and one alien gives him powers,1,1,1,1,1,1,1,1,1,1
+vag-hi-094,Kal Ho Naa Ho,,a dying man helps a serious girl in new york fix her family's problems and pushes her towards his best friend,3,7,17,1,3,3,3,1,1,1
+vag-hi-095,Munna Bhai M.B.B.S.,,a gangster joins a medical college to make his parents proud and teaches everyone kindness with hugs,1,2,1,1,1,1,1,1,1,1
+vag-hi-096,Maqbool,,"macbeth in the mumbai underworld, the don's mistress pushes his right hand man to kill him",1,1,1,1,1,1,1,1,1,1
+vag-hi-097,Haasil,,"college elections in a small north indian city, a simple student gets caught between two violent student leaders",14,34,3,6,14,14,14,5,3,4
+vag-hi-098,Veer-Zaara,,"an indian air force pilot falls for a pakistani girl and ends up in a pakistani jail for decades, a young lawyer fights his case",2,2,2,2,2,2,2,2,2,2
+vag-hi-099,Main Hoon Na,,an army officer goes undercover in a college to protect a general's daughter and finds his half brother there. he falls for a teacher,1,1,1,1,1,1,1,1,1,1
+vag-hi-100,Swades,,a nasa scientist goes back to india to bring his old nanny and ends up helping her village get electricity,1,1,1,1,1,1,1,1,1,1
+vag-hi-101,Dhoom,negation,a gang of thieves on fast motorbikes robs banks and a cop teams up with a mechanic to catch them. not the sequel,1,1,6,1,1,1,1,1,1,1
+vag-hi-102,Black Friday,decade,"gritty film about the 1993 bomb blasts and the police investigation, it was banned for a while",1,1,1,1,1,1,1,1,1,1
+vag-hi-103,Black,,"a deaf and blind girl and her teacher who later gets alzheimer's, inspired by helen keller",1,1,1,1,1,1,1,1,1,1
+vag-hi-104,Rang De Basanti,,"college friends act in a documentary about freedom fighters, a friend dies in a plane crash and they take revenge on a minister",1,1,1,1,1,1,1,1,1,1
+vag-hi-105,Lage Raho Munna Bhai,,a gangster starts seeing mahatma gandhi and uses his ideas to solve people's problems. the sequel,1,1,4,2,1,1,1,1,1,1
+vag-hi-106,Krrish,,"an indian superhero with a mask who fights a scientist building a machine to see the future, in singapore. the second one in the series",1,1,2,1,1,1,1,1,1,1
+vag-hi-107,Dhoom 2,,a master thief who wears disguises steals famous things around the world and teams up with a female thief. brazil,1,1,1,1,1,1,1,1,1,1
+vag-hi-108,Omkara,,"othello in a north indian village with gangsters, a jealous lame man plots against the leader",1,1,21,2,1,1,1,1,1,1
+vag-hi-109,Khosla Ka Ghosla,,"a retired man's land is grabbed by a builder, his son and some theatre actors con the builder back. delhi",1,1,13,1,1,1,1,1,1,1
+vag-hi-110,Chak De! India,negation,a disgraced hockey player coaches the national women's hockey team. not cricket,1,2,1,1,1,1,1,1,1,1
+vag-hi-111,Taare Zameen Par,,a boy who struggles with reading is sent to a boarding school and a new art teacher realises he is dyslexic,1,1,1,1,1,1,1,1,1,1
+vag-hi-112,Om Shanti Om,,a junior artist in the 70s film industry is reborn as a star's son and takes revenge for the actress who was murdered on a film set,8,12,22,2,8,8,8,17,3,5
+vag-hi-113,Jab We Met,hedge|false_memory,"a sad rich guy meets a very talkative girl who is running away to marry her boyfriend, they get stranded at night. maybe on a bus",1,1,2,1,1,1,1,1,1,1
+vag-hi-114,Bhool Bhulaiyaa,negation,"a couple moves into a haunted palace, the wife seems possessed by a dancer's ghost but it's actually a mental illness and a psychiatrist solves it. not the sequel",1,1,7,3,1,1,1,1,1,1
+vag-hi-115,Bheja Fry,,"a rich man invites an annoying amateur singer to a dinner to make fun of him, but the guy ruins his whole night",1,1,2,1,1,1,1,1,1,1
+vag-hi-116,Ghajini,negation,a man who forgets everything every few minutes uses tattoos and photos to hunt the man who killed his girlfriend. not the hollywood one,2,2,1,1,2,2,2,1,1,1
+vag-hi-117,A Wednesday!,,"an ordinary man calls the police chief and threatens bombs unless terrorists are released, all in one afternoon",1,1,1,1,1,1,1,1,1,1
+vag-hi-118,Jodhaa Akbar,,a muslim emperor marries a hindu princess for political reasons and they slowly fall in love,1,3,35,5,1,1,1,1,2,1
+vag-hi-119,Rock On!!,,"a college band breaks up and ten years later the friends reunite to play again, one of them is sick",1,1,9,1,1,1,1,1,1,1
+vag-hi-120,Oye Lucky! Lucky Oye!,,"a charming thief who steals from rich houses in delhi since he was a kid, based on a real person",1,1,5,1,1,1,1,1,1,1
+vag-hi-121,Dev.D,,"modern version of a classic tragic love story with drugs and a schoolgirl caught in a scandal, quirky music",1,3,14,1,1,1,1,1,1,1
+vag-hi-122,3 Idiots,,"engineering students, one genius who hates rote learning, a strict college director, and they deliver a baby during a storm. friendship",1,2,1,1,1,1,1,1,1,1
+vag-hi-123,Kaminey,,"twin brothers, one lisps and one stutters, mixed up with drugs and gangsters in one day",1,1,1,1,1,1,1,1,1,1
+vag-hi-124,Wake Up Sid,,a lazy rich college boy in mumbai moves in with an older woman writer and slowly grows up,3,10,5,1,3,3,3,1,1,2
+vag-hi-125,My Name Is Khan,,a muslim man with asperger's travels across america to tell the president he is not a terrorist,1,1,1,1,1,1,1,1,1,1
+vag-hi-126,Dabangg,,a corrupt but funny cop in a small town with sunglasses in his collar fights a local politician. item song,14,32,77,15,14,14,14,6,12,10
+vag-hi-127,Udaan,,a teenage boy expelled from boarding school goes back to his abusive father in a factory town and runs away with his little half brother,1,1,1,1,1,1,1,1,1,1
+vag-hi-128,Peepli Live,,satire about a poor farmer who might kill himself for compensation money and the media circus around him,1,1,1,1,1,1,1,1,1,1
+vag-hi-129,Band Baaja Baaraat,,two delhi college students start a wedding planning business and fall for each other. debut film,1,1,48,5,1,1,1,1,1,1
+vag-hi-130,Zindagi Na Milegi Dobara,,"three friends on a road trip in spain each choose an adventure sport, diving, skydiving and running with bulls",1,1,1,1,1,1,1,1,1,1
+vag-hi-131,Delhi Belly,,three messy roommates mix up a stool sample with smuggled diamonds and gangsters chase them. lots of swearing,1,1,3,1,1,1,1,1,1,1
+vag-hi-132,Rockstar,,"a college boy wants to be a rock star and becomes one after heartbreak, the girl is married and lives in europe",1,1,2,1,1,1,1,1,1,1
+vag-hi-133,The Dirty Picture,decade,"a bold actress from the south becomes a sensation in the 80s and then falls apart, biopic",73,70,1,4,73,73,73,13,14,28
+vag-hi-134,Paan Singh Tomar,,"an army runner who won medals becomes a bandit in the ravines over a land dispute, true story",1,1,13,3,1,1,1,1,1,1
+vag-hi-135,Kahaani,,"a pregnant woman searches for her missing husband in kolkata during a festival, big twist at the end",1,1,1,1,1,1,1,1,1,1
+vag-hi-136,Gangs of Wasseypur,,"a revenge feud over three generations in coal mining towns, very violent, two parts",1,2,7,3,1,1,1,2,2,2
+vag-hi-137,Barfi!,,"a deaf and mute charming man in the hills and two women, one of them autistic. light comedy a bit like charlie chaplin",1,1,3,1,1,1,1,1,1,1
+vag-hi-138,Vicky Donor,,a young man becomes a sperm donor for a doctor and later marries a woman who can't have children. comedy,1,1,1,1,1,1,1,1,1,1
+vag-hi-139,English Vinglish,,a housewife who is mocked for her english secretly takes an english class in new york,1,2,9,3,1,1,1,1,1,1
+vag-hi-140,OMG – Oh My God!,negation,a shopkeeper sues god after an earthquake destroys his shop and the insurance refuses to pay. not the second one,2,2,2,2,2,2,2,2,2,2
+vag-hi-141,Special 26,,"con men pretend to be government investigators and raid rich people, set in the 80s, based on a real heist",2,1,22,4,2,2,2,5,2,2
+vag-hi-142,Kai Po Che!,,three friends in gujarat start a cricket academy and the riots break their friendship,1,1,1,1,1,1,1,1,1,1
+vag-hi-143,Bhaag Milkha Bhaag,,biopic of an indian runner who lost his family in partition and lost an olympic medal by looking back,1,1,1,1,1,1,1,1,1,1
+vag-hi-144,Lootera,,"a con man pretending to be an archaeologist falls for a landlord's daughter and robs them, later she's sick and he paints a leaf",1,1,7,2,1,1,1,1,1,1
+vag-hi-145,The Lunchbox,,a lunch box gets delivered to the wrong person and a lonely housewife and an old office worker start writing letters,1,1,1,1,1,1,1,1,1,1
+vag-hi-146,Yeh Jawaani Hai Deewani,,"a nerdy girl goes on a mountain trek with old friends and falls for a wanderer, they meet again years later at a wedding",12,9,2,1,12,12,12,2,1,2
+vag-hi-147,Chennai Express,,a man going to immerse his grandfather's ashes gets on a train with a runaway girl and her goon cousins. comedy set in south india,1,1,3,1,1,1,1,1,1,1
+vag-hi-148,Queen,,a girl is dumped right before her wedding and goes on her honeymoon alone to europe and finds herself,1,1,1,1,1,1,1,1,1,1
+vag-hi-149,Haider,,"hamlet set in kashmir during the insurgency, a son searches for his missing father",1,1,2,1,1,1,1,1,1,1
+vag-hi-150,PK,,an alien loses his remote in rajasthan and asks innocent questions about religion and god,1,1,1,1,1,1,1,1,1,1
+vag-hi-151,Bajrangi Bhaijaan,,"a devoted simple man takes a lost mute girl back to her family in pakistan, crossing the border illegally",1,1,5,2,1,1,1,1,1,1
+vag-hi-152,Piku,,"a grumpy old father obsessed with his bowel problems, his daughter and a taxi owner go on a road trip",1,1,1,1,1,1,1,1,1,1
+vag-hi-153,Masaan,decade,"stories in a holy city by the river, a boy from a family that burns bodies loves a girl who dies. 2015",7,20,2,2,7,7,7,1,1,1
+vag-hi-154,Talvar,,"based on a real double murder case of a teenage girl and a servant, told from different viewpoints",1,1,12,2,1,1,1,1,1,1
+vag-hi-155,Drishyam,negation,a cable tv operator covers up a death his daughter caused and creates a perfect alibi using movies. not the sequel,1,1,26,5,1,1,1,1,1,1
+vag-hi-156,Bajirao Mastani,,a maratha general falls for a warrior princess and his first wife suffers. grand historical love story,1,1,7,3,1,1,1,1,1,1
+vag-hi-157,Dum Laga Ke Haisha,,"a school dropout who runs a cassette shop is forced to marry an overweight educated girl, there's a wife carrying race",1,1,1,1,1,1,1,1,1,1
+vag-hi-158,Tamasha,,"two strangers pretend to be different people on a holiday in corsica, later he's a boring corporate guy and has a breakdown",1,1,3,1,1,1,1,1,1,1
+vag-hi-159,Dangal,,a former wrestler trains his daughters to become wrestling champions. true story,2,2,1,1,2,2,2,1,2,2
+vag-hi-160,Pink,,"three women are accused after one defends herself from a powerful man, an old lawyer defends them. no means no",98,106,2,7,98,98,98,7,9,12
+vag-hi-161,Neerja,,true story of a flight attendant who saved passengers during a hijacking and died,1,1,2,1,1,1,1,1,1,1
+vag-hi-162,Udta Punjab,,"drug addiction in punjab told through a rock star, a migrant girl, a cop and a doctor",1,1,1,1,1,1,1,1,1,1
+vag-hi-163,M.S. Dhoni: The Untold Story,,biopic of a cricket captain from a small town who worked as a ticket collector at a railway station,1,1,1,1,1,1,1,1,1,1
+vag-hi-164,Kapoor & Sons,,"a dysfunctional family reunites when the grandfather falls ill, secrets come out, one brother is gay",1,1,14,2,1,1,1,1,1,1
+vag-hi-165,Newton,,"an honest clerk on election duty in a jungle area full of rebels, dark comedy",1,1,1,1,1,1,1,1,1,1
+vag-hi-166,Bareilly Ki Barfi,,"a girl reads a novel about someone just like her and searches for the writer, but he used his friend's name",1,1,15,2,1,1,1,1,1,1
+vag-hi-167,Andhadhun,hedge|false_memory|decade,"a pianist pretends to be blind and sees a murder, very dark comedy thriller. i think around 2015",1,1,4,1,1,1,1,1,1,1
+vag-hi-168,Stree,,"a female ghost takes men away at night during a festival in a small town, people write on their walls to stop her. horror comedy, the first one",1,4,3,1,1,1,1,1,1,1
+vag-hi-169,Badhaai Ho,,"a grown up son is embarrassed when his middle aged mother gets pregnant, comedy",1,1,1,1,1,1,1,1,1,1
+vag-hi-170,Raazi,,a young girl marries into a pakistani army family to spy for india before a war,1,1,1,1,1,1,1,1,1,1
+vag-hi-171,Padmaavat,,"a sultan becomes obsessed with a rajput queen and attacks the fort, the women burn themselves at the end",1,1,1,1,1,1,1,1,1,1
+vag-hi-172,Sanju,decade,"biopic of a troubled film star, drugs, his mother's cancer and a weapons case. 2018",1,2,1,1,1,1,1,1,1,1
+vag-hi-173,Tumbbad,,"a man keeps going into a cursed pit to steal gold from a demon god, rainy and scary, folk horror",1,1,9,3,1,1,1,1,1,1
+vag-hi-174,Uri: The Surgical Strike,,army officers carry out a secret strike across the border after an attack on an army camp,2,5,9,3,2,2,2,2,2,2
+vag-hi-175,Gully Boy,,a boy from the slums becomes a rapper and his girlfriend is very possessive,1,1,2,1,1,1,1,1,1,1
+vag-hi-176,Article 15,,a police officer investigates the deaths of two lower caste girls in a village and fights caste discrimination,1,1,1,1,1,1,1,1,1,1
+vag-hi-177,Kabir Singh,negation,"an angry surgeon becomes self destructive after his girlfriend marries someone else. the hindi remake, not the original",1,1,24,2,1,1,1,1,1,1
+vag-hi-178,War,,"a top spy goes rogue and his student is sent to catch him, lots of chases, and the two of them dance together",1,1,636,21,1,1,1,5,4,4
+vag-hi-179,Chhichhore,,"after his son attempts suicide over an exam, a father tells the story of his college friends who were called losers",1,1,4,1,1,1,1,1,1,1
+vag-hi-180,Sonchiriya,decade,a group of bandits in the ravines in the 70s helps a woman and a little girl escape the police,1,8,46,5,1,1,1,1,2,1
+vag-hi-181,Tanhaji,,"a maratha warrior climbs a cliff to recapture a fort from the mughals, and the villain is very cruel. 3d",1,1,3,1,1,1,1,1,1,1
+vag-hi-182,Thappad,,a husband slaps his wife once at a party and she decides to leave him,1,1,1,1,1,1,1,1,1,1
+vag-hi-183,Shershaah,,"biopic of a young army captain who died in the kargil war, and his girlfriend never married",1,2,3,1,1,1,1,1,1,1
+vag-hi-184,Sardar Udham,,a revolutionary goes to london to kill a british officer to avenge a massacre in punjab,1,1,2,1,1,1,1,1,1,1
+vag-hi-185,83,,"the underdog indian cricket team wins the world cup in england, true story",1,2,1,1,1,1,1,1,1,1
+vag-hi-186,The Kashmir Files,,"about the exodus of kashmiri pandits, a student learns how his family was killed. very controversial",1,1,1,1,1,1,1,1,1,1
+vag-hi-187,Gangubai Kathiawadi,,a girl sold to a brothel becomes its powerful madam and fights for women's rights,1,2,2,1,1,1,1,1,1,1
+vag-hi-188,Brahmastra: Part One – Shiva,,a young man discovers he has power over fire and is connected to ancient magical weapons. vfx heavy fantasy,1,1,69,10,1,1,1,1,1,1
+vag-hi-189,Bhool Bhulaiyaa 2,,"a guy pretends to be a psychic and stays in a haunted house with a ghost locked in a room. horror comedy, the second one",1,4,44,8,1,1,1,2,2,1
+vag-hi-190,Pathaan,decade,an exiled indian spy stops a former agent turned terrorist from releasing a virus. 2023 action,1,1,13,5,1,1,1,1,1,1
+vag-hi-191,Jawan,,a man with a bald head hijacks a metro train with a group of women to fight corruption for farmers,1,1,2,1,1,1,1,1,1,1
+vag-hi-192,Gadar 2,,a man goes to pakistan to rescue his son during the 1971 war. sequel,1,1,2,1,1,1,1,1,1,1
+vag-hi-193,Animal,decade,"a violent son obsessed with his father's love goes on a bloody revenge spree. very controversial, 2023",134,166,213,184,134,134,134,233,233,233
+vag-hi-194,12th Fail,,a poor boy who failed school goes to delhi to prepare for the civil services exam and becomes a police officer,1,1,2,1,1,1,1,1,1,1
+vag-hi-195,Rocky Aur Rani Kii Prem Kahaani,,a loud rich punjabi guy and a bengali journalist live with each other's families before getting married,4,8,5,2,4,4,4,2,2,2
+vag-hi-196,Dunki,,friends from a punjab village try to illegally migrate to england through many countries,1,2,1,1,1,1,1,1,1,1
+vag-hi-197,Laapataa Ladies,,"two brides wearing veils get swapped on a train in a village, comedy",1,1,1,1,1,1,1,1,1,1
+vag-hi-198,Stree 2,,"a headless demon abducts women in a small town, sequel to the ghost horror comedy",1,1,1,1,1,1,1,1,1,1
+vag-hi-199,Kill,,"a commando fights a gang of robbers on a train all night, extremely violent",1,2,11,2,1,1,1,1,1,1
+vag-hi-200,Chhaava,,"a maratha king who fought the mughal emperor and was tortured to death, historical war film",1,1,2,1,1,1,1,1,1,1
+vag-hin-001,Shaan,decade,"two con artist brothers in bombay and a circus sharpshooter go after a bald crime lord who lives on a secret island, after he kills their police officer brother. big early 80s multistarrer",1,1,11,1,1,1,1,1,1,1
+vag-hin-002,Satte Pe Satta,hedge|decade|false_memory,"seven uncouth orphan brothers live on a farm like animals until the eldest one marries a nurse who teaches them manners, then a criminal who looks exactly like the eldest brother shows up. comedy, maybe 70s?",1,1,3,1,1,1,1,1,1,1
+vag-hin-003,Prem Rog,lang|decade,"a poor educated orphan loves the niece of the village landlord, she is married off to a rich man and becomes a widow right after the wedding, and the film is about how widows are treated and whether she can remarry. old hindi film from the early 80s",1,2,97,8,1,1,1,1,1,1
+vag-hin-004,Betaab,decade|hedge,"a spoilt arrogant rich girl and a poor cheerful farm boy in the mountains fall in love, her father had abandoned his father who killed himself after going bankrupt. 80s romance, shot in kashmir I think",1,1,1,1,1,1,1,1,1,1
+vag-hin-005,Saagar,decade,"love triangle in a goan fishing village: a girl runs a small beach restaurant, her quiet best friend secretly loves her, she falls for a rich guy back from abroad, and the friend gives up his life for them at the end. mid 80s",1,14,1,1,1,1,1,1,1,1
+vag-hin-006,Karma,decade|hedge,"a jail superintendent recruits three prisoners to take on the terrorist who destroyed his jail and killed his family, after he had once slapped him. his wife lost her voice from the shock. patriotic action film, probably mid 80s",1,2,14,3,1,1,1,1,1,1
+vag-hin-007,Nagina,decade|social,"a rich man marries an orphan girl who is secretly a shape shifting snake woman, and an evil snake charming sadhu who killed her mate exposes her and tries to trap her. 80s, my mom's favourite film",1,1,1,1,1,1,1,1,1,1
+vag-hin-008,Ek Ruka Hua Faisla,hedge|decade|false_memory|negation|lang,"the whole film happens in one jury room where twelve men argue whether a teenage boy from a slum killed his father, and one juror slowly convinces the others. black and white? maybe the 70s. the hindi version, not the american original",1,1,1,1,1,1,1,1,1,1
+vag-hin-009,Shahenshah,decade,a police officer whose honest father hanged himself after being framed pretends to be a corrupt clown of a cop during the day and at night becomes a masked avenger with a metal arm. late 80s,1,3,196,14,1,1,1,1,1,1
+vag-hin-010,ChaalBaaz,negation|decade,"identical twin sisters separated at birth, the shy one is mistreated by her greedy uncle and aunt for her inheritance and the bold one grows up in a slum, and they get switched. not seeta aur geeta, the later one from the end of the 80s",2,2,3,2,2,1,1,1,1,1
+vag-hin-011,Sadak,decade,"a disturbed taxi driver who can't sleep since his sister's death falls for a young girl sold into a brothel and fights its terrifying transgender owner to free her. early 90s, very scary villain",1,1,2,1,1,1,1,1,1,1
+vag-hin-012,Phool Aur Kaante,decade,"a college boy whose father is a mafia don wants no part of the crime world, but his father's enemies kidnap his baby son and he has to fight them. the hero's entry was standing on two motorcycles. early 90s action",4,2,557,31,4,1,1,3,1,1
+vag-hin-013,Lekin...,decade,"a government officer sent to list the treasures of an abandoned palace in the rajasthan desert keeps meeting a mysterious woman who appears and disappears, a soul trapped by something that happened long ago. slow and poetic, early 90s",1,1,1,1,1,1,1,1,1,1
+vag-hin-014,Khiladi,decade,"four college friends fake a kidnapping of one of them to win a bet and get money from her father, but she actually gets murdered and they have to hide the body and find the killer. early 90s suspense",1,1,7,1,1,1,1,1,1,1
+vag-hin-015,Aankhen,decade,"two lazy brothers who have failed college for years play pranks on everyone, one vanishes and his identical innocent cousin from the village is mistaken for him. 90s comedy with a double role",1,5,1,1,1,1,1,1,1,1
+vag-hin-016,Bandit Queen,decade|lang,"true story of a low caste girl married off as a child, abused and humiliated by upper caste men, who becomes a feared dacoit leader in the ravines, takes revenge and later surrenders. very disturbing hindi film, mid 90s",1,2,11,3,1,1,1,1,1,1
+vag-hin-017,Main Khiladi Tu Anari,decade,"a film star tired of romantic roles follows a tough police inspector around to learn how to play a cop, and they end up fighting the gangster who killed the inspector's brother. 90s buddy action comedy",1,3,23,1,1,1,1,1,1,1
+vag-hin-018,Khamoshi: The Musical,decade,"the daughter of a deaf mute couple in goa loves music, stops singing after her little brother dies, then falls for a musician her father disapproves of. very emotional mid 90s musical about a christian family",1,1,1,1,1,1,1,1,1,1
+vag-hin-019,Ghatak,decade|negation,"a strong wrestler from varanasi takes his sick freedom fighter father to bombay for treatment and stands up to a gangster and his six brothers who terrorize the neighbourhood. 90s action, not ghayal",1,2,1,1,1,1,1,1,1,1
+vag-hin-020,Pyaar To Hona Hi Tha,hedge,"a clumsy girl who is terrified of flying goes to india to win back her fiance who dumped her for another woman, and a thief on the plane hides a stolen necklace in her bag. remake of french kiss I think",1,1,1,1,1,1,1,1,1,1
+vag-hin-021,Rehnaa Hai Terre Dil Mein,decade,"a reckless guy falls for a girl and pretends to be the fiance she has never met, but the real fiance turns out to be his old college enemy. flopped in theatres but became a cult romance with amazing songs, early 2000s",1,1,153,6,1,1,1,1,1,1
+vag-hin-022,The Legend of Bhagat Singh,,"biopic of a young revolutionary who turns to armed struggle after the jallianwala bagh massacre, throws a bomb in the assembly, goes on a hunger strike in jail and is hanged at 23. there were three films on him the same year, the one that won the national award",1,2,3,1,1,1,1,1,1,1
+vag-hin-023,Saathiya,decade,"a young couple from different backgrounds secretly marry against their families and keep living apart, after they move in together they fight all the time and then she goes missing. early 2000s, remake of a tamil film",1,4,1,1,1,1,1,1,1,1
+vag-hin-024,Raaz,hedge|decade|false_memory,"a couple with a failing marriage stay in a lonely bungalow near a forest in a hill station and the wife keeps seeing a ghost, it turns out the husband had an affair with a girl who died. I think late 90s horror with great songs",1,2,1,1,1,1,1,1,1,1
+vag-hin-025,Tere Naam,decade|hinglish,"a violent college ka dada with long middle parted hair falls for a shy brahmin girl, gets brain damage after a beating and ends up chained in a temple asylum. very sad ending, 2000s",1,1,24,2,1,1,1,1,1,1
+vag-hin-026,Iqbal,negation,"a deaf and mute village boy practices fast bowling with his buffaloes and dreams of playing cricket for india, trained by the village drunk who used to be a player. not lagaan",1,1,1,1,1,1,1,1,1,1
+vag-hin-027,Golmaal: Fun Unlimited,decade|lang,"four college troublemakers running from a goon hide in the bungalow of a blind old couple by pretending one of them is the grandson they are waiting for, one of the friends can only make sounds. 2000s hindi comedy",1,1,8,2,1,1,1,1,1,1
+vag-hin-028,Kabhi Alvida Naa Kehna,decade,"two people stuck in unhappy marriages in new york fall in love and have an affair, he was a football player whose career ended in an accident. long emotional film, mid 2000s",1,3,1,1,1,1,1,1,1,1
+vag-hin-029,Race,decade,"two rich brothers who run a horse racing business in south africa betray each other for an insurance payout, with twist after twist, and the detective is always eating fruit. late 2000s",1,1,33,3,1,1,1,1,1,1
+vag-hin-030,Love Aaj Kal,negation,"a modern couple agree to a friendly breakup when she moves to india, and an old man tells the guy his own old fashioned love story from decades ago, both stories run side by side and the same actor plays the young old man. the original, not the remake",1,1,69,2,1,1,1,1,1,1
+vag-hin-031,Ishqiya,decade,"two small time crooks, an old uncle and his nephew, hide at a dead gangster's house in a UP village, both fall for his widow and she drags them into a kidnapping plan. dark comedy around 2010",4,21,24,4,5,6,6,1,1,1
+vag-hin-032,Don 2,,"a crime boss surrenders on purpose to get into a malaysian prison, breaks out with his old enemy and robs a bank in germany for the euro printing plates. the sequel",1,1,1,1,1,1,1,1,1,1
+vag-hin-033,Jab Tak Hai Jaan,decade,"an army bomb disposal officer in ladakh who refuses to wear protective gear, a young documentary maker reads his diary about his past love in london, a girl who promised god she would leave him if he survived. 2010s romance",1,1,1,1,1,1,1,1,1,1
+vag-hin-034,Talaash,decade,"a cop who can't sleep after his little son drowned investigates a film star's late night car crash, a strange call girl helps him and in the end she turns out to be a ghost. 2010s mystery",2,19,1,1,2,2,2,1,1,1
+vag-hin-035,Dhoom 3,,"a circus magician robs branches of the chicago bank that drove his father to suicide, and the twist is he has a secret twin brother. the third one in the series",1,1,1,1,1,1,1,1,1,1
+vag-hin-036,2 States,decade|hedge,"a punjabi guy and a tamil girl who met at business school in ahmedabad have to win over each other's very different parents before they can marry. based on a bestselling novel, 2014 I think",1,1,13,1,1,1,1,1,1,1
+vag-hin-037,Baby,decade,"a secret indian anti-terror team formed after the mumbai attacks hunts terrorists abroad and finally smuggles the mastermind out of saudi arabia. 2015, very tense",1,1,1,1,1,1,1,1,1,1
+vag-hin-038,Ae Dil Hai Mushkil,decade,"a young singer falls in love with his best friend who only sees him as a friend, he then has an affair with an older poet, and in the end the girl gets cancer. one sided love, mid 2010s",1,2,5,1,1,1,1,1,1,1
+vag-hin-039,Pad Man,decade,"a man in a small village is humiliated and thrown out for trying to make cheap sanitary pads for his wife, then builds a machine and ends up speaking at the united nations. true story, late 2010s",1,1,1,1,1,1,1,1,1,1
+vag-hin-040,Bala,negation,"a young man in kanpur going bald early wears a wig to marry a pretty model who leaves him when she finds out, also about colourism. not ujda chaman, the other one",1,1,1,1,1,1,1,1,1,1
+vag-hin-041,Ludo,social,"four connected stories tied together by a gangster, like the colours of a board game, one couple's private video gets leaked online and a guy helps his old love get her husband out of a murder case. watched it on netflix during lockdown",1,1,1,1,1,1,1,1,1,1
+vag-hin-042,Mimi,decade,"a small town dancer in rajasthan agrees to carry a foreign couple's baby for money, they abandon her when doctors say the child may be disabled, and she raises it herself. 2021 on netflix",1,1,1,1,1,1,1,1,1,1
+vag-hin-043,Sam Bahadur,decade,"biopic of india's most famous army chief, from getting shot in burma in world war two to standing up to the prime minister and winning the 1971 war. recent, 2023",1,2,1,1,1,1,1,1,1,1
+vag-hin-044,Tiger 3,,"an indian spy and his wife, a former isi agent, are blackmailed by a rogue isi officer, and they end up saving the pakistani prime minister from a coup. third film of the series",1,2,2,1,1,1,1,1,1,1
+vag-hin-045,Fighter,decade|negation,"air force pilots in kashmir form an elite unit after a terror attack on soldiers and strike a terrorist camp across the border, a cocky pilot clashes with his strict commanding officer. 2024, not top gun",3,4,1,2,3,2,2,1,1,1
+vag-hin-046,Chandu Champion,,"an old man walks into a police station to file a complaint against the president for not getting an award and tells his life story: army boxer, shot several times in the war, paralysed, then wins a paralympic gold in swimming. true story",1,1,1,1,1,1,1,1,1,1
+vag-hin-047,Bhool Bhulaiyaa 3,,"a conman who pretends to be a ghost hunter is hired to free a haunted palace in bengal from the spirit of a dancer burnt alive two hundred years ago, and two women at the palace both seem to be the ghost. horror comedy, latest one in the series",1,1,1,1,1,1,1,1,1,1
+vag-hin-048,Sitaare Zameen Par,decade,"a hot headed basketball coach caught drink driving is ordered by the court to train a team of players with intellectual disabilities, and they end up teaching him. remake of a spanish film, 2025",1,1,1,1,1,1,1,1,1,1
+vag-hin-049,Dhurandhar,decade,"an indian spy goes undercover in the gang wars of karachi's lyari area and rises under a ruthless gang leader, part of a secret operation started after the parliament attack. very long spy thriller from the end of 2025",1,1,1,1,1,1,1,1,1,1
+vag-hin-050,Border 2,decade,"1971 war film following an army officer, a fighter pilot and a navy officer on different fronts, the pilot takes on six enemy jets alone over kashmir. new one from 2026, sequel to a 90s war classic",1,1,2,1,1,1,1,1,1,1
+vag-te2-001,Karthavyam,decade|lang,"a fearless woman police officer takes on a corrupt politician and his son in her district, and the actress won a national award for it. 1990 telugu action",21,45,7,3,21,21,21,1,1,1
+vag-te2-002,Kondaveeti Donga,decade|lang,"an orphan raised by poor tribal villagers studies hard, becomes a top officer and comes back to free them from corrupt landlords and smugglers, fighting them like a robin hood. 1990 telugu action",1,1,1,1,1,1,1,1,1,1
+vag-te2-003,Gang Leader,decade|lang,"an unemployed carefree dancer lives with his two older brothers and his grandmother and roams around with four jobless friends, then a brother is killed and the gang takes revenge. early 90s telugu",1,1,1,1,1,1,1,1,1,1
+vag-te2-004,Kshana Kshanam,decade,"a young woman and a small time thief go on the run through a forest after money from a bank robbery ends up in her house, chased by a gangster and the police. early 90s, the heroine is the big star",1,3,46,10,1,1,1,1,1,1
+vag-te2-005,Rowdy Alludu,decade,"a rich industrialist is replaced by his lookalike, a rowdy auto driver from bombay, as part of his enemies' plot, but the lookalike ends up saving him. double role comedy, 1991",1,1,1,1,1,1,1,1,1,1
+vag-te2-006,Aapadbandhavudu,decade,"a humble cowherd who plays lord shiva in village plays loves his master's daughter but never says it, and later gets himself into a mental asylum to rescue her. classical art film, early 90s",1,1,56,1,1,1,1,1,1,1
+vag-te2-007,Chanti,decade,"a naive orphaned village singer who works for three rich landlord brothers falls in love with their only sister, whom they guard too closely. early 90s, remake of a tamil film",1,2,1,1,1,1,1,1,1,1
+vag-te2-008,Gharana Mogudu,decade|lang,"a hard working employee marries his proud rich boss, the daughter of the company owner, and teaches her a lesson. 90s telugu blockbuster, taming of the shrew type",26,55,6,5,26,26,26,3,9,10
+vag-te2-009,Allari Priyudu,decade,"a musician falls in love with a woman through her poems, but they were actually written by her best friend, a love triangle with lots of songs. early 90s",1,1,1,1,1,1,1,1,1,1
+vag-te2-010,Money,decade|lang,"two unemployed friends kidnap a rich man's wife for ransom, but he doesn't want her back and hopes they kill her. early 90s telugu comedy inspired by an american film",1,1,37,6,1,1,1,1,1,1
+vag-te2-011,Hello Brother,decade,"twins separated at birth feel each other's pain and copy each other's movements, one grew up as a small time thief and the other as a musician. mid 90s comedy",1,1,2,1,1,1,1,1,1,1
+vag-te2-012,Subhalagnam,decade,a greedy wife who always wanted luxury agrees to let her honest husband marry a rich woman in exchange for a crore of rupees and then realises her mistake. mid 90s family drama,1,3,13,1,1,1,1,3,2,3
+vag-te2-013,Yamaleela,decade,"a young man trying to win back his mother's lost palace gets hold of the god of death's book that predicts the future, and the god of death and his assistant come to earth to recover it. 90s fantasy comedy",1,1,3,1,1,1,1,1,1,1
+vag-te2-014,Gulabi,decade,"a carefree young man's girlfriend is kidnapped by a gang that smuggles young girls to the gulf, and he goes after them. mid 90s romantic thriller with great songs",2,2,1,1,2,2,2,1,1,1
+vag-te2-015,Pedarayudu,decade,"a strict village headman who gives justice from his ancestral seat is betrayed through his younger brother's marriage into an enemy family, and a superstar appears as his late father in a flashback. 1995",2,4,9,1,2,2,2,1,1,1
+vag-te2-016,Pavitra Bandham,decade,"a spoilt rich son brought up in america agrees to marry only on a one year trial contract, and the middle class bride slowly wins him over. mid 90s family drama",30,49,19,3,30,30,30,5,4,2
+vag-te2-017,Pelli Sandadi,decade,"a young musician keeps looking for a girl he saw in a dream but whose face he never saw, and two sisters get involved. 90s musical love story with very popular songs",1,1,1,1,1,1,1,1,1,1
+vag-te2-018,Hitler,decade,"a strict short-tempered man raising his five younger sisters is nicknamed after a dictator by the town's boys. late 90s family drama, a remake",1,3,1,1,1,1,1,1,1,1
+vag-te2-019,Master,decade,"a cool lecturer joins a college full of rowdy students, becomes their friend to reform them and takes on a gangster who pushes drugs to the students. late 90s",6,3,11,4,6,6,6,1,2,1
+vag-te2-020,Pellichesukundam,decade,"a woman who witnessed a murder is raped in revenge and thrown out by her family, and a rich kind man gives her shelter in his house whatever society says. late 90s",1,1,2,1,1,1,1,1,1,1
+vag-te2-021,Preminchukundam Raa,decade,a city student falls in love with the daughter of a ruthless rayalaseema faction leader who kills anyone involved in love marriages. 1997 action romance,1,2,25,5,1,1,1,1,1,1
+vag-te2-022,Sindhooram,decade,"a young policeman from a godavari village and his wayward friend end up on opposite sides, the police versus naxalite rebels. late 90s, critically acclaimed",1,1,1,1,1,1,1,1,1,1
+vag-te2-023,Antahpuram,decade,"a woman raised abroad visits her husband's violent faction village, he is killed, and she has to escape with her little son from her powerful father-in-law. late 90s thriller",1,1,10,1,1,1,1,1,1,1
+vag-te2-024,Choodalani Vundi,decade,a mechanic whose wife was taken away by her gangster father goes to calcutta to rescue their little son. late 90s action,1,1,1,1,1,1,1,1,1,1
+vag-te2-025,Suryavamsam,decade,"an uneducated son is treated as worthless by his powerful father, the village head, but builds his own transport business and wins his respect; the same actor plays both. late 90s family drama",20,23,120,22,20,20,20,4,5,3
+vag-te2-026,Tholi Prema,decade,a carefree guy falls in love at first sight on a diwali night but only manages to confess when the girl is leaving to study abroad. late 90s classic,1,1,1,1,1,1,1,1,1,1
+vag-te2-027,Raja,decade,"two small time thieves hiding after stealing a temple idol are locked in a kitchen for a week by a governess looking after three kids, and one of them falls for her. late 90s romantic drama",1,1,1,1,1,1,1,1,1,1
+vag-te2-028,Thammudu,negation,"a lazy careless younger brother who resents his father has to fight a kickboxing championship after his hardworking elder brother is hurt. the telugu one, not the hindi cycle race film",1,1,1,1,1,1,1,1,1,1
+vag-te2-029,Badri,decade,"a guy accepts a challenge from his fiancée to make another girl fall in love with him and then really falls for her, against her dangerous brother. 2000",1,1,2,1,1,1,1,1,1,1
+vag-te2-030,Kalisundam Raa,decade,a grandson who grew up in bombay visits his grandfather's village for the first time for a family function and ends a long feud between two related families. 2000 family drama,2,2,3,2,2,2,2,1,1,1
+vag-te2-031,Nuvve Kavali,decade,"two best friends born on the same day in the same hospital grow up together and only realise late that they love each other. 2000 college romance, huge hit",1,1,2,1,1,1,1,1,1,1
+vag-te2-032,Kushi,decade,"fate keeps bringing a boy from kolkata and a girl from andhra together since birth, and after they fall in love their egos keep them fighting. 2001",1,1,15,1,1,1,1,1,1,1
+vag-te2-033,Murari,decade,"a rich family carries an old curse from a goddess that kills a male heir every forty-eight years, and the fun-loving young heir is next. early 2000s",1,1,1,1,1,1,1,1,1,1
+vag-te2-034,Narasimha Naidu,decade,"a gentle dance teacher in the city turns out to be the son a village leader once offered up to protect his people from a violent rival clan. factionist action, 2001",25,12,2,3,25,25,25,3,3,3
+vag-te2-035,Nuvvu Nenu,decade,a rich boy and a milk seller's daughter in the same college fall in love and the boy's father tries everything to break them up. early 2000s youth romance,6,2,80,13,6,6,8,3,1,1
+vag-te2-036,Student No.1,decade,"a young man joins a law college and tames the rowdy students, and halfway through we learn he is a convict serving a murder sentence. 2001",1,2,1,1,1,1,1,1,1,1
+vag-te2-037,Aadi,decade,"a boy who came back from america sees his father murdered by a factionist over the family land, grows up and comes back for revenge. rayalaseema faction film, 2002",1,1,1,1,1,1,1,1,1,1
+vag-te2-038,Idiot,decade,"a jobless rowdy beaten up one night is saved by a girl who gives him her blood, and he decides to marry her even though she is the police commissioner's daughter. early 2000s",1,1,1,1,1,1,1,1,1,1
+vag-te2-039,Manmadhudu,decade,"a manager who openly hates women gets a new female assistant, they go on a business trip to paris, and his sad love story from the past explains everything. early 2000s romantic comedy",1,1,1,1,1,1,1,1,1,1
+vag-te2-040,Santosham,decade,"a widowed architect in ooty raising his little son grows close to his late wife's young cousin, while another man also wants to marry her. family drama, 2002",1,1,1,1,1,1,1,1,1,1
+vag-te2-041,Amma Nanna O Tamila Ammayi,decade,"a kickboxer raised only by his mother goes to live with the rich father who left them, to fulfil her last wish, and falls for a tamil girl. early 2000s",1,2,1,1,1,1,1,1,1,1
+vag-te2-042,Gangotri,decade,"the son of a landlord's devoted servant and the landlord's daughter, who has a curse about water, fall in love as children and grow up together against her father's wishes. 2003",11,12,264,31,11,11,11,2,3,2
+vag-te2-043,Simhadri,decade,"an adopted young man in vizag secretly takes care of a mentally ill girl, and it turns out he had a violent past in kerala under another name. 2003 action blockbuster",1,2,48,5,1,1,1,1,1,1
+vag-te2-044,Tagore,decade,"a college professor secretly runs a vigilante group of his former students that kidnaps corrupt government officers and executes the worst one in each department. 2003, remake of a tamil film",1,1,2,1,1,1,1,1,1,1
+vag-te2-045,Anand,decade,"an independent young woman walks out of her own wedding when the groom's mother insults her dead mother's saree, and a quiet rich guy falls for her. slow realistic romance, 2004",2,2,1,1,2,2,2,1,1,1
+vag-te2-046,Mass,decade,"an orphan in vizag falls for the daughter of a crippled don and becomes a feared fighter against the don's enemies. 2004 action, a choreographer's first film as director",2,1,15,3,2,2,1,1,1,1
+vag-te2-047,Shankar Dada M.B.B.S.,negation,"a local gangster who fooled his father into thinking he was a doctor joins a medical college by force and changes it with hugs and kindness. the telugu remake, not the hindi original",1,1,1,1,1,1,1,1,1,1
+vag-te2-048,Varsham,decade,"a young man and a girl meet dancing in a sudden rainstorm on a train trip, and a powerful faction leader becomes obsessed with her; it rains whenever they meet. 2004",1,1,1,1,1,1,1,1,1,1
+vag-te2-049,Athanokkade,decade,a college student from delhi joins a girl and her uncle who are secretly killing powerful men responsible for a crime against her family. mid 2000s action thriller,56,23,26,18,56,56,56,6,9,5
+vag-te2-050,Bhadra,decade,"a college guy brings a scared girl home to his sister's wedding as a friend, and we learn her whole family was massacred by a faction leader and he swore to protect her. 2005",1,9,1,1,1,1,1,1,1,1
+vag-te2-051,Bunny,decade,"a cheeky college student makes the daughter of a vizag crime boss fall in love with him, but he has a secret plan against her father. 2005 action comedy",21,71,303,51,21,21,12,1,3,4
+vag-te2-052,Chatrapathi,decade,"refugees from sri lanka end up as labourers at a vizag port, and a boy separated from his stepmother grows up to fight the dock goons while searching for her. 2005, by the director of baahubali",1,1,1,1,1,1,1,1,1,1
+vag-te2-053,Nuvvostanante Nenoddantana,decade,"a spoilt rich city boy falls for a village girl and her protective brother makes him do farm work to prove he deserves her. 2005 romance, remade in many languages",1,2,15,1,1,1,1,1,1,1
+vag-te2-054,Stalin,decade,"a retired army major starts a chain where everyone he helps must help three other people, it spreads across the state, and a corrupt minister tries to stop it. 2006",1,1,1,1,1,1,1,1,1,1
+vag-te2-055,Chirutha,decade,"a boy whose father was killed by a gangster takes revenge and spends years in jail, then works for a rich arrogant girl and falls for her. 2007, debut of a star's son",228,187,1,12,228,228,165,4,18,10
+vag-te2-056,Desamuduru,decade,"a hot-headed tv guy hiding in the himalayas from a gangster falls in love with a girl at an ashram who is meant to become a sanyasi. 2007 action romance, lots of snow",1,6,118,5,1,1,1,1,1,1
+vag-te2-057,Dhee,decade,a reckless young guy is made to work for a local don by his father and secretly falls for the don's sister. 2007 action comedy,47,59,37,13,47,47,47,3,3,4
+vag-te2-058,Yamadonga,decade,"a petty thief is killed and taken to the underworld, where he outwits the god of death himself to get sent back to earth. 2007 fantasy comedy",1,1,9,1,1,1,1,1,1,1
+vag-te2-059,Gamyam,decade,"a rich arrogant young man goes on a bike trip through villages to find the doctor he loves and is changed by the people he meets, including a petty thief. 2008 road film",1,2,1,1,1,1,1,1,1,1
+vag-te2-060,Jalsa,decade,a fun-loving fitness trainer who was once a naxalite gets involved with a police officer's daughters and has to face a dangerous politician from his past. 2008 action comedy,1,2,39,4,1,1,1,1,1,1
+vag-te2-061,Kotha Bangaru Lokam,decade,"two teenagers at a residential college in vizag fall for each other, a photo of them gets printed and her strict father takes her out of college. 2008 teen romance",1,1,1,1,1,1,1,1,1,1
+vag-te2-062,Ready,decade,"a guy who helps couples elope kidnaps the wrong bride from a wedding, then goes undercover in her family's house to win over her two quarrelling uncles. 2008 comedy",12,27,53,4,12,12,12,2,3,2
+vag-te2-063,Arya 2,decade,"two boys from an orphanage, one obsessively attached to the other, grow up and fall for the same girl at work. the sequel to a cult romance, 2009",1,3,1,1,1,1,1,1,1,1
+vag-te2-064,Kick,decade,"a guy who only does things for the thrill secretly steals from the rich to pay for children's surgeries, while the cop chasing him is engaged to his ex-girlfriend. the original telugu one, 2009",1,1,1,1,1,1,1,1,1,1
+vag-te2-065,Brindavanam,decade,"a rich young man pretends to be a girl's boyfriend to get her out of an unwanted marriage, goes to her village and patches up her feuding family while loving her friend. 2010",1,1,24,3,1,1,1,1,1,1
+vag-te2-066,Darling,decade,"old college friends reunite after thirty years and their children meet, and a young man makes up a fake love story about his past to avoid an arranged match. 2010 romantic comedy",26,20,12,4,26,26,26,2,2,1
+vag-te2-067,Khaleja,decade,"a sarcastic taxi driver delivering insurance money in rajasthan is believed by a dying desert village to be their god-sent saviour. 2010, flopped then became a cult film",1,1,1,1,1,1,1,1,1,1
+vag-te2-068,Simha,decade,a college lecturer who can't tolerate injustice turns out to be the son of a respected doctor murdered by villains; the same actor plays father and son. 2010 mass action,1,1,8,1,1,1,1,1,1,1
+vag-te2-069,Vedam,decade,"five unrelated people, a slum guy, a rock singer, a prostitute, a poor weaver and a muslim man wrongly suspected of terrorism, all end up at the same hospital during an attack. 2010",1,2,7,1,1,1,2,1,1,1
+vag-te2-070,100% Love,decade,"a nerdy topper and his village cousin compete for first rank in college, and their ego clashes turn into love. 2011 romantic comedy",1,1,9,1,1,1,1,1,1,1
+vag-te2-071,Ala Modalaindi,decade,a guy who has been kidnapped tells his kidnapper how he met a girl at weddings and how the timing never worked out. 2011 light romance,37,22,38,18,37,37,37,3,4,2
+vag-te2-072,Mr. Perfect,decade,a young man who believes you should never change yourself for a partner is set up with a childhood friend he can't stand and slowly learns to compromise. 2011 family romance,1,1,1,1,1,1,1,1,1,1
+vag-te2-073,Businessman,decade,"a ruthless young man arrives in mumbai planning to run organised crime like a corporation, and secretly has a revenge motive. 2012 gangster film",13,10,2,4,13,13,13,2,2,2
+vag-te2-074,Gabbar Singh,negation,"a cop who named himself after a famous hindi film villain fights a local thug in his town and woos a potter's daughter. the telugu remake, not the salman khan original",7,10,323,32,7,2,2,5,3,5
+vag-te2-075,Julayi,decade,"a smart lazy young man who wants easy money accidentally foils a huge bank robbery, and the mastermind robber comes after him. 2012 action comedy",1,2,1,1,1,1,1,1,1,1
+vag-te2-076,Racha,decade,a gambler who needs money for his adoptive father's liver transplant takes a bet to make a mining tycoon's daughter fall for him. 2012 mass masala,1,1,1,1,1,1,1,1,1,1
+vag-te2-077,Mirchi,decade,"a man who met a girl in italy goes to live with her violent faction family to reform them, and his own past with his father's village is revealed. 2013",1,1,2,1,1,1,1,1,1,1
+vag-te2-078,Naayak,decade,"a fun-loving hyderabad guy keeps being mistaken for a wanted vigilante from kolkata, and the two turn out to be connected. 2013 double role action",3,3,21,2,3,3,3,1,1,1
+vag-te2-079,Seethamma Vakitlo Sirimalle Chettu,decade,"two very different brothers in a big warm village family, the elder quiet and short-tempered and the younger flirty, and their father is kind to everyone. 2013 family drama with two superstars",5,48,8,1,5,5,5,2,2,1
+vag-te2-080,Swamy Ra Ra,decade,a small time pickpocket and his gang end up with a stolen ancient golden ganesha idol that a gangster and others are desperate to get. quirky 2013 crime comedy,1,1,1,1,1,1,1,1,1,1
+vag-te2-081,Drushyam,negation,"a cable tv operator who learned everything from films hides the body of a boy his daughter killed in self defence and outsmarts the police officer mother. the telugu version, not the hindi one",1,1,153,16,1,1,1,1,1,1
+vag-te2-082,Legend,decade,"a soft-spoken man back from abroad for his wedding clashes with a brutal factionist, and his elder brother, a local legend, comes back to finish the fight. 2014 mass action",1,1,5,1,1,1,1,1,1,1
+vag-te2-083,Bhale Bhale Magadivoy,decade,"an extremely absent-minded scientist forgets things while doing them and has to hide it from his girlfriend's father, who rejected him for it. 2015 comedy",1,1,15,1,1,1,1,1,1,1
+vag-te2-084,Kanche,decade,"an indian soldier fighting the nazis in italy in world war two remembers his love story with a princess from his village, ruined by caste. 2015 period film",1,1,1,1,1,1,1,1,1,1
+vag-te2-085,S/O Satyamurthy,decade,"a rich young man loses everything when he chooses to pay off his dead father's huge debts to protect his good name, and starts over as a wedding planner. 2015",4,3,1,1,4,4,4,1,1,1
+vag-te2-086,Temper,decade,"a completely corrupt police officer who serves a local don changes after a girl's rape and murder, and even confesses to the crime himself to get the culprits punished. 2015",1,1,10,1,1,1,1,1,1,1
+vag-te2-087,Yevade Subramanyam,decade,an ambitious corporate guy goes on a trek in the himalayas to fulfil his dead best friend's dream and finds out what really matters. 2015 road movie,1,1,3,1,1,1,1,1,1,1
+vag-te2-088,A Aa,decade,"a girl smothered by her strict rich mother spends time at her estranged relatives' village and falls for her cousin, who is supposed to marry someone else. 2016 family romance",1,1,3,1,1,1,1,1,1,1
+vag-te2-089,Nannaku Prematho,decade,"a son in london learns his dying father was ruined by a ruthless billionaire, and in thirty days he uses mind games to bring the tycoon down. 2016 stylish revenge",1,1,4,1,1,1,1,1,1,1
+vag-te2-090,Oopiri,decade,"a rich paralysed man hires a cheerful ex-convict as his caretaker and they become close friends. remake of a french film, 2016",1,1,54,2,1,1,1,1,1,1
+vag-te2-091,Sarrainodu,decade,"an ex army man who can't stand injustice takes on a powerful politician's son who grabs lands, very violent and loud. 2016 mass blockbuster",6,26,109,12,6,6,6,1,1,1
+vag-te2-092,Ghazi,decade,an indian submarine crew plays cat and mouse underwater with a pakistani submarine that wants to attack a warship near vizag during the 1971 war. 2017,1,1,1,1,1,1,1,1,1,1
+vag-te2-093,Khaidi No. 150,decade,"an escaped prisoner takes the place of his lookalike, a man fighting for villagers against a company taking their water. 2017, a superstar's comeback, remake of a tamil film",1,1,1,1,1,1,1,1,1,1
+vag-te2-094,Ninnu Kori,decade,"a girl visits her ex-boyfriend on her first wedding anniversary, and her husband invites him to stay with them to prove she is happy. 2017 romantic drama",3,2,2,1,3,3,3,1,1,1
+vag-te2-095,Aravinda Sametha Veera Raghava,decade,"a young man from a violent rayalaseema family loses his father in a decades old village feud and, guided by a girl, tries to end the violence instead of avenging it. 2018",4,4,19,7,4,4,4,1,2,2
+vag-te2-096,Bhaagamathie,decade,a jailed government officer is interrogated in an old abandoned palace and seems to become possessed by the spirit of a queen. 2018 horror thriller,1,1,22,5,1,1,1,1,1,1
+vag-te2-097,Taxiwaala,decade,a young cab driver buys an old car that moves by itself at night because the spirit of a woman is trapped in it. 2018 horror comedy,1,1,1,1,1,1,1,1,1,1
+vag-te2-098,Brochevarevarura,decade,"three failing students fake the kidnapping of their friend to help her escape her strict father, and it gets mixed up with a film director's story. 2019 crime comedy",29,69,3,2,29,29,29,2,1,2
+vag-te2-099,Dear Comrade,decade,"a short-tempered student leader falls for a girl cricketer, they break up because of his anger, and later he helps her fight a selector who harassed her. 2019",1,1,7,1,1,1,1,1,1,1
+vag-te2-100,Evaru,decade,"a rich businesswoman who shot a police officer in a resort room, saying he tried to rape her, is questioned by a corrupt cop, with twist after twist. 2019 remake of a spanish film",1,1,1,1,1,1,1,1,1,1
+vag-te2-101,F2: Fun and Frustration,decade,"two men tired of being bossed around by their partners, who are sisters, run off to europe to teach them a lesson. 2019 comedy hit",1,1,1,1,1,1,1,1,1,1
+vag-te2-102,Maharshi,decade,a successful ceo in america comes back to india to help his old college friend and ends up taking up the cause of farmers losing their land. 2019,1,1,2,1,1,1,1,1,1,1
+vag-te2-103,Majili,decade,"a cricketer who lost his first love becomes a drunk, and the girl he was made to marry silently waits for years for him to love her. 2019 romantic drama",5,5,1,1,5,5,5,1,1,1
+vag-te2-104,Mallesham,decade,biopic of a poor weaver's son who invents a machine to save his mother the painful work of winding silk threads by hand. 2019,1,2,1,1,1,1,1,1,1,1
+vag-te2-105,Oh! Baby,decade,"a cranky seventy-year-old grandmother magically becomes young again after a photo shoot and gets a second chance to become a singer. 2019, remake of a korean film",1,1,9,1,1,1,1,1,1,1
+vag-te2-106,Saaho,decade,"an undercover cop chasing a huge heist turns out to be the hidden heir of a crime empire in a made-up city. big budget action after baahubali, 2019",1,5,2,1,1,1,1,1,1,1
+vag-te2-107,Sye Raa Narasimha Reddy,decade,"historical epic about a rayalaseema chieftain who leads a rebellion against the british years before 1857, with a hindi superstar as his guru. 2019",1,1,1,1,1,1,1,1,1,1
+vag-te2-108,iSmart Shankar,decade,a street-smart contract killer in old hyderabad gets the memories of a murdered undercover cop transferred into his brain by scientists. 2019 mass sci-fi action,1,1,1,1,1,1,1,1,1,1
+vag-te2-109,Bheeshma,decade,a jobless guy desperate for a girlfriend gets picked to take over a big organic farming company and fights a rival chemical fertiliser firm. 2020 romantic comedy,1,1,1,1,1,1,1,1,1,1
+vag-te2-110,Colour Photo,decade,"a dark-skinned poor college boy in the 90s falls for a fair girl, and her brother, a cruel police officer, cannot accept him. 2020 ott release, won a national award",1,2,32,4,1,1,1,1,1,1
+vag-te2-111,HIT: The First Case,decade|lang,"a homicide investigator with panic attacks hunts for a missing young woman and then his own girlfriend disappears too. 2020 telugu crime thriller, the first part",1,1,9,3,1,1,1,1,1,1
+vag-te2-112,Krack,decade,"a hot-headed circle inspector takes on a ruthless gangster in ongole, the story tied together by a note, a mango and a nail. 2021 action",1,1,1,1,1,1,1,1,1,1
+vag-te2-113,Love Story,decade,"a zumba instructor from a lower caste and an upper caste girl who came to hyderabad for a job fall in love, and she hides a dark secret about her uncle. 2021",1,1,1,1,1,1,1,1,1,1
+vag-te2-114,Shyam Singha Roy,decade,"a young film director is accused of copying a bengali writer's novels and discovers he may be that writer reborn, who once fought for a devadasi he loved. 2021 reincarnation drama",1,1,7,1,1,1,1,1,1,1
+vag-te2-115,Uppena,decade,"a poor fisherman's son falls in love with the daughter of a cruel landlord obsessed with family honour, and the father's revenge on the boy is shocking. 2021 debut blockbuster",1,2,193,9,1,1,1,1,1,1
+vag-te2-116,Vakeel Saab,negation,"a lawyer who had quit comes back to defend three young women charged with attacking a powerful man's son who tried to molest one of them. the telugu remake, not the hindi original",1,1,13,2,1,1,1,1,1,1
+vag-te2-117,Bheemla Nayak,decade,"a police sub-inspector and a rich ex-army man end up in a bitter ego war after the man is arrested with liquor at a forest checkpost. 2022, remake of a malayalam film",1,1,8,1,1,1,1,1,1,1
+vag-te2-118,Bimbisara,decade,"a ruthless ancient king is trapped by a magic mirror and wakes up in modern times, where he slowly becomes good while protecting a little girl. 2022 fantasy",1,1,2,1,1,1,1,1,1,1
+vag-te2-119,DJ Tillu,decade,"a silly overconfident wannabe dj meets a girl at a club and ends up helping her hide a dead body, then gets framed. 2022 comedy, the first one",1,1,1,1,1,1,1,1,1,1
+vag-te2-120,Major,decade,biopic of a young army officer who joins the commando force and gives his life saving hostages in the hotel during the 2008 mumbai attacks. 2022,2,4,8,2,2,2,2,2,2,2
+vag-te2-121,Sarkaru Vaari Paata,decade,a strict money lender in america who never lets a loan go comes back to india to recover a huge debt from a politician and exposes a bank loan scam. 2022,1,2,4,1,1,1,1,1,1,1
+vag-te2-122,Baby,decade,"a girl from a hyderabad slum changes when she goes to college, cheats on her childhood love who drives an auto, and everything goes wrong. 2023 hit youth drama",1,1,2,1,1,1,1,1,1,1
+vag-te2-123,Balagam,decade,"after an old man dies in a telangana village the crows refuse to eat the ritual food offering, and his family must patch up old fights so his soul can rest. 2023, small film, big hit",1,1,7,1,1,1,1,1,1,1
+vag-te2-124,Bhagavanth Kesari,decade,a tough ex-prisoner becomes the guardian of his late friend's daughter and trains the scared girl to become strong and join the army. 2023,1,1,4,1,1,1,1,1,1,1
+vag-te2-125,Dasara,decade,"in a telangana coal mining village a guy steps aside so his best friend can marry the girl he loves, but the friend is killed on the wedding night and he takes revenge. 2023",1,1,14,3,1,1,1,1,1,1
+vag-te2-126,Hi Nanna,decade,"a single father photographer raises his little daughter who has a fatal lung disease, and a woman she meets turns out to be her mother who lost her memory. 2023 emotional drama",1,2,1,1,1,1,1,1,1,1
+vag-te2-127,Virupaksha,decade,"in 1991 villagers start dying mysteriously in a village twelve years after a couple accused of black magic were burned alive, and a young visitor investigates. 2023 horror thriller",1,2,1,1,1,1,1,1,1,1
+vag-te2-128,Waltair Veerayya,decade,"a fishermen's boss from vizag is hired to kidnap an escaped drug lord from malaysia, and back home he has a history with his cop half-brother. 2023 mass entertainer with two big stars",1,3,104,8,1,1,1,1,1,1
+vag-te2-129,Devara: Part 1,decade,"a fearless leader of a coastal village stops his people from smuggling weapons by sea and disappears, and years later his timid son is caught in the feud. 2024 action, part one",1,1,1,1,1,1,1,1,1,1
+vag-te2-130,Guntur Kaaram,decade,"a man whose mother left him as a boy and became a politician is asked to sign papers saying he is not her son, and he refuses until he gets answers. guntur chilli business backdrop, 2024",1,1,1,1,1,1,1,1,1,1
+vag-te2-131,Lucky Baskhar,decade,a struggling bank cashier in bombay in the early 90s secretly uses the bank's money in the stock market during a big securities scam and becomes rich. 2024 crime drama,1,1,1,1,1,1,1,1,1,1
+vag-te2-132,Tillu Square,decade,"sequel where the silly party dj falls for another mysterious woman who uses him in a plan against a drug lord. 2024, the second one",1,1,2,1,1,1,1,1,1,1
+vag-te2-133,Akhanda 2: Thaandavam,decade,"sequel where the fierce aghora sadhu with a trident comes out again to protect the country and a young girl, lots of divine action. 2025, the second part",2,5,38,7,2,2,2,1,1,2
+vag-te2-134,Court,decade,a junior lawyer fights to defend a poor teenage boy falsely charged under a child protection law because he loved a girl from a powerful family. 2025 courtroom drama,1,1,6,1,1,1,1,1,1,1
+vag-te2-135,Daaku Maharaaj,decade,"a dacoit with a hidden past comes in disguise to protect a little girl and her grandfather from an mla's gang, and his story as an engineer who fought for water is revealed. 2025",1,2,5,2,1,1,1,1,1,1
+vag-te2-136,HIT: The Third Case,decade,"a brutal police officer from the homicide team goes undercover inside a network of serial killers who share murders on the dark web. 2025, the third part",1,1,1,1,1,1,1,1,1,1
+vag-te2-137,Mirai,decade,"a young pickpocket learns he is destined to protect nine ancient scriptures of an emperor that hold great power, against a villain who wants them. 2025 superhero fantasy",1,1,1,1,1,1,1,1,1,1
+vag-te2-138,Sankranthiki Vasthunam,decade,"a retired cop living happily with his family is called back to rescue a kidnapped businessman, and both his wife and his ex-girlfriend, now a police officer, come along on the mission. 2025 festival comedy",1,1,1,1,1,1,1,1,1,1
+vag-te2-139,They Call Him OG,decade,a feared gangster trained as a samurai in japan returns to bombay after years to protect the family of his old boss from a ruthless rival. 2025 stylish action,1,1,1,1,1,1,1,1,1,1
+vag-te2-140,The Raja Saab,decade,"a young man looking for his missing grandfather, for his grandmother who has memory loss, ends up trapped in a haunted mansion. 2026 horror comedy",1,1,1,1,1,1,1,1,1,1
+vag-te-001,Mayabazar,decade,"old black and white mythological film where a giant uses magic to help a prince get married, and eats a whole wedding feast in a song",1,1,21,5,1,1,1,1,1,1
+vag-te-002,Shankarabharanam,decade|lang,"a classical singer and a dancer's daughter who worships his music, he dies while singing. 1980 telugu classic",4,9,7,2,4,4,4,1,1,1
+vag-te-003,Sagara Sangamam,,"a poor classical dancer becomes an alcoholic, his love is a widow, he dances on the edge of a well",1,1,2,1,1,1,1,1,1,1
+vag-te-004,Swathi Muthyam,,an innocent simple man marries a young widow with a child and takes care of her for life,1,2,2,1,1,1,1,1,1,1
+vag-te-005,Swarna Kamalam,,a painter encourages a girl from a family of classical dancers who doesn't value dance,1,1,1,1,1,1,1,1,1,1
+vag-te-006,Geethanjali,,two young people who are both terminally ill fall in love in a misty hill station,1,1,2,1,1,1,1,1,1,1
+vag-te-007,Siva,decade|lang,"a college student fights student gangs and a local don, the fight with a bicycle chain. 80s telugu",1,1,4,1,1,1,1,1,1,1
+vag-te-008,Jagadeka Veerudu Athiloka Sundari,hedge|decade,"a goddess loses her ring on earth and a tour guide finds it, fantasy comedy from around 1990 i think",1,1,1,1,1,1,1,1,1,1
+vag-te-009,Aditya 369,,a time machine takes the hero to the court of an old emperor and to the future,1,1,1,1,1,1,1,1,1,1
+vag-te-010,Ninne Pelladata,decade|lang,"neighbours fall in love and their families agree, then a misunderstanding breaks it off. 90s telugu romance",313,160,124,206,313,313,313,158,158,158
+vag-te-011,Annamayya,,devotional film about a saint poet who wrote songs for the lord of tirumala,1,1,1,1,1,1,1,1,1,1
+vag-te-012,Nuvvu Naaku Nachav,,a guy from a village stays with his father's rich friend in the city and falls for the friend's daughter who is engaged. comedy,113,165,4,10,113,113,113,103,103,103
+vag-te-013,Indra,lang,a taxi driver in varanasi is secretly a powerful faction leader. telugu mass film,1,1,1,1,1,1,1,1,1,1
+vag-te-014,Okkadu,,a kabaddi player saves a girl from a faction leader who wants to marry her and hides her in his house,1,1,15,1,1,1,1,1,1,1
+vag-te-015,Arya,,a carefree college guy loves a girl who is dating a goon. one sided love,28,49,29,11,28,28,28,14,14,8
+vag-te-016,Athadu,,a hitman framed for a murder takes on a dead man's identity and lives with his family in a village,1,4,81,10,1,1,1,1,4,1
+vag-te-017,Pokiri,,a rowdy working for the mafia is actually an undercover cop. it was remade in hindi,1,2,3,2,1,1,1,1,2,1
+vag-te-018,Bommarillu,,a son with an over controlling father falls for a bubbly girl who stays with his family for a week,1,11,15,1,1,1,1,1,1,1
+vag-te-019,Godavari,,a romance on a river cruise boat trip,1,1,5,1,1,1,1,1,1,1
+vag-te-020,Happy Days,,"eight friends in an engineering college, ragging and crushes, all new actors",8,8,277,32,8,8,8,7,6,11
+vag-te-021,Magadheera,hedge|false_memory|decade,a bike racer remembers his past life as a warrior bodyguard 400 years ago and fights a hundred soldiers. maybe 2012,1,1,1,1,1,1,1,1,1,1
+vag-te-022,Arundhati,,"a woman learns she is the reincarnation of a queen who buried an evil sorcerer alive, horror fantasy",1,2,10,4,1,1,1,1,1,1
+vag-te-023,Maryada Ramanna,,"a man enters the house of a family that wants to kill him, but they can't harm a guest inside their home",67,79,1,5,67,67,67,5,7,5
+vag-te-024,Dookudu,,"a cop pretends his father is still a politician after the father wakes up from a coma, with a fake tv show",3,4,115,10,3,3,3,3,2,2
+vag-te-025,Eega,,a man is killed and reborn as a housefly to take revenge,1,1,1,1,1,1,1,1,1,1
+vag-te-026,Attarintiki Daredi,,a rich guy comes from abroad disguised as a driver to bring his aunt back home,1,6,4,1,1,1,1,1,1,1
+vag-te-027,Manam,,three generations of a real acting family in a reincarnation story,16,17,86,16,16,16,16,13,13,10
+vag-te-028,Baahubali: The Beginning,,"a boy climbs a huge waterfall and discovers a kingdom, cliffhanger with a loyal general stabbing the king. the first part",2,1,2,1,2,2,2,1,1,2
+vag-te-029,Srimanthudu,,a billionaire's son adopts a village to develop it,1,4,4,1,1,1,1,1,1,1
+vag-te-030,Kshanam,,a man helps his ex find her kidnapped daughter but everyone says the girl never existed,1,1,3,1,1,1,1,1,1,1
+vag-te-031,Pelli Choopulu,,a lazy guy and an ambitious girl get locked in a room at a marriage meeting and later start a food truck,1,1,1,1,1,1,1,1,1,1
+vag-te-032,Baahubali 2: The Conclusion,,"the sequel where we learn why the general killed the king, the prince marries a warrior princess",11,12,55,13,11,11,11,9,9,8
+vag-te-033,Arjun Reddy,negation,an angry surgeon becomes self destructive after his girlfriend marries someone else. not the hindi version,2,2,1,1,2,2,2,1,1,2
+vag-te-034,Fidaa,,a medical student from america falls for a feisty village girl in telangana who won't leave her father,1,1,26,5,1,1,1,1,1,1
+vag-te-035,Rangasthalam,,a partially deaf young man in an 80s village fights the corrupt village head after his brother's murder,1,6,1,1,1,1,1,1,1,1
+vag-te-036,Mahanati,,"biopic of a legendary actress from the 50s and 60s, her rise and tragic fall",1,1,51,2,1,1,1,1,1,1
+vag-te-037,C/o Kancharapalem,,"independent film with locals as actors, four love stories in one neighbourhood at different ages",1,1,6,1,1,1,1,1,1,1
+vag-te-038,Ee Nagaraniki Emaindi,,four friends who wanted to make films get drunk and accidentally end up in goa,19,6,73,24,19,19,19,40,7,15
+vag-te-039,Goodachari,,a young secret agent is framed for killing his team and must clear his name,2,6,77,8,2,2,2,4,5,14
+vag-te-040,Jersey,negation,a failed cricketer in his late thirties makes a comeback to buy his son a jersey. not the hindi remake,1,1,1,1,1,1,1,1,1,1
+vag-te-041,Agent Sai Srinivasa Athreya,,a small town detective stumbles onto a racket with unclaimed dead bodies,1,1,5,1,1,1,1,1,1,1
+vag-te-042,Ala Vaikunthapurramuloo,,"babies swapped at birth, the poor one later works for his real rich family without them knowing",1,14,2,1,1,2,2,2,2,1
+vag-te-043,Jathi Ratnalu,,three dumb friends from a small town get framed for attempting to murder a minister,11,18,59,9,11,11,11,6,9,12
+vag-te-044,Pushpa: The Rise,,a labourer rises in a red sandalwood smuggling gang. the first part,2,2,2,2,2,2,2,2,2,2
+vag-te-045,RRR,,"two revolutionaries in the 1920s, one working for the british, become best friends. a dance song won an oscar",1,3,5,2,1,1,1,1,3,1
+vag-te-046,Sita Ramam,,"a soldier in kashmir receives love letters from a mysterious woman, years later a student delivers his letter to her",1,1,1,1,1,1,1,1,1,1
+vag-te-047,Salaar: Part 1 – Ceasefire,,"a quiet man is actually a fierce warrior protecting his friend, a prince in a made up kingdom",45,52,238,77,45,45,45,50,58,76
+vag-te-048,Hanu-Man,,a village boy gets superpowers from a gem and fights a villain who wants to be a superhero,1,1,1,1,1,1,1,1,1,1
+vag-te-049,Kalki 2898 AD,,"a bounty hunter in a dystopian future protects a pregnant woman carrying a saviour, with a warrior from the mahabharata",1,1,1,1,1,1,1,1,1,1
+vag-te-050,Pushpa 2: The Rule,,the smuggler returns and dances in a saree at a village festival and fights the cop again. sequel,1,11,34,4,1,1,1,2,1,1
+vag-en-001,Casablanca,decade,"old black and white movie, a man runs a bar during the war and his old love shows up with her husband needing papers to escape",1,3,8,2,1,1,1,1,1,1
+vag-en-002,Psycho,,"a woman steals money and stays at a lonely motel run by a strange young man, she's killed in the shower",1,1,1,1,1,1,1,1,1,1
+vag-en-003,2001: A Space Odyssey,,a slow space movie with a black monolith and a computer that refuses to obey the astronauts,1,1,2,1,1,1,1,1,1,1
+vag-en-004,The Godfather,,"a mafia family in new york, the youngest son takes over the family business",1,1,2,1,1,1,1,1,1,1
+vag-en-005,Jaws,false_memory|decade,a huge shark terrorizes a beach town and three men hunt it on a boat. 80s,1,1,1,1,1,1,1,1,1,1
+vag-en-006,Rocky,negation,"a poor boxer gets a chance to fight the champion, runs up some steps. not the newer spin-off",1,3,1,1,1,1,1,1,1,1
+vag-en-007,Taxi Driver,,a lonely night driver in new york becomes violent and tries to save a young girl,1,1,2,1,1,1,1,1,1,1
+vag-en-008,Star Wars,,a farm boy joins a rebellion and helps blow up a giant space station. the original,1,8,4,1,1,1,1,1,1,1
+vag-en-009,Alien,,"a creature hunts the crew of a spaceship one by one, a woman survives with the cat",1,1,2,1,1,1,1,1,1,1
+vag-en-010,The Shining,,a writer becomes the winter caretaker of an empty hotel and goes crazy trying to kill his family,1,1,1,1,1,1,1,1,1,1
+vag-en-011,E.T. the Extra-Terrestrial,,"a boy hides an alien and helps him go home, bicycle flying in the sky",1,1,1,1,1,1,1,1,1,1
+vag-en-012,Blade Runner,,a detective hunts androids in a rainy future city. the original one,1,3,78,6,1,1,1,2,2,1
+vag-en-013,The Terminator,,a robot from the future is sent to kill a woman whose son will lead the humans. the first one,3,8,2,1,3,3,3,1,2,1
+vag-en-014,Back to the Future,,a teenager goes back in time in a car and meets his parents when they were young,1,1,1,1,1,1,1,1,1,1
+vag-en-015,Home Alone,,a kid is left home alone at christmas and fights burglars with traps,1,1,1,1,1,1,1,1,1,1
+vag-en-016,Goodfellas,,the life of a mobster from childhood to becoming an informant,34,32,1,4,34,34,34,4,6,5
+vag-en-017,The Silence of the Lambs,,a young fbi agent gets help from an imprisoned cannibal to catch a serial killer,1,1,1,1,1,1,1,1,1,1
+vag-en-018,Terminator 2: Judgment Day,,a robot protects a boy from a liquid metal robot from the future. the second one,4,3,1,1,4,4,4,1,1,3
+vag-en-019,Jurassic Park,,a theme park with cloned dinosaurs on an island goes wrong when the power fails,1,1,1,1,1,1,1,1,1,1
+vag-en-020,Groundhog Day,,a grumpy weatherman relives the same day over and over in a small town,1,1,1,1,1,1,1,1,1,1
+vag-en-021,Schindler's List,,a german businessman saves jewish workers during the holocaust. black and white,1,1,1,1,1,1,1,1,1,1
+vag-en-022,The Shawshank Redemption,,a man wrongly sent to prison escapes after many years through a tunnel,1,2,1,1,1,1,1,1,1,1
+vag-en-023,Pulp Fiction,,"interconnected crime stories told out of order, hitmen, a boxer, a dance contest",1,3,3,1,1,1,1,1,1,1
+vag-en-024,Forrest Gump,,a simple kind man accidentally witnesses big moments in american history and runs a lot,46,137,25,11,46,46,46,8,5,4
+vag-en-025,The Lion King,negation,an animated lion cub's uncle kills his father and the cub runs away. not the new one,1,1,1,1,1,1,1,1,1,1
+vag-en-026,Se7en,,"two detectives hunt a killer who uses the seven deadly sins, horrible ending",1,1,1,1,1,1,1,1,1,1
+vag-en-027,Toy Story,,"toys come to life, a cowboy gets jealous of a new space toy. animated",1,1,1,1,1,1,1,1,1,1
+vag-en-028,Titanic,,a poor artist and a rich girl fall in love on a ship that sinks,1,1,1,1,1,1,1,1,1,1
+vag-en-029,Good Will Hunting,,a janitor at a university is a secret math genius and sees a therapist,1,1,1,1,1,1,1,1,1,1
+vag-en-030,Saving Private Ryan,,after the d day landing a squad is sent to find one soldier whose brothers all died,2,4,1,1,2,2,2,1,1,1
+vag-en-031,The Truman Show,,a man slowly discovers his whole life is a tv show,3,37,3,1,3,3,3,1,1,1
+vag-en-032,The Matrix,,a hacker learns the world is a computer simulation and learns to dodge bullets,1,1,7,2,1,1,1,1,1,1
+vag-en-033,Fight Club,,an office worker with insomnia starts an underground fighting club with a strange man. twist ending,1,1,1,1,1,1,1,1,1,1
+vag-en-034,The Sixth Sense,,"a boy sees ghosts and a child psychologist tries to help him, twist ending",1,2,1,1,1,1,1,1,1,1
+vag-en-035,Gladiator,,a roman general becomes a slave and fights in the arena for revenge against the emperor,1,1,2,1,1,1,1,1,1,1
+vag-en-036,Memento,,"a man with short term memory loss uses notes and tattoos to find his wife's killer, told backwards",1,1,1,1,1,1,1,1,1,1
+vag-en-037,The Lord of the Rings: The Fellowship of the Ring,,a small creature sets off with a group to destroy a magic ring. the first of three,1,3,1,1,1,1,1,1,1,1
+vag-en-038,Finding Nemo,,a fish father searches the ocean for his lost son with a forgetful friend. animated,1,1,2,1,1,1,1,1,1,1
+vag-en-039,Eternal Sunshine of the Spotless Mind,,a couple erases each other from their memories after a breakup,1,1,3,1,1,1,1,1,1,1
+vag-en-040,The Prestige,,"two rival magicians in old london try to outdo each other, a teleporting machine",1,1,1,1,1,1,1,1,1,1
+vag-en-041,The Dark Knight,,"batman fights the joker who wants chaos in the city, a hospital explosion",1,1,1,1,1,1,1,1,1,1
+vag-en-042,Avatar,,a disabled soldier controls an alien body on another planet and joins the natives. the first one,2,12,1,1,2,2,2,1,1,1
+vag-en-043,Inception,,"thieves go into people's dreams to plant an idea, dreams within dreams",1,1,1,1,1,1,1,1,1,1
+vag-en-044,The Social Network,,the story of how a college student created facebook and got sued,1,1,1,1,1,1,1,1,1,1
+vag-en-045,Interstellar,,"astronauts travel through a wormhole to find a new home for humanity, time passes differently there",1,1,1,1,1,1,1,1,1,1
+vag-en-046,La La Land,,"a jazz musician and an actress fall in love in los angeles, musical, bittersweet ending",1,1,1,1,1,1,1,1,1,1
+vag-en-047,Get Out,,a black man visits his white girlfriend's family and discovers something horrible. horror,1,1,1,1,1,1,1,1,1,1
+vag-en-048,Avengers: Endgame,decade,superheroes travel in time to undo the snap. 2019,1,1,1,1,1,1,1,1,1,1
+vag-en-049,Joker,negation,a failed comedian with mental illness becomes a criminal. not a superhero movie,1,1,1,1,1,1,1,1,1,1
+vag-en-050,Oppenheimer,decade,biopic of the scientist who built the atomic bomb. 2023,1,3,1,1,1,1,1,1,1,1

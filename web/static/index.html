@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desi ToT</title>
+  <meta name="description" content="Tip-of-the-tongue search for Hindi, Telugu and English films: describe what you remember, hedges, mistakes and all, and get the top 5 films with their posters.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23f5c518'/%3E%3Ctext x='32' y='44' font-size='32' text-anchor='middle' font-family='Arial' font-weight='900' fill='%23000'%3E%3F%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<a class="skip" href="#composer">Skip to the search box</a>
+
+<!-- ================================================================ NAV BAR -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#search" data-go="search" aria-label="Desi ToT home"><span>Desi</span>ToT</a>
+
+    <div class="menu-wrap">
+      <button class="nav-btn" id="menu-btn" aria-expanded="false" aria-controls="menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        <span>Menu</span>
+      </button>
+      <div class="menu" id="menu" hidden>
+        <p class="menu-head">Desi ToT</p>
+        <button data-go="search">Search by description</button>
+        <button data-go="browse" data-filter="">Browse all films</button>
+        <button data-go="how">How it works</button>
+        <button data-go="eval">Evaluation results</button>
+        <button id="menu-help">Add your own test descriptions</button>
+      </div>
+    </div>
+
+    <form class="nav-search" id="nav-search" role="search" autocomplete="off">
+      <label class="sr-only" for="nav-lang">Language</label>
+      <select id="nav-lang" title="Only show films in this language">
+        <option value="">All</option><option value="hi">Hindi</option><option value="te">Telugu</option><option value="en">English</option>
+      </select>
+      <label class="sr-only" for="nav-q">Describe the film</label>
+      <input id="nav-q" type="search" placeholder="Describe a film you half remember…">
+      <button type="submit" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+      </button>
+    </form>
+
+    <nav class="nav-links" aria-label="Sections">
+      <button class="tab" data-tab="browse">Browse</button>
+      <span class="nav-divider" aria-hidden="true"></span>
+      <button class="tab" data-tab="how">How it works</button>
+      <button class="tab" data-tab="eval">Evaluation</button>
+    </nav>
+    <button id="theme-toggle" class="nav-btn icon" title="Light / dark" aria-label="Toggle light or dark theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- ============================================================== HOME / SEARCH -->
+  <section id="tab-search" class="tab-panel active" aria-label="Search">
+
+    <div class="hero">
+      <section class="stage" id="stage" aria-roledescription="carousel" aria-label="Can you name it? Descriptions from our test set">
+        <div class="stage-bg" id="stage-bg" aria-hidden="true"></div>
+        <button class="arrow prev" id="stage-prev" aria-label="Previous description">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg></button>
+        <button class="arrow next" id="stage-next" aria-label="Next description">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></button>
+        <div class="stage-inner" id="stage-inner" aria-live="polite">
+          <div class="stage-top">
+            <p class="eyebrow">Can you name it?</p>
+            <blockquote class="stage-quote" id="stage-quote">Describe a film the way you remember it: hedges, mistakes and all.</blockquote>
+          </div>
+          <div class="stage-bottom">
+            <button class="mystery" id="stage-poster" aria-label="Reveal the film">
+              <img id="stage-img" alt="" src="/static/no-poster.svg">
+              <span class="ribbon" aria-hidden="true">+</span>
+              <span class="q" aria-hidden="true">?</span>
+            </button>
+            <button class="play" id="stage-play">
+              <span class="play-ring" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+              <span class="play-text"><b>Find this film</b><small id="stage-meta">A real description from the test set</small></span>
+            </button>
+          </div>
+        </div>
+        <div class="dots" id="stage-dots" role="tablist" aria-label="Choose a description"></div>
+      </section>
+
+      <aside class="upnext" aria-labelledby="upnext-title">
+        <h2 id="upnext-title">Try these</h2>
+        <ol id="examples" class="upnext-list"></ol>
+        <button class="upnext-more" data-go="browse">Browse all films <span aria-hidden="true">›</span></button>
+      </aside>
+    </div>
+
+    <!-- the composer -->
+    <section class="composer" id="composer" aria-labelledby="composer-title">
+      <h2 class="section-title" id="composer-title">Describe it in your own words</h2>
+      <form id="search-form" autocomplete="off">
+        <label class="sr-only" for="q">Your description</label>
+        <textarea id="q" rows="3" maxlength="2000"
+          placeholder="Old Hindi film, maybe the 90s, the hero pretends to be blind, I think the heroine was a doctor, definitely not a comedy…"></textarea>
+        <div class="controls">
+          <button type="submit" class="btn-gold" id="go">Find my film</button>
+          <label class="field">Ranker
+            <select id="ranker">
+              <option value="ltr">Full model (learning to rank)</option>
+              <option value="lex">Clause-weighted BM25 + negation</option>
+              <option value="hybrid">Baseline: BM25 + dense (RRF)</option>
+              <option value="dense">Baseline: dense embeddings</option>
+              <option value="bm25">Baseline: plain BM25</option>
+              <option value="tfidf">Baseline: TF-IDF cosine</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" id="curated"> Only the curated films</label>
+          <button type="button" class="btn-ghost" id="toggle-opts" aria-expanded="false">Components ▾</button>
+          <span class="hint">Ctrl + Enter to search</span>
+        </div>
+        <div id="opts" class="opts" hidden>
+          <label class="check"><input type="checkbox" data-opt="clauses" checked> Clause weighting (hedges, confidence, context, small talk)</label>
+          <label class="field">Negation
+            <select data-opt="negation">
+              <option value="scope" selected>scope-aware exclusions (ours)</option>
+              <option value="penalize_all">penalise every negation</option>
+              <option value="drop">ignore negated words</option>
+              <option value="none">off (plain bag of words)</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" data-opt="hinglish" checked> Hinglish &amp; spelling handling</label>
+          <label class="check"><input type="checkbox" data-opt="dense" checked> Dense embeddings</label>
+          <label class="check"><input type="checkbox" data-opt="nb" checked> Naive Bayes genre/decade</label>
+          <label class="check"><input type="checkbox" data-opt="cues" checked> Explicit cues (year, language, people)</label>
+          <label class="check"><input type="checkbox" data-opt="popularity" checked> PageRank / HITS / page views</label>
+          <label class="check"><input type="checkbox" id="evidence-on" checked> Evidence checks: borrowed memories, versions, event order, one question</label>
+          <p class="note">Switching a component off zeroes its features in the trained model (no retraining), which is handy
+            for a live demo. The real ablation study retrains the model; see the Evaluation page.</p>
+        </div>
+      </form>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+    </section>
+
+    <!-- results + how the description was read -->
+    <section id="results-wrap" class="results-layout" hidden>
+      <div>
+        <h2 class="section-title" id="results-title">Top 5 matches</h2>
+        <p class="muted results-for" id="results-for"></p>
+        <div id="evidence" class="evidence" aria-live="polite"></div>
+        <div id="results" class="results"></div>
+        <p id="not-here" class="not-here">
+          Not in the top 5? <button class="link" id="label-other">Tell us which film you meant</button> and your description
+          becomes part of the human-written test set.
+        </p>
+      </div>
+      <aside id="analysis" class="panel analysis" aria-labelledby="analysis-title">
+        <div class="panel-head">
+          <h2 id="analysis-title">How I read your description</h2>
+          <span class="muted" id="took"></span>
+        </div>
+        <p id="clause-view" class="clause-view"></p>
+        <div class="legend" aria-label="Clause types">
+          <span class="lg k-plain">plain ×1</span><span class="lg k-confident">sure ×c</span>
+          <span class="lg k-hedged">hedged ×c<sub>h</sub></span><span class="lg k-context">viewing context</span>
+          <span class="lg k-exclusion">✗ ruled out</span><span class="lg k-meta">small talk (ignored)</span>
+        </div>
+        <div id="cue-chips" class="chips"></div>
+        <h3>Naive Bayes: genre guess</h3>
+        <div id="nb-genres" class="hbars"></div>
+        <h3>Naive Bayes: decade guess</h3>
+        <div id="nb-decades" class="vbars"></div>
+      </aside>
+    </section>
+
+    <!-- shelf -->
+    <section class="shelf-section" aria-labelledby="shelf-pop-title">
+      <h2 class="section-title" id="shelf-pop-title"><button class="title-link" data-go="browse">Fan favourites</button>
+        <span class="section-sub" title="The 24 curated films with the most English-Wikipedia page views over the 60 days before the data was downloaded">Most read on English Wikipedia over 60 days</span></h2>
+      <div class="shelf-wrap"><div class="shelf" id="shelf-pop"></div></div>
+    </section>
+  </section>
+
+  <!-- ============================================================== BROWSE -->
+  <section id="tab-browse" class="tab-panel" aria-labelledby="browse-title">
+    <h1 class="page-title" id="browse-title">Browse films</h1>
+    <p class="sub"><span id="browse-counts">Hindi, Telugu and English films</span>: cult classics, critics' favourites and
+      box-office record breakers. The search index also holds <span id="n-distractors">~470</span> other films from Wikipedia as
+      distractors, so finding the right one is not trivial.</p>
+    <div class="filters">
+      <div class="seg" id="lang-filter" role="group" aria-label="Filter">
+        <button data-f="" class="on">All</button><button data-f="hi">Hindi</button>
+        <button data-f="te">Telugu</button><button data-f="en">English</button>
+      </div>
+      <select id="decade-filter" aria-label="Decade"><option value="">Any decade</option></select>
+      <select id="sort-filter" aria-label="Sort">
+        <option value="lang">Language, then year</option><option value="new">Newest first</option>
+        <option value="old">Oldest first</option><option value="views">Most viewed</option><option value="title">Title A–Z</option>
+      </select>
+      <input id="title-filter" type="search" placeholder="Filter by title…" aria-label="Filter by title">
+      <span class="muted" id="browse-count"></span>
+    </div>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <!-- ============================================================== HOW -->
+  <section id="tab-how" class="tab-panel" aria-labelledby="how-title">
+    <h1 class="page-title" id="how-title">How it works</h1>
+    <p class="sub">A tip-of-the-tongue request is not a keyword query. People hedge, misremember, rule things out and chat.
+      Desi ToT reads the request clause by clause and scores films with 22 signals combined by a learned ranker.</p>
+    <figure class="diagram">
+      <svg viewBox="0 0 1000 470" role="img" aria-label="Pipeline diagram: offline indexing and online query processing">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" class="arrowhead"/></marker>
+        </defs>
+        <g class="lane-label"><text x="20" y="28">OFFLINE (build once)</text><text x="20" y="218">ONLINE (every query)</text></g>
+        <g class="box off"><rect x="20" y="42" width="170" height="70" rx="10"/><text x="105" y="70">Wikipedia crawl</text><text x="105" y="90" class="small">1,249 films, wikitext</text></g>
+        <g class="box off"><rect x="230" y="42" width="170" height="70" rx="10"/><text x="315" y="70">Pre-processing</text><text x="315" y="90" class="small">tokenise · stop · stem</text></g>
+        <g class="box off"><rect x="440" y="20" width="165" height="52" rx="10"/><text x="522" y="51">Inverted index (BM25F)</text></g>
+        <g class="box off"><rect x="440" y="82" width="165" height="52" rx="10"/><text x="522" y="113">Passage embeddings</text></g>
+        <g class="box off"><rect x="630" y="20" width="165" height="52" rx="10"/><text x="712" y="51">Naive Bayes models</text></g>
+        <g class="box off"><rect x="630" y="82" width="165" height="52" rx="10"/><text x="712" y="113">Link graph → PR / HITS</text></g>
+        <g class="box off"><rect x="820" y="42" width="160" height="70" rx="10"/><text x="900" y="70">Entity lexicon</text><text x="900" y="90" class="small">cast · characters · titles</text></g>
+        <path class="flow" d="M190,77 H230" marker-end="url(#arr)"/>
+        <path class="flow" d="M400,77 H420 V46 H440" marker-end="url(#arr)"/><path class="flow" d="M420,77 V108 H440" marker-end="url(#arr)"/>
+        <path class="flow" d="M605,46 H630" marker-end="url(#arr)"/><path class="flow" d="M605,108 H630" marker-end="url(#arr)"/>
+
+        <g class="box on"><rect x="20" y="232" width="150" height="86" rx="10"/><text x="95" y="265">Your description</text><text x="95" y="287" class="small">"maybe the 90s, not</text><text x="95" y="303" class="small">a comedy…"</text></g>
+        <g class="box on"><rect x="200" y="232" width="170" height="86" rx="10"/><text x="285" y="262">Clause splitter</text><text x="285" y="284" class="small">hedge · sure · context</text><text x="285" y="300" class="small">small talk · exclusion</text></g>
+        <g class="box on"><rect x="400" y="232" width="170" height="86" rx="10"/><text x="485" y="262">Hinglish layer</text><text x="485" y="284" class="small">names · phonetic fixes</text><text x="485" y="300" class="small">shaadi → wedding</text></g>
+        <g class="box on feat"><rect x="600" y="196" width="180" height="250" rx="10"/>
+          <text x="690" y="222">22 ranking features</text>
+          <text x="690" y="250" class="small">clause-weighted BM25F</text><text x="690" y="270" class="small">exclusion penalty</text>
+          <text x="690" y="290" class="small">TF-IDF cosine</text><text x="690" y="310" class="small">dense (per clause)</text>
+          <text x="690" y="330" class="small">title / cast matches</text><text x="690" y="350" class="small">year · language · genre</text>
+          <text x="690" y="370" class="small">NB genre &amp; decade</text><text x="690" y="390" class="small">PageRank · HITS · views</text>
+          <text x="690" y="410" class="small">hybrid rank fusion</text></g>
+        <g class="box on"><rect x="810" y="232" width="170" height="86" rx="10"/><text x="895" y="262">Learning to rank</text><text x="895" y="284" class="small">coordinate ascent</text><text x="895" y="300" class="small">→ top 5 + reasons</text></g>
+        <path class="flow" d="M170,275 H200" marker-end="url(#arr)"/><path class="flow" d="M370,275 H400" marker-end="url(#arr)"/>
+        <path class="flow" d="M570,275 H600" marker-end="url(#arr)"/><path class="flow" d="M780,275 H810" marker-end="url(#arr)"/>
+        <path class="flow dashed" d="M522,134 V170 H690 V196" marker-end="url(#arr)"/>
+        <path class="flow dashed" d="M712,134 V196" marker-end="url(#arr)"/>
+        <path class="flow dashed" d="M900,112 V160 H485 V232" marker-end="url(#arr)"/>
+      </svg>
+    </figure>
+    <div class="how-grid">
+      <article><h3>1 · Clauses and their weights</h3>
+        <p>The request is split at sentence ends, commas and joining words ("but", "and I think"). Each clause gets a weight
+          <code>c<sub>j</sub></code>: 1 for plain memories, <code>c<sub>h</sub></code> for hedged ones ("I think", "maybe"),
+          <code>c<sub>conf</sub></code> for confident ones ("definitely", "I clearly remember"), <code>c<sub>ctx</sub></code> for
+          viewing context ("watched it on Doordarshan") and 0 for small talk ("please help, Google failed").
+          The weights are <strong>learned</strong> from data by cross-validated grid search.</p></article>
+      <article><h3>2 · Negation that knows its scope</h3>
+        <p>"Definitely not a comedy" rules a film out; "he can't see" describes the plot. A negation becomes an
+          <strong>exclusion</strong> only when it is about the film itself: its genre, language, decade, cast, or "it wasn't…".
+          "Not Race 2" or "not Dhoom 3" rules out that sequel only, never the original.
+          Exclusions are penalised: <code>s(d) = Σ<sub>j</sub> c<sub>j</sub>·BM25(clause<sub>j</sub>, d) − μ·Σ<sub>j</sub> c'<sub>j</sub>·BM25(neg<sub>j</sub>, d)</code>.</p></article>
+      <article><h3>3 · Cast, characters and roles</h3>
+        <p>Every film's cast list is parsed from Wikipedia: list templates, tables and dual roles, giving actor → character →
+          role ("Amjad Khan as Gabbar Singh, a dacoit"). Actor and character names feed the entity matcher, the role descriptions
+          are indexed in the cast field, and results explain matches as "Amitabh Bachchan (as Jai)".</p></article>
+      <article><h3>4 · Hinglish and spelling</h3>
+        <p>"Amitab Bachan", "Sharukh", "Gabar" and "Mogembo" are mapped to the corpus spelling with a phonetic key
+          (aa→a, ee→i, bh→b, w→v, z→j, doubled letters squeezed) and fuzzy matching. Common Hindi/Telugu words
+          (<em>shaadi, andha, daku, bhoot, badla</em>) are expanded with their English meaning because plots are written in English.</p></article>
+      <article><h3>5 · Retrieval signals</h3>
+        <p>BM25F over title, lead, plot, cast, crew, genre, music and other sections; TF-IDF cosine (vector space model);
+          a sentence-embedding model (bge-small) matching each clause to its best plot passage; Naive Bayes predictions of genre and decade
+          used as soft filters; explicit year/language/genre/person cues; and PageRank, HITS authority and page views as popularity priors.</p></article>
+      <article><h3>6 · Learning to rank</h3>
+        <p>All 22 features are combined by a linear model trained with coordinate ascent to maximise MRR (Metzler &amp; Croft, 2007).
+          RankNet-style pairwise logistic regression and LambdaMART are trained for comparison. Every number on the Evaluation page comes from 5-fold cross-validation.</p></article>
+      <article><h3>7 · Explanations</h3>
+        <p>Each result shows which clauses matched which words, the best matching plot passage, what was penalised, and the
+          contribution of each feature to the final score, so a wrong answer can be understood as well as a right one.</p></article>
+      <article><h3>8 · Memories borrowed from another film</h3>
+        <p>Being certain does not make a memory right. Every clue is checked against the films that support it: an actor against
+          the parsed cast lists, a scene against the plots. A clue that fits another film far better than the one the rest of the
+          description points to is flagged, the film it probably comes from is named, and the clue is withdrawn when the rest of the
+          description clearly outweighs it. When both sides carry similar evidence, both films are shown and one question settles it.</p></article>
+      <article><h3>9 · Remakes and dubbed versions</h3>
+        <p>Remake sentences in the articles ("remade in Hindi as Kabir Singh") join the versions of one story, and dub mentions record
+          the languages each film was dubbed into. "I watched it in Hindi" is evidence for a Hindi remake <em>or</em> a Hindi dub;
+          actor clues are checked against each version's cast, and when two versions still fit, both are shown.</p></article>
+      <article><h3>10 · Scenes in the order you remember</h3>
+        <p>When you join events with "and then", "later" or "in the end", each film's best plot passage for each event is found and
+          their order compared with yours. Films whose plot runs the other way get a small penalty, and every result shows the
+          two passages in sequence. You can reverse the events with one click.</p></article>
+      <article><h3>11 · One question</h3>
+        <p>When the top films stay close, the system asks the single question with the highest expected information gain
+          (decade, language, an actor, which version, or what happened next), weighted by how likely you are to know the answer.
+          "I don't remember" is always fine.</p></article>
+    </div>
+  </section>
+
+  <!-- ============================================================== EVALUATION -->
+  <section id="tab-eval" class="tab-panel" aria-labelledby="eval-title">
+    <h1 class="page-title" id="eval-title">Evaluation</h1>
+    <p class="sub" id="eval-intro">Loading results…</p>
+    <div id="eval-body"></div>
+  </section>
+</main>
+
+<dialog id="dialog" aria-label="Details">
+  <form method="dialog" class="dialog-inner" id="dialog-inner" tabindex="-1"></form>
+</dialog>
+
+<footer class="foot">
+  <div class="foot-links">
+    <button data-go="search">Search</button><button data-go="browse">Browse</button>
+    <button data-go="how">How it works</button><button data-go="eval">Evaluation</button>
+  </div>
+  <p>Desi ToT · Information Retrieval course project · Plots, cast lists and posters from Wikipedia (CC BY-SA; posters are
+    low-resolution fair-use images)</p>
+</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

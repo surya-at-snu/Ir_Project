@@ -1,0 +1,5 @@
+index,system,mrr,s@1,s@10
+curated only (300 films),BM25F (baseline),0.8727,0.8277,0.9482
+curated only (300 films),Full LTR: coordinate ascent (ours) [in-sample],0.9366,0.9072,0.9892
+full index (1249 films),BM25F (baseline),0.8649,0.8181,0.9398
+full index (1249 films),Full LTR: coordinate ascent (ours) [in-sample],0.9295,0.8964,0.9807

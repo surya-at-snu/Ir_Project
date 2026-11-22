@@ -1,0 +1,13 @@
+# Desi ToT — Python 3.10+ (tested with 3.13)
+numpy>=1.26
+scipy>=1.11
+requests>=2.31
+rapidfuzz>=3.0
+snowballstemmer>=2.2
+mwparserfromhell>=0.6        # wikitext parsing (crawl / corpus build)
+sentence-transformers>=3.0   # dense retrieval (BAAI/bge-small-en-v1.5, downloaded on first use)
+transformers>=4.40
+torch>=2.1                   # CPU build is enough
+lightgbm>=4.0                # LambdaMART
+flask>=3.0                   # web app
+matplotlib>=3.8              # figures
